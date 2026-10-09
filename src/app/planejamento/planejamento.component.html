@@ -1,0 +1,186 @@
+<p-toast></p-toast>
+<form [formGroup]="planejamentoForm" ngForm="FormPlanejamento">
+    <div class="surface-0 border-round grid grid-nogutter shadow-1">
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Identificação do planejamento</span>
+            <div class="bg-teal-500 max-w-full mt-1" style="height: 2px;"></div>
+        </div>
+        <div class="col-12 p-2">
+            <div class="grid grid-nogutter">
+                <div class="col-12 md:col-6 p-1">
+                    <label for="ddEscola" class="font-semibold">Escola:*</label>
+                    <p-dropdown id="ddEscola" formControlName="escola" [options]="escolas"
+                        placeholder="Selecione uma Escola" [group]="true" styleClass="w-full">
+                        <ng-template let-group pTemplate="group">
+                            <div class="flex align-items-center">
+                                <span>{{ group.label }}</span>
+                            </div>
+                        </ng-template>
+                    </p-dropdown>
+                </div>
+                <div class="col-6 md:col-3 p-1">
+                    <label for="cDataInicio" class="font-semibold">Data inicial:*</label>
+                    <p-calendar appDateMask id="cDataInicio" formControlName="dataInicial" styleClass="w-full"
+                        placeholder="dd/mm/aaaa" [showIcon]="true" [showOnFocus]="false"
+                        [keepInvalid]="false"></p-calendar>
+                </div>
+                <div class="col-6 md:col-3 p-1">
+                    <label for="cDataFinal" class="font-semibold">Data final:*</label>
+                    <p-calendar appDateMask id="cDataFinal" formControlName="dataFinal" styleClass="w-full"
+                        placeholder="dd/mm/aaaa" [showIcon]="true" [showOnFocus]="false"
+                        [keepInvalid]="false"></p-calendar>
+                </div>
+                <div class="col-6 p-1">
+                    <label for="ddSerieAno" class="font-semibold">Série/Ano:*</label>
+                    <p-dropdown id="ddSerieAno" formControlName="serieAno" [options]="seriesAnos"
+                        placeholder="Selecione uma Série/Ano" [group]="true" styleClass="w-full"
+                        (onChange)="onChangeSerieAnos($event)">
+                        <ng-template pTemplate="selectedItem" let-item>
+                            <span>{{ item.value }}</span>
+                        </ng-template>
+                        <ng-template let-group pTemplate="group">
+                            <div class="flex align-items-center">
+                                <span>{{ group.label }}</span>
+                            </div>
+                        </ng-template>
+                    </p-dropdown>
+                </div>
+                <div class="col-6 p-1">
+                    <label for="ddDisciplinas" class="font-semibold">Disciplina:*</label>
+                    <p-dropdown id="ddDisciplinas" formControlName="disciplina" [options]="disciplinas"
+                        placeholder="Selecione uma disciplina" [group]="serieAno.value?.includes('Ensino Médio')"
+                        styleClass="w-full" (onChange)="onChangeDisciplina($event)">
+                        <ng-template pTemplate="selectedItem" let-item>
+                            <span>{{ item.value }}</span>
+                        </ng-template>
+                        <ng-template let-group pTemplate="group">
+                            <div class="flex align-items-center">
+                                <span>{{ group.label }}</span>
+                            </div>
+                        </ng-template>
+                    </p-dropdown>
+                </div>
+                <div class="col-8 p-1">
+                    <label for="itProfessor" class="font-semibold">Professor:*</label>
+                    <input id="itProfessor" formControlName="professor" pInputText maxlength="200" class="w-full" placeholder="Digite seu nome" />
+                </div>
+                <div class="col-4 p-1">
+                    <label for="inQuantidadeAulas" class="font-semibold">Quantidade de aulas:*</label>
+                    <p-inputNumber id="inQuantidadeAulas" formControlName="quantidadeAulas" inputStyleClass="text-right"
+                        class="w-full" styleClass="w-full" [showButtons]="true" [min]="0" [max]="100"
+                        allowEmpty="false" />
+                </div>
+            </div>
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Competências</span><span class="text-color-secondary"> (max. 2)</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            @if (!(serieAno.valid && disciplina.valid)) {
+            <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as competências!</span>
+            } @else {
+            <p-listbox id="lbCompetencias" formControlName="competencia" [options]="competencias" [checkbox]="true"
+                [filter]="true" [showToggleAll]="false" optionLabel="Competencia" [multiple]="true"
+                [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
+                (onChange)="onChangeCompetencia($event)">
+                <ng-template let-item pTemplate="item">
+                     <div>{{ item.Numero + ' - ' + item.Competencia }}</div>
+                </ng-template>
+            </p-listbox>
+            }
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Habilidades</span><span class="text-color-secondary"> (max. 4)</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            @if (!(serieAno.valid && disciplina.valid)) {
+            <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as habilidades!</span>
+            } @else {
+            <p-listbox id="lbHabilidades" formControlName="habilidade" [options]="habilidades" [checkbox]="true"
+                [filter]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+                [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
+                (onChange)="onChangeHabilidade($event)">
+                <ng-template let-item pTemplate="item">
+                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
+                </ng-template>
+            </p-listbox>
+            <div class="w-full mt-2">
+                <label class="font-semibold">Outras habilidades</label>
+                <textarea rows="5" cols="30" pInputTextarea formControlName="outrasHabilidades" class="w-full"
+                    placeholder="Digite aqui outras habilidades que não estejam na lista."></textarea>
+            </div>
+            }
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Habilidades do Currículo Digital</span><span class="text-color-secondary"> (max. 4)</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            @if (!(serieAno.valid && disciplina.valid)) {
+            <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as habilidades!</span>
+            } @else {
+            <p-listbox id="lbHabilidades" formControlName="habilidadeCurriculoDigital" [options]="habilidadesCurriculoDigital" [checkbox]="true"
+                [filter]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+                [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
+                (onChange)="onChangeHabilidade($event)">
+            </p-listbox>
+            <div class="w-full mt-2">
+                <label class="font-semibold">Outras habilidades do Currículo Digital</label>
+                <textarea rows="5" cols="30" pInputTextarea formControlName="outrasHabilidadesCurriculoDigital" class="w-full"
+                    placeholder="Digite aqui outras habilidades que não estejam na lista."></textarea>
+            </div>
+            }
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Objetos de Conhecimento</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="objetoConhecimento" class="w-full"
+                    placeholder="Digite aqui os objetos de conhecimento"></textarea>
+            </div>
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Caminho Metodológico</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="caminhoMetodologico" class="w-full"
+                    placeholder="Digite aqui o caminho metodológico"></textarea>
+            </div>
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Recursos Pedagógicos</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <p-listbox id="lbRecurso" formControlName="recurso" [options]="recursos" [checkbox]="true"
+                [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '900px'}">
+            </p-listbox>
+             <div class="w-full mt-2">
+                <label class="font-semibold">Outros recursos</label>
+                <textarea rows="5" cols="30" pInputTextarea formControlName="outrosRecursos" class="w-full"
+                    placeholder="Digite aqui outros recursos que não estejam na lista."></textarea>
+            </div>
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Instrumentos de Avaliação</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <p-listbox id="lbInstrumentos" formControlName="instrumento" [options]="instrumentos" [checkbox]="true"
+                [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '900px'}">
+            </p-listbox>
+            <div class="w-full mt-2">
+                <label class="font-semibold">Outros instrumentos</label>
+                <textarea rows="5" cols="30" pInputTextarea formControlName="outrosInstrumentos" class="w-full"
+                    placeholder="Digite aqui outros instrumentos que não estejam na lista."></textarea>
+            </div>
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Referências</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <p-listbox id="lbReferencias" formControlName="referencia" [options]="referencias" [checkbox]="true"
+                [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '900px'}">
+            </p-listbox>
+             <div class="w-full mt-2">
+                <label class="font-semibold">Outras referências</label>
+                <textarea rows="5" cols="30" pInputTextarea formControlName="outrasReferencias" class="w-full"
+                    placeholder="Digite aqui outras referências que não estejam na lista."></textarea>
+            </div>
+        </div>
+        <div class="col-12 p-4 text-right">
+            <p-button label="Gerar PDF" (onClick)="gerarPdf()"></p-button>
+        </div>
+    </div>
+</form>
