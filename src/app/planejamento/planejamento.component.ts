@@ -51,7 +51,6 @@ export class PlanejamentoComponent {
       value: 'sao-lourenco-do-oeste',
       items: [
         { label: 'EEB Sóror Angélica', value: 'EEB Sóror Angélica' },
-        { label: 'EEB Rui Barbosa', value: 'EEB Rui Barbosa' },
       ],
     },
     {
@@ -95,6 +94,11 @@ export class PlanejamentoComponent {
       label: 'Galvão',
       value: 'galvao',
       items: [{ label: 'EEB Verônica Senem', value: 'EEB Verônica Senem' }],
+    },
+     {
+      label: 'Novo Horizonte',
+      value: 'novo-horizonte',
+      items: [{ label: 'EEB Santa Lúcia', value: 'EEB Santa Lúcia' }],
     },
   ];
 
