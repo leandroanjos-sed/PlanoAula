@@ -159,7 +159,7 @@ export class CompetenciaUtil {
       Disciplina: 'Artes',
       Numero: 3,
       Competencia:
-        'Pesquisar e conhecer distintas matrizes estéticas e culturais – especialmente aquelas manifestas na arte e nas culturas que constituem a identidade brasileira –, sua tradição e manifestações contemporâneas, reelaborando-as nas criações em Arte.',
+        'Pesquisar e conhecer distintas matrizes estéticas e culturais – especialmente aquelas manifestas na arte e nas culturas que constituem a identidade brasileira, sua tradição e manifestações contemporâneas, reelaborando-as nas criações em Arte.',
     },
     {
       Disciplina: 'Artes',

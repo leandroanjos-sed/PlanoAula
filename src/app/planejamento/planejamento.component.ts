@@ -233,7 +233,7 @@ export class PlanejamentoComponent {
     if (event?.value?.includes('Anos Finais')) {
       this.disciplinas = [
         { label: 'Língua Portuguesa', value: 'Língua Portuguesa' },
-        { label: 'Arte', value: 'Arte' },
+        { label: 'Artes', value: 'Artes' },
         { label: 'Educação Física', value: 'Educação Física' },
         { label: 'Língua Inglesa', value: 'Língua Inglesa' },
         { label: 'Matemática', value: 'Matemática' },
@@ -331,6 +331,18 @@ export class PlanejamentoComponent {
         event.value?.includes(t.Disciplina),
       );
       this.competencias = this.competencias;
+
+      this.habilidades = HabilidadeUtil.habilidadesAnosFinais;
+      this.habilidades = this.habilidades.filter(
+        (t) =>
+          this.disciplina.value?.includes(t.Disciplina) &&
+          t.Codigo.slice(2, 4).includes(this.serieAno.value[0]),
+      );
+
+      this.habilidadesCurriculoDigital =
+        HabilidadeUtil.habilidadesCurriculoDigital.filter(
+          (t) => !t.Etapa.includes('Ensino Médio'),
+        );
     } else {
       this.competencias = CompetenciaUtil.competenciasEnsinoMedio;
       this.competencias = this.competencias.filter((t) =>
@@ -351,27 +363,16 @@ export class PlanejamentoComponent {
     }
 
     let isEnsinoMedio = this.serieAno.value?.includes('Ensino Médio');
-    if (!isEnsinoMedio) {
-      this.habilidades = HabilidadeUtil.habilidadesAnosFinais;
-
-      this.habilidades = this.habilidades.filter(
-        (t) =>
-          event.value?.includes(t.Disciplina) &&
-          t.Codigo.slice(2, 4).includes(this.serieAno.value[0]),
-      );
-
-      this.habilidadesCurriculoDigital =
-        HabilidadeUtil.habilidadesCurriculoDigital.filter(
-          (t) => !t.Etapa.includes('Ensino Médio'), 
-        );
-    } else {
+    if (isEnsinoMedio) {
       this.habilidades = HabilidadeUtil.habilidadesEnsinoMedio;
-      
+
       this.habilidades = this.habilidades.filter(
         (t) =>
           this.disciplina.value?.includes(t.Area) &&
           t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
-          this.competencia.value?.map((c: any) => c.Numero+'').includes(t.Competencia as number)
+          this.competencia.value
+            ?.map((c: any) => c.Numero + '')
+            .includes(t.Competencia as number),
       );
 
       this.habilidadesCurriculoDigital =
@@ -457,9 +458,9 @@ export class PlanejamentoComponent {
         ['Professor', dados.professor ?? ''],
         [
           'Competências       específicas da área',
-          dados.competencia?.map((t: any) => t.Competencia) ?? '',
+          dados.competencia?.map((t: any) =>t.Numero + ' - ' + t.Competencia)?.join('\n\n') ?? '',
         ],
-        ['Habilidade', dados.habilidade?.map((t: any) => t.Habilidade) ?? ''],
+        ['Habilidade', dados.habilidade?.map((t: any) => t.Codigo + ' - ' +t.Habilidade)?.join('\n\n') ?? ''],
         ['Objetos de conhecimento', dados.objetoConhecimento ?? ''],
         ['Critérios de avaliação', ''],
         ['Caminho Metodológico', dados.caminhoMetodologico ?? ''],
@@ -469,7 +470,7 @@ export class PlanejamentoComponent {
         ['Critérios de Avaliação', ''],
         [
           'Instrumentos de Avaliação',
-          dados.instrumento?.map((t: any) => ' ' + t) ?? '',
+          juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',
         ],
         ['Adaptação curricular para estudante incluso', ''],
       ],
@@ -480,4 +481,13 @@ export class PlanejamentoComponent {
     const url = URL.createObjectURL(blob);
     window.open(url, '_blank');
   }
+
+}
+
+function juntarComE(array: string[]): string {
+  if (array.length === 0) return '';
+  if (array.length === 1) return array[0];
+  if (array.length === 2) return `${array[0]} e ${array[1]}`;
+
+  return `${array.slice(0, -1).join(', ')} e ${array.at(-1)}`;
 }
