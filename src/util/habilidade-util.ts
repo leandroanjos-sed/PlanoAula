@@ -5602,4 +5602,439 @@ export class HabilidadeUtil {
         'Identificar estrangeirismos, caracterizando-os segundo a conservação, ou não, de sua forma gráfica de origem, avaliando a pertinência, ou não, de seu uso.',
     },
   ];
+
+  public static habilidadesLinguaPortuguesaEM = [
+    {
+      Codigo: 'EM13LP01',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [2],
+      Habilidade:
+        'Relacionar o texto, tanto na produção como na recepção, com suas condições de produção e seu contexto sócio-histórico de circulação (leitor previsto, objetivos, pontos de vista e perspectivas, papel social do autor, época, gênero do discurso etc.).',
+    },
+    {
+      Codigo: 'EM13LP02',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Estabelecer relações entre as partes do texto, tanto na produção como na recepção, considerando a construção composicional e o estilo do gênero, usando/reconhecendo adequadamente elementos e recursos coesivos diversos que contribuam para a coerência, a continuidade do texto e sua progressão temática, e organizando informações, tendo em vista as condições de produção e as relações lógico-discursivas envolvidas (causa/efeito ou consequência; tese/argumentos; problema/solução; definição/exemplos etc.).',
+    },
+    {
+      Codigo: 'EM13LP03',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Analisar relações de intertextualidade e interdiscursividade que permitam a explicitação de relações dialógicas, a identificação de posicionamentos ou de perspectivas, a compreensão de paráfrases, paródias e estilizações, entre outras possibilidades.',
+    },
+    {
+      Codigo: 'EM13LP04',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1],
+      Habilidade:
+        'Estabelecer relações de interdiscursividade e intertextualidade para explicitar, sustentar e conferir consistência a posicionamentos e para construir e corroborar explicações e relatos, fazendo uso de citações e paráfrases devidamente marcadas.',
+    },
+    {
+      Codigo: 'EM13LP05',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Analisar, em textos argumentativos, os posicionamentos assumidos, os movimentos argumentativos e os argumentos utilizados para sustentá-los, para avaliar sua força e eficácia, e posicionar-se diante da questão discutida e/ou dos argumentos utilizados, recorrendo aos mecanismos linguísticos necessários.',
+    },
+    {
+      Codigo: 'EM13LP06',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Analisar efeitos de sentido decorrentes de usos expressivos da linguagem, da escolha de determinadas palavras ou expressões e da ordenação, combinação e contraposição de palavras, dentre outros, para ampliar as possibilidades de construção de sentidos e de uso crítico da língua.',
+    },
+    {
+      Codigo: 'EM13LP07',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1],
+      Habilidade:
+        'Analisar, em textos de diferentes gêneros, marcas que expressam a posição do enunciador frente àquilo que é dito: uso de diferentes modalidades (epistêmica, deôntica e apreciativa) e de diferentes recursos gramaticais que operam como modalizadores (verbos modais, tempos e modos verbais, expressões modais, adjetivos, locuções ou orações adjetivas, advérbios, locuções ou orações adverbiais, entonação etc.), uso de estratégias de impessoalização (uso de terceira pessoa e de voz passiva etc.), com vistas ao incremento da compreensão e da criticidade e ao manejo adequado desses elementos nos textos produzidos, considerando os contextos de produção.',
+    },
+    {
+      Codigo: 'EM13LP08',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Analisar elementos e aspectos da sintaxe do Português, como a ordem dos constituintes da sentença (e os efeito que causam sua inversão), a estrutura dos sintagmas, as categorias sintáticas, os processos de coordenação e subordinação (e os efeitos de seus usos) e a sintaxe de concordância e de regência, de modo a potencializar os processos de compreensão e produção de textos e a possibilitar escolhas adequadas à situação comunicativa.',
+    },
+    {
+      Codigo: 'EM13LP09',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Comparar o tratamento dado pela gramática tradicional e pelas gramáticas de uso contemporâneas em relação a diferentes tópicos gramaticais, de forma a perceber as diferenças de abordagem e o fenômeno da variação linguística e analisar motivações que levam ao predomínio do ensino da norma-padrão na escola.',
+    },
+    {
+      Codigo: 'EM13LP10',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [4],
+      Habilidade:
+        'Analisar o fenômeno da variação linguística, em seus diferentes níveis (variações fonético-fonológica, lexical, sintática, semântica e estilístico-pragmática) e em suas diferentes dimensões (regional, histórica, social, situacional, ocupacional, etária etc.), de forma a ampliar a compreensão sobre a natureza viva e dinâmica da língua e sobre o fenômeno da constituição de variedades linguísticas de prestígio e estigmatizadas, e a fundamentar o respeito às variedades linguísticas e o combate a preconceitos linguísticos.',
+    },
+    {
+      Codigo: 'EM13LP11',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1, 7],
+      Habilidade:
+        'Analisar efeitos de sentido decorrentes de escolhas de elementos sonoros (volume, timbre, intensidade, pausas, ritmo, efeitos sonoros, sincronização etc.) e de suas relações com o verbal, levando em conta esses efeitos na produção de áudios, para ampliar as possibilidades de construção de sentidos e de apreciação.',
+    },
+    {
+      Codigo: 'EM13LP12',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Analisar efeitos de sentido decorrentes de escolhas e formatação das imagens (enquadramento, ângulo/vetor, cor, brilho, contraste) e de sua sequenciação (disposição e transição, movimentos de câmera, remix), das performances (movimentos do corpo, gestos, ocupação do espaço cênico), dos elementos sonoros (entonação, trilha sonora, sampleamento etc.) e das relações desses elementos com o verbal, levando em conta esses efeitos nas produções de imagens e vídeos, para ampliar as possibilidades de construção de sentidos e de apreciação.',
+    },
+    {
+      Codigo: 'EM13LP13',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Planejar, produzir, revisar, editar, reescrever e avaliar textos escritos e multissemióticos, considerando sua adequação às condições de produção do texto, no que diz respeito ao lugar social a ser assumido e à imagem que se pretende passar a respeito de si mesmo, ao leitor pretendido, ao veículo e mídia em que o texto ou produção cultural vai circular, ao contexto imediato e sócio-histórico mais geral, ao gênero textual em questão e suas regularidades, à variedade linguística apropriada a esse contexto e ao uso do conhecimento dos aspectos notacionais (ortografia padrão, pontuação adequada, mecanismos de concordância nominal e verbal, regência verbal etc.), sempre que o contexto o exigir.',
+    },
+    {
+      Codigo: 'EM13LP14',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Analisar, a partir de referências contextuais, estéticas e culturais, efeitos de sentido decorrentes de escolhas e composição das imagens (enquadramento, ângulo/vetor, foco/profundidade de campo, iluminação, cor, linhas, formas etc.) e de sua sequenciação (disposição e transição, movimentos de câmera, remix, entre outros), das performances (movimentos do corpo, gestos, ocupação do espaço cênico), dos elementos sonoros (entonação, trilha sonora, sampleamento etc.) e das relações desses elementos com o verbal, levando em conta esses efeitos nas produções de imagens e vídeos, para ampliar as possibilidades de construção de sentidos e de apreciação.',
+    },
+    {
+      Codigo: 'EM13LP15',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Planejar, produzir, revisar, editar, reescrever e avaliar textos escritos e multissemióticos, considerando sua adequação às condições de produção do texto, no que diz respeito ao lugar social a ser assumido e à imagem que se pretende passar a respeito de si mesmo, ao leitor pretendido, ao veículo e mídia em que o texto ou produção cultural vai circular, ao contexto imediato e sócio-histórico mais geral, ao gênero textual em questão e suas regularidades, à variedade linguística apropriada a esse contexto e ao uso do conhecimento dos aspectos notacionais (ortografia padrão, pontuação adequada, mecanismos de concordância nominal e verbal, regência verbal etc.), sempre que o contexto o exigir.',
+    },
+    {
+      Codigo: 'EM13LP16',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [4],
+      Habilidade:
+        'Produzir e analisar textos orais, considerando sua adequação aos contextos de produção, à forma composicional e ao estilo do gênero em questão, à clareza, à progressão temática e à variedade linguística empregada, como também aos elementos relacionados à fala (modulação de voz, entonação, ritmo, altura e intensidade, respiração etc.) e à cinestesia (postura corporal, movimentos e gestualidade significativa, expressão facial, contato de olho com plateia etc.).',
+    },
+    {
+      Codigo: 'EM13LP17',
+      CampoDeAtuacao: 'Todos os campos de atuação social',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Analisar o fenômeno da variação linguística, em seus diferentes níveis (variação fonético-fonológica, lexical, sintática, semântica e estilístico-pragmática) e em suas diferentes dimensões (regional, histórica, social, situacional, ocupacional, etária etc.), de forma a ampliar a compreensão sobre a natureza viva e dinâmica da língua e sobre o fenômeno da constituição de variedades linguísticas de prestígio e estigmatizadas, e a fundamentar o respeito às variedades linguísticas e o combate a preconceitos linguísticos.',
+    },
+    {
+      Codigo: 'EM13LP18',
+      CampoDeAtuacao: 'Campo da vida pessoal',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [7],
+      Habilidade:
+        'Apresentar-se por meio de textos multimodais diversos (perfis variados, gifs biográficos, biodata, currículo web, videocurrículo etc.) e de ferramentas digitais (ferramenta de gif, wiki, site etc.), para falar de si de formas variadas, considerando diferentes situações e objetivos.',
+    },
+    {
+      Codigo: 'EM13LP19',
+      CampoDeAtuacao: 'Campo da vida pessoal',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Compartilhar gostos, interesses, práticas culturais, temas/problemas/questões que despertam maior interesse ou preocupação, respeitando e valorizando diferenças, como forma de identificar afinidades e interesses comuns, como também de organizar e/ou participar de grupos, clubes, oficinas e afins.',
+    },
+    {
+      Codigo: 'EM13LP20',
+      CampoDeAtuacao: 'Campo da vida pessoal',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Compartilhar gostos, interesses, práticas culturais, temas/problemas/questões que despertam maior interesse ou preocupação, respeitando e valorizando diferenças, como forma de identificar afinidades e interesses comuns, como também de organizar e/ou participar de grupos, clubes, oficinas e afins.',
+    },
+    {
+      Codigo: 'EM13LP21',
+      CampoDeAtuacao: 'Campo da vida pessoal',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Construir e/ou atualizar, de forma colaborativa, registros dinâmicos (mapas, wiki, etc.) de profissões e ocupações de seu interesse (áreas de atuação, dados sobre formação, fazeres, produções, depoimentos de profissionais, etc.) que possibilitem vislumbrar trajetórias pessoais e profissionais.',
+    },
+    {
+      Codigo: 'EM13LP22',
+      CampoDeAtuacao: 'Campo de atuação na vida pública',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Analisar o histórico e o discurso político de candidatos e de partidos, como também propagandas políticas e programas e propostas de governo, de forma a participar do debate político e tomar decisões fundamentadas.',
+    },
+    {
+      Codigo: 'EM13LP23',
+      CampoDeAtuacao: 'Campo de atuação na vida pública',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [7],
+      Habilidade:
+        'Analisar formas não institucionalizadas de participação social, sobretudo as vinculadas a manifestações artísticas, produções culturais, intervenções urbanas e formas de expressão típica das culturas juvenis que pretendam expor uma problemática ou promover uma reflexão/ação, posicionando-se em relação a essas produções e manifestações.',
+    },
+    {
+      Codigo: 'EM13LP24',
+      CampoDeAtuacao: 'Campo da vida pública',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1],
+      Habilidade:
+        'Analisar formas não institucionalizadas de participação social, sobretudo as vinculadas a manifestações artísticas, produções culturais, intervenções urbanas e formas de expressão típica das culturas juvenis que pretendam expor uma problemática ou promover uma reflexão/ação, posicionando-se em relação a essas produções e manifestações.',
+    },
+    {
+      Codigo: 'EM13LP25',
+      CampoDeAtuacao: 'Campo de atuação na vida pública',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Relacionar textos e documentos legais e normativos de âmbito universal, nacional, local ou escolar que envolvam a definição de direitos e deveres – em especial, os voltados a adolescentes e jovens – aos seus contextos de produção, identificando ou inferindo possíveis motivações e finalidades, como forma de ampliar a compreensão desses direitos e deveres.',
+    },
+    {
+      Codigo: 'EM13LP26',
+      CampoDeAtuacao: 'Campo de atuação na vida pública',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1],
+      Habilidade:
+        'Engajar-se na busca de solução de problemas que envolvam a coletividade, denunciando o desrespeito a direitos, organizando e/ou participando de discussões, campanhas e debates, produzindo textos reivindicatórios, normativos, dentre outras possibilidades, como forma de fomentar os princípios democráticos e uma atuação pautada pela ética da responsabilidade.',
+    },
+    {
+      Codigo: 'EM13LP27',
+      CampoDeAtuacao: 'Campo das práticas de estudo e pesquisa',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Organizar situações de estudo e utilizar procedimentos e estratégias de leitura adequados aos objetivos e à natureza do conhecimento em questão.',
+    },
+    {
+      Codigo: 'EM13LP28',
+      CampoDeAtuacao: 'Campo das práticas de estudo e pesquisa',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Resumir e resenhar textos, com o manejo adequado das vozes envolvidas (do autor da obra e do resenhador), por meio do uso de paráfrases, marcas do discurso reportado e citações, para uso em textos de divulgação de estudos e pesquisas.',
+    },
+    {
+      Codigo: 'EM13LP29',
+      CampoDeAtuacao: 'Campo das práticas de estudo e pesquisa',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Realizar pesquisas de diferentes tipos (bibliográfica, de campo, experimento científico, levantamento de dados etc.), usando fontes abertas e confiáveis, registrando o processo e comunicando os resultados, tendo em vista os objetivos colocados e demais elementos do contexto de produção, como forma de compreender como o conhecimento científico é produzido e apropriar-se dos procedimentos e dos gêneros textuais envolvidos na realização de pesquisas.',
+    },
+    {
+      Codigo: 'EM13LP30',
+      CampoDeAtuacao: 'Campo das práticas de estudo e pesquisa',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Compreender criticamente textos de divulgação científica orais, escritos e multissemióticos de diferentes áreas do conhecimento, identificando sua organização tópica e a hierarquização das informações, questionando fontes não confiáveis e problematizando enfoques tendenciosos ou superficiais.',
+    },
+    {
+      Codigo: 'EM13LP31',
+      CampoDeAtuacao: 'Campo das práticas de estudo e pesquisa',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Selecionar informações e dados necessários para uma dada pesquisa (sem excedê-los) em diferentes fontes (orais, impressas, digitais etc.) e comparar autonomamente esses conteúdos, levando em conta seus contextos de produção, referências e índices de confiabilidade, e percebendo coincidências, complementaridades, contradições, erros ou imprecisões conceituais e de dados, de forma a compreender e posicionar-se criticamente sobre esses conteúdos e estabelecer recortes precisos.',
+    },
+    {
+      Codigo: 'EM13LP32',
+      CampoDeAtuacao: 'Campo das práticas de estudo e pesquisa',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Selecionar, elaborar e utilizar instrumentos simples de coleta de dados e informações (questionários, enquetes, mapeamentos, opiniários) e de tratamento e análise dos conteúdos obtidos, que atendam adequadamente a diferentes objetivos de pesquisa.',
+    },
+    {
+      Codigo: 'EM13LP33',
+      CampoDeAtuacao: 'Campo das práticas de estudo e pesquisa',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Produzir textos para a divulgação do conhecimento e de resultados de levantamentos e pesquisas – texto monográfico, ensaio, artigo de divulgação científica, verbete de enciclopédia (colaborativa ou não), infográfico (estático ou animado), relato de experimento, relatório, relatório multimidiático de campo, reportagem científica, podcast ou vlog científico, apresentações orais, seminários, comunicações em mesas redondas, mapas dinâmicos etc. –, considerando o contexto de produção e utilizando os conhecimentos sobre os gêneros de divulgação científica, de forma a engajar-se em processos significativos de socialização e divulgação do conhecimento.',
+    },
+    {
+      Codigo: 'EM13LP34',
+      CampoDeAtuacao: 'Campo das práticas de estudo e pesquisa',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Utilizar adequadamente ferramentas de apoio a apresentações orais, escolhendo e usando tipos e tamanhos de fontes que permitam boa visualização, topicalizando e/ou organizando o conteúdo em itens, inserindo de forma adequada imagens, gráficos, tabelas, formas e elementos gráficos, dimensionando a quantidade de texto e imagem por slide e usando, de forma harmônica, recursos (efeitos de transição, slides mestres, layouts personalizados, gravação de áudios em slides etc.).',
+    },
+    {
+      Codigo: 'EM13LP35',
+      CampoDeAtuacao: 'Campo jornalístico-midiático',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Analisar os interesses que movem o campo jornalístico, os impactos das novas tecnologias no campo e as condições que fazem da informação uma mercadoria e da checagem de informação uma prática (e um serviço) essencial, adotando atitude analítica e crítica diante dos textos jornalísticos.',
+    },
+    {
+      Codigo: 'EM13LP36',
+      CampoDeAtuacao: 'Campo jornalístico-midiático',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [2],
+      Habilidade:
+        'Conhecer e analisar diferentes projetos editorias – institucionais, privados, públicos, financiados, independentes etc. –, de forma a ampliar o repertório de escolhas possíveis de fontes de informação e opinião, reconhecendo o papel da mídia plural para a consolidação da democracia.',
+    },
+    {
+      Codigo: 'EM13LP37',
+      CampoDeAtuacao: 'Campo jornalístico-midiático',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Analisar os diferentes graus de parcialidade/imparcialidade (no limite, a não neutralidade) em textos noticiosos, comparando relatos de diferentes fontes e analisando o recorte feito de fatos/dados e os efeitos de sentido provocados pelas escolhas realizadas pelo autor do texto, de forma a manter uma atitude crítica diante dos textos jornalísticos e tornar-se consciente das escolhas feitas como produtor.',
+    },
+    {
+      Codigo: 'EM13LP38',
+      CampoDeAtuacao: 'Campo jornalístico-midiático',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1],
+      Habilidade:
+        'Usar procedimentos de checagem de fatos noticiados e fotos publicadas (verificar/avaliar veículo, fonte, data e local da publicação, autoria, URL, formatação; comparar diferentes fontes; consultar ferramentas e sites checadores, etc.), de forma a combater a proliferação de notícias falsas (fake news).',
+    },
+    {
+      Codigo: 'EM13LP39',
+      CampoDeAtuacao: 'Campo jornalístico-midiático',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Analisar o fenômeno da pós-verdade – discutindo as condições e os mecanismos de disseminação de fake news e também exemplos, causas e consequências desse fenômeno e da prevalência de crenças e opiniões sobre fatos –, de forma a adotar atitude crítica em relação ao fenômeno e desenvolver uma postura flexível que permita rever crenças e opiniões quando fatos apurados as contradisserem.',
+    },
+    {
+      Codigo: 'EM13LP40',
+      CampoDeAtuacao: 'Campo jornalístico-midiático',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [2],
+      Habilidade:
+        'Analisar os processos humanos e automáticos de curadoria que operam nas redes sociais e outros domínios da internet, comparando os feeds de diferentes páginas de redes sociais e discutindo os efeitos desses modelos de curadoria, de forma a ampliar as possibilidades de trato com o diferente e minimizar o efeito bolha e a manipulação de terceiros.',
+    },
+    {
+      Codigo: 'EM13LP41',
+      CampoDeAtuacao: 'Campo jornalístico-midiático',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Acompanhar, analisar e discutir a cobertura da mídia diante de acontecimentos e questões de relevância social, local e global, comparando diferentes enfoques e perspectivas, por meio do uso de ferramentas de curadoria de informação (como agregadores de conteúdo) e da consulta a serviços e fontes de checagem e curadoria de informação, de forma a aprofundar o entendimento sobre um determinado fato ou questão, identificar o enfoque preponderante da mídia e manter-se implicado, de forma crítica, com os fatos e as questões que afetam a coletividade.',
+    },
+    {
+      Codigo: 'EM13LP42',
+      CampoDeAtuacao: 'Campo jornalístico-midiático',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [2],
+      Habilidade:
+        'Atuar de forma fundamentada, ética e crítica na produção e no compartilhamento de comentários, textos noticiosos e de opinião, memes, gifs, remixes variados, etc., em redes sociais ou outros ambientes digitais.',
+    },
+    {
+      Codigo: 'EM13LP43',
+      CampoDeAtuacao: 'Campo jornalístico-midiático',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1, 7],
+      Habilidade:
+        'Analisar formas contemporâneas de publicidade em contexto digital e peças de campanhas publicitárias e políticas (cartazes, folhetos, anúncios, propagandas em diferentes mídias, spots, jingles etc.), explicando os mecanismos de persuasão utilizados e os efeitos de sentido provocados pelas escolhas feitas em termos de elementos e recursos linguístico-discursivos, imagéticos, sonoros, gestuais e espaciais, entre outros, e destacando valores e representações de situações, grupos e configurações sociais veiculadas, a fim de desconstruir eventuais estereótipos e proceder a uma avaliação crítica da publicidade e das práticas de consumo.',
+    },
+    {
+      Codigo: 'EM13LP44',
+      CampoDeAtuacao: 'Campo jornalístico-midiático',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1],
+      Habilidade:
+        'Analisar formas contemporâneas de publicidade em contexto digital (advergame, anúncios em vídeos, social advertising, unboxing, narrativa mercadológica, entre outras), e peças de campanhas publicitárias e políticas (cartazes, folhetos, anúncios, propagandas em diferentes mídias, spots, jingles etc.), identificando valores e representações de situações, grupos e configurações sociais veiculadas, desconstruindo estereótipos, destacando estratégias de engajamento e viralização e explicando os mecanismos de persuasão utilizados e os efeitos de sentido provocados pelas escolhas feitas em termos de elementos e recursos linguístico-discursivos, imagéticos, sonoros, gestuais e espaciais, entre outros.',
+    },
+    {
+      Codigo: 'EM13LP45',
+      CampoDeAtuacao: 'Campo artístico-literário',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Analisar, discutir, produzir e socializar, tendo em vista temas e acontecimentos de interesse local ou global, notícias, fotodenúncias, fotorreportagens, reportagens multimidiáticas, documentários, infográficos, podcasts noticiosos, artigos de opinião, críticas da mídia, vlogs de opinião, textos de apresentação e apreciação de produções culturais (resenhas, ensaios etc.) e outros gêneros próprios das formas de expressão das culturas juvenis (vlogs e podcasts culturais, gameplay etc.), em várias mídias, vivenciando de forma significativa o papel de repórter, analista, crítico, editorialista ou articulista, leitor, vlogueiro e booktuber, entre outros.',
+    },
+    {
+      Codigo: 'EM13LP46',
+      CampoDeAtuacao: 'Campo artístico-literário',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Participar de eventos (saraus, competições orais, audições, mostras, festivais, feiras culturais e literárias, rodas e clubes de leitura, cooperativas culturais, jograis, repentes, slams, etc.), inclusive para socializar obras da própria autoria (poemas, contos e suas variedades, roteiros e microrroteiros, videominutos, playlists comentadas de música etc.) e/ou interpretar obras de outros, inserindo-se nas diferentes práticas culturais de seu tempo.',
+    },
+    {
+      Codigo: 'EM13LP47',
+      CampoDeAtuacao: 'Campo artístico-literário',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Analisar assimilações e rupturas no processo de constituição da literatura brasileira e ao longo de sua trajetória, por meio da leitura e análise de obras fundamentais do cânone ocidental, em especial da literatura portuguesa, para perceber a historicidade de matrizes e procedimentos estéticos.',
+    },
+    {
+      Codigo: 'EM13LP48',
+      CampoDeAtuacao: 'Campo artístico-literário',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Perceber as peculiaridades estruturais e estilísticas de diferentes gêneros literários (a apreensão pessoal do cotidiano nas crônicas, a manifestação livre e subjetiva do eu lírico diante do mundo nos poemas, a múltipla perspectiva da vida humana e social dos romances, a dimensão política e social de textos da literatura marginal e da periferia etc.) para experimentar os diferentes ângulos de apreensão do indivíduo e do mundo pela literatura.',
+    },
+    {
+      Codigo: 'EM13LP49',
+      CampoDeAtuacao: 'Campo artístico-literário',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1],
+      Habilidade:
+        'Analisar relações intertextuais e interdiscursivas entre obras de diferentes autores e gêneros literários de um mesmo momento histórico e de momentos históricos diversos, explorando os modos como a literatura e as artes em geral se constituem, dialogam e se retroalimentam.',
+    },
+    {
+      Codigo: 'EM13LP50',
+      CampoDeAtuacao: 'Campo artístico-literário',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [6],
+      Habilidade:
+        'Selecionar obras do repertório artístico-literário contemporâneo à disposição segundo suas predileções, de modo a constituir um acervo pessoal e dele se apropriar para se inserir e intervir com autonomia e criticidade no meio cultural.',
+    },
+    {
+      Codigo: 'EM13LP51',
+      CampoDeAtuacao: 'Campo artístico-literário',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [3],
+      Habilidade:
+        'Analisar obras significativas da literatura brasileira e da literatura de outros países e povos, em especial a portuguesa, a indígena, a africana e a latino-americana, com base em ferramentas da crítica literária (estrutura da composição, estilo, aspectos discursivos), considerando o contexto de produção (visões de mundo, diálogos com outros textos, inserções em movimentos estéticos e culturais etc.) e o modo como elas dialogam com o presente.',
+    },
+    {
+      Codigo: 'EM13LP52',
+      CampoDeAtuacao: 'Campo artístico-literário',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1],
+      Habilidade:
+        'Produzir apresentações e comentários apreciativos e críticos sobre livros, filmes, discos, canções, espetáculos de teatro e dança, exposições etc. (resenhas, vlogs e podcasts literários e artísticos, playlists comentadas, fanzines, e-zines etc.).',
+    },
+    {
+      Codigo: 'EM13LP53',
+      CampoDeAtuacao: 'Campo artístico-literário',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [1],
+      Habilidade:
+        'Produzir apresentações e comentários apreciativos e críticos sobre livros, filmes, discos, canções, espetáculos de teatro e dança, exposições etc. (resenhas, vlogs e podcasts literários e artísticos, playlists comentadas, fanzines, e-zines etc.).',
+    },
+    {
+      Codigo: 'EM13LP54',
+      CampoDeAtuacao: 'Campo artístico-literário',
+      Disciplina: 'Língua Portuguesa',
+      Competencia: [],
+      Habilidade:
+        'Criar obras autorais, em diferentes gêneros e mídias – mediante seleção e apropriação de recursos textuais e expressivos do repertório artístico –, e/ou produções derivadas (paródias, estilizações, fanfics, fanclipes, etc.), como forma de dialogar crítica e/ou subjetivamente com o texto literário.',
+    },
+  ];
 }

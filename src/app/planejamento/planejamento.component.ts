@@ -44,14 +44,13 @@ import autoTable from 'jspdf-autotable';
 export class PlanejamentoComponent {
   habilidades: any[] = [];
   habilidadesCurriculoDigital: any[] = [];
+  habilidadesLinguaPortuguesa: any[] = [];
   competencias: any[] = [];
   escolas = [
     {
       label: 'São Lourenço do Oeste',
       value: 'sao-lourenco-do-oeste',
-      items: [
-        { label: 'EEB Sóror Angélica', value: 'EEB Sóror Angélica' },
-      ],
+      items: [{ label: 'EEB Sóror Angélica', value: 'EEB Sóror Angélica' }, { label: 'CEJA', value: 'CEJA' }],
     },
     {
       label: 'Campo Erê',
@@ -95,7 +94,7 @@ export class PlanejamentoComponent {
       value: 'galvao',
       items: [{ label: 'EEB Verônica Senem', value: 'EEB Verônica Senem' }],
     },
-     {
+    {
       label: 'Novo Horizonte',
       value: 'novo-horizonte',
       items: [{ label: 'EEB Santa Lúcia', value: 'EEB Santa Lúcia' }],
@@ -188,15 +187,14 @@ export class PlanejamentoComponent {
     quantidadeAulas: new FormControl(0, Validators.required),
     competencia: new FormControl(),
     habilidade: new FormControl(),
-    outrasHabilidades: new FormControl(),
+    habilidadeLinguaPortuguesa: new FormControl(),
     habilidadeCurriculoDigital: new FormControl(),
-    outrasHabilidadesCurriculoDigital: new FormControl(),
+    itinerarioFormativo: new FormControl(),
     objetoConhecimento: new FormControl(undefined, Validators.required),
     caminhoMetodologico: new FormControl(undefined, Validators.required),
     recurso: new FormControl(),
     outrosRecursos: new FormControl(),
     instrumento: new FormControl(),
-    outrosInstrumentos: new FormControl(),
     referencia: new FormControl(),
     outrasReferencias: new FormControl(),
   });
@@ -383,6 +381,15 @@ export class PlanejamentoComponent {
         HabilidadeUtil.habilidadesCurriculoDigital.filter(
           (t) => !t.Etapa.includes('Ensino Médio'),
         );
+
+      this.habilidadesLinguaPortuguesa = this.habilidadesLinguaPortuguesa.filter(
+        (t) =>
+          this.disciplina.value?.includes(t.Disciplina) &&
+          t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+          this.competencia.value
+            ?.map((c: any) => c.Numero + '')
+            .includes(...t.Competencia as number[]),
+      );
     }
   }
 
@@ -397,28 +404,122 @@ export class PlanejamentoComponent {
     }
   }
 
-  gerarPdf() {
+  async gerarPdf() {
     let isEnsinoMedio = this.serieAno.value?.includes('Ensino Médio');
-    const dados = this.planejamentoForm.value;
+    const dados = structuredClone(this.planejamentoForm.getRawValue());
+
+    if(dados.outrasReferencias && dados.outrasReferencias.length > 0){
+      dados.referencia.push(dados.outrasReferencias);
+    }
+
+    if(dados.outrosInstrumentos && dados.outrosInstrumentos.length > 0){
+      dados.instrumento.push(dados.outrosInstrumentos);
+    }
+
     const doc = new jsPDF({
-      orientation: 'landscape',
+      orientation: 'portrait',
       unit: 'mm',
       format: 'a4',
     });
 
     doc.setDocumentProperties({ title: 'Plano de Aula' });
+
+    switch (this.escola.value) {
+      case 'EEB Sóror Angélica':
+        const logo_soror = await this.carregarImagem(
+          'assets/img/logos-escolas/soror-angelica.png',
+        );
+        doc.addImage(logo_soror, 'PNG', 14, 7, 24, 24);
+        doc.setFontSize(10);
+        doc.text('ESTADO DE SANTA CATARINA', 40, 14);
+        doc.text('ESCOLA DE EDUCAÇÃO BÁSICA SÓROR ANGÉLICA', 40, 18);
+        doc.text('SÃO LOURENÇO DO OESTE - SC', 40, 22);
+        doc.text('Email:', 40, 26);
+        doc.setTextColor('#0000FC');
+        doc.text('eebsororangelica@sed.sc.gov.br', 51, 26);
+        doc.setDrawColor('#0000FF');
+        doc.line(51, 26.5, 52 + doc.getTextWidth('eebsororangelica@sed.sc.gov.br'), 26.5 );
+        doc.setTextColor('#000000');
+        doc.text('Fone 49 3372 - 1049', 115, 26);
+        break;
+      case 'EEB Emílio Garrastazu Médici':
+        const logo_medici = await this.carregarImagem(
+          'assets/img/logos-escolas/medici.png',
+        );
+        doc.addImage(logo_medici, 'PNG', 14, 7, 146.12, 23.53);
+        break;
+      case 'EEB Raul Pompéia':
+        const logo_pompeia = await this.carregarImagem(
+          'assets/img/logos-escolas/pompeia.png',
+        );
+        doc.addImage(logo_pompeia, 'PNG', 24, 7, 144.04, 28.73);
+        break;
+      case 'CEDUP Campo Erê':
+        const logo_cedup = await this.carregarImagem(
+          'assets/img/logos-escolas/cedup.png',
+        );
+        doc.addImage(logo_cedup, 'PNG', 24, 7, 163.28, 30.68);
+        break;
+      case 'EEB São Bernardino':
+        const logo_bernardino = await this.carregarImagem(
+          'assets/img/logos-escolas/bernardino.png',
+        );
+        doc.addImage(logo_bernardino, 'PNG', 26, 7, 143.26, 31.59);
+        break;
+      case 'EEB Maria Madalena de Moura Ferro':
+        const logo_maria_madalena = await this.carregarImagem(
+          'assets/img/logos-escolas/maria-madalena.png',
+        );
+        doc.addImage(logo_maria_madalena, 'PNG', 24, 7, 152, 32.8);
+        break;
+      case 'EEB Profª Olga Nunes de Abreu':
+        const logo_olga = await this.carregarImagem(
+          'assets/img/logos-escolas/olga.png',
+        );
+        doc.addImage(logo_olga, 'PNG', 26, 7, 147.81, 36.79);
+        break;
+      case 'EEB Verônica Senem':
+        const logo_veronica = await this.carregarImagem(
+          'assets/img/logos-escolas/veronica.png',
+        );
+        doc.addImage(logo_veronica, 'PNG', 26, 7, 103.35, 25.22);
+        break;
+      case 'EEB Santa Lúcia':
+        const logo_santa_lucia = await this.carregarImagem(
+          'assets/img/logos-escolas/santa-lucia.png',
+        );
+        doc.addImage(logo_santa_lucia, 'PNG', 28, 7, 155.22, 34.71);
+        break;
+      case 'CEJA':
+        const logo_ceja = await this.carregarImagem(
+          'assets/img/logos-escolas/ceja.png',
+        );
+        doc.addImage(logo_ceja, 'PNG', 25, 7, 165.36, 27.43);
+        break;
+      default:
+        const logo = await this.carregarImagem('assets/img/logo-sed.png');
+        doc.addImage(logo, 'PNG', 14, 11, 20, 20);
+        doc.setFontSize(10);
+        doc.text('ESTADO DE SANTA CATARINA', 36, 14);
+        doc.text('SECRETARIA DE ESTADO DA EDUCAÇÃO', 36, 18);
+        doc.text('3º CRE - SÃO LOURENÇO DO OESTE', 36, 22);
+        doc.text('ESCOLA: E.E.B. _________________', 36, 26);
+        doc.text('MUNICÍPIO: _____________________', 36, 30);
+        break;
+    }
+
     doc.setFontSize(14);
 
     if (isEnsinoMedio) {
-      doc.text('PLANO DE AULA - ENSINO MÉDIO', 105, 20);
+      doc.text('PLANO DE AULA - ENSINO MÉDIO', 105, 60);
     } else {
-      doc.text('PLANO DE AULA', 125, 20);
-      doc.text('NO ENSINO FUNDAMENTAL', 110, 26);
+      doc.text('PLANO DE AULA', 125, 60);
+      doc.text('NO ENSINO FUNDAMENTAL', 110, 66);
     }
 
     autoTable(doc, {
       theme: 'grid',
-      startY: 30,
+      startY: 70,
       styles: {
         fontSize: 10,
         cellPadding: 2,
@@ -426,11 +527,11 @@ export class PlanejamentoComponent {
         lineColor: 0,
       },
       columnStyles: {
-        0: { cellWidth: 44, halign: 'center' },
-        1: { cellWidth: 47, halign: 'center' },
-        2: { cellWidth: 44, halign: 'center' },
-        3: { cellWidth: 45, halign: 'center' },
-        4: { cellWidth: 44, halign: 'center' },
+        0: { cellWidth: 24, halign: 'center' },
+        1: { cellWidth: 27, halign: 'center' },
+        2: { cellWidth: 24, halign: 'center' },
+        3: { cellWidth: 25, halign: 'center' },
+        4: { cellWidth: 24, halign: 'center' },
         5: { cellWidth: 'auto', halign: 'center' },
       },
       body: [
@@ -462,13 +563,20 @@ export class PlanejamentoComponent {
         ['Professor', dados.professor ?? ''],
         [
           'Competências       específicas da área',
-          dados.competencia?.map((t: any) =>t.Numero + ' - ' + t.Competencia)?.join('\n\n') ?? '',
+          dados.competencia
+            ?.map((t: any) => t.Numero + ' - ' + t.Competencia)
+            ?.join('\n\n') ?? '',
         ],
-        ['Habilidade', dados.habilidade?.map((t: any) => t.Codigo + ' - ' +t.Habilidade)?.join('\n\n') ?? ''],
+        [
+          'Habilidade',
+          dados.habilidade
+            ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
+            ?.join('\n\n') ?? '',
+        ],
         ['Objetos de conhecimento', dados.objetoConhecimento ?? ''],
         ['Critérios de avaliação', ''],
         ['Caminho Metodológico', dados.caminhoMetodologico ?? ''],
-        ['IFAs (Itinerários Formativos)', ''],
+        ['IFAs (Itinerários Formativos)', dados.itinerarioFormativo ?? ''],
         ['Atividades Integradoras     (40 horas anuais)', ''],
         ['Recomposição da Aprendizagem (Língua Portuguesa e Matemática)', ''],
         ['Critérios de Avaliação', ''],
@@ -477,6 +585,7 @@ export class PlanejamentoComponent {
           juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',
         ],
         ['Adaptação curricular para estudante incluso', ''],
+        ['Referências', dados.referencia?.join('\n\n') ?? ''],
       ],
     });
 
@@ -486,9 +595,19 @@ export class PlanejamentoComponent {
     window.open(url, '_blank');
   }
 
+  private async carregarImagem(url: string): Promise<string> {
+    const resposta = await fetch(url);
+    const blob = await resposta.blob();
+    return new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onloadend = () => resolve(reader.result as string);
+      reader.readAsDataURL(blob);
+    });
+  }
 }
 
 function juntarComE(array: string[]): string {
+  if (array == undefined) return '';
   if (array.length === 0) return '';
   if (array.length === 1) return array[0];
   if (array.length === 2) return `${array[0]} e ${array[1]}`;

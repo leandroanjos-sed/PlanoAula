@@ -103,11 +103,23 @@
                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
                 </ng-template>
             </p-listbox>
-            <div class="w-full mt-2">
-                <label class="font-semibold">Outras habilidades</label>
-                <textarea rows="5" cols="30" pInputTextarea formControlName="outrasHabilidades" class="w-full"
-                    placeholder="Digite aqui outras habilidades que não estejam na lista."></textarea>
-            </div>
+            }
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Habilidades de Língua Portuguesa</span><span
+                class="text-color-secondary"> (max. 4)</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            @if (!(serieAno.valid && disciplina.valid)) {
+            <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as habilidades!</span>
+            } @else if (serieAno.value?.includes('Ensino Médio') && disciplina.value?.includes('Língua Portuguesa')) {
+            <p-listbox id="lbHabilidadesLinguaPortuguesa" formControlName="habilidadeLinguaPortuguesa"
+                [options]="habilidadesLinguaPortuguesa" [checkbox]="true" [filter]="true" [showToggleAll]="false"
+                optionLabel="Habilidade" [multiple]="true" [listStyle]="{'max-height': '320px'}"
+                emptyMessage="Selecione Série/Ano e Disciplina!">
+                <ng-template let-item pTemplate="item">
+                    <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
+                </ng-template>
+            </p-listbox>
             }
         </div>
         <div class="col-12 p-2">
@@ -125,11 +137,6 @@
                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
                 </ng-template>
             </p-listbox>
-            <div class="w-full mt-2">
-                <label class="font-semibold">Outras habilidades do Currículo Digital</label>
-                <textarea rows="5" cols="30" pInputTextarea formControlName="outrasHabilidadesCurriculoDigital"
-                    class="w-full" placeholder="Digite aqui outras habilidades que não estejam na lista."></textarea>
-            </div>
             }
         </div>
         <div class="col-12 p-2">
@@ -148,6 +155,17 @@
                     placeholder="Digite aqui o caminho metodológico"></textarea>
             </div>
         </div>
+        @if(serieAno.value?.includes('Ensino Médio') && (disciplina.value?.includes('Biologia') || disciplina.value?.includes('Matemática') ||
+        disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Geografia'))){
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">IFAs (Itinerários Formativos)</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="itinerarioFormativo" class="w-full"
+                    placeholder="Digite aqui o itinerários formativos"></textarea>
+            </div>
+        </div>
+        }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Recursos Pedagógicos</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
@@ -166,11 +184,6 @@
             <p-listbox id="lbInstrumentos" formControlName="instrumento" [options]="instrumentos" [checkbox]="true"
                 [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '900px'}">
             </p-listbox>
-            <div class="w-full mt-2">
-                <label class="font-semibold">Outros instrumentos</label>
-                <textarea rows="5" cols="30" pInputTextarea formControlName="outrosInstrumentos" class="w-full"
-                    placeholder="Digite aqui outros instrumentos que não estejam na lista."></textarea>
-            </div>
         </div>
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Referências</span>
