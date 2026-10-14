@@ -94,7 +94,7 @@
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             @if (!(serieAno.valid && disciplina.valid)) {
             <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as habilidades!</span>
-            } @else if( !serieAno.value?.includes('Ensino Médio') && !disciplina.value?.includes('Artes')) {
+            } @else if(!(!serieAno.value?.includes('Ensino Médio') && disciplina.value?.includes('Artes'))) {
             <p-listbox id="lbHabilidades" formControlName="habilidade" [options]="habilidades" [checkbox]="true"
                 [filter]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
@@ -105,8 +105,8 @@
             </p-listbox>
             } @else {
             <div class="m-1 mt-2"><span class="text-lg font-semibold">Artes Visuais</span></div>
-            <p-listbox id="lbHabilidades" formControlName="habilidadeArtesVisuais" [options]="habilidadesArtesVisuais" [checkbox]="true"
-                [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+            <p-listbox id="lbHabilidades" formControlName="habilidadeArtesVisuais" [options]="habilidadesArtesVisuais"
+                [checkbox]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
                 (onChange)="onChangeHabilidade($event)">
                 <ng-template let-item pTemplate="item">
@@ -114,8 +114,8 @@
                 </ng-template>
             </p-listbox>
             <div class="m-1 mt-2"><span class="text-lg font-semibold">Dança</span></div>
-            <p-listbox id="lbHabilidades" formControlName="habilidadeDanca" [options]="habilidadesDanca" [checkbox]="true"
-                [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+            <p-listbox id="lbHabilidades" formControlName="habilidadeDanca" [options]="habilidadesDanca"
+                [checkbox]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
                 (onChange)="onChangeHabilidade($event)">
                 <ng-template let-item pTemplate="item">
@@ -123,8 +123,8 @@
                 </ng-template>
             </p-listbox>
             <div class="m-1 mt-2"><span class="text-lg font-semibold">Música</span></div>
-            <p-listbox id="lbHabilidades" formControlName="habilidadeMusica" [options]="habilidadesMusica" [checkbox]="true"
-                [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+            <p-listbox id="lbHabilidades" formControlName="habilidadeMusica" [options]="habilidadesMusica"
+                [checkbox]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
                 (onChange)="onChangeHabilidade($event)">
                 <ng-template let-item pTemplate="item">
@@ -132,8 +132,8 @@
                 </ng-template>
             </p-listbox>
             <div class="m-1 mt-2"><span class="text-lg font-semibold">Teatro</span></div>
-            <p-listbox id="lbHabilidades" formControlName="habilidadeTeatro" [options]="habilidadesTeatro" [checkbox]="true"
-                [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+            <p-listbox id="lbHabilidades" formControlName="habilidadeTeatro" [options]="habilidadesTeatro"
+                [checkbox]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
                 (onChange)="onChangeHabilidade($event)">
                 <ng-template let-item pTemplate="item">
@@ -190,6 +190,25 @@
                     placeholder="Digite aqui o caminho metodológico"></textarea>
             </div>
         </div>
+         <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Atividades Integradoras       (40 horas anuais)</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="atividadesIntegradoras" class="w-full"
+                    placeholder="Digite aqui a adaptação curricular para estudante incluso"></textarea>
+            </div>
+        </div>
+        @if(disciplina.value?.includes('Língua Portuguesa') ||
+        disciplina.value?.includes('Matemática')){
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Recomposição da Aprendizagem</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="recomposicaoAprendizagem" class="w-full"
+                    placeholder="Digite aqui a recomposição da aprendizagem"></textarea>
+            </div>
+        </div>
+        }
         @if(serieAno.value?.includes('Ensino Médio') && (disciplina.value?.includes('Biologia') ||
         disciplina.value?.includes('Matemática') ||
         disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Geografia'))) {
@@ -220,6 +239,14 @@
             <p-listbox id="lbInstrumentos" formControlName="instrumento" [options]="instrumentos" [checkbox]="true"
                 [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '900px'}">
             </p-listbox>
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Adaptação curricular para estudante incluso</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="adaptacaoCurricular" class="w-full"
+                    placeholder="Digite aqui a adaptação curricular para estudante incluso"></textarea>
+            </div>
         </div>
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Referências</span>

@@ -203,6 +203,9 @@ export class PlanejamentoComponent {
     itinerarioFormativo: new FormControl(),
     objetoConhecimento: new FormControl(undefined, Validators.required),
     caminhoMetodologico: new FormControl(undefined, Validators.required),
+    recomposicaoAprendizagem: new FormControl(),
+    adaptacaoCurricular: new FormControl(),
+    atividadesIntegradoras: new FormControl(),
     recurso: new FormControl(),
     outrosRecursos: new FormControl(),
     instrumento: new FormControl(),
@@ -610,14 +613,14 @@ export class PlanejamentoComponent {
       ],
       ['Objetos de conhecimento', dados.objetoConhecimento ?? ''],
       ['Caminho Metodológico', dados.caminhoMetodologico ?? ''],
-      ['Atividades Integradoras     (40 horas anuais)', ''],
-      ['Recomposição da Aprendizagem (Língua Portuguesa e Matemática)', ''],
+      ['Atividades Integradoras     (40 horas anuais)', dados.atividadesIntegradoras ?? ''],
+      ['Recomposição da Aprendizagem (Língua Portuguesa e Matemática)', dados.recomposicaoAprendizagem ?? ''],
       ['Critérios de Avaliação', ''],
       [
         'Instrumentos de Avaliação',
         juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',
       ],
-      ['Adaptação curricular para estudante incluso', ''],
+      ['Adaptação curricular para estudante incluso', dados.adaptacaoCurricular ?? ''],
       ['Referências', dados.referencia?.join('\n\n') ?? ''],
     ];
 
