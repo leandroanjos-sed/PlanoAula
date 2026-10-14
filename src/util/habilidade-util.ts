@@ -1485,4123 +1485,4007 @@ export class HabilidadeUtil {
   ];
 
   public static habilidadesAnosFinais = [
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF06ER01',
-      Habilidade:
-        'Reconhecer o papel da tradição escrita na preservação de memórias, acontecimentos e ensinamentos religiosos.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF06ER02',
-      Habilidade:
-        'Reconhecer e valorizar a diversidade de textos religiosos escritos (textos do Budismo, Cristianismo, Espiritismo, Hinduísmo, Islamismo, Judaísmo, entre outros).',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF06ER03',
-      Habilidade:
-        'Reconhecer, em textos escritos, ensinamentos relacionados a modos de ser e viver.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF06ER04',
-      Habilidade:
-        'Reconhecer que os textos escritos são utilizados pelas tradições religiosas de maneiras diversas.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF06ER05',
-      Habilidade:
-        'Discutir como o estudo e a interpretação dos textos religiosos influenciam os adeptos a vivenciarem os ensinamentos das tradições religiosas.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF06ER06',
-      Habilidade:
-        'Reconhecer a importância dos mitos, ritos, símbolos e textos na estruturação das diferentes crenças, tradições e movimentos religiosos.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF06ER07',
-      Habilidade:
-        'Exemplificar a relação entre mito, rito e símbolo nas práticas celebrativas de diferentes tradições religiosas.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF07ER01',
-      Habilidade:
-        'Reconhecer e respeitar as práticas de comunicação com as divindades em distintas manifestações e tradições religiosas.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF07ER02',
-      Habilidade:
-        'Identificar práticas de espiritualidade utilizadas pelas pessoas em determinadas situações (acidentes, doenças, fenômenos climáticos).',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF07ER03',
-      Habilidade:
-        'Reconhecer os papéis atribuídos às lideranças de diferentes tradições religiosas.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF07ER04',
-      Habilidade:
-        'Exemplificar líderes religiosos que se destacaram por suas contribuições à sociedade.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF07ER05',
-      Habilidade:
-        'Discutir estratégias que promovam a convivência ética e respeitosa entre as religiões.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF07ER06',
-      Habilidade:
-        'Identificar princípios éticos em diferentes tradições religiosas e filosofias de vida, discutindo como podem influenciar condutas pessoais e práticas sociais.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF07ER07',
-      Habilidade:
-        'Identificar e discutir o papel das lideranças religiosas e seculares na defesa e promoção dos direitos humanos.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF07ER08',
-      Habilidade:
-        'Reconhecer o direito à liberdade de consciência, crença ou convicção, questionando concepções e práticas sociais que a violam.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF08ER01',
-      Habilidade:
-        'Discutir como as crenças e convicções podem influenciar escolhas e atitudes pessoais e coletivas.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF08ER02',
-      Habilidade:
-        'Analisar filosofias de vida, manifestações e tradições religiosas destacando seus princípios éticos.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF08ER03',
-      Habilidade:
-        'Analisar doutrinas das diferentes tradições religiosas e suas concepções de mundo, vida e morte.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF08ER04',
-      Habilidade:
-        'Discutir como filosofias de vida, tradições e instituições religiosas podem influenciar diferentes campos da esfera pública (política, saúde, educação, economia).',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF08ER05',
-      Habilidade:
-        'Debater sobre as possibilidades e os limites da interferência das tradições religiosas na esfera pública.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF08ER06',
-      Habilidade:
-        'Analisar práticas, projetos e políticas públicas que contribuem para a promoção da liberdade de pensamento, crenças e convicções.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF08ER07',
-      Habilidade:
-        'Analisar as formas de uso das mídias e tecnologias pelas diferentes denominações religiosas.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF09ER01',
-      Habilidade:
-        'Analisar princípios e orientações para o cuidado da vida e nas diversas tradições religiosas e filosofias de vida.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF09ER02',
-      Habilidade:
-        'Discutir as diferentes expressões de valorização e de desrespeito à vida, por meio da análise de matérias nas diferentes mídias.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF09ER03',
-      Habilidade:
-        'Identificar sentidos do viver e do morrer em diferentes tradições religiosas, através do estudo de mitos fundantes.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF09ER04',
-      Habilidade:
-        'Identificar concepções de vida e morte em diferentes tradições religiosas e filosofias de vida, por meio da análise de diferentes ritos fúnebres.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF09ER05',
-      Habilidade:
-        'Analisar as diferentes ideias de imortalidade elaboradas pelas tradições religiosas (ancestralidade, reencarnação, transmigração e ressurreição).',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF09ER06',
-      Habilidade:
-        'Reconhecer a coexistência como uma atitude ética de respeito à vida e à dignidade humana.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF09ER07',
-      Habilidade:
-        'Identificar princípios éticos (familiares, religiosos e culturais) que possam alicerçar a construção de projetos de vida.',
-    },
-    {
-      Disciplina: 'Ensino Religioso',
-      Codigo: 'EF09ER08',
-      Habilidade:
-        'Construir projetos de vida assentados em princípios e valores éticos.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI01',
-      Habilidade:
-        'Identificar diferentes formas de compreensão da noção de tempo e de periodização dos processos históricos (continuidades e rupturas).',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI02',
-      Habilidade:
-        'Identificar a gênese da produção do saber histórico e analisar o significado das fontes que originaram determinadas formas de registro em sociedades e épocas distintas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI03',
-      Habilidade:
-        'Identificar as hipóteses científicas sobre o surgimento da espécie humana e sua historicidade e analisar os significados dos mitos de fundação.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI04',
-      Habilidade: 'Conhecer as teorias sobre a origem do homem americano.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI05',
-      Habilidade:
-        'Descrever modificações da natureza e da paisagem realizadas por diferentes tipos de sociedade, com destaque para os povos indígenas originários e povos africanos, e discutir a natureza e a lógica das transformações ocorridas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI06',
-      Habilidade:
-        'Identificar geograficamente as rotas de povoamento no território americano.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI07',
-      Habilidade:
-        'Identificar aspectos e formas de registro das sociedades antigas na África, no Oriente Médio e nas Américas, distinguindo alguns significados presentes na cultura material e na tradição oral dessas sociedades.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI08',
-      Habilidade:
-        'Identificar os espaços territoriais ocupados e os aportes culturais, científicos, sociais e econômicos dos astecas, maias e incas e dos povos indígenas de diversas regiões brasileiras.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI09',
-      Habilidade:
-        'Discutir o conceito de Antiguidade Clássica, seu alcance e limite na tradição ocidental, assim como os impactos sobre outras sociedades e culturas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI10',
-      Habilidade:
-        'Explicar a formação da Grécia Antiga, com ênfase na formação da pólis e nas transformações políticas, sociais e culturais.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI11',
-      Habilidade:
-        'Caracterizar o processo de formação da Roma Antiga e suas configurações sociais e políticas nos períodos monárquico e republicano.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI12',
-      Habilidade:
-        'Associar o conceito de cidadania a dinâmicas de inclusão e exclusão na Grécia e Roma antigas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI13',
-      Habilidade:
-        'Conceituar "império" no mundo antigo, com vistas à análise das diferentes formas de equilíbrio e desequilíbrio entre as partes envolvidas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI14',
-      Habilidade:
-        'Identificar e analisar diferentes formas de contato, adaptação ou exclusão entre populações em diferentes tempos e espaços.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI15',
-      Habilidade:
-        'Descrever as dinâmicas de circulação de pessoas, produtos e culturas no Mediterrâneo e seu significado.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI16',
-      Habilidade:
-        'Caracterizar e comparar as dinâmicas de abastecimento e as formas de organização do trabalho e da vida social em diferentes sociedades e períodos, com destaque para as relações entre senhores e servos.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI17',
-      Habilidade:
-        'Diferenciar escravidão, servidão e trabalho livre no mundo antigo.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI18',
-      Habilidade:
-        'Analisar o papel da religião cristã na cultura e nos modos de organização social no período medieval.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF06HI19',
-      Habilidade:
-        'Descrever e analisar os diferentes papéis sociais das mulheres no mundo antigo e nas sociedades medievais.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI01',
-      Habilidade:
-        'Explicar o significado de "modernidade" e suas lógicas de inclusão e exclusão, com base em uma concepção europeia.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI02',
-      Habilidade:
-        'Identificar conexões e interações entre as sociedades do Novo Mundo, da Europa, da África e da Ásia no contexto das navegações e indicar a complexidade e as interações que ocorrem nos Oceanos Atlântico, Índico e Pacífico.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI03',
-      Habilidade:
-        'Identificar aspectos e processos específicos das sociedades africanas e americanas antes da chegada dos europeus, com destaque para as formas de organização social e o desenvolvimento de saberes e técnicas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI04',
-      Habilidade:
-        'Identificar as principais características dos Humanismos e dos Renascimentos e analisar seus significados.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI05',
-      Habilidade:
-        'Identificar e relacionar as vinculações entre as reformas religiosas e os processos culturais e sociais do período moderno na Europa e na América.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI06',
-      Habilidade:
-        'Comparar as navegações no Atlântico e no Pacífico entre os séculos XIV e XVI.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI07',
-      Habilidade:
-        'Descrever os processos de formação e consolidação das monarquias e suas principais características com vistas à compreensão das razões da centralização política.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI08',
-      Habilidade:
-        'Descrever as formas de organização das sociedades americanas no tempo da conquista com vistas à compreensão dos mecanismos de alianças, confrontos e resistências.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI09',
-      Habilidade:
-        'Analisar os diferentes impactos da conquista europeia da América para as populações ameríndias e identificar as formas de resistência.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI10',
-      Habilidade:
-        'Analisar, com base em documentos históricos, diferentes interpretações sobre as dinâmicas das sociedades americanas no período colonial.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI11',
-      Habilidade:
-        'Analisar a formação histórico-geográfica do território da América portuguesa por meio de mapas históricos.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI12',
-      Habilidade:
-        'Identificar a distribuição territorial da população brasileira em diferentes épocas, considerando a diversidade étnico-racial e étnico-cultural (indígena, africana, europeia e asiática).',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI13',
-      Habilidade:
-        'Caracterizar a ação dos europeus e suas lógicas mercantis visando ao domínio no mundo atlântico.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI14',
-      Habilidade:
-        'Descrever as dinâmicas comerciais das sociedades americanas e africanas e analisar suas interações com outras sociedades do Ocidente e do Oriente.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI15',
-      Habilidade:
-        'Discutir o conceito de escravidão moderna e suas distinções em relação ao escravismo antigo e à servidão medieval.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI16',
-      Habilidade:
-        'Analisar os mecanismos e as dinâmicas de comércio de escravizados em suas diferentes fases, identificando os agentes responsáveis pelo tráfico e as regiões e zonas africanas de procedência dos escravizados.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF07HI17',
-      Habilidade:
-        'Discutir as razões da passagem do mercantilismo para o capitalismo.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI01',
-      Habilidade:
-        'Identificar os principais aspectos conceituais do iluminismo e do liberalismo e discutir a relação entre eles e a organização do mundo contemporâneo.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI02',
-      Habilidade:
-        'Identificar as particularidades político-sociais da Inglaterra do século XVII e analisar os desdobramentos posteriores à Revolução Gloriosa.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI03',
-      Habilidade:
-        'Analisar os impactos da Revolução Industrial na produção e circulação de povos, produtos e culturas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI04',
-      Habilidade:
-        'Identificar e relacionar os processos da Revolução Francesa e seus desdobramentos na Europa e no mundo.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI05',
-      Habilidade:
-        'Explicar os movimentos e as rebeliões da América portuguesa, articulando as temáticas locais e suas interfaces com processos ocorridos na Europa e nas Américas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI06',
-      Habilidade:
-        'Aplicar os conceitos de Estado, nação, território, governo e país para o entendimento de conflitos e tensões.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI07',
-      Habilidade:
-        'Identificar e contextualizar as especificidades dos diversos processos de independência nas Américas, seus aspectos populacionais e suas conformações territoriais.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI08',
-      Habilidade:
-        'Conhecer o ideário dos líderes dos movimentos independentistas e seu papel nas revoluções que levaram à independência das colônias hispano-americanas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI09',
-      Habilidade:
-        'Conhecer as características e os principais pensadores do Pan-americanismo.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI10',
-      Habilidade:
-        'Identificar a Revolução de São Domingo como evento singular e desdobramento da Revolução Francesa e avaliar suas implicações.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI11',
-      Habilidade:
-        'Identificar e explicar os protagonismos e a atuação de diferentes grupos sociais e étnicos nas lutas de independência no Brasil, na América espanhola e no Haiti.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI12',
-      Habilidade:
-        'Caracterizar a organização política e social no Brasil desde a chegada da Corte portuguesa, em 1808, até 1822 e seus desdobramentos para a história política brasileira.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI13',
-      Habilidade:
-        'Analisar o processo de independência em diferentes países latino-americanos e comparar as formas de governo neles adotadas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI14',
-      Habilidade:
-        'Discutir a noção da tutela dos grupos indígenas e a participação dos negros na sociedade brasileira do final do período colonial, identificando permanências na forma de preconceitos, estereótipos e violências sobre as populações indígenas e negras no Brasil e nas Américas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI15',
-      Habilidade:
-        'Identificar e analisar o equilíbrio das forças e os sujeitos envolvidos nas disputas políticas durante o Primeiro e o Segundo Reinado.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI16',
-      Habilidade:
-        'Identificar, comparar e analisar a diversidade política, social e regional nas rebeliões e nos movimentos contestatórios ao poder centralizado.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI17',
-      Habilidade:
-        'Relacionar as transformações territoriais, em razão de questões de fronteiras, com as tensões e conflitos durante o Império.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI18',
-      Habilidade:
-        'Identificar as questões internas e externas sobre a atuação do Brasil na Guerra do Paraguai e discutir diferentes versões sobre o conflito.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI19',
-      Habilidade:
-        'Formular questionamentos sobre o legado da escravidão nas Américas, com base na seleção e consulta de fontes de diferentes naturezas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI20',
-      Habilidade:
-        'Identificar e relacionar aspectos das estruturas sociais da atualidade com os legados da escravidão no Brasil e discutir a importância de ações afirmativas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI21',
-      Habilidade:
-        'Identificar e analisar as políticas oficiais com relação ao indígena durante o Império.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI22',
-      Habilidade:
-        'Discutir o papel das culturas letradas, não letradas e das artes na produção das identidades no Brasil do século XIX.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI23',
-      Habilidade:
-        'Estabelecer relações causais entre as ideologias raciais e o determinismo no contexto do imperialismo europeu e seus impactos na África e na Ásia.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI24',
-      Habilidade:
-        'Reconhecer os principais produtos, utilizados pelos europeus, procedentes do continente africano durante o imperialismo e analisar os impactos sobre as comunidades locais na forma de organização e exploração econômica.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI25',
-      Habilidade:
-        'Caracterizar e contextualizar aspectos das relações entre os Estados Unidos da América e a América Latina no século XIX.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI26',
-      Habilidade:
-        'Identificar e contextualizar o protagonismo das populações locais na resistência ao imperialismo na África e Ásia.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF08HI27',
-      Habilidade:
-        'Identificar as tensões e os significados dos discursos civilizatórios, avaliando seus impactos negativos para os povos indígenas originários e as populações negras nas Américas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI01',
-      Habilidade:
-        'Descrever e contextualizar os principais aspectos sociais, culturais, econômicos e políticos da emergência da República no Brasil.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI02',
-      Habilidade:
-        'Caracterizar e compreender os ciclos da história republicana, identificando particularidades da história local e regional até 1954.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI03',
-      Habilidade:
-        'Identificar os mecanismos de inserção dos negros na sociedade brasileira pós-abolição e avaliar os seus resultados.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI04',
-      Habilidade:
-        'Discutir a importância da participação da população negra na formação econômica, política e social do Brasil.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI05',
-      Habilidade:
-        'Identificar os processos de urbanização e modernização da sociedade brasileira e avaliar suas contradições e impactos na região em que vive.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI06',
-      Habilidade:
-        'Identificar e discutir o papel do trabalhismo como força política, social e cultural no Brasil, em diferentes escalas (nacional, regional, cidade, comunidade).',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI07',
-      Habilidade:
-        'Identificar e explicar, em meio a lógicas de inclusão e exclusão, as pautas dos povos indígenas, no contexto republicano (até 1964), e das populações afrodescendentes.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI08',
-      Habilidade:
-        'Identificar as transformações ocorridas no debate sobre as questões da diversidade no Brasil durante o século XX e compreender o significado das mudanças de abordagem em relação ao tema.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI09',
-      Habilidade:
-        'Relacionar as conquistas de direitos políticos, sociais e civis à atuação de movimentos sociais.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI10',
-      Habilidade:
-        'Identificar e relacionar as dinâmicas do capitalismo e suas crises, os grandes conflitos mundiais e os conflitos vivenciados na Europa.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI11',
-      Habilidade:
-        'Identificar as especificidades e os desdobramentos mundiais da Revolução Russa e seu significado histórico.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI12',
-      Habilidade:
-        'Analisar a crise capitalista de 1929 e seus desdobramentos em relação à economia global.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI13',
-      Habilidade:
-        'Descrever e contextualizar os processos da emergência do fascismo e do nazismo, a consolidação dos estados totalitários e as práticas de extermínio (como o holocausto).',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI14',
-      Habilidade:
-        'Caracterizar e discutir as dinâmicas do colonialismo no continente africano e asiático e as lógicas de resistência das populações locais diante das questões internacionais.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI15',
-      Habilidade:
-        'Discutir as motivações que levaram à criação da Organização das Nações Unidas (ONU) no contexto do pós-guerra e os propósitos dessa organização.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI16',
-      Habilidade:
-        'Relacionar a Carta dos Direitos Humanos ao processo de afirmação dos direitos fundamentais e de defesa da dignidade humana, valorizando as instituições voltadas para a defesa desses direitos e para a identificação dos agentes responsáveis por sua violação.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI17',
-      Habilidade:
-        'Identificar e analisar processos sociais, econômicos, culturais e políticos do Brasil a partir de 1946.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI18',
-      Habilidade:
-        'Descrever e analisar as relações entre as transformações urbanas e seus impactos na cultura brasileira entre 1946 e 1964 e na produção das desigualdades regionais e sociais.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI19',
-      Habilidade:
-        'Identificar e compreender o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI20',
-      Habilidade:
-        'Discutir os processos de resistência e as propostas de reorganização da sociedade brasileira durante a ditadura civil-militar.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI21',
-      Habilidade:
-        'Identificar e relacionar as demandas indígenas e quilombolas como forma de contestação ao modelo desenvolvimentista da ditadura.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI22',
-      Habilidade:
-        'Discutir o papel da mobilização da sociedade brasileira do final do período ditatorial até a Constituição de 1988.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI23',
-      Habilidade:
-        'Identificar direitos civis, políticos e sociais expressos na Constituição de 1988 e relacioná-los à noção de cidadania e ao pacto da sociedade brasileira de combate a diversas formas de preconceito, como o racismo.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI24',
-      Habilidade:
-        'Analisar as transformações políticas, econômicas, sociais e culturais de 1989 aos dias atuais, identificando questões prioritárias para a promoção da cidadania e dos valores democráticos.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI25',
-      Habilidade:
-        'Relacionar as transformações da sociedade brasileira aos protagonismos da sociedade civil após 1989.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI26',
-      Habilidade:
-        'Discutir e analisar as causas da violência contra populações marginalizadas (negros, indígenas, mulheres, homossexuais, camponeses, pobres etc.) com vistas à tomada de consciência e à construção de uma cultura de paz, empatia e respeito às pessoas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI27',
-      Habilidade:
-        'Relacionar aspectos das mudanças econômicas, culturais e sociais ocorridas no Brasil a partir da década de 1990 ao papel do País no cenário internacional na era da globalização.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI28',
-      Habilidade:
-        'Identificar e analisar aspectos da Guerra Fria, seus principais conflitos e as tensões geopolíticas no interior dos blocos liderados por soviéticos e estadunidenses.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI29',
-      Habilidade:
-        'Descrever e analisar as experiências ditatoriais na América Latina, seus procedimentos e vínculos com o poder, em nível nacional e internacional, e a atuação de movimentos de contestação às ditaduras.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI30',
-      Habilidade:
-        'Comparar as características dos regimes ditatoriais latino-americanos, com especial atenção para a censura política, a opressão e o uso da força, bem como para as reformas econômicas e sociais e seus impactos.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI31',
-      Habilidade:
-        'Descrever e avaliar os processos de descolonização na África e na Ásia.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI32',
-      Habilidade:
-        'Analisar mudanças e permanências associadas ao processo de globalização, considerando os argumentos dos movimentos críticos às políticas globais.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI33',
-      Habilidade:
-        'Analisar as transformações nas relações políticas locais e globais geradas pelo desenvolvimento das tecnologias digitais de informação e comunicação.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI34',
-      Habilidade:
-        'Discutir as motivações da adoção de diferentes políticas econômicas na América Latina, assim como seus impactos sociais nos países da região.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI35',
-      Habilidade:
-        'Analisar os aspectos relacionados ao fenômeno do terrorismo na contemporaneidade, incluindo os movimentos migratórios e os choques entre diferentes grupos e culturas.',
-    },
-    {
-      Disciplina: 'História',
-      Codigo: 'EF09HI36',
-      Habilidade:
-        'Identificar e discutir as diversidades identitárias e seus significados históricos no início do século XXI, combatendo qualquer forma de preconceito e violência.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE01',
-      Habilidade:
-        'Comparar modificações das paisagens nos lugares de vivência e os usos desses lugares em diferentes tempos.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE02',
-      Habilidade:
-        'Analisar modificações de paisagens por diferentes tipos de sociedade, com destaque para os povos originários.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE03',
-      Habilidade:
-        'Descrever os movimentos do planeta e sua relação com a circulação geral da atmosfera, o tempo atmosférico e os padrões climáticos.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE04',
-      Habilidade:
-        'Descrever o ciclo da água, comparando o escoamento superficial no ambiente urbano e rural, reconhecendo os principais componentes da morfologia das bacias e das redes hidrográficas e a sua localização no modelado da superfície terrestre e da cobertura vegetal.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE05',
-      Habilidade:
-        'Relacionar padrões climáticos, tipos de solo, relevo e formações vegetais.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE06',
-      Habilidade:
-        'Identificar as características das paisagens transformadas pelo trabalho humano a partir do desenvolvimento da agropecuária e do processo de industrialização.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE07',
-      Habilidade:
-        'Explicar as mudanças na interação humana com a natureza a partir do surgimento das cidades.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE08',
-      Habilidade:
-        'Medir distâncias na superfície pelas escalas gráficas e numéricas dos mapas.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE09',
-      Habilidade:
-        'Elaborar modelos tridimensionais, blocos-diagramas e perfis topográficos e de vegetação, visando à representação de elementos e estruturas da superfície terrestre.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE10',
-      Habilidade:
-        'Explicar as diferentes formas de uso do solo (rotação de terras, terraceamento, aterros etc.) e de apropriação dos recursos hídricos (sistema de irrigação, tratamento e redes de distribuição), bem como suas vantagens e desvantagens em diferentes épocas e lugares.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE11',
-      Habilidade:
-        'Analisar distintas interações das sociedades com a natureza, com base na distribuição dos componentes físico-naturais, incluindo as transformações da biodiversidade local e do mundo.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE12',
-      Habilidade:
-        'Identificar o consumo dos recursos hídricos e o uso das principais bacias hidrográficas no Brasil e no mundo, enfatizando as transformações nos ambientes urbanos.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF06GE13',
-      Habilidade:
-        'Analisar consequências, vantagens e desvantagens das práticas humanas na dinâmica climática (ilha de calor etc.).',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE01',
-      Habilidade:
-        'Avaliar, por meio de exemplos extraídos dos meios de comunicação, ideias e estereótipos acerca das paisagens e da formação territorial do Brasil.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE02',
-      Habilidade:
-        'Analisar a influência dos fluxos econômicos e populacionais na formação socioeconômica e territorial do Brasil, compreendendo os conflitos e as tensões históricas e contemporâneas.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE03',
-      Habilidade:
-        'Selecionar argumentos que reconheçam as territorialidades dos povos indígenas originários, das comunidades remanescentes de quilombos, de povos das florestas e do cerrado, de ribeirinhos e caiçaras, entre outros grupos sociais do campo e da cidade, como direitos legais dessas comunidades.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE04',
-      Habilidade:
-        'Analisar a distribuição territorial da população brasileira, considerando a diversidade étnico-cultural (indígena, africana, europeia e asiática), assim como aspectos de renda, sexo e idade nas regiões brasileiras.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE05',
-      Habilidade:
-        'Analisar fatos e situações representativas das alterações ocorridas entre o período mercantilista e o advento do capitalismo.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE06',
-      Habilidade:
-        'Discutir em que medida a produção, a circulação e o consumo de mercadorias provocam impactos ambientais, assim como influem na distribuição de riquezas, em diferentes lugares.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE07',
-      Habilidade:
-        'Analisar a influência e o papel das redes de transporte e comunicação na configuração do território brasileiro.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE08',
-      Habilidade:
-        'Estabelecer relações entre os processos de industrialização e inovação tecnológica com as transformações socioeconômicas do território brasileiro.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE09',
-      Habilidade:
-        'Interpretar e elaborar mapas temáticos e históricos, inclusive utilizando tecnologias digitais, com informações demográficas e econômicas do Brasil (cartogramas), identificando padrões espaciais, regionalizações e analogias espaciais.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE10',
-      Habilidade:
-        'Elaborar e interpretar gráficos de barras, gráficos de setores e histogramas, com base em dados socioeconômicos das regiões brasileiras.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE11',
-      Habilidade:
-        'Caracterizar dinâmicas dos componentes físico-naturais no território nacional, bem como sua distribuição e biodiversidade (Florestas Tropicais, Cerrados, Caatingas, Campos Sulinos e Matas de Araucária).',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF07GE12',
-      Habilidade:
-        'Comparar unidades de conservação existentes no Município de residência e em outras localidades brasileiras, com base na organização do Sistema Nacional de Unidades de Conservação (SNUC).',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE01',
-      Habilidade:
-        'Descrever as rotas de dispersão da população humana pelo planeta e os principais fluxos migratórios em diferentes períodos da história, discutindo os fatores históricos e condicionantes físico-naturais associados à distribuição da população humana pelos continentes.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE02',
-      Habilidade:
-        'Relacionar fatos e situações representativas da história das famílias do Município em que se localiza a escola, considerando a diversidade e os fluxos migratórios da população mundial.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE03',
-      Habilidade:
-        'Analisar aspectos representativos da dinâmica demográfica, considerando características da população (perfil etário, crescimento vegetativo e mobilidade espacial).',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE04',
-      Habilidade:
-        'Compreender os fluxos de migração na América Latina (movimentos voluntários e forçados, assim como fatores e áreas de expulsão e atração) e as principais políticas migratórias da região.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE05',
-      Habilidade:
-        'Aplicar os conceitos de Estado, nação, território, governo e país para o entendimento de conflitos e tensões na contemporaneidade, com destaque para as situações geopolíticas na América e na África e suas múltiplas regionalizações a partir do pós-guerra.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE06',
-      Habilidade:
-        'Analisar a atuação das organizações mundiais nos processos de integração cultural e econômica nos contextos americano e africano, reconhecendo, em seus lugares de vivência, marcas desses processos.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE07',
-      Habilidade:
-        'Analisar os impactos geoeconômicos, geoestratégicos e geopolíticos da ascensão dos Estados Unidos da América no cenário internacional em sua posição de liderança global e na relação com a China e o Brasil.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE08',
-      Habilidade:
-        'Analisar a situação do Brasil e de outros países da América Latina e da África, assim como da potência estadunidense na ordem mundial do pós-guerra.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE09',
-      Habilidade:
-        'Analisar os padrões econômicos mundiais de produção, distribuição e intercâmbio dos produtos agrícolas e industrializados, tendo como referência os Estados Unidos da América e os países denominados de Brics (Brasil, Rússia, Índia, China e África do Sul).',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE10',
-      Habilidade:
-        'Distinguir e analisar conflitos e ações dos movimentos sociais brasileiros, no campo e na cidade, comparando com outros movimentos sociais existentes nos países latino-americanos.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE11',
-      Habilidade:
-        'Analisar áreas de conflito e tensões nas regiões de fronteira do continente latino-americano e o papel de organismos internacionais e regionais de cooperação nesses cenários.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE12',
-      Habilidade:
-        'Compreender os objetivos e analisar a importância dos organismos de integração do território americano (Mercosul, OEA, OEI, Nafta, Unasul, Alba, Comunidade Andina, Aladi, entre outros).',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE13',
-      Habilidade:
-        'Analisar a influência do desenvolvimento científico e tecnológico na caracterização dos tipos de trabalho e na economia dos espaços urbanos e rurais da América e da África.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE14',
-      Habilidade:
-        'Analisar os processos de desconcentração, descentralização e recentralização das atividades econômicas a partir do capital estadunidense e chinês em diferentes regiões no mundo, com destaque para o Brasil.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE15',
-      Habilidade:
-        'Analisar a importância dos principais recursos hídricos da América Latina (Aquífero Guarani, Bacias do rio da Prata, do Amazonas e do Orinoco, sistemas de nuvens na Amazônia e nos Andes, entre outros) e discutir os desafios relacionados à gestão e comercialização da água.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE16',
-      Habilidade:
-        'Analisar as principais problemáticas comuns às grandes cidades latino-americanas, particularmente aquelas relacionadas à distribuição, estrutura e dinâmica da população e às condições de vida e trabalho.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE17',
-      Habilidade:
-        'Analisar a segregação socioespacial em ambientes urbanos da América Latina, com atenção especial ao estudo de favelas, alagados e zona de riscos.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE18',
-      Habilidade:
-        'Elaborar mapas ou outras formas de representação cartográfica para analisar as redes e as dinâmicas urbanas e rurais, ordenamento territorial, contextos culturais, modo de vida e usos e ocupação de solos da África e América.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE19',
-      Habilidade:
-        'Interpretar cartogramas, mapas esquemáticos (croquis) e anamorfoses geográficas com informações geográficas acerca da África e América.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE20',
-      Habilidade:
-        'Analisar características de países e grupos de países da América e da África no que se refere aos aspectos populacionais, urbanos, políticos e econômicos, e discutir as desigualdades sociais e econômicas e as pressões sobre a natureza e suas riquezas (sua apropriação e valoração na produção e circulação), o que resulta na espoliação desses povos.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE21',
-      Habilidade:
-        'Analisar o papel ambiental e territorial da Antártica no contexto geopolítico, sua relevância para os países da América do Sul e seu valor como área destinada à pesquisa e à compreensão do ambiente global.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE22',
-      Habilidade:
-        'Identificar os principais recursos naturais dos países da América Latina, analisando seu uso para a produção de matéria-prima e energia e sua relevância para a cooperação entre os países do Mercosul.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE23',
-      Habilidade:
-        'Identificar paisagens da América Latina e associá-las, por meio da cartografia, aos diferentes povos da região, com base em aspectos da geomorfologia, da biogeografia e da climatologia.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF08GE24',
-      Habilidade:
-        'Analisar as principais características produtivas dos países latino-americanos (como exploração mineral na Venezuela; agricultura de alta especialização e exploração mineira no Chile; circuito da carne nos pampas argentinos e no Brasil; circuito da cana-de-açúcar em Cuba; polígono industrial do sudeste brasileiro e plantações de soja no centro-oeste; maquiladoras mexicanas, entre outros).',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE01',
-      Habilidade:
-        'Analisar criticamente de que forma a hegemonia europeia foi exercida em várias regiões do planeta, notadamente em situações de conflito, intervenções militares e/ou influência cultural em diferentes tempos e lugares.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE02',
-      Habilidade:
-        'Analisar a atuação das corporações internacionais e das organizações econômicas mundiais na vida da população em relação ao consumo, à cultura e à mobilidade.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE03',
-      Habilidade:
-        'Identificar diferentes manifestações culturais de minorias étnicas como forma de compreender a multiplicidade cultural na escala mundial, defendendo o princípio do respeito às diferenças.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE04',
-      Habilidade:
-        'Relacionar diferenças de paisagens aos modos de viver de diferentes povos na Europa, Ásia e Oceania, valorizando identidades e interculturalidades regionais.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE05',
-      Habilidade:
-        'Analisar fatos e situações para compreender a integração mundial (econômica, política e cultural), comparando as diferentes interpretações: globalização e mundialização.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE06',
-      Habilidade:
-        'Associar o critério de divisão do mundo em Ocidente e Oriente com o Sistema Colonial implantado pelas potências europeias.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE07',
-      Habilidade:
-        'Analisar os componentes físico-naturais da Eurásia e os determinantes histórico-geográficos de sua divisão em Europa e Ásia.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE08',
-      Habilidade:
-        'Analisar transformações territoriais, considerando o movimento de fronteiras, tensões, conflitos e múltiplas regionalidades na Europa, na Ásia e na Oceania.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE09',
-      Habilidade:
-        'Analisar características de países e grupos de países europeus, asiáticos e da Oceania em seus aspectos populacionais, urbanos, políticos e econômicos, e discutir suas desigualdades sociais e econômicas e pressões sobre seus ambientes físico-naturais.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE10',
-      Habilidade:
-        'Analisar os impactos do processo de industrialização na produção e circulação de produtos e culturas na Europa, na Ásia e na Oceania.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE11',
-      Habilidade:
-        'Relacionar as mudanças técnicas e científicas decorrentes do processo de industrialização com as transformações no trabalho em diferentes regiões do mundo e suas consequências no Brasil.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE12',
-      Habilidade:
-        'Relacionar o processo de urbanização às transformações da produção agropecuária, à expansão do desemprego estrutural e ao papel crescente do capital financeiro em diferentes países, com destaque para o Brasil.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE13',
-      Habilidade:
-        'Analisar a importância da produção agropecuária na sociedade urbano-industrial ante o problema da desigualdade mundial de acesso aos recursos alimentares e à matéria-prima.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE14',
-      Habilidade:
-        'Elaborar e interpretar gráficos de barras e de setores, mapas temáticos e esquemáticos (croquis) e anamorfoses geográficas para analisar, sintetizar e apresentar dados e informações sobre diversidade, diferenças e desigualdades sociopolíticas e geopolíticas mundiais.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE15',
-      Habilidade:
-        'Comparar e classificar diferentes regiões do mundo com base em informações populacionais, econômicas e socioambientais representadas em mapas temáticos e com diferentes projeções cartográficas.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE16',
-      Habilidade:
-        'Identificar e comparar diferentes domínios morfoclimáticos da Europa, da Ásia e da Oceania.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE17',
-      Habilidade:
-        'Explicar as características físico-naturais e a forma de ocupação e usos da terra em diferentes regiões da Europa, da Ásia e da Oceania.',
-    },
-    {
-      Disciplina: 'Geografia',
-      Codigo: 'EF09GE18',
-      Habilidade:
-        'Identificar e analisar as cadeias industriais e de inovação e as consequências dos usos de recursos naturais e das diferentes fontes de energia (tais como termoelétrica, hidrelétrica, eólica e nuclear) em diferentes países.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI01',
-      Habilidade:
-        'Classificar como homogênea ou heterogênea a mistura de dois ou mais materiais (água e sal, água e óleo, água e areia etc.).',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI02',
-      Habilidade:
-        'Identificar evidências de transformações químicas a partir do resultado de misturas de materiais que originam produtos diferentes dos que foram misturados (mistura de ingredientes para fazer um bolo, mistura de vinagre com bicarbonato de sódio etc.).',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI03',
-      Habilidade:
-        'Selecionar métodos mais adequados para a separação de diferentes sistemas heterogêneos a partir da identificação de processos de separação de materiais (como a produção de sal de cozinha, a destilação de petróleo, entre outros).',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI04',
-      Habilidade:
-        'Associar a produção de medicamentos e outros materiais sintéticos ao desenvolvimento científico e tecnológico, reconhecendo benefícios e avaliando impactos socioambientais.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI05',
-      Habilidade:
-        'Explicar a organização básica das células e seu papel como unidade estrutural e funcional dos seres vivos.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI06',
-      Habilidade:
-        'Concluir, com base na análise de ilustrações e/ou modelos (físicos ou digitais), que os organismos são um complexo arranjo de sistemas com diferentes níveis de organização.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI07',
-      Habilidade:
-        'Justificar o papel do sistema nervoso na coordenação das ações motoras e sensoriais do corpo, com base na análise de suas estruturas básicas e respectivas funções.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI08',
-      Habilidade:
-        'Explicar a importância da visão (captação e interpretação das imagens) na interação do organismo com o meio e, com base no funcionamento do olho humano, selecionar lentes adequadas para a correção de diferentes defeitos da visão.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI09',
-      Habilidade:
-        'Deduzir que a estrutura, a sustentação e a movimentação dos animais resultam da interação entre os sistemas muscular, ósseo e nervoso.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI10',
-      Habilidade:
-        'Explicar como o funcionamento do sistema nervoso pode ser afetado por substâncias psicoativas.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI11',
-      Habilidade:
-        'Identificar as diferentes camadas que estruturam o planeta Terra (da estrutura interna à atmosfera) e suas principais características.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI12',
-      Habilidade:
-        'Identificar diferentes tipos de rocha, relacionando a formação de fósseis a rochas sedimentares em diferentes períodos geológicos.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI13',
-      Habilidade:
-        'Selecionar argumentos e evidências que demonstrem a esfericidade da Terra.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF06CI14',
-      Habilidade:
-        'Inferir que as mudanças na sombra de uma vara (gnômon) ao longo do dia em diferentes períodos do ano são uma evidência dos movimentos relativos entre a Terra e o Sol, que podem ser explicados por meio dos movimentos de rotação e translação da Terra e da inclinação de seu eixo de rotação em relação ao plano de sua órbita em torno do Sol.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI01',
-      Habilidade:
-        'Discutir a aplicação, ao longo da história, das máquinas simples e propor soluções e invenções para a realização de tarefas mecânicas cotidianas.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI02',
-      Habilidade:
-        'Diferenciar temperatura, calor e sensação térmica nas diferentes situações de equilíbrio termodinâmico cotidianas.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI03',
-      Habilidade:
-        'Utilizar o conhecimento das formas de propagação do calor para justificar a utilização de determinados materiais (condutores e isolantes) na vida cotidiana, explicar o princípio de funcionamento de alguns equipamentos (garrafa térmica, coletor solar etc.) e/ou construir soluções tecnológicas a partir desse conhecimento.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI04',
-      Habilidade:
-        'Avaliar o papel do equilíbrio termodinâmico para a manutenção da vida na Terra, para o funcionamento de máquinas térmicas e em outras situações cotidianas.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI05',
-      Habilidade:
-        'Discutir o uso de diferentes tipos de combustível e máquinas térmicas ao longo do tempo, para avaliar avanços, questões econômicas e problemas socioambientais causados pela produção e uso desses materiais e máquinas.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI06',
-      Habilidade:
-        'Discutir e avaliar mudanças econômicas, culturais e sociais, tanto na vida cotidiana quanto no mundo do trabalho, decorrentes do desenvolvimento de novos materiais e tecnologias (como automação e informatização).',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI07',
-      Habilidade:
-        'Caracterizar os principais ecossistemas brasileiros quanto à paisagem, à quantidade de água, ao tipo de solo, à disponibilidade de luz solar, à temperatura etc., correlacionando essas características à flora e fauna específicas.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI08',
-      Habilidade:
-        'Avaliar como os impactos provocados por catástrofes naturais ou mudanças nos componentes físicos, biológicos ou sociais de um ecossistema afetam suas populações, podendo ameaçar ou provocar a extinção de espécies, alteração de hábitos, migração etc.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI09',
-      Habilidade:
-        'Interpretar as condições de saúde da comunidade, cidade ou estado, com base na análise e comparação de indicadores de saúde (como taxa de mortalidade infantil, cobertura de saneamento básico e incidência de doenças de veiculação hídrica, atmosférica entre outras) e dos resultados de políticas públicas destinadas à saúde.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI10',
-      Habilidade:
-        'Argumentar sobre a importância da vacinação para a saúde pública, com base em informações sobre a maneira como a vacina atua no organismo e o papel histórico da vacinação para a manutenção da saúde individual e coletiva e para a erradicação de doenças.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI11',
-      Habilidade:
-        'Analisar historicamente o uso da tecnologia, incluindo a digital, nas diferentes dimensões da vida humana, considerando indicadores ambientais e de qualidade de vida.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI12',
-      Habilidade:
-        'Demonstrar que o ar é uma mistura de gases, identificando sua composição, e discutir fenômenos naturais ou antrópicos que podem alterar essa composição.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI13',
-      Habilidade:
-        'Descrever o mecanismo natural do efeito estufa, seu papel fundamental para o desenvolvimento da vida na Terra, discutir as ações humanas responsáveis pelo seu aumento artificial (queima dos combustíveis fósseis, desmatamento, queimadas etc.) e selecionar e implementar propostas para a reversão ou controle desse quadro.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI14',
-      Habilidade:
-        'Justificar a importância da camada de ozônio para a vida na Terra, identificando os fatores que aumentam ou diminuem sua presença na atmosfera, e discutir propostas individuais e coletivas para sua preservação.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI15',
-      Habilidade:
-        'Interpretar fenômenos naturais (como vulcões, terremotos e tsunamis) e justificar a rara ocorrência desses fenômenos no Brasil, com base no modelo das placas tectônicas.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF07CI16',
-      Habilidade:
-        'Justificar o formato das costas brasileira e africana com base na teoria da deriva dos continentes.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI01',
-      Habilidade:
-        'Identificar e classificar diferentes fontes (renováveis e não renováveis) e tipos de energia utilizados em residências, comunidades ou cidades.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI02',
-      Habilidade:
-        'Construir circuitos elétricos com pilha/bateria, fios e lâmpada ou outros dispositivos e compará-los a circuitos elétricos residenciais.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI03',
-      Habilidade:
-        'Classificar equipamentos elétricos residenciais (chuveiro, ferro, lâmpadas, TV, rádio, geladeira etc.) de acordo com o tipo de transformação de energia (da energia elétrica para a térmica, luminosa, sonora e mecânica, por exemplo).',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI04',
-      Habilidade:
-        'Calcular o consumo de eletrodomésticos a partir dos dados de potência (descritos no próprio equipamento) e tempo médio de uso para avaliar o impacto de cada equipamento no consumo doméstico mensal.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI05',
-      Habilidade:
-        'Propor ações coletivas para otimizar o uso de energia elétrica em sua escola e/ou comunidade, com base na seleção de equipamentos segundo critérios de sustentabilidade (consumo de energia e eficiência energética) e hábitos de consumo responsável.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI06',
-      Habilidade:
-        'Discutir e avaliar usinas de geração de energia elétrica (termelétricas, hidrelétricas, eólicas etc.), suas semelhanças e diferenças, seus impactos socioambientais, e como essa energia chega e é usada em sua cidade, comunidade, casa ou escola.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI07',
-      Habilidade:
-        'Comparar diferentes processos reprodutivos em plantas e animais em relação aos mecanismos adaptativos e evolutivos.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI08',
-      Habilidade:
-        'Analisar e explicar as transformações que ocorrem na puberdade considerando a atuação dos hormônios sexuais e do sistema nervoso.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI09',
-      Habilidade:
-        'Comparar o modo de ação e a eficácia dos diversos métodos contraceptivos e justificar a necessidade de compartilhar a responsabilidade na escolha e na utilização do método mais adequado à prevenção da gravidez precoce e indesejada e de Doenças Sexualmente Transmissíveis (DST).',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI10',
-      Habilidade:
-        'Identificar os principais sintomas, modos de transmissão e tratamento de algumas DST (com ênfase na AIDS), e discutir estratégias e métodos de prevenção.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI11',
-      Habilidade:
-        'Selecionar argumentos que evidenciem as múltiplas dimensões da sexualidade humana (biológica, sociocultural, afetiva e ética).',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI12',
-      Habilidade:
-        'Justificar, por meio da construção de modelos e da observação da Lua no céu, a ocorrência das fases da Lua e dos eclipses, com base nas posições relativas entre Sol, Terra e Lua.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI13',
-      Habilidade:
-        'Representar os movimentos de rotação e translação da Terra e analisar o papel da inclinação do eixo de rotação da Terra em relação à sua órbita na ocorrência das estações do ano, com a utilização de modelos tridimensionais.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI14',
-      Habilidade:
-        'Relacionar climas regionais aos padrões de circulação atmosférica e oceânica e ao aquecimento desigual causado pela forma e pelos movimentos da Terra.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI15',
-      Habilidade:
-        'Identificar as principais variáveis envolvidas na previsão do tempo e simular situações nas quais elas possam ser medidas.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF08CI16',
-      Habilidade:
-        'Discutir iniciativas que contribuam para restabelecer o equilíbrio ambiental a partir da identificação de alterações climáticas regionais e globais provocadas pela intervenção humana.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI01',
-      Habilidade:
-        'Investigar as mudanças de estado físico da matéria e explicar essas transformações com base no modelo de constituição submicroscópica.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI02',
-      Habilidade:
-        'Comparar quantidades de reagentes e produtos envolvidos em transformações químicas, estabelecendo a proporção entre as suas massas.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI03',
-      Habilidade:
-        'Identificar modelos que descrevem a estrutura da matéria (constituição do átomo e composição de moléculas simples) e reconhecer sua evolução histórica.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI04',
-      Habilidade:
-        'Planejar e executar experimentos que evidenciem que todas as cores de luz podem ser formadas pela composição das três cores primárias da luz e que a cor de um objeto está relacionada também à cor da luz que o ilumina.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI05',
-      Habilidade:
-        'Investigar os principais mecanismos envolvidos na transmissão e recepção de imagem e som que revolucionaram os sistemas de comunicação humana.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI06',
-      Habilidade:
-        'Classificar as radiações eletromagnéticas por suas frequências, fontes e aplicações, discutindo e avaliando as implicações de seu uso em controle remoto, telefone celular, raio X, forno de micro-ondas, fotocélulas etc.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI07',
-      Habilidade:
-        'Discutir o papel do avanço tecnológico na aplicação das radiações na medicina diagnóstica (raio X, ultrassom, ressonância nuclear magnética) e no tratamento de doenças (radioterapia, cirurgia ótica a laser, infravermelho, ultravioleta etc.).',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI08',
-      Habilidade:
-        'Associar os gametas à transmissão das características hereditárias, estabelecendo relações entre ancestrais e descendentes.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI09',
-      Habilidade:
-        'Discutir as ideias de Mendel sobre hereditariedade (fatores hereditários, segregação, gametas, fecundação), considerando-as para resolver problemas envolvendo a transmissão de características hereditárias em diferentes organismos.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI10',
-      Habilidade:
-        'Comparar as ideias evolucionistas de Lamarck e Darwin apresentadas em textos científicos e históricos, identificando semelhanças e diferenças entre essas ideias e sua importância para explicar a diversidade biológica.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI11',
-      Habilidade:
-        'Discutir a evolução e a diversidade das espécies com base na atuação da seleção natural sobre as variantes de uma mesma espécie, resultantes de processo reprodutivo.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI12',
-      Habilidade:
-        'Justificar a importância das unidades de conservação para a preservação da biodiversidade e do patrimônio nacional, considerando os diferentes tipos de unidades (parques, reservas e florestas nacionais), as populações humanas e as atividades a eles relacionados.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI13',
-      Habilidade:
-        'Propor iniciativas individuais e coletivas para a solução de problemas ambientais da cidade ou da comunidade, com base na análise de ações de consumo consciente e de sustentabilidade bem-sucedidas.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI14',
-      Habilidade:
-        'Descrever a composição e a estrutura do Sistema Solar (Sol, planetas rochosos, planetas gigantes gasosos e corpos menores), assim como a localização do Sistema Solar na nossa Galáxia (a Via Láctea) e dela no Universo (apenas uma galáxia dentre bilhões).',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI15',
-      Habilidade:
-        'Relacionar diferentes leituras do céu e explicações sobre a origem da Terra, do Sol ou do Sistema Solar às necessidades de distintas culturas (agricultura, caça, mito, orientação espacial e temporal etc.).',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI16',
-      Habilidade:
-        'Selecionar argumentos sobre a viabilidade da sobrevivência humana fora da Terra, com base nas condições necessárias à vida, nas características dos planetas e nas distâncias e nos tempos envolvidos em viagens interplanetárias e interestelares.',
-    },
-    {
-      Disciplina: 'Ciências',
-      Codigo: 'EF09CI17',
-      Habilidade:
-        'Analisar o ciclo evolutivo do Sol (nascimento, vida e morte) baseado no conhecimento das etapas de evolução de estrelas de diferentes dimensões e os efeitos desse processo no nosso planeta.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA01',
-      Habilidade:
-        'Comparar, ordenar, ler e escrever números naturais e números racionais cuja representação decimal é finita, fazendo uso da reta numérica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA02',
-      Habilidade:
-        'Reconhecer o sistema de numeração decimal, como o que prevaleceu no mundo ocidental, e destacar semelhanças e diferenças com outros sistemas, de modo a sistematizar suas principais características (base, valor posicional e função do zero), utilizando, inclusive, a composição e decomposição de números naturais e números racionais em sua representação decimal.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA03',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam cálculos (mentais ou escritos, exatos ou aproximados) com números naturais, por meio de estratégias variadas, com compreensão dos processos neles envolvidos com e sem uso de calculadora.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA04',
-      Habilidade:
-        'Construir algoritmo em linguagem natural e representá-lo por fluxograma que indique a resolução de um problema simples (por exemplo, se um número natural qualquer é par).',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA05',
-      Habilidade:
-        'Classificar números naturais em primos e compostos, estabelecer relações entre números, expressas pelos termos "é múltiplo de", "é divisor de", "é fator de", e estabelecer, por meio de investigações, critérios de divisibilidade por 2, 3, 4, 5, 6, 8, 9, 10, 100 e 1000.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA06',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam as ideias de múltiplo e de divisor.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA07',
-      Habilidade:
-        'Compreender, comparar e ordenar frações associadas às ideias de partes de inteiros e resultado de divisão, identificando frações equivalentes.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA08',
-      Habilidade:
-        'Reconhecer que os números racionais positivos podem ser expressos nas formas fracionária e decimal, estabelecer relações entre essas representações, passando de uma representação para outra, e relacioná-los a pontos na reta numérica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA09',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam o cálculo da fração de uma quantidade e cujo resultado seja um número natural, com e sem uso de calculadora.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA10',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam adição ou subtração com números racionais positivos na representação fracionária.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA11',
-      Habilidade:
-        'Resolver e elaborar problemas com números racionais positivos na representação decimal, envolvendo as quatro operações fundamentais e a potenciação, por meio de estratégias diversas, utilizando estimativas e arredondamentos para verificar a razoabilidade de respostas, com e sem uso de calculadora.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA12',
-      Habilidade:
-        'Fazer estimativas de quantidades e aproximar números para múltiplos da potência de 10 mais próxima.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA13',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam porcentagens, com base na ideia de proporcionalidade, sem fazer uso da "regra de três", utilizando estratégias pessoais, cálculo mental e calculadora, em contextos de educação financeira, entre outros.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA14',
-      Habilidade:
-        'Reconhecer que a relação de igualdade matemática não se altera ao adicionar, subtrair, multiplicar ou dividir os seus dois membros por um mesmo número e utilizar essa noção para determinar valores desconhecidos na resolução de problemas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA15',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam a partilha de uma quantidade em duas partes desiguais, envolvendo relações aditivas e multiplicativas, bem como a razão entre as partes e entre uma das partes e o todo.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA16',
-      Habilidade:
-        'Associar pares ordenados de números a pontos do plano cartesiano do 1º quadrante, em situações como a localização dos vértices de um polígono.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA17',
-      Habilidade:
-        'Quantificar e estabelecer relações entre o número de vértices, faces e arestas de prismas e pirâmides, em função do seu polígono da base, para resolver problemas e desenvolver a percepção espacial.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA18',
-      Habilidade:
-        'Reconhecer, nomear e comparar polígonos, considerando lados, vértices e ângulos, e classificá-los em regulares e não regulares, tanto em suas representações no plano como em faces de poliedros.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA19',
-      Habilidade:
-        'Identificar características dos triângulos e classificá-los em relação às medidas dos lados e dos ângulos.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA20',
-      Habilidade:
-        'Identificar características dos quadriláteros, classificá-los em relação a lados e a ângulos e reconhecer a inclusão e a intersecção de classes entre eles.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA21',
-      Habilidade:
-        'Construir figuras planas semelhantes em situações de ampliação e de redução, com o uso de malhas quadriculadas, plano cartesiano ou tecnologias digitais.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA22',
-      Habilidade:
-        'Utilizar instrumentos, como réguas e esquadros, ou softwares para representações de retas paralelas e perpendiculares e construção de quadriláteros, entre outros.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA23',
-      Habilidade:
-        'Construir algoritmo para resolver situações passo a passo (como na construção de dobraduras ou na indicação de deslocamento de um objeto no plano segundo pontos de referência e distâncias fornecidas etc.).',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA24',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam as grandezas comprimento, massa, tempo, temperatura, área (triângulos e retângulos), capacidade e volume (sólidos formados por blocos retangulares), sem uso de fórmulas, inseridos, sempre que possível, em contextos oriundos de situações reais e/ou relacionadas às outras áreas do conhecimento.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA25',
-      Habilidade:
-        'Reconhecer a abertura do ângulo como grandeza associada às figuras geométricas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA26',
-      Habilidade:
-        'Resolver problemas que envolvam a noção de ângulo em diferentes contextos e em situações reais, como ângulo de visão.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA27',
-      Habilidade:
-        'Determinar medidas da abertura de ângulos, por meio de transferidor e/ou tecnologias digitais.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA28',
-      Habilidade:
-        'Interpretar, descrever e desenhar plantas baixas simples de residências e vistas aéreas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA29',
-      Habilidade:
-        'Analisar e descrever mudanças que ocorrem no perímetro e na área de um quadrado ao se ampliarem ou reduzirem, igualmente, as medidas de seus lados, para compreender que o perímetro é proporcional à medida do lado, o que não ocorre com a área.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA30',
-      Habilidade:
-        'Calcular a probabilidade de um evento aleatório, expressando-a por número racional (forma fracionária, decimal e percentual) e comparar esse número com a probabilidade obtida por meio de experimentos sucessivos.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA31',
-      Habilidade:
-        'Identificar as variáveis e suas frequências e os elementos constitutivos (título, eixos, legendas, fontes e datas) em diferentes tipos de gráfico.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA32',
-      Habilidade:
-        'Interpretar e resolver situações que envolvam dados de pesquisas sobre contextos ambientais, sustentabilidade, trânsito, consumo responsável, entre outros, apresentadas pela mídia em tabelas e em diferentes tipos de gráficos e redigir textos escritos com o objetivo de sintetizar conclusões.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA33',
-      Habilidade:
-        'Planejar e coletar dados de pesquisa referente a práticas sociais escolhidas pelos alunos e fazer uso de planilhas eletrônicas para registro, representação e interpretação das informações, em tabelas, vários tipos de gráficos e texto.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF06MA34',
-      Habilidade:
-        'Interpretar e desenvolver fluxogramas simples, identificando as relações entre os objetos representados (por exemplo, posição de cidades considerando as estradas que as unem, hierarquia dos funcionários de uma empresa etc.).',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA01',
-      Habilidade:
-        'Resolver e elaborar problemas com números naturais, envolvendo as noções de divisor e de múltiplo, podendo incluir máximo divisor comum ou mínimo múltiplo comum, por meio de estratégias diversas, sem a aplicação de algoritmos.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA02',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam porcentagens, como os que lidam com acréscimos e decréscimos simples, utilizando estratégias pessoais, cálculo mental e calculadora, no contexto de educação financeira, entre outros.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA03',
-      Habilidade:
-        'Comparar e ordenar números inteiros em diferentes contextos, incluindo o histórico, associá-los a pontos da reta numérica e utilizá-los em situações que envolvam adição e subtração.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA04',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam operações com números inteiros.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA05',
-      Habilidade:
-        'Resolver um mesmo problema utilizando diferentes algoritmos.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA06',
-      Habilidade:
-        'Reconhecer que as resoluções de um grupo de problemas que têm a mesma estrutura podem ser obtidas utilizando os mesmos procedimentos.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA07',
-      Habilidade:
-        'Representar por meio de um fluxograma os passos utilizados para resolver um grupo de problemas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA08',
-      Habilidade:
-        'Comparar e ordenar frações associadas às ideias de partes de inteiros, resultado da divisão, razão e operador.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA09',
-      Habilidade:
-        'Utilizar, na resolução de problemas, a associação entre razão e fração, como a fração 2/3 para expressar a razão de duas partes de uma grandeza para três partes da mesma ou três partes de outra grandeza.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA10',
-      Habilidade:
-        'Comparar e ordenar números racionais em diferentes contextos e associá-los a pontos da reta numérica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA11',
-      Habilidade:
-        'Compreender e utilizar a multiplicação e a divisão de números racionais, a relação entre elas e suas propriedades operatórias.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA12',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam as operações com números racionais.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA13',
-      Habilidade:
-        'Compreender a ideia de variável, representada por letra ou símbolo, para expressar relação entre duas grandezas, diferenciando-a da ideia de incógnita.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA14',
-      Habilidade:
-        'Classificar sequências em recursivas e não recursivas, reconhecendo que o conceito de recursão está presente não apenas na matemática, mas também nas artes e na literatura.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA15',
-      Habilidade:
-        'Utilizar a simbologia algébrica para expressar regularidades encontradas em sequências numéricas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA16',
-      Habilidade:
-        'Reconhecer se duas expressões algébricas obtidas para descrever a regularidade de uma mesma sequência numérica são ou não equivalentes.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA17',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam variação de proporcionalidade direta e de proporcionalidade inversa entre duas grandezas, utilizando sentença algébrica para expressar a relação entre elas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA18',
-      Habilidade:
-        'Resolver e elaborar problemas que possam ser representados por equações polinomiais de 1º grau, redutíveis à forma ax + b = c, fazendo uso das propriedades da igualdade.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA19',
-      Habilidade:
-        'Realizar transformações de polígonos representados no plano cartesiano, decorrentes da multiplicação das coordenadas de seus vértices por um número inteiro.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA20',
-      Habilidade:
-        'Reconhecer e representar, no plano cartesiano, o simétrico de figuras em relação aos eixos e à origem.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA21',
-      Habilidade:
-        'Reconhecer e construir figuras obtidas por simetrias de translação, rotação e reflexão, usando instrumentos de desenho ou softwares de geometria dinâmica e vincular esse estudo a representações planas de obras de arte, elementos arquitetônicos, entre outros.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA22',
-      Habilidade:
-        'Construir circunferências, utilizando compasso, reconhecê-las como lugar geométrico e utilizá-las para fazer composições artísticas e resolver problemas que envolvam objetos equidistantes.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA23',
-      Habilidade:
-        'Verificar relações entre os ângulos formados por retas paralelas cortadas por uma transversal, com e sem uso de softwares de geometria dinâmica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA24',
-      Habilidade:
-        'Construir triângulos, usando régua e compasso, reconhecer a condição de existência do triângulo quanto à medida dos lados e verificar que a soma das medidas dos ângulos internos de um triângulo é 180°.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA25',
-      Habilidade:
-        'Reconhecer a rigidez geométrica dos triângulos e suas aplicações, como na construção de estruturas arquitetônicas (telhados, estruturas metálicas e outras) ou nas artes plásticas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA26',
-      Habilidade:
-        'Descrever, por escrito e por meio de um fluxograma, um algoritmo para a construção de um triângulo qualquer, conhecidas as medidas dos três lados.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA27',
-      Habilidade:
-        'Calcular medidas de ângulos internos de polígonos regulares, sem o uso de fórmulas, e estabelecer relações entre ângulos internos e externos de polígonos, preferencialmente vinculadas à construção de mosaicos e de ladrilhamentos.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA28',
-      Habilidade:
-        'Descrever, por escrito e por meio de um fluxograma, um algoritmo para a construção de um polígono regular (como quadrado e triângulo equilátero), conhecida a medida de seu lado.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA29',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam medidas de grandezas inseridos em contextos oriundos de situações cotidianas ou de outras áreas do conhecimento, reconhecendo que toda medida empírica é aproximada.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA30',
-      Habilidade:
-        'Resolver e elaborar problemas de cálculo de medida do volume de blocos retangulares, envolvendo as unidades usuais (metro cúbico, decímetro cúbico e centímetro cúbico).',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA31',
-      Habilidade:
-        'Estabelecer expressões de cálculo de área de triângulos e de quadriláteros.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA32',
-      Habilidade:
-        'Resolver e elaborar problemas de cálculo de medida de área de figuras planas que podem ser decompostas por quadrados, retângulos e/ou triângulos, utilizando a equivalência entre áreas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA33',
-      Habilidade:
-        'Estabelecer o número pi como a razão entre a medida de uma circunferência e seu diâmetro, para compreender e resolver problemas, inclusive os de natureza histórica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA34',
-      Habilidade:
-        'Planejar e realizar experimentos aleatórios ou simulações que envolvem cálculo de probabilidades ou estimativas por meio de frequência de ocorrências.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA35',
-      Habilidade:
-        'Compreender, em contextos significativos, o significado de média estatística como indicador da tendência de uma pesquisa, calcular seu valor e relacioná-lo, intuitivamente, com a amplitude do conjunto de dados.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA36',
-      Habilidade:
-        'Planejar e realizar pesquisa envolvendo tema da realidade social, identificando a necessidade de ser censitária ou de usar amostra, e interpretar os dados para comunicá-los por meio de relatório escrito, tabelas e gráficos, com o apoio de planilhas eletrônicas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF07MA37',
-      Habilidade:
-        'Interpretar e analisar dados apresentados em gráfico de setores divulgados pela mídia e compreender quando é possível ou conveniente sua utilização.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA01',
-      Habilidade:
-        'Efetuar cálculos com potências de expoentes inteiros e aplicar esse conhecimento na representação de números em notação científica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA02',
-      Habilidade:
-        'Resolver e elaborar problemas usando a relação entre potenciação e radiciação, para representar uma raiz como potência de expoente fracionário.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA03',
-      Habilidade:
-        'Resolver e elaborar problemas de contagem cuja resolução envolva a aplicação do princípio multiplicativo.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA04',
-      Habilidade:
-        'Resolver e elaborar problemas, envolvendo cálculo de porcentagens, incluindo o uso de tecnologias digitais.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA05',
-      Habilidade:
-        'Reconhecer e utilizar procedimentos para a obtenção de uma fração geratriz para uma dízima periódica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA06',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam cálculo do valor numérico de expressões algébricas, utilizando as propriedades das operações.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA07',
-      Habilidade:
-        'Associar uma equação linear de 1º grau com duas incógnitas a uma reta no plano cartesiano.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA08',
-      Habilidade:
-        'Resolver e elaborar problemas relacionados ao seu contexto próximo, que possam ser representados por sistemas de equações de 1º grau com duas incógnitas e interpretá-los, utilizando, inclusive, o plano cartesiano como recurso.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA09',
-      Habilidade:
-        'Resolver e elaborar, com e sem uso de tecnologias, problemas que possam ser representados por equações polinomiais de 2º grau do tipo ax² = b.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA10',
-      Habilidade:
-        'Identificar a regularidade de uma sequência numérica ou figural não recursiva e construir um algoritmo por meio de um fluxograma que permita indicar os números ou as figuras seguintes.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA11',
-      Habilidade:
-        'Identificar a regularidade de uma sequência numérica recursiva e construir um algoritmo por meio de um fluxograma que permita indicar os números seguintes.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA12',
-      Habilidade:
-        'Identificar a natureza da variação de duas grandezas, diretamente, inversamente proporcionais ou não proporcionais, expressando a relação existente por meio de sentença algébrica e representá-la no plano cartesiano.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA13',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam grandezas diretamente ou inversamente proporcionais, por meio de estratégias variadas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA14',
-      Habilidade:
-        'Demonstrar propriedades de quadriláteros por meio da identificação da congruência de triângulos.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA15',
-      Habilidade:
-        'Construir, utilizando instrumentos de desenho ou softwares de geometria dinâmica, mediatriz, bissetriz, ângulos de 90°, 60°, 45° e 30° e polígonos regulares.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA16',
-      Habilidade:
-        'Descrever, por escrito e por meio de um fluxograma, um algoritmo para a construção de um hexágono regular de qualquer área, a partir da medida do ângulo central e da utilização de esquadros e compasso.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA17',
-      Habilidade:
-        'Aplicar os conceitos de mediatriz e bissetriz como lugares geométricos na resolução de problemas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA18',
-      Habilidade:
-        'Reconhecer e construir figuras obtidas por composições de transformações geométricas (translação, reflexão e rotação), com o uso de instrumentos de desenho ou de softwares de geometria dinâmica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA19',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam medidas de área de figuras geométricas, utilizando expressões de cálculo de área (quadriláteros, triângulos e círculos), em situações como determinar medida de terrenos.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA20',
-      Habilidade:
-        'Reconhecer a relação entre um litro e um decímetro cúbico e a relação entre litro e metro cúbico, para resolver problemas de cálculo de capacidade de recipientes.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA21',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam o cálculo do volume de recipiente cujo formato é o de um bloco retangular.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA22',
-      Habilidade:
-        'Calcular a probabilidade de eventos, com base na construção do espaço amostral, utilizando o princípio multiplicativo, e reconhecer que a soma das probabilidades de todos os elementos do espaço amostral é igual a 1.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA23',
-      Habilidade:
-        'Avaliar a adequação de diferentes tipos de gráficos para representar um conjunto de dados de uma pesquisa.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA24',
-      Habilidade:
-        'Classificar as frequências de uma variável contínua de uma pesquisa em classes, de modo que resumam os dados de maneira adequada para a tomada de decisões.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA25',
-      Habilidade:
-        'Obter os valores de medidas de tendência central de uma pesquisa estatística (média, moda e mediana) com a compreensão de seus significados e relacioná-los com a dispersão de dados, indicada pela amplitude.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA26',
-      Habilidade:
-        'Selecionar razões, de diferentes naturezas (física, ética ou econômica), que justificam a realização de pesquisas amostrais e não censitárias, e reconhecer que a seleção da amostra pode ser feita de diferentes maneiras (amostra casual simples, sistemática e estratificada).',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF08MA27',
-      Habilidade:
-        'Planejar e executar pesquisa amostral, selecionando uma técnica de amostragem adequada, e escrever relatório que contenha os gráficos apropriados para representar os conjuntos de dados, destacando aspectos como as medidas de tendência central, a amplitude e as conclusões.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA01',
-      Habilidade:
-        'Reconhecer que, uma vez fixada uma unidade de comprimento, existem segmentos de reta cujo comprimento não é expresso por número racional (como as medidas de diagonais de um polígono e alturas de um triângulo, quando se toma a medida de cada lado como unidade).',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA02',
-      Habilidade:
-        'Reconhecer um número irracional como um número real cuja representação decimal é infinita e não periódica, e estimar a localização de alguns deles na reta numérica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA03',
-      Habilidade:
-        'Efetuar cálculos com números reais, inclusive potências com expoentes fracionários.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA04',
-      Habilidade:
-        'Resolver e elaborar problemas com números reais, inclusive em notação científica, envolvendo diferentes operações.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA05',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam porcentagens, com a ideia de aplicação de percentuais sucessivos e a determinação das taxas percentuais, preferencialmente com o uso de tecnologias digitais, no contexto da educação financeira.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA06',
-      Habilidade:
-        'Compreender as funções como relações de dependência unívoca entre duas variáveis e suas representações numérica, algébrica e gráfica e utilizar esse conceito para analisar situações que envolvam relações funcionais entre duas variáveis.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA07',
-      Habilidade:
-        'Resolver problemas que envolvam a razão entre duas grandezas de espécies diferentes, como velocidade e densidade demográfica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA08',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam relações de proporcionalidade direta e inversa entre duas ou mais grandezas, inclusive escalas, divisão em partes proporcionais e taxa de variação, em contextos socioculturais, ambientais e de outras áreas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA09',
-      Habilidade:
-        'Compreender os processos de fatoração de expressões algébricas, com base em suas relações com os produtos notáveis, para resolver e elaborar problemas que possam ser representados por equações polinomiais do 2º grau.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA10',
-      Habilidade:
-        'Demonstrar relações simples entre os ângulos formados por retas paralelas cortadas por uma transversal.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA11',
-      Habilidade:
-        'Resolver problemas por meio do estabelecimento de relações entre arcos, ângulos centrais e ângulos inscritos na circunferência, fazendo uso, inclusive, de softwares de geometria dinâmica.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA12',
-      Habilidade:
-        'Reconhecer as condições necessárias e suficientes para que dois triângulos sejam semelhantes.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA13',
-      Habilidade:
-        'Demonstrar relações métricas do triângulo retângulo, entre elas o teorema de Pitágoras, utilizando, inclusive, a semelhança de triângulos.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA14',
-      Habilidade:
-        'Resolver e elaborar problemas de aplicação do teorema de Pitágoras ou das relações de proporcionalidade envolvendo retas paralelas cortadas por secantes.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA15',
-      Habilidade:
-        'Descrever, por escrito e por meio de um fluxograma, um algoritmo para a construção de um polígono regular cuja medida do lado é conhecida, utilizando régua e compasso, como também softwares.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA16',
-      Habilidade:
-        'Determinar o ponto médio de um segmento de reta e a distância entre dois pontos quaisquer, dadas as coordenadas desses pontos no plano cartesiano, sem o uso de fórmulas, e utilizar esse conhecimento para calcular, por exemplo, medidas de perímetros e áreas de figuras planas construídas no plano.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA17',
-      Habilidade:
-        'Reconhecer vistas ortogonais de figuras espaciais e aplicar esse conhecimento para desenhar objetos em perspectiva.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA18',
-      Habilidade:
-        'Reconhecer e empregar unidades usadas para expressar medidas muito grandes ou muito pequenas, tais como distância entre planetas e sistemas solares, tamanho de vírus ou de células, capacidade de armazenamento de computadores, entre outros.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA19',
-      Habilidade:
-        'Resolver e elaborar problemas que envolvam medidas de volumes de prismas e de cilindros retos, inclusive com uso de expressões de cálculo, em situações cotidianas.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA20',
-      Habilidade:
-        'Reconhecer, em experimentos aleatórios, eventos independentes e dependentes e calcular a probabilidade de sua ocorrência, nos dois casos.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA21',
-      Habilidade:
-        'Analisar e identificar, em gráficos divulgados pela mídia, os elementos que podem induzir, às vezes propositadamente, erros de leitura, como escalas inapropriadas, legendas não explicitadas corretamente, omissão de informações importantes (fontes e datas), entre outros.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA22',
-      Habilidade:
-        'Escolher e construir o gráfico mais adequado (colunas, setores, linhas), com ou sem uso de planilhas eletrônicas, para apresentar um determinado conjunto de dados, destacando aspectos como as medidas de tendência central.',
-    },
-    {
-      Disciplina: 'Matemática',
-      Codigo: 'EF09MA23',
-      Habilidade:
-        'Planejar e executar pesquisa amostral envolvendo tema da realidade social e comunicar os resultados por meio de relatório contendo avaliação de medidas de tendência central e da amplitude, tabelas e gráficos adequados, construídos com o apoio de planilhas eletrônicas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI01',
-      Habilidade:
-        'Interagir em situações de intercâmbio oral, demonstrando iniciativa para utilizar a língua inglesa.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI02',
-      Habilidade:
-        'Coletar informações do grupo, perguntando e respondendo sobre a família, os amigos, a escola e a comunidade.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI03',
-      Habilidade:
-        'Solicitar esclarecimentos em língua inglesa sobre o que não entendeu e o significado de palavras ou expressões desconhecidas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI04',
-      Habilidade:
-        'Reconhecer, com o apoio de palavras cognatas e pistas do contexto discursivo, o assunto e as informações principais em textos orais sobre temas familiares.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI05',
-      Habilidade:
-        'Aplicar os conhecimentos da língua inglesa para falar de si e de outras pessoas, explicitando informações pessoais e características relacionadas a gostos, preferências e rotinas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI06',
-      Habilidade:
-        'Planejar apresentação sobre a família, a comunidade e a escola, compartilhando-a oralmente com o grupo.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI07',
-      Habilidade:
-        'Formular hipóteses sobre a finalidade de um texto em língua inglesa, com base em sua estrutura, organização textual e pistas gráficas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI08',
-      Habilidade:
-        'Identificar o assunto de um texto, reconhecendo sua organização textual e palavras cognatas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI09',
-      Habilidade: 'Localizar informações específicas em texto.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI10',
-      Habilidade:
-        'Conhecer a organização de um dicionário bilíngue (impresso e/ou on-line) para construir repertório lexical.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI11',
-      Habilidade:
-        'Explorar ambientes virtuais e/ou aplicativos para construir repertório lexical na língua inglesa.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI12',
-      Habilidade:
-        'Interessar-se pelo texto lido, compartilhando suas ideias sobre o que o texto informa/comunica.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI13',
-      Habilidade:
-        'Listar ideias para a produção de textos, levando em conta o tema e o assunto.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI14',
-      Habilidade:
-        'Organizar ideias, selecionando-as em função da estrutura e do objetivo do texto.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI15',
-      Habilidade:
-        'Produzir textos escritos em língua inglesa (histórias em quadrinhos, cartazes, chats, blogues, agendas, fotolegendas, entre outros), sobre si mesmo, sua família, seus amigos, gostos, preferências e rotinas, sua comunidade e seu contexto escolar.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI16',
-      Habilidade:
-        'Construir repertório relativo às expressões usadas para o convívio social e o uso da língua inglesa em sala de aula.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI17',
-      Habilidade:
-        'Construir repertório lexical relativo a temas familiares (escola, família, rotina diária, atividades de lazer, esportes, entre outros).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI18',
-      Habilidade:
-        'Reconhecer semelhanças e diferenças na pronúncia de palavras da língua inglesa e da língua materna e/ou outras línguas conhecidas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI19',
-      Habilidade:
-        'Utilizar o presente do indicativo para identificar pessoas (verbo to be) e descrever rotinas diárias.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI20',
-      Habilidade:
-        'Utilizar o presente contínuo para descrever ações em progresso.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI21',
-      Habilidade:
-        'Reconhecer o uso do imperativo em enunciados de atividades, comandos e instruções.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI22',
-      Habilidade: "Descrever relações por meio do uso de apóstrofo (' + s).",
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI23',
-      Habilidade: 'Empregar, de forma inteligível, os adjetivos possessivos.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI24',
-      Habilidade:
-        'Investigar o alcance da língua inglesa no mundo: como língua materna e/ou oficial (primeira ou segunda língua).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI25',
-      Habilidade:
-        'Identificar a presença da língua inglesa na sociedade brasileira/comunidade (palavras, expressões, suportes e esferas de circulação e consumo) e seu significado.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF06LI26',
-      Habilidade:
-        'Avaliar, problematizando elementos/produtos culturais de países de língua inglesa absorvidos pela sociedade brasileira/comunidade.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI01',
-      Habilidade:
-        'Interagir em situações de intercâmbio oral para realizar as atividades em sala de aula, de forma respeitosa e colaborativa, trocando ideias e engajando-se em brincadeiras e jogos.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI02',
-      Habilidade:
-        'Entrevistar os colegas para conhecer suas histórias de vida.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI03',
-      Habilidade:
-        'Mobilizar conhecimentos prévios para compreender texto oral.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI04',
-      Habilidade:
-        'Identificar o contexto, a finalidade, o assunto e os interlocutores em textos orais presentes no cinema, na internet, na televisão, entre outros.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI05',
-      Habilidade:
-        'Compor, em língua inglesa, narrativas orais sobre fatos, acontecimentos e personalidades marcantes do passado.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI06',
-      Habilidade:
-        'Antecipar o sentido global de textos em língua inglesa por inferências, com base em leitura rápida, observando títulos, primeiras e últimas frases de parágrafos e palavras-chave repetidas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI07',
-      Habilidade:
-        'Identificar a(s) informação(ões)-chave de partes de um texto em língua inglesa (parágrafos).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI08',
-      Habilidade:
-        'Relacionar as partes de um texto (parágrafos) para construir seu sentido global.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI09',
-      Habilidade:
-        'Selecionar, em um texto, a informação desejada como objetivo de leitura.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI10',
-      Habilidade:
-        'Escolher, em ambientes virtuais, textos em língua inglesa, de fontes confiáveis, para estudos/pesquisas escolares.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI11',
-      Habilidade:
-        'Participar de troca de opiniões e informações sobre textos, lidos na sala de aula ou em outros ambientes.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI12',
-      Habilidade:
-        'Planejar a escrita de textos em função do contexto (público, finalidade, layout e suporte).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI13',
-      Habilidade:
-        'Organizar texto em unidades de sentido, dividindo-o em parágrafos ou tópicos e subtópicos, explorando as possibilidades de organização gráfica, de suporte e de formato do texto.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI14',
-      Habilidade:
-        'Produzir textos diversos sobre fatos, acontecimentos e personalidades do passado (linha do tempo/timelines, biografias, verbetes de enciclopédias, blogues, entre outros).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI15',
-      Habilidade:
-        'Construir repertório lexical relativo a verbos regulares e irregulares (formas no passado), preposições de tempo (in, on, at) e conectores (and, but, because, then, so, before, after, entre outros).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI16',
-      Habilidade:
-        'Reconhecer a pronúncia de verbos regulares no passado (-ed).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI17',
-      Habilidade:
-        'Explorar o caráter polissêmico de palavras de acordo com o contexto de uso.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI18',
-      Habilidade:
-        'Utilizar o passado simples e o passado contínuo para produzir textos orais e escritos, mostrando relações de sequência e causalidade.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI19',
-      Habilidade:
-        'Discriminar sujeito de objeto utilizando pronomes a eles relacionados.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI20',
-      Habilidade:
-        'Empregar, de forma inteligível, o verbo modal can para descrever habilidades (no presente e no passado).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI21',
-      Habilidade:
-        'Analisar o alcance da língua inglesa e os seus contextos de uso no mundo globalizado.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI22',
-      Habilidade:
-        'Explorar modos de falar em língua inglesa, refutando preconceitos e reconhecendo a variação linguística como fenômeno natural das línguas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF07LI23',
-      Habilidade:
-        'Reconhecer a variação linguística como manifestação de formas de pensar e expressar o mundo.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI01',
-      Habilidade:
-        'Fazer uso da língua inglesa para resolver mal-entendidos, emitir opiniões e esclarecer informações por meio de paráfrases ou justificativas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI02',
-      Habilidade:
-        'Explorar o uso de recursos linguísticos (frases incompletas, hesitações, entre outros) e paralinguísticos (gestos, expressões faciais, entre outros) em situações de interação oral.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI03',
-      Habilidade:
-        'Construir o sentido global de textos orais, relacionando suas partes, o assunto principal e informações relevantes.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI04',
-      Habilidade:
-        'Utilizar recursos e repertório linguísticos apropriados para informar/comunicar/falar do futuro: planos, previsões, possibilidades e probabilidades.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI05',
-      Habilidade:
-        'Inferir informações e relações que não aparecem de modo explícito no texto para construção de sentidos.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI06',
-      Habilidade:
-        'Apreciar textos narrativos em língua inglesa (contos, romances, entre outros, em versão original ou simplificada), como forma de valorizar o patrimônio cultural produzido em língua inglesa.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI07',
-      Habilidade:
-        'Explorar ambientes virtuais e/ou aplicativos para acessar e usufruir do patrimônio artístico-literário em língua inglesa.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI08',
-      Habilidade:
-        'Analisar, criticamente, o conteúdo de textos, comparando diferentes perspectivas apresentadas sobre um mesmo assunto.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI09',
-      Habilidade:
-        'Avaliar a própria produção escrita e a de colegas, com base no contexto de comunicação (finalidade e adequação ao público, conteúdo a ser comunicado, organização textual, legibilidade, estrutura de frases).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI10',
-      Habilidade:
-        'Reconstruir o texto, com cortes, acréscimos, reformulações e correções, para aprimoramento, edição e publicação final.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI11',
-      Habilidade:
-        'Produzir textos (comentários em fóruns, relatos pessoais, mensagens instantâneas, tweets, reportagens, histórias de ficção, blogues, entre outros), com o uso de estratégias de escrita (planejamento, produção de rascunho, revisão e edição final), apontando sonhos e projetos para o futuro (pessoal, da família, da comunidade ou do planeta).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI12',
-      Habilidade:
-        'Construir repertório lexical relativo a planos, previsões e expectativas para o futuro.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI13',
-      Habilidade:
-        'Reconhecer sufixos e prefixos comuns utilizados na formação de palavras em língua inglesa.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI14',
-      Habilidade:
-        'Utilizar formas verbais do futuro para descrever planos e expectativas e fazer previsões.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI15',
-      Habilidade:
-        'Utilizar, de modo inteligível, as formas comparativas e superlativas de adjetivos para comparar qualidades e quantidades.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI16',
-      Habilidade:
-        'Utilizar, de modo inteligível, corretamente, some, any, many, much.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI17',
-      Habilidade:
-        'Empregar, de modo inteligível, os pronomes relativos (who, which, that, whose) para construir períodos compostos por subordinação.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI18',
-      Habilidade:
-        'Construir repertório cultural por meio do contato com manifestações artístico-culturais vinculadas à língua inglesa (artes plásticas e visuais, literatura, música, cinema, dança, festividades, entre outros), valorizando a diversidade entre culturas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI19',
-      Habilidade:
-        'Investigar de que forma expressões, gestos e comportamentos são interpretados em função de aspectos culturais.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF08LI20',
-      Habilidade:
-        'Examinar fatores que podem impedir o entendimento entre pessoas de culturas diferentes que falam a língua inglesa.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI01',
-      Habilidade:
-        'Fazer uso da língua inglesa para expor pontos de vista, argumentos e contra-argumentos, considerando o contexto e os recursos linguísticos voltados para a eficácia da comunicação.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI02',
-      Habilidade:
-        'Compilar as ideias-chave de textos por meio de tomada de notas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI03',
-      Habilidade:
-        'Analisar posicionamentos defendidos e refutados em textos orais sobre temas de interesse social e coletivo.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI04',
-      Habilidade:
-        'Expor resultados de pesquisa ou estudo com o apoio de recursos, tais como notas, gráficos, tabelas, entre outros, adequando as estratégias de construção do texto oral aos objetivos de comunicação e ao contexto.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI05',
-      Habilidade:
-        'Identificar recursos de persuasão (escolha e jogo de palavras, uso de cores e imagens, tamanho de letras), utilizados nos textos publicitários e de propaganda, como elementos de convencimento.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI06',
-      Habilidade:
-        'Distinguir fatos de opiniões em textos argumentativos da esfera jornalística.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI07',
-      Habilidade:
-        'Identificar argumentos principais e as evidências/exemplos que os sustentam.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI08',
-      Habilidade:
-        'Explorar ambientes virtuais de informação e socialização, analisando a qualidade e a validade das informações veiculadas.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI09',
-      Habilidade:
-        'Compartilhar, com os colegas, a leitura dos textos escritos pelo grupo, valorizando os diferentes pontos de vista defendidos, com ética e respeito.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI10',
-      Habilidade:
-        'Propor potenciais argumentos para expor e defender ponto de vista em texto escrito, refletindo sobre o tema proposto e pesquisando dados, evidências e exemplos para sustentar os argumentos, organizando-os em sequência lógica.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI11',
-      Habilidade:
-        'Utilizar recursos verbais e não verbais para construção da persuasão em textos da esfera publicitária, de forma adequada ao contexto de circulação (produção e compreensão).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI12',
-      Habilidade:
-        'Produzir textos (infográficos, fóruns de discussão on-line, fotorreportagens, campanhas publicitárias, memes, entre outros) sobre temas de interesse coletivo local ou global, que revelem posicionamento crítico.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI13',
-      Habilidade:
-        'Reconhecer, nos novos gêneros digitais (blogues, mensagens instantâneas, tweets, entre outros), novas formas de escrita (abreviação de palavras, palavras com combinação de letras e números, pictogramas, símbolos gráficos, entre outros) na constituição das mensagens.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI14',
-      Habilidade:
-        'Utilizar conectores indicadores de adição, condição, oposição, contraste, conclusão e síntese como auxiliares na construção da argumentação e intencionalidade discursiva.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI15',
-      Habilidade:
-        'Empregar, de modo inteligível, as formas verbais em orações condicionais dos tipos 1 e 2 (If-clauses).',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI16',
-      Habilidade:
-        'Empregar, de modo inteligível, os verbos should, must, have to, may e might para indicar recomendação, necessidade ou obrigação e probabilidade.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI17',
-      Habilidade:
-        'Debater sobre a expansão da língua inglesa pelo mundo, em função do processo de colonização nas Américas, África, Ásia e Oceania.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI18',
-      Habilidade:
-        'Analisar a importância da língua inglesa para o desenvolvimento das ciências (produção, divulgação e discussão de novos conhecimentos), da economia e da política no cenário mundial.',
-    },
-    {
-      Disciplina: 'Língua Inglesa',
-      Codigo: 'EF09LI19',
-      Habilidade:
-        'Discutir a comunicação intercultural por meio da língua inglesa como mecanismo de valorização pessoal e de construção de identidades no mundo globalizado.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF01',
-      Habilidade:
-        'Experimentar e fruir, na escola e fora dela, jogos eletrônicos diversos, valorizando e respeitando os sentidos e significados atribuídos a eles por diferentes grupos sociais e etários.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF02',
-      Habilidade:
-        'Identificar as transformações nas características dos jogos eletrônicos em função dos avanços das tecnologias e nas respectivas exigências corporais colocadas por esses diferentes tipos de jogos.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF03',
-      Habilidade:
-        'Experimentar e fruir esportes de marca, precisão, invasão e técnico-combinatórios, valorizando o trabalho coletivo e o protagonismo.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF04',
-      Habilidade:
-        'Praticar um ou mais esportes de marca, precisão, invasão e técnico-combinatórios oferecidos pela escola, usando habilidades técnico-táticas básicas e respeitando regras.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF05',
-      Habilidade:
-        'Planejar e utilizar estratégias para solucionar os desafios técnicos e táticos, tanto nos esportes de marca, precisão, invasão e técnico-combinatórios como nas modalidades esportivas escolhidas para praticar de forma específica.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF06',
-      Habilidade:
-        'Analisar as transformações na organização e na prática dos esportes em suas diferentes manifestações (profissional e comunitário/lazer).',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF07',
-      Habilidade:
-        'Propor e produzir alternativas para experimentação dos esportes não disponíveis e/ou acessíveis na comunidade e das demais práticas corporais tematizadas na escola.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF08',
-      Habilidade:
-        'Experimentar e fruir exercícios físicos que solicitem diferentes capacidades físicas, identificando seus tipos (força, velocidade, resistência, flexibilidade) e as sensações corporais provocadas pela sua prática.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF09',
-      Habilidade:
-        'Construir, coletivamente, procedimentos e normas de convívio que viabilizem a participação de todos na prática de exercícios físicos, com o objetivo de promover a saúde.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF10',
-      Habilidade:
-        'Diferenciar exercício físico de atividade física e propor alternativas para a prática de exercícios físicos dentro e fora do ambiente escolar.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF11',
-      Habilidade:
-        'Experimentar, fruir e recriar danças urbanas, identificando seus elementos constitutivos (ritmo, espaço, gestos).',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF12',
-      Habilidade:
-        'Planejar e utilizar estratégias para aprender elementos constitutivos das danças urbanas.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF13',
-      Habilidade:
-        'Diferenciar as danças urbanas das demais manifestações da dança, valorizando e respeitando os sentidos e significados atribuídos a eles por diferentes grupos sociais.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF14',
-      Habilidade:
-        'Experimentar, fruir e recriar diferentes lutas do Brasil, valorizando a própria segurança e integridade física, bem como as dos demais.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF15',
-      Habilidade:
-        'Planejar e utilizar estratégias básicas das lutas do Brasil, respeitando o colega como oponente.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF16',
-      Habilidade:
-        'Identificar as características (códigos, rituais, elementos técnico-táticos, indumentária, materiais, instalações, instituições) das lutas do Brasil.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF17',
-      Habilidade:
-        'Problematizar preconceitos e estereótipos relacionados ao universo das lutas e demais práticas corporais, propondo alternativas para superá-los, com base na solidariedade, na justiça, na equidade e no respeito.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF18',
-      Habilidade:
-        'Experimentar e fruir diferentes práticas corporais de aventura urbanas, valorizando a própria segurança e integridade física, bem como as dos demais.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF19',
-      Habilidade:
-        'Identificar os riscos durante a realização de práticas corporais de aventura urbanas e planejar estratégias para sua superação.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF20',
-      Habilidade:
-        'Executar práticas corporais de aventura urbanas, respeitando o patrimônio público e utilizando alternativas para a prática segura em diversos espaços.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF67EF21',
-      Habilidade:
-        'Identificar a origem das práticas corporais de aventura e as possibilidades de recriá-las, reconhecendo as características (instrumentos, equipamentos de segurança, indumentária, organização) e seus tipos de práticas.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF01',
-      Habilidade:
-        'Experimentar diferentes papéis (jogador, árbitro e técnico) e fruir os esportes de rede/parede, campo e taco, invasão e combate, valorizando o trabalho coletivo e o protagonismo.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF02',
-      Habilidade:
-        'Praticar um ou mais esportes de rede/parede, campo e taco, invasão e combate oferecidos pela escola, usando habilidades técnico-táticas básicas.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF03',
-      Habilidade:
-        'Formular e utilizar estratégias para solucionar os desafios técnicos e táticos, tanto nos esportes de campo e taco, rede/parede, invasão e combate como nas modalidades esportivas escolhidas para praticar de forma específica.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF04',
-      Habilidade:
-        'Identificar os elementos técnicos ou técnico-táticos individuais, combinações táticas, sistemas de jogo e regras das modalidades esportivas praticadas, bem como diferenciar as modalidades esportivas com base nos critérios da lógica interna das categorias de esporte: rede/parede, campo e taco, invasão e combate.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF05',
-      Habilidade:
-        'Identificar as transformações históricas do fenômeno esportivo e discutir alguns de seus problemas (doping, corrupção, violência etc.) e a forma como as mídias os apresentam.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF06',
-      Habilidade:
-        'Verificar locais disponíveis na comunidade para a prática de esportes e das demais práticas corporais tematizadas na escola, propondo e produzindo alternativas para utilizá-los no tempo livre.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF07',
-      Habilidade:
-        'Experimentar e fruir um ou mais programas de exercícios físicos, identificando as exigências corporais desses diferentes programas e reconhecendo a importância de uma prática individualizada, adequada às características e necessidades de cada sujeito.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF08',
-      Habilidade:
-        'Discutir as transformações históricas dos padrões de desempenho, saúde e beleza, considerando a forma como são apresentados nos diferentes meios (científico, midiático etc.).',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF09',
-      Habilidade:
-        'Problematizar a prática excessiva de exercícios físicos e o uso de medicamentos para a ampliação do rendimento ou potencialização das transformações corporais.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF10',
-      Habilidade:
-        'Experimentar e fruir um ou mais tipos de ginástica de conscientização corporal, identificando as exigências corporais dos mesmos.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF11',
-      Habilidade:
-        'Identificar as diferenças e semelhanças entre a ginástica de conscientização corporal e as de condicionamento físico e discutir como a prática de cada uma dessas manifestações pode contribuir para a melhoria das condições de vida, saúde, bem-estar e cuidado consigo mesmo.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF12',
-      Habilidade:
-        'Experimentar, fruir e recriar danças de salão, valorizando a diversidade cultural e respeitando a tradição dessas culturas.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF13',
-      Habilidade:
-        'Planejar e utilizar estratégias para se apropriar dos elementos constitutivos (ritmo, espaço, gestos) das danças de salão.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF14',
-      Habilidade:
-        'Discutir estereótipos e preconceitos relativos às danças de salão e demais práticas corporais e propor alternativas para sua superação.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF15',
-      Habilidade:
-        'Analisar as características (ritmos, gestos, coreografias e músicas) das danças de salão, bem como suas transformações históricas e os grupos de origem.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF16',
-      Habilidade:
-        'Experimentar e fruir a execução dos movimentos pertencentes às lutas do mundo, adotando procedimentos de segurança e respeitando o oponente.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF17',
-      Habilidade:
-        'Planejar e utilizar estratégias básicas das lutas experimentadas, reconhecendo as suas características técnico-táticas.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF18',
-      Habilidade:
-        'Discutir as transformações históricas, o processo de esportivização e a midiatização de uma ou mais lutas, valorizando e respeitando as culturas de origem.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF19',
-      Habilidade:
-        'Experimentar e fruir diferentes práticas corporais de aventura na natureza, valorizando a própria segurança e integridade física, bem como as dos demais, respeitando o patrimônio natural e minimizando os impactos de degradação ambiental.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF20',
-      Habilidade:
-        'Identificar riscos, formular estratégias e observar normas de segurança para superar os desafios na realização de práticas corporais de aventura na natureza.',
-    },
-    {
-      Disciplina: 'Educação Física',
-      Codigo: 'EF89EF21',
-      Habilidade:
-        'Identificar as características (equipamentos de segurança, instrumentos, indumentária, organização) das práticas corporais de aventura na natureza, bem como suas transformações históricas.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR01',
-      Habilidade:
-        'Pesquisar, apreciar e analisar formas distintas das artes visuais tradicionais e contemporâneas, em obras de artistas brasileiros e estrangeiros de diferentes épocas e em diferentes matrizes estéticas e culturais, de modo a ampliar a experiência com diferentes contextos e práticas artístico-visuais e cultivar a percepção, o imaginário, a capacidade de simbolizar e o repertório imagético.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR02',
-      Habilidade:
-        'Pesquisar e analisar diferentes estilos visuais, contextualizando-os no tempo e no espaço.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR03',
-      Habilidade:
-        'Analisar situações nas quais as linguagens das artes visuais se integram às linguagens audiovisuais (cinema, animações, vídeos etc.), gráficas (capas de livros, ilustrações de textos diversos etc.), cenográficas, coreográficas, musicais etc.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR04',
-      Habilidade:
-        'Analisar os elementos constitutivos das artes visuais (ponto, linha, forma, direção, cor, tom, escala, dimensão, espaço, movimento etc.) na apreciação de diferentes produções artísticas.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR05',
-      Habilidade:
-        'Experimentar e analisar diferentes formas de expressão artística (desenho, pintura, colagem, quadrinhos, dobradura, escultura, modelagem, instalação, vídeo, fotografia, performance etc.).',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR06',
-      Habilidade:
-        'Desenvolver processos de criação em artes visuais, com base em temas ou interesses artísticos, de modo individual, coletivo e colaborativo, fazendo uso de materiais, instrumentos e recursos convencionais, alternativos e digitais.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR07',
-      Habilidade:
-        'Dialogar com princípios conceituais, proposições temáticas, repertórios imagéticos e processos de criação nas suas produções visuais.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR08',
-      Habilidade:
-        'Diferenciar as categorias de artista, artesão, produtor cultural, curador, designer, entre outras, estabelecendo relações entre os profissionais do sistema das artes visuais.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR09',
-      Habilidade:
-        'Pesquisar e analisar diferentes formas de expressão, representação e encenação da dança, reconhecendo e apreciando composições de dança de artistas e grupos brasileiros e estrangeiros de diferentes épocas.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR10',
-      Habilidade:
-        'Explorar elementos constitutivos do movimento cotidiano e do movimento dançado, abordando, criticamente, o desenvolvimento das formas da dança em sua história tradicional e contemporânea.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR11',
-      Habilidade:
-        'Experimentar e analisar os fatores de movimento (tempo, peso, fluência e espaço) como elementos que, combinados, geram as ações corporais e o movimento dançado.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR12',
-      Habilidade:
-        'Investigar e experimentar procedimentos de improvisação e criação do movimento como fonte para a construção de vocabulários e repertórios próprios.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR13',
-      Habilidade:
-        'Investigar brincadeiras, jogos, danças coletivas e outras práticas de dança de diferentes matrizes estéticas e culturais como referência para a criação e a composição de danças autorais, individualmente e em grupo.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR14',
-      Habilidade:
-        'Analisar e experimentar diferentes elementos (figurino, iluminação, cenário, trilha sonora etc.) e espaços (convencionais e não convencionais) para composição cênica e apresentação coreográfica.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR15',
-      Habilidade:
-        'Discutir as experiências pessoais e coletivas em dança vivenciadas na escola e em outros contextos, problematizando estereótipos e preconceitos.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR16',
-      Habilidade:
-        'Analisar criticamente, por meio da apreciação musical, usos e funções da música em seus contextos de produção e circulação, relacionando as práticas musicais às diferentes dimensões da vida social, cultural, política, histórica, econômica, estética e ética.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR17',
-      Habilidade:
-        'Explorar e analisar, criticamente, diferentes meios e equipamentos culturais de circulação da música e do conhecimento musical.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR18',
-      Habilidade:
-        'Reconhecer e apreciar o papel de músicos e grupos de música brasileiros e estrangeiros que contribuíram para o desenvolvimento de formas e gêneros musicais.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR19',
-      Habilidade:
-        'Identificar e analisar diferentes estilos musicais, contextualizando-os no tempo e no espaço, de modo a aprimorar a capacidade de apreciação da estética musical.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR20',
-      Habilidade:
-        'Explorar e analisar elementos constitutivos da música (altura, intensidade, timbre, melodia, ritmo etc.), por meio de recursos tecnológicos (games e plataformas digitais), jogos, canções e práticas diversas de composição/criação, execução e apreciação musicais.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR21',
-      Habilidade:
-        'Explorar e analisar fontes e materiais sonoros em práticas de composição/criação, execução e apreciação musical, reconhecendo timbres e características de instrumentos musicais diversos.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR22',
-      Habilidade:
-        'Explorar e identificar diferentes formas de registro musical (notação musical tradicional, partituras criativas e procedimentos da música contemporânea), bem como procedimentos e técnicas de registro em áudio e audiovisual.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR23',
-      Habilidade:
-        'Explorar e criar improvisações, composições, arranjos, jingles, trilhas sonoras, entre outros, utilizando vozes, sons corporais e/ou instrumentos acústicos ou eletrônicos, convencionais ou não convencionais, expressando ideias musicais de maneira individual, coletiva e colaborativa.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR24',
-      Habilidade:
-        'Reconhecer e apreciar artistas e grupos de teatro brasileiros e estrangeiros de diferentes épocas, investigando os modos de criação, produção, divulgação, circulação e organização da atuação profissional em teatro.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR25',
-      Habilidade:
-        'Identificar e analisar diferentes estilos cênicos, contextualizando-os no tempo e no espaço de modo a aprimorar a capacidade de apreciação da estética teatral.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR26',
-      Habilidade:
-        'Explorar diferentes elementos envolvidos na composição dos acontecimentos cênicos (figurinos, adereços, cenário, iluminação e sonoplastia) e reconhecer seus vocabulários.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR27',
-      Habilidade:
-        'Pesquisar e criar formas de dramaturgias e espaços cênicos para o acontecimento teatral, em diálogo com o teatro contemporâneo.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR28',
-      Habilidade:
-        'Investigar e experimentar diferentes funções teatrais e discutir os limites e desafios do trabalho artístico coletivo e colaborativo.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR29',
-      Habilidade:
-        'Experimentar a gestualidade e as construções corporais e vocais de maneira imaginativa na improvisação teatral e no jogo cênico.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR30',
-      Habilidade:
-        'Compor improvisações e acontecimentos cênicos com base em textos dramáticos ou outros estímulos (música, imagens, objetos etc.), caracterizando personagens (com figurinos e adereços), cenário, iluminação e sonoplastia e considerando a relação com o espectador.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR31',
-      Habilidade:
-        'Relacionar as práticas artísticas às diferentes dimensões da vida social, cultural, política, histórica, econômica, estética e ética.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR32',
-      Habilidade:
-        'Analisar e explorar, em projetos temáticos, as relações processuais entre diversas linguagens artísticas.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR33',
-      Habilidade:
-        'Analisar aspectos históricos, sociais e políticos da produção artística, problematizando as narrativas eurocêntricas e as diversas categorizações da arte (arte, artesanato, folclore, design etc.).',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR34',
-      Habilidade:
-        'Analisar e valorizar o patrimônio cultural, material e imaterial, de culturas diversas, em especial a brasileira, incluindo suas matrizes indígenas, africanas e europeias, de diferentes épocas, e favorecendo a construção de vocabulário e repertório relativos às diferentes linguagens artísticas.',
-    },
-    {
-      Disciplina: 'Arte',
-      Codigo: 'EF69AR35',
-      Habilidade:
-        'Identificar e manipular diferentes tecnologias e recursos digitais para acessar, apreciar, produzir, registrar e compartilhar práticas e repertórios artísticos, de modo reflexivo, ético e responsável.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP44',
-      Habilidade:
-        'Inferir a presença de valores sociais, culturais e humanos e de diferentes visões de mundo, em textos literários, reconhecendo nesses textos formas de estabelecer múltiplos olhares sobre as identidades, sociedades e culturas e considerando a autoria e o contexto social e histórico de sua produção.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP45',
-      Habilidade:
-        "Posicionar-se criticamente em relação a textos pertencentes a gêneros como quarta-capa, programa (de teatro, dança, exposição etc.), sinopse, resenha crítica, comentário em blog/vlog cultural etc., para selecionar obras literárias e outras manifestações artísticas (cinema, teatro, exposições, espetáculos, CD's, DVD's etc.), diferenciando as sequências descritivas e avaliativas e reconhecendo-os como gêneros que apoiam a escolha do livro ou produção cultural e consultando-os no momento de fazer escolhas, quando for o caso.",
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP46',
-      Habilidade:
-        'Participar de práticas de compartilhamento de leitura/recepção de obras literárias/manifestações artísticas, como rodas de leitura, clubes de leitura, eventos de contação de histórias, de leituras dramáticas, de apresentações teatrais, musicais e de filmes, cineclubes, festivais de vídeo, saraus, slams, canais de booktubers, redes sociais temáticas (de leitores, de cinéfilos, de música etc.), dentre outros, tecendo, quando possível, comentários de ordem estética e afetiva e justificando suas apreciações, escrevendo comentários e resenhas para jornais, blogs e redes sociais e utilizando formas de expressão das culturas juvenis, tais como, vlogs e podcasts culturais (literatura, cinema, teatro, música), playlists comentadas, fanfics, fanzines, e-zines, fanvideos, fanclipes, posts em fanpages, trailer honesto, vídeo-minuto, dentre outras possibilidades de práticas de apreciação e de manifestação da cultura de fãs.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP47',
-      Habilidade:
-        'Analisar, em textos narrativos ficcionais, as diferentes formas de composição próprias de cada gênero, os recursos coesivos que constroem a passagem do tempo e articulam suas partes, a escolha lexical típica de cada gênero para a caracterização dos cenários e dos personagens e os efeitos de sentido decorrentes dos tempos verbais, dos tipos de discurso, dos verbos de enunciação e das variedades linguísticas (no discurso direto, se houver) empregados, identificando o enredo e o foco narrativo e percebendo como se estrutura a narrativa nos diferentes gêneros e os efeitos de sentido decorrentes do foco narrativo típico de cada gênero, da caracterização dos espaços físico e psicológico e dos tempos cronológico e psicológico, das diferentes vozes no texto (do narrador, de personagens em discurso direto e indireto), do uso de pontuação expressiva, palavras e expressões conotativas e processos figurativos e do uso de recursos linguístico-gramaticais próprios a cada gênero narrativo.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP48',
-      Habilidade:
-        'Interpretar, em poemas, efeitos produzidos pelo uso de recursos expressivos sonoros (estrofação, rimas, aliterações etc), semânticos (figuras de linguagem, por exemplo), gráfico-espacial (distribuição da mancha gráfica no papel), imagens e sua relação com o texto verbal.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP49',
-      Habilidade:
-        'Mostrar-se interessado e envolvido pela leitura de livros de literatura e por outras produções culturais do campo e receptivo a textos que rompam com seu universo de expectativas, que representem um desafio em relação às suas possibilidades atuais e suas experiências anteriores de leitura, apoiando-se nas marcas linguísticas, em seu conhecimento sobre os gêneros e a temática e nas orientações dadas pelo professor.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP50',
-      Habilidade:
-        'Elaborar texto teatral, a partir da adaptação de romances, contos, mitos, narrativas de enigma e de aventura, novelas, biografias romanceadas, crônicas, dentre outros, indicando as rubricas para caracterização do cenário, do espaço, do tempo; explicitando a caracterização física e psicológica dos personagens e dos seus modos de ação; reconfigurando a inserção do discurso direto e dos tipos de narrador; explicitando as marcas de variação linguística (dialetos, registros e jargões) e retextualizando o tratamento da temática.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP51',
-      Habilidade:
-        'Engajar-se ativamente nos processos de planejamento, textualização, revisão/edição e reescrita, tendo em vista as restrições temáticas, composicionais e estilísticas dos textos pretendidos e as configurações da situação de produção - o leitor pretendido, o suporte, o contexto de circulação do texto, as finalidades etc. e considerando a imaginação, a estesia e a verossimilhança próprias ao texto literário.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP52',
-      Habilidade:
-        'Representar cenas ou textos dramáticos, considerando, na caracterização dos personagens, os aspectos linguísticos e paralinguísticos das falas (timbre e tom de voz, pausas e hesitações, entonação e expressividade, variedades e registros linguísticos), os gestos e os deslocamentos no espaço cênico, o figurino e a maquiagem e elaborando as rubricas indicadas pelo autor por meio do cenário, da trilha sonora e da exploração dos modos de interpretação.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP53',
-      Habilidade:
-        'Ler em voz alta textos literários diversos como contos de amor, de humor, de suspense, de terror; crônicas líricas, humorísticas, críticas; bem como leituras orais capituladas (compartilhadas ou não com o professor) de livros de maior extensão, como romances, narrativas de enigma, narrativas de aventura, literatura infantojuvenil, contar/recontar histórias tanto da tradição oral (causos, contos de esperteza, contos de animais, contos de amor, contos de encantamento, piadas, dentre outros) quanto da tradição literária escrita, expressando a compreensão e interpretação do texto por meio de uma leitura ou fala expressiva e fluente, que respeite o ritmo, as pausas, as hesitações, a entonação indicados tanto pela pontuação quanto por outros recursos gráfico-editoriais, como negritos, itálicos, caixa-alta, ilustrações etc., gravando essa leitura ou esse conto/reconto, seja para análise posterior, seja para produção de audiobooks de textos literários diversos ou de podcasts de leituras dramáticas com ou sem efeitos especiais e ler e/ou declamar poemas diversos, tanto de forma livre quanto de forma fixa (como quadras, sonetos, liras, haicais etc.), empregando os recursos linguísticos, paralinguísticos e cinésicos necessários aos efeitos de sentido pretendidos, como o ritmo e a entonação, o emprego de pausas e prolongamentos, o tom e o timbre vocais, bem como eventuais recursos de gestualidade e pantomima que convenham ao gênero poético e à situação de compartilhamento em questão.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP54',
-      Habilidade:
-        'Analisar os efeitos de sentido decorrentes da interação entre os elementos linguísticos e os recursos paralinguísticos e cinésicos, como as variações no ritmo, as modulações no tom de voz, as pausas, as manipulações do estrato sonoro da linguagem, obtidos por meio da estrofação, das rimas e de figuras de linguagem como as aliterações, as assonâncias, as onomatopeias, dentre outras, a postura corporal e a gestualidade, na declamação de poemas, apresentações musicais e teatrais, tanto em gêneros em prosa quanto nos gêneros poéticos, os efeitos de sentido decorrentes do emprego de figuras de linguagem, tais como comparação, metáfora, personificação, metonímia, hipérbole, eufemismo, ironia, paradoxo e antítese e os efeitos de sentido decorrentes do emprego de palavras e expressões denotativas e conotativas (adjetivos, locuções adjetivas, orações subordinadas adjetivas etc.), que funcionam como modificadores, percebendo sua função na caracterização dos espaços, tempos, personagens e ações próprios de cada gênero narrativo.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP55',
-      Habilidade:
-        'Reconhecer as variedades da língua falada, o conceito de norma-padrão e o de preconceito linguístico.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF69LP56',
-      Habilidade:
-        'Fazer uso consciente e reflexivo de regras e normas da norma-padrão em situações de fala e escrita nas quais ela deve ser usada.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP01',
-      Habilidade:
-        'Reconhecer a impossibilidade de uma neutralidade absoluta no relato de fatos e identificar diferentes graus de parcialidade/imparcialidade dados pelo recorte feito e pelos efeitos de sentido advindos de escolhas feitas pelo autor, de forma a poder desenvolver uma atitude crítica frente aos textos jornalísticos e tornar-se consciente das escolhas feitas enquanto produtor de textos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP01',
-      Habilidade:
-        'Distinguir diferentes propostas editoriais - sensacionalismo, jornalismo investigativo etc. -, de forma a identificar os recursos utilizados para impactar/chocar o leitor que podem comprometer uma análise crítica da notícia e do fato noticiado.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP02',
-      Habilidade:
-        'Estabelecer relação entre os diferentes gêneros jornalísticos, compreendendo a centralidade da notícia.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP02',
-      Habilidade:
-        'Comparar notícias e reportagens sobre um mesmo fato divulgadas em diferentes mídias, analisando as especificidades das mídias, os processos de (re)elaboração dos textos e a convergência das mídias em notícias ou reportagens multissemióticas.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP01',
-      Habilidade:
-        'Analisar a estrutura e funcionamento dos hiperlinks em textos noticiosos publicados na Web e vislumbrar possibilidades de uma escrita hipertextual.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP02',
-      Habilidade:
-        'Explorar o espaço reservado ao leitor nos jornais, revistas, impressos e on-line, sites noticiosos etc., destacando notícias, fotorreportagens, entrevistas, charges, assuntos, temas, debates em foco, posicionando-se de maneira ética e respeitosa frente a esses textos e opiniões a eles relacionadas, e publicar notícias, notas jornalísticas, fotorreportagem de interesse geral nesses espaços do leitor.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP03',
-      Habilidade:
-        'Comparar informações sobre um mesmo fato divulgadas em diferentes veículos e mídias, analisando e avaliando a confiabilidade.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP04',
-      Habilidade:
-        'Distinguir, em segmentos descontínuos de textos, fato da opinião enunciada em relação a esse mesmo fato.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP05',
-      Habilidade:
-        'Identificar e avaliar teses/opiniões/posicionamentos explícitos e argumentos em textos argumentativos (carta de leitor, comentário, artigo de opinião, resenha crítica etc.), manifestando concordância ou discordância.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP06',
-      Habilidade:
-        'Identificar os efeitos de sentido provocados pela seleção lexical, topicalização de elementos e seleção e hierarquização de informações, uso de 3ª pessoa etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP07',
-      Habilidade:
-        'Identificar o uso de recursos persuasivos em textos argumentativos diversos (como a elaboração do título, escolhas lexicais, construções metafóricas, a explicitação ou a ocultação de fontes de informação) e perceber seus efeitos de sentido.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP08',
-      Habilidade:
-        'Identificar os efeitos de sentido devidos à escolha de imagens estáticas, sequenciação ou sobreposição de imagens, definição de figura/fundo, ângulo, profundidade e foco, cores/tonalidades, relação com o escrito (relações de reiteração, complementação ou oposição) etc. em notícias, reportagens, fotorreportagens, foto-denúncias, memes, gifs, anúncios publicitários e propagandas publicados em jornais, revistas, sites na internet etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP09',
-      Habilidade:
-        'Planejar notícia impressa e para circulação em outras mídias (rádio ou TV/vídeo), tendo em vista as condições de produção, do texto objetivo, leitores/espectadores, veículos e mídia de circulação etc., a partir da escolha do fato a ser noticiado (de relevância para a turma, escola ou comunidade), do levantamento de dados e informações sobre o fato - que pode envolver entrevistas com envolvidos ou com especialistas, consultas a fontes, análise de documentos, cobertura de eventos etc.-, do registro dessas informações e dados, da escolha de fotos ou imagens a produzir ou a utilizar etc. e a previsão de uma estrutura hipertextual (no caso de publicação em sites ou blogs noticiosos).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP10',
-      Habilidade:
-        'Produzir notícia impressa tendo em vista características do gênero - título ou manchete com verbo no tempo presente, linha fina (opcional), lide, progressão dada pela ordem decrescente de importância dos fatos, uso de 3ª pessoa, de palavras que indicam precisão, e o estabelecimento adequado de coesão e produzir notícia para TV, rádio e internet, tendo em vista, além das características do gênero, os recursos de mídias disponíveis e o manejo de recursos de captação e edição de áudio e imagem.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP11',
-      Habilidade:
-        'Planejar resenhas, vlogs, vídeos e podcasts variados, e textos e vídeos de apresentação e apreciação próprios das culturas juvenis (algumas possibilidades: fanzines, fanclipes, e-zines, gameplay, detonado etc.), dentre outros, tendo em vista as condições de produção do texto objetivo, leitores/espectadores, veículos e mídia de circulação etc., a partir da escolha de uma produção ou evento cultural para analisar - livro, filme, série, game, canção, videoclipe, fanclipe, show, saraus, slams etc. da busca de informação sobre a produção ou evento escolhido, da síntese de informações sobre a obra/evento e do elenco/seleção de aspectos, elementos ou recursos que possam ser destacados positiva ou negativamente ou da roteirização do passo a passo do game para posterior gravação dos vídeos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP12',
-      Habilidade:
-        'Produzir resenhas críticas, vlogs, vídeos, podcasts variados e produções e gêneros próprios das culturas juvenis (algumas possibilidades: fanzines, fanclipes, e-zines, gameplay, detonado etc.), que apresentem/descrevam e/ou avaliem produções culturais (livro, filme, série, game, canção, disco, videoclipe etc.) ou evento (show, sarau, slam etc.), tendo em vista o contexto de produção dado, as características do gênero, os recursos das mídias envolvidas e a textualização adequada dos textos e/ou produções.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP13',
-      Habilidade:
-        'Produzir, revisar e editar textos publicitários, levando em conta o contexto de produção dado, explorando recursos multissemióticos, relacionando elementos verbais e visuais, utilizando adequadamente estratégias discursivas de persuasão e/ou convencimento e criando título ou slogan que façam o leitor motivar-se a interagir com o texto produzido e se sinta atraído pelo serviço, ideia ou produto em questão.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP14',
-      Habilidade:
-        'Definir o contexto de produção da entrevista (objetivos, o que se pretende conseguir, porque aquele entrevistado etc.), levantar informações sobre o entrevistado e sobre o acontecimento ou tema em questão, preparar o roteiro de perguntar e realizar entrevista oral com envolvidos ou especialistas relacionados com o fato noticiado ou com o tema em pauta, usando roteiro previamente elaborado e formulando outras perguntas a partir das respostas dadas e, quando for o caso, selecionar partes, transcrever e proceder a uma edição escrita do texto, adequando-o a seu contexto de publicação, à construção composicional do gênero e garantindo a relevância das informações mantidas e a continuidade temática.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP15',
-      Habilidade:
-        'Identificar a proibição imposta ou o direito garantido, bem como as circunstâncias de sua aplicação, em artigos relativos a normas, regimentos escolares, regimentos e estatutos da sociedade civil, regulamentações para o mercado publicitário, Código de Defesa do Consumidor, Código Nacional de Trânsito, ECA, Constituição, dentre outros.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP16',
-      Habilidade:
-        'Explorar e analisar espaços de reclamação de direitos e de envio de solicitações (tais como ouvidorias, SAC, canais ligados a órgãos públicos, plataformas do consumidor, plataformas de reclamação), bem como de textos pertencentes a gêneros que circulam nesses espaços, reclamação ou carta de reclamação, solicitação ou carta de solicitação, como forma de ampliar as possibilidades de produção desses textos em casos que remetam a reivindicações que envolvam a escola, a comunidade ou algum de seus membros como forma de se engajar na busca de solução de problemas pessoais, dos outros e coletivos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP17',
-      Habilidade:
-        'Analisar, a partir do contexto de produção, a forma de organização das cartas de solicitação e de reclamação (datação, forma de início, apresentação contextualizada do pedido ou da reclamação, em geral, acompanhada de explicações, argumentos e/ou relatos do problema, fórmula de finalização mais ou menos cordata, dependendo do tipo de carta e subscrição) e algumas das marcas linguísticas relacionadas à argumentação, explicação ou relato de fatos, como forma de possibilitar a escrita fundamentada de cartas como essas ou de postagens em canais próprios de reclamações e solicitações em situações que envolvam questões relativas à escola, à comunidade ou a algum dos seus membros.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP18',
-      Habilidade:
-        'Identificar o objeto da reclamação e/ou da solicitação e sua sustentação, explicação ou justificativa, de forma a poder analisar a pertinência da solicitação ou justificação.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP19',
-      Habilidade:
-        'Realizar levantamento de questões, problemas que requeiram a denúncia de desrespeito a direitos, reivindicações, reclamações, solicitações que contemplem a comunidade escolar ou algum de seus membros e examinar normas e legislações.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP20',
-      Habilidade:
-        'Realizar pesquisa, a partir de recortes e questões definidos previamente, usando fontes indicadas e abertas.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP21',
-      Habilidade:
-        'Divulgar resultados de pesquisas por meio de apresentações orais, painéis, artigos de divulgação científica, verbetes de enciclopédia, podcasts científicos etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP22',
-      Habilidade:
-        'Produzir resumos, a partir das notas e/ou esquemas feitos, com o uso adequado de paráfrases e citações.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP23',
-      Habilidade:
-        'Respeitar os turnos de fala, na participação em conversações e em discussões ou atividades coletivas, na sala de aula e na escola e formular perguntas coerentes e adequadas em momentos oportunos em situações de aulas, apresentação oral, seminário etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP24',
-      Habilidade:
-        'Tomar nota de aulas, apresentações orais, entrevistas (ao vivo, áudio, TV, vídeo), identificando e hierarquizando as informações principais, tendo em vista apoiar o estudo e a produção de sínteses e reflexões pessoais ou outros objetivos em questão.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP25',
-      Habilidade:
-        'Reconhecer e utilizar os critérios de organização tópica (do geral para o específico, do específico para o geral etc.), as marcas linguísticas dessa organização (marcadores de ordenação e enumeração, de explicação, definição e exemplificação, por exemplo) e os mecanismos de paráfrase, de maneira a organizar mais adequadamente a coesão e a progressão temática de seus textos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP26',
-      Habilidade:
-        'Reconhecer a estrutura de hipertexto em textos de divulgação científica e proceder à remissão a conceitos e relações por meio de notas de rodapés ou boxes.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP27',
-      Habilidade:
-        'Analisar, entre os textos literários e entre estes e outras manifestações artísticas (como cinema, teatro, música, artes visuais e midiáticas), referências explícitas ou implícitas a outros textos, quanto aos temas, personagens e recursos literários e semióticos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP28',
-      Habilidade:
-        'Ler, de forma autônoma, e compreender - selecionando procedimentos e estratégias de leitura adequados a diferentes objetivos e levando em conta características dos gêneros e suportes-, romances infantojuvenis, contos populares, contos de terror, lendas brasileiras, indígenas e africanas, narrativas de aventuras, narrativas de enigma, mitos, crônicas, autobiografias, histórias em quadrinhos, mangás, poemas de forma livre e fixa (como sonetos e cordéis), vídeo-poemas, poemas visuais, dentre outros, expressando avaliação sobre o texto lido e estabelecendo preferências por gêneros, temas, autores.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP29',
-      Habilidade:
-        'Identificar, em texto dramático, personagem, ato, cena, fala e indicações cênicas e a organização do texto: enredo, conflitos, ideias principais, pontos de vista, universos de referência.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP30',
-      Habilidade:
-        'Criar narrativas ficcionais, tais como contos populares, contos de suspense, mistério, terror, humor, narrativas de enigma, crônicas, histórias em quadrinhos, dentre outros, que utilizem cenários e personagens realistas ou de fantasia, observando os elementos da estrutura narrativa próprios ao gênero pretendido, tais como enredo, personagens, tempo, espaço e narrador, utilizando tempos verbais adequados à narração de fatos passados, empregando conhecimentos sobre diferentes modos de se iniciar uma história e de inserir os discursos direto e indireto.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP31',
-      Habilidade:
-        'Criar poemas compostos por versos livres e de forma fixa (como quadras e sonetos), utilizando recursos visuais, semânticos e sonoros, tais como cadências, ritmos e rimas, e poemas visuais e vídeo-poemas, explorando as relações entre imagem e texto verbal, a distribuição da mancha gráfica (poema visual) e outros recursos visuais e sonoros.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP32',
-      Habilidade:
-        'Escrever palavras com correção ortográfica, obedecendo as convenções da língua escrita.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP33',
-      Habilidade: 'Pontuar textos adequadamente.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP03',
-      Habilidade:
-        'Analisar diferenças de sentido entre palavras de uma série sinonímica.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP03',
-      Habilidade:
-        'Formar, com base em palavras primitivas, palavras derivadas com os prefixos e sufixos mais produtivos no português.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP34',
-      Habilidade:
-        'Formar antônimos com acréscimo de prefixos que expressam noção de negação.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP35',
-      Habilidade:
-        'Distinguir palavras derivadas por acréscimo de afixos e palavras compostas.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP04',
-      Habilidade:
-        'Analisar a função e as flexões de substantivos e adjetivos e de verbos nos modos Indicativo, Subjuntivo e Imperativo: afirmativo e negativo.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP05',
-      Habilidade:
-        'Identificar os efeitos de sentido dos modos verbais, considerando o gênero textual e a intenção comunicativa.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP06',
-      Habilidade:
-        'Empregar, adequadamente, as regras de concordância nominal (relações entre os substantivos e seus determinantes) e as regras de concordância verbal (relações entre o verbo e o sujeito simples e composto).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP04',
-      Habilidade: 'Reconhecer, em textos, o verbo como o núcleo das orações.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP05',
-      Habilidade:
-        'Identificar, em orações de textos lidos ou de produção própria, verbos de predicação completa e incompleta: intransitivos e transitivos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP06',
-      Habilidade:
-        'Empregar as regras básicas de concordância nominal e verbal em situações comunicativas e na produção de textos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP07',
-      Habilidade:
-        'Identificar, em textos lidos ou de produção própria, a estrutura básica da oração: sujeito, predicado, complemento (objetos direto e indireto).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP08',
-      Habilidade:
-        'Identificar, em textos lidos ou de produção própria, adjetivos que ampliam o sentido do substantivo sujeito ou complemento verbal.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP07',
-      Habilidade:
-        'Identificar, em textos, períodos compostos por orações separadas por vírgula sem a utilização de conectivos, nomeando-os como períodos compostos por coordenação.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP09',
-      Habilidade:
-        'Identificar, em textos lidos ou de produção própria, advérbios e locuções adverbiais que ampliam o sentido do verbo núcleo da oração.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP08',
-      Habilidade:
-        'Identificar, em texto ou sequência textual, orações como unidades constituídas em torno de um núcleo verbal e períodos como conjunto de orações conectadas.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP10',
-      Habilidade:
-        'Utilizar, ao produzir texto, conhecimentos linguísticos e gramaticais: modos e tempos verbais, concordância nominal e verbal, pontuação etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP09',
-      Habilidade:
-        'Classificar, em texto ou sequência textual, os períodos simples compostos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP11',
-      Habilidade:
-        'Identificar, em textos lidos ou de produção própria, períodos compostos nos quais duas orações são conectadas por vírgula, ou por conjunções que expressem soma de sentido (conjunção "e") ou oposição de sentidos (conjunções "mas", "porém").',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP10',
-      Habilidade:
-        'Identificar sintagmas nominais e verbais como constituintes imediatos da oração.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP11',
-      Habilidade:
-        'Utilizar, ao produzir texto, conhecimentos linguísticos e gramaticais: tempos verbais, concordância nominal e verbal, regras ortográficas, pontuação etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF06LP12',
-      Habilidade:
-        'Utilizar, ao produzir texto, recursos de coesão referencial (nome e pronomes), recursos semânticos de sinonímia, antonímia e homonímia e mecanismos de representação de diferentes vozes (discurso direto e indireto).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP12',
-      Habilidade:
-        'Reconhecer recursos de coesão referencial: substituições lexicais (de substantivos por sinônimos) ou pronominais (uso de pronomes anafóricos - pessoais, possessivos, demonstrativos).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP36',
-      Habilidade:
-        'Utilizar, ao produzir texto, recursos de coesão referencial (léxica e pronominal) e sequencial e outros recursos expressivos adequados ao gênero textual.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP13',
-      Habilidade:
-        'Estabelecer relações entre partes do texto, identificando substituições lexicais (de substantivos por sinônimos) ou pronominais (uso de pronomes anafóricos pessoais, possessivos, demonstrativos), que contribuem para a continuidade do texto.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP37',
-      Habilidade:
-        'Analisar, em diferentes textos, os efeitos de sentido decorrentes do uso de recursos linguístico-discursivos de prescrição, causalidade, sequências descritivas e expositivas e ordenação de eventos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF07LP14',
-      Habilidade:
-        'Identificar, em textos, os efeitos de sentido do uso de estratégias de modalização e argumentatividade.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF67LP38',
-      Habilidade:
-        'Analisar os efeitos de sentido do uso de figuras de linguagem, como comparação, metáfora, metonímia, personificação, hipérbole, dentre outras.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP01',
-      Habilidade:
-        'Analisar os interesses que movem o campo jornalístico, os efeitos das novas tecnologias no campo e as condições que fazem da informação uma mercadoria, de forma a poder desenvolver uma atitude crítica frente aos textos jornalísticos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP01',
-      Habilidade:
-        'Identificar e comparar as várias editorias de jornais impressos e digitais e de sites noticiosos, de forma a refletir sobre os tipos de fato que são noticiados e comentados, as escolhas sobre o que noticiar e o que não noticiar e o destaque/enfoque dado e a fidedignidade da informação.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP01',
-      Habilidade:
-        'Analisar o fenômeno da disseminação de notícias falsas nas redes sociais e desenvolver estratégias para reconhecê-las, a partir da verificação/avaliação da fidedignidade do veículo, fonte, data e local da publicação, autoria, URL, da análise da formatação, da comparação de diferentes fontes, da consulta a sites de curadoria que atestam a fidedignidade do relato dos fatos e denunciam boatos etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP02',
-      Habilidade:
-        'Analisar diferentes práticas (curtir, compartilhar, comentar, curar etc.) e textos pertencentes a diferentes gêneros da cultura digital (meme, gif, comentário, charge digital etc.) envolvidos no trato com a informação e opinião, de forma a possibilitar uma presença mais crítica e ética nas redes.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP03',
-      Habilidade:
-        'Analisar textos de opinião (artigos de opinião, editoriais, cartas de leitores, comentários, posts de blog e de redes sociais, charges, memes, gifs etc.) e posicionar-se de forma crítica e fundamentada, ética e respeitosa frente a fatos e opiniões relacionados a esses textos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP02',
-      Habilidade:
-        'Justificar diferenças ou semelhanças no tratamento dado a uma mesma informação veiculada em textos diferentes, consultando sites e serviços de checadores de fatos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP02',
-      Habilidade:
-        'Analisar e comentar a cobertura da imprensa sobre fatos de relevância social, comparando diferentes enfoques por meio do uso de ferramentas de curadoria.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP04',
-      Habilidade:
-        'Identificar e avaliar teses/opiniões/posicionamentos explícitos e implícitos, argumentos e contra-argumentos em textos argumentativos do campo (carta de leitor, comentário, artigo de opinião, resenha crítica etc.), posicionando-se frente à questão controversa de forma sustentada.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP05',
-      Habilidade:
-        'Analisar o efeito de sentido produzido pelo uso, em textos, de recurso a formas de apropriação textual (paráfrases, citações, discurso direto, indireto ou indireto livre).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP06',
-      Habilidade:
-        'Analisar o uso de recursos persuasivos em textos argumentativos diversos (como a elaboração do título, escolhas lexicais, construções metafóricas, a explicitação ou a ocultação de fontes de informação) e seus efeitos de sentido.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP07',
-      Habilidade:
-        'Analisar, em notícias, reportagens e peças publicitárias em várias mídias, os efeitos de sentido devidos ao tratamento e à composição dos elementos nas imagens em movimento, à performance, à montagem feita (ritmo, duração e sincronização entre as linguagens - complementaridades, interferências etc.) e ao ritmo, melodia, instrumentos e sampleamentos das músicas e efeitos sonoros.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP08',
-      Habilidade:
-        'Planejar reportagem impressa e em outras mídias (rádio ou TV/vídeo, sites), tendo em vista as condições de produção do texto - objetivo, leitores/espectadores, veículos e mídia de circulação etc. a partir da escolha do fato a ser aprofundado ou do tema a ser focado (de relevância para a turma, escola ou comunidade), do levantamento de dados e informações sobre o fato ou tema que pode envolver entrevistas com envolvidos ou com especialistas, consultas a fontes diversas, análise de documentos, cobertura de eventos etc. -, do registro dessas informações e dados, da escolha de fotos ou imagens a produzir ou a utilizar etc., da produção de infográficos, quando for o caso, e da organização hipertextual (no caso a publicação em sites ou blogs noticiosos ou mesmo de jornais impressos, por meio de boxes variados).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP09',
-      Habilidade:
-        'Produzir reportagem impressa, com título, linha fina (optativa), organização composicional (expositiva, interpretativa e/ou opinativa), progressão temática e uso de recursos linguísticos compatíveis com as escolhas feitas e reportagens multimidiáticas, tendo em vista as condições de produção, as características do gênero, os recursos e mídias disponíveis, sua organização hipertextual e o manejo adequado de recursos de captação e edição de áudio e imagem e adequação à norma-padrão.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP10',
-      Habilidade:
-        'Planejar artigos de opinião, tendo em vista as condições de produção do texto - objetivo, leitores/espectadores, veículos e mídia de circulação etc., a partir da escolha do tema ou questão a ser discutido(a), da relevância para a turma, escola ou comunidade, do levantamento de dados e informações sobre a questão, de argumentos relacionados a diferentes posicionamentos em jogo, da definição - o que pode envolver consultas a fontes diversas, entrevistas com especialistas, análise de textos, organização esquemática das informações e argumentos - dos (tipos de) argumentos e estratégias que pretende utilizar para convencer os leitores.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP03',
-      Habilidade:
-        'Produzir artigos de opinião, tendo em vista o contexto de produção dado, assumindo posição diante de tema polêmico, argumentando de acordo com a estrutura própria desse tipo de texto e utilizando diferentes tipos de argumentos - de autoridade, comprovação, exemplificação princípio etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP03',
-      Habilidade:
-        'Produzir artigos de opinião, tendo em vista o contexto de produção dado, a defesa de um ponto de vista, utilizando argumentos e contra-argumentos e articuladores de coesão que marquem relações de oposição, contraste, exemplificação, ênfase.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP11',
-      Habilidade:
-        'Produzir, revisar e editar peças e campanhas publicitárias, envolvendo o uso articulado e complementar de diferentes peças publicitárias: cartaz, banner, indoor, folheto, panfleto, anúncio de jornal/revista, para internet, spot, propaganda de rádio, TV, a partir da escolha da questão/problema/causa significativa para a escola e/ou a comunidade escolar, da definição do público-alvo, das peças que serão produzidas, das estratégias de persuasão e convencimento que serão utilizadas.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP12',
-      Habilidade:
-        'Planejar coletivamente a realização de um debate sobre tema previamente definido, de interesse coletivo, com regras acordadas e planejar, em grupo, participação em debate a partir do levantamento de informações e argumentos que possam sustentar o posicionamento a ser defendido (o que pode envolver entrevistas com especialistas, consultas a fontes diversas, o registro das informações e dados obtidos etc.), tendo em vista as condições de produção do debate perfil dos ouvintes e demais participantes, objetivos do debate, motivações para sua realização, argumentos e estratégias de convencimento mais eficazes etc. e participar de debates regrados, na condição de membro de uma equipe de debatedor, apresentador/mediador, espectador (com ou sem direito a perguntas), e/ou de juiz/avaliador, como forma de compreender o funcionamento do debate, e poder participar de forma convincente, ética, respeitosa e crítica e desenvolver uma atitude de respeito e diálogo para com as ideias divergentes.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP13',
-      Habilidade:
-        'Planejar entrevistas orais com pessoas ligadas ao fato noticiado, especialistas etc., como forma de obter dados e informações sobre os fatos cobertos sobre o tema ou questão discutida ou temáticas em estudo, levando em conta o gênero e seu contexto de produção, partindo do levantamento de informações sobre o entrevistado e sobre a temática e da elaboração de um roteiro de perguntas, garantindo a relevância das informações mantidas e a continuidade temática, realizar entrevista e fazer edição em áudio ou vídeo, incluindo uma contextualização inicial e uma fala de encerramento para publicação da entrevista isoladamente ou como parte integrante de reportagem multimidiática, adequando-a a seu contexto de publicação e garantindo a relevância das informações mantidas e a continuidade temática.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP14',
-      Habilidade:
-        'Analisar, em textos argumentativos e propositivos, os movimentos argumentativos de sustentação, refutação e negociação e os tipos de argumentos, avaliando a força/tipo dos argumentos utilizados.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP15',
-      Habilidade:
-        'Utilizar, nos debates, operadores argumentativos que marcam a defesa de ideia e de diálogo com a tese do outro: concordo, discordo, concordo parcialmente, do meu ponto de vista, na perspectiva aqui assumida etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP16',
-      Habilidade:
-        'Analisar a modalização realizada em textos noticiosos e argumentativos, por meio das modalidades apreciativas, viabilizadas por classes e estruturas gramaticais como adjetivos, locuções adjetivas, advérbios, locuções adverbiais, orações adjetivas e adverbiais, orações relativas restritivas e explicativas etc., de maneira a perceber a apreciação ideológica sobre os fatos noticiados ou as posições implícitas ou assumidas.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP17',
-      Habilidade:
-        'Relacionar textos e documentos legais e normativos de importância universal, nacional ou local que envolvam direitos, em especial, de crianças, adolescentes e jovens - tais como a Declaração dos Direitos Humanos, a Constituição Brasileira, o ECA-, e a regulamentação da organização escolar - por exemplo, regimento escolar, a seus contextos de produção, reconhecendo e analisando possíveis motivações, finalidades e sua vinculação com experiências humanas e fatos históricos e sociais, como forma de ampliar a compreensão dos direitos e deveres, de fomentar os princípios democráticos e uma atuação pautada pela ética da responsabilidade (o outro tem direito a uma vida digna tanto quanto eu tenho).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP18',
-      Habilidade:
-        'Explorar e analisar instâncias e canais de participação disponíveis na escola (conselho de escola, outros colegiados, grêmio livre), na comunidade (associações, coletivos, movimentos, etc.), no município ou no país, incluindo formas de participação digital, como canais e plataformas de participação (como portal e-cidadania), serviços, portais e ferramentas de acompanhamentos do trabalho de políticos e de tramitação de leis, canais de educação política, bem como de propostas e proposições que circulam nesses canais, de forma a participar do debate de ideias e propostas na esfera social e a engajar-se com a busca de soluções para problemas ou questões que envolvam a vida da escola e da comunidade.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP19',
-      Habilidade:
-        'Analisar, a partir do contexto de produção, a forma de organização das cartas abertas, abaixo-assinados e petições on-line (identificação dos signatários, explicitação da reivindicação feita, acompanhada ou não de uma breve apresentação da problemática e/ou de justificativas que visam sustentar a reivindicação) e a proposição, discussão e aprovação de propostas políticas ou de soluções para problemas de interesse público, apresentadas ou lidas nos canais digitais de participação, identificando suas marcas linguísticas, como forma de possibilitar a escrita ou subscrição consciente de abaixo-assinados e textos dessa natureza e poder se posicionar de forma crítica e fundamentada frente às propostas.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP20',
-      Habilidade:
-        'Comparar propostas políticas e de solução de problemas, identificando o que se pretende fazer/implementar, por que (motivações, justificativas), para que (objetivos, benefícios e consequências esperados), como (ações e passos), quando etc. e a forma de avaliar a eficácia da proposta/solução, contrastando dados e informações de diferentes fontes, identificando coincidências, complementaridades e contradições, de forma a poder compreender e posicionar-se criticamente sobre os dados e informações usados em fundamentação de propostas e analisar a coerência entre os elementos, de forma a tomar decisões fundamentadas.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP21',
-      Habilidade:
-        'Realizar enquetes e pesquisas de opinião, de forma a levantar prioridades, problemas a resolver ou propostas que possam contribuir para melhoria da escola ou da comunidade, caracterizar demanda/necessidade, documentando-a de diferentes maneiras por meio de diferentes procedimentos, gêneros e mídias e, quando for o caso, selecionar informações e dados relevantes de fontes pertinentes diversas (sites, impressos, vídeos etc.), avaliando a qualidade e a utilidade dessas fontes, que possam servir de contextualização e fundamentação de propostas, de forma a justificar a proposição de propostas, projetos culturais e ações de intervenção.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP22',
-      Habilidade:
-        'Compreender e comparar as diferentes posições e interesses em jogo em uma discussão ou apresentação de propostas, avaliando a validade e força dos argumentos e as consequências do que está sendo proposto e, quando for o caso, formular e negociar propostas de diferentes naturezas relativas a interesses coletivos envolvendo a escola ou comunidade escolar.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP23',
-      Habilidade:
-        'Analisar, em textos argumentativos, reivindicatórios e propositivos, os movimentos argumentativos utilizados (sustentação, refutação e negociação), avaliando a força dos argumentos utilizados.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP24',
-      Habilidade:
-        'Realizar pesquisa, estabelecendo o recorte das questões, usando fontes abertas e confiáveis.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP25',
-      Habilidade:
-        'Divulgar o resultado de pesquisas por meio de apresentações orais, verbetes de enciclopédias colaborativas, reportagens de divulgação científica, vlogs científicos, vídeos de diferentes tipos etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP26',
-      Habilidade:
-        'Produzir resenhas, a partir das notas e/ou esquemas feitos, com o manejo adequado das vozes envolvidas (do resenhador, do autor da obra e, se for o caso, também dos autores citados na obra resenhada), por meio do uso de paráfrases, marcas do discurso reportado e citações.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP27',
-      Habilidade:
-        'Tecer considerações e formular problematizações pertinentes, em momentos oportunos, em situações de aulas, apresentação oral, seminário etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP28',
-      Habilidade:
-        'Tomar nota de videoaulas, aulas digitais, apresentações multimídias, vídeos de divulgação científica, documentários e afins, identificando, em função dos objetivos, informações principais para apoio ao estudo e realizando, quando necessário, uma síntese final que destaque e reorganize os pontos ou conceitos centrais e suas relações e que, em alguns casos, seja acompanhada de reflexões pessoais, que podem conter dúvidas, questionamentos, considerações etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP29',
-      Habilidade:
-        'Utilizar e perceber mecanismos de progressão temática, tais como retomadas anafóricas ("que, cujo, onde", pronomes do caso reto e oblíquos, pronomes demonstrativos, nomes correferentes etc.), catáforas (remetendo para adiante ao invés de retomar o já dito), uso de organizadores textuais, de coesivos etc., e analisar os mecanismos de reformulação e paráfrase utilizados nos textos de divulgação do conhecimento.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP30',
-      Habilidade:
-        'Analisar a estrutura de hipertexto e hiperlinks em textos de divulgação científica que circulam na Web e proceder à remissão a conceitos e relações por meio de links.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP31',
-      Habilidade:
-        'Analisar e utilizar modalização epistêmica, isto é, modos de indicar uma avaliação sobre o valor de verdade e as condições de verdade de uma proposição, tais como os asseverativos - quando se concorda com ("realmente, evidentemente, naturalmente, efetivamente, claro, certo, lógico, sem dúvida" etc.) ou discorda de ("de jeito nenhum, de forma alguma") uma ideia; e os quase-asseverativos, que indicam que se considera o conteúdo como quase certo ("talvez, assim, possivelmente, provavelmente, eventualmente").',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP32',
-      Habilidade:
-        'Analisar os efeitos de sentido decorrentes do uso de mecanismos de intertextualidade (referências, alusões, retomadas) entre os textos literários, entre esses textos literários e outras manifestações artísticas (cinema, teatro, artes visuais e midiáticas, música), quanto aos temas, personagens, estilos, autores etc., e entre o texto original e paródias, paráfrases, pastiches, trailer honesto, vídeos-minuto, vidding, dentre outros.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP33',
-      Habilidade:
-        'Ler, de forma autônoma, e compreender - selecionando procedimentos e estratégias de leitura adequados a diferentes objetivos e levando em conta características dos gêneros e suportes - romances, contos contemporâneos, minicontos, fábulas contemporâneas, romances juvenis, biografias romanceadas, novelas, crônicas visuais, narrativas de ficção científica, narrativas de suspense, poemas de forma livre e fixa (como haicai), poema concreto, ciberpoema, dentre outros, expressando avaliação sobre o texto lido e estabelecendo preferências por gêneros, temas, autores.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP34',
-      Habilidade:
-        'Analisar a organização de texto dramático apresentado em teatro, televisão, cinema, identificando e percebendo os sentidos decorrentes dos recursos linguísticos e semióticos que sustentam sua realização como peça teatral, novela, filme etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP35',
-      Habilidade:
-        'Criar contos ou crônicas (em especial, líricas), crônicas visuais, minicontos, narrativas de aventura e de ficção científica, dentre outros, com temáticas próprias ao gênero, usando os conhecimentos sobre os constituintes estruturais e recursos expressivos típicos dos gêneros narrativos pretendidos, e, no caso de produção em grupo, ferramentas de escrita colaborativa.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP36',
-      Habilidade:
-        'Parodiar poemas conhecidos da literatura e criar textos em versos (como poemas concretos, ciberpoemas, haicais, liras, microrroteiros, lambe-lambes e outros tipos de poemas), explorando o uso de recursos sonoros e semânticos (como figuras de linguagem e jogos de palavras) e visuais (como relações entre imagem e texto verbal e distribuição da mancha gráfica), de forma a propiciar diferentes efeitos de sentido.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP04',
-      Habilidade:
-        'Utilizar, ao produzir texto, conhecimentos linguísticos e gramaticais: ortografia, regências e concordâncias nominal e verbal, modos e tempos verbais, pontuação etc.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP05',
-      Habilidade:
-        'Analisar processos de formação de palavras por composição (aglutinação e justaposição), apropriando-se de regras básicas de uso do hífen em palavras compostas.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP04',
-      Habilidade:
-        'Escrever textos corretamente, de acordo com a norma-padrão, com estruturas sintáticas complexas no nível da oração e do período.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP06',
-      Habilidade:
-        'Identificar, em textos lidos ou de produção própria, os termos constitutivos da oração (sujeito e seus modificadores, verbo e seus complementos e modificadores).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP07',
-      Habilidade:
-        'Diferenciar, em textos lidos ou de produção própria, complementos diretos e indiretos de verbos transitivos, apropriando-se da regência de verbos de uso frequente.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP05',
-      Habilidade:
-        'Identificar, em textos lidos e em produções próprias, orações com a estrutura sujeito-verbo de ligação-predicativo.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP06',
-      Habilidade:
-        'Diferenciar, em textos lidos e em produções próprias, o efeito de sentido do uso dos verbos de ligação "ser", "estar", "ficar", "parecer" e "permanecer".',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP08',
-      Habilidade:
-        'Identificar, em textos lidos ou de produção própria, verbos na voz ativa e na voz passiva, interpretando os efeitos de sentido de sujeito ativo e passivo (agente da passiva).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP09',
-      Habilidade:
-        'Interpretar efeitos de sentido de modificadores (adjuntos adnominais - artigos definido ou indefinido, adjetivos, expressões adjetivas) em substantivos com função de sujeito ou de complemento verbal, usando-os para enriquecer seus próprios textos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP10',
-      Habilidade:
-        'Interpretar, em textos lidos ou de produção própria, efeitos de sentido de modificadores do verbo (adjuntos adverbiais - advérbios e expressões adverbiais), usando-os para enriquecer seus próprios textos.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP11',
-      Habilidade:
-        'Identificar, em textos lidos ou de produção própria, agrupamento de orações em períodos, diferenciando coordenação de subordinação.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP12',
-      Habilidade:
-        'Identificar, em textos lidos, orações subordinadas com conjunções de uso frequente, incorporando-as às suas próprias produções.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP13',
-      Habilidade:
-        'Inferir efeitos de sentido decorrentes do uso de recursos de coesão sequencial: conjunções e articuladores textuais.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP07',
-      Habilidade:
-        'Comparar o uso de regência verbal e regência nominal na norma-padrão com seu uso no português brasileiro coloquial oral.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP08',
-      Habilidade:
-        'Identificar, em textos lidos e em produções próprias, a relação que conjunções (e locuções conjuntivas) coordenativas e subordinativas estabelecem entre as orações que conectam.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP09',
-      Habilidade:
-        'Identificar efeitos de sentido do uso de orações adjetivas restritivas e explicativas em um período composto.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP14',
-      Habilidade:
-        'Utilizar, ao produzir texto, recursos de coesão sequencial (articuladores) e referencial (léxica e pronominal), construções passivas e impessoais, discurso direto e indireto e outros recursos expressivos adequados ao gênero textual.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP15',
-      Habilidade:
-        'Estabelecer relações entre partes do texto, identificando o antecedente de um pronome relativo ou o referente comum de uma cadeia de substituições lexicais.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP10',
-      Habilidade:
-        'Comparar as regras de colocação pronominal na norma-padrão com o seu uso no português brasileiro coloquial.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP11',
-      Habilidade:
-        'Inferir efeitos de sentido decorrentes do uso de recursos de coesão sequencial (conjunções e articuladores textuais).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF08LP16',
-      Habilidade:
-        'Explicar os efeitos de sentido do uso, em textos, de estratégias de modalização e argumentatividade (sinais de pontuação, adjetivos, substantivos, expressões de grau, verbos e perífrases verbais, advérbios etc.).',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF89LP37',
-      Habilidade:
-        'Analisar os efeitos de sentido do uso de figuras de linguagem como ironia, eufemismo, antítese, aliteração, assonância, dentre outras.',
-    },
-    {
-      Disciplina: 'Língua Portuguesa',
-      Codigo: 'EF09LP12',
-      Habilidade:
-        'Identificar estrangeirismos, caracterizando-os segundo a conservação, ou não, de sua forma gráfica de origem, avaliando a pertinência, ou não, de seu uso.',
-    },
-  ];
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA01",
+    "Habilidade": "Comparar, ordenar, ler e escrever números naturais e números racionais cuja representação decimal é finita, fazendo uso da reta numérica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA02",
+    "Habilidade": "Reconhecer o sistema de numeração decimal, como o que prevaleceu no mundo ocidental, e destacar semelhanças e diferenças com outros sistemas, de modo a sistematizar suas principais características (base, valor posicional e função do zero), utilizando, inclusive, a composição e decomposição de números naturais e números racionais em sua representação decimal."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA03",
+    "Habilidade": "Resolver e elaborar problemas que envolvam cálculos (mentais ou escritos, exatos ou aproximados) com números naturais, por meio de estratégias variadas, com compreensão dos processos neles envolvidos, com e sem uso de calculadora."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA04",
+    "Habilidade": "Construir algoritmo em linguagem natural e representá-lo por fluxograma que indique a resolução de um problema simples (por exemplo, se um número natural qualquer é par)."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA05",
+    "Habilidade": "Classificar números naturais em primos e compostos, estabelecer relações entre números, expressas pelos termos “é múltiplo de”, “é divisor de”, “é fator de”, e estabelecer, por meio de investigações, critérios de divisibilidade por 2, 3, 4, 5, 6, 8, 9, 10, 100 e 1000."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA06",
+    "Habilidade": "Resolver e elaborar problemas que envolvam as ideias de múltiplo e de divisor."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA07",
+    "Habilidade": "Compreender, comparar e ordenar frações associadas às ideias de partes de inteiros e resultado de divisão, identificando frações equivalentes."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA08",
+    "Habilidade": "Reconhecer que os números racionais positivos podem ser expressos nas formas fracionária e decimal, estabelecer relações entre essas representações, passando de uma representação para outra, e relacioná-los a pontos na reta numérica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA09",
+    "Habilidade": "Resolver e elaborar problemas que envolvam o cálculo da fração de uma quantidade e cujo resultado seja um número natural, com e sem uso de calculadora."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA10",
+    "Habilidade": "Resolver e elaborar problemas que envolvam adição ou subtração com números racionais positivos na representação fracionária."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA11",
+    "Habilidade": "Resolver e elaborar problemas com números racionais positivos na representação decimal, envolvendo as quatro operações fundamentais e a potenciação, por meio de estratégias diversas, utilizando estimativas e arredondamentos para verificar a razoabilidade de respostas, com e sem uso de calculadora."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA12",
+    "Habilidade": "Fazer estimativas de quantidades e aproximar números para múltiplos da potência de 10 mais próxima."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA13",
+    "Habilidade": "Resolver e elaborar problemas que envolvam porcentagens, com base na ideia de proporcionalidade, sem fazer uso da “regra de três”, utilizando estratégias pessoais, cálculo mental e calculadora, em contextos de educação financeira, entre outros."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA14",
+    "Habilidade": "Reconhecer que a relação de igualdade matemática não se altera ao adicionar, subtrair, multiplicar ou dividir os seus dois membros por um mesmo número e utilizar essa noção para determinar valores desconhecidos na resolução de problemas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA15",
+    "Habilidade": "Resolver e elaborar problemas que envolvam a partilha de uma quantidade em duas partes desiguais, envolvendo relações aditivas e multiplicativas, bem como a razão entre as partes e entre uma das partes e o todo."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA16",
+    "Habilidade": "Associar pares ordenados de números a pontos do plano cartesiano do 1º quadrante, em situações como a localização dos vértices de um polígono."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA17",
+    "Habilidade": "Quantificar e estabelecer relações entre o número de vértices, faces e arestas de prismas e pirâmides, em função do seu polígono da base, para resolver problemas e desenvolver a percepção espacial."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA18",
+    "Habilidade": "Reconhecer, nomear e comparar polígonos, considerando lados, vértices e ângulos, e classificá-los em regulares e não regulares, tanto em suas representações no plano como em faces de poliedros."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA19",
+    "Habilidade": "Identificar características dos triângulos e classificá-los em relação às medidas dos lados e dos ângulos."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA20",
+    "Habilidade": "Identificar características dos quadriláteros, classificá-los em relação a lados e ângulos e reconhecer a inclusão e a intersecção de classes entre eles."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA21",
+    "Habilidade": "Construir figuras planas semelhantes em situações de ampliação e de redução, com o uso de malhas quadriculadas, plano cartesiano ou tecnologias digitais."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA22",
+    "Habilidade": "Utilizar instrumentos, como réguas e esquadros, ou softwares para representações de retas paralelas e perpendiculares e construção de quadriláteros, entre outros."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA23",
+    "Habilidade": "Construir algoritmo para resolver situações passo a passo (como na construção de dobraduras ou na indicação de deslocamento de um objeto no plano segundo pontos de referência e distâncias fornecidas etc.)."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA24",
+    "Habilidade": "Resolver e elaborar problemas que envolvam as grandezas comprimento, massa, tempo, temperatura, área (triângulos e retângulos), capacidade e volume (sólidos formados por blocos retangulares), sem uso de fórmulas, inseridos, sempre que possível, em contextos oriundos de situações reais e/ou relacionadas às outras áreas do conhecimento."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA25",
+    "Habilidade": "Reconhecer a abertura do ângulo como grandeza associada às figuras geométricas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA26",
+    "Habilidade": "Resolver problemas que envolvam a noção de ângulo em diferentes contextos e em situações reais, como ângulo de visão."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA27",
+    "Habilidade": "Determinar medidas da abertura de ângulos, por meio de transferidor e/ou tecnologias digitais."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA28",
+    "Habilidade": "Interpretar, descrever e desenhar plantas baixas simples de residências e vistas aéreas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA29",
+    "Habilidade": "Analisar e descrever mudanças que ocorrem no perímetro e na área de um quadrado ao se ampliarem ou reduzirem, igualmente, as medidas de seus lados, para compreender que o perímetro é proporcional à medida do lado, o que não ocorre com a área."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA30",
+    "Habilidade": "Calcular a probabilidade de um evento aleatório, expressando-a por número racional (forma fracionária, decimal e percentual) e comparar esse número com a probabilidade obtida por meio de experimentos sucessivos."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA31",
+    "Habilidade": "Identificar as variáveis e suas frequências e os elementos constitutivos (título, eixos, legendas, fontes e datas) em diferentes tipos de gráfico."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA32",
+    "Habilidade": "Interpretar e resolver situações que envolvam dados de pesquisas sobre questões ambientais, sustentabilidade, trânsito, consumo responsável, entre outros, apresentadas pela mídia em tabelas e em diferentes tipos de gráficos e redigir textos escritos com o objetivo de sintetizar conclusões."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA33",
+    "Habilidade": "Planejar e coletar dados de pesquisa referente a práticas sociais escolhidas pelos alunos e fazer uso de planilhas eletrônicas para registro, representação e interpretação das informações, em tabelas, vários tipos de gráficos e texto."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "6º ano",
+    "Codigo": "EF06MA34",
+    "Habilidade": "Interpretar e desenvolver fluxogramas simples, identificando as relações entre os objetos representados (por exemplo, posição de cidades considerando as estradas que as unem, hierarquia dos funcionários de uma empresa etc.)."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA01",
+    "Habilidade": "Resolver e elaborar problemas com números naturais, envolvendo as noções de divisor e de múltiplo, podendo incluir máximo divisor comum ou mínimo múltiplo comum, por meio de estratégias diversas, sem a aplicação de algoritmos."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA02",
+    "Habilidade": "Resolver e elaborar problemas que envolvam porcentagens, como os que lidam com acréscimos e decréscimos simples, utilizando estratégias pessoais, cálculo mental e calculadora, no contexto de educação financeira, entre outros."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA03",
+    "Habilidade": "Comparar e ordenar números inteiros em diferentes contextos, incluindo o histórico, associá-los a pontos da reta numérica e utilizá-los em situações que envolvam adição e subtração."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA04",
+    "Habilidade": "Resolver e elaborar problemas que envolvam operações com números inteiros."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA05",
+    "Habilidade": "Resolver um mesmo problema utilizando diferentes algoritmos."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA06",
+    "Habilidade": "Reconhecer que as resoluções de um grupo de problemas que têm a mesma estrutura pode ser obtidas utilizando os mesmos procedimentos."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA07",
+    "Habilidade": "Representar por meio de um fluxograma os passos utilizados para resolver um grupo de problemas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA08",
+    "Habilidade": "Comparar e ordenar frações associadas às ideias de partes de inteiros, resultado da divisão, razão e operador."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA09",
+    "Habilidade": "Utilizar, na resolução de problemas, a associação entre razão e fração, como a fração 2/3 para expressar a razão de duas partes de uma grandeza para três partes da mesma grandeza ou três partes de outra."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA10",
+    "Habilidade": "Comparar e ordenar números racionais em diferentes contextos e associá-los a pontos da reta numérica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA11",
+    "Habilidade": "Compreender e utilizar a multiplicação e a divisão de números racionais, a relação entre elas e suas propriedades operatórias."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA12",
+    "Habilidade": "Resolver e elaborar problemas que envolvam as operações com números racionais."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA13",
+    "Habilidade": "Compreender a ideia de variável, representada por letra ou símbolo, para expressar relação entre duas grandezas, diferenciando-a da ideia de incógnita."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA14",
+    "Habilidade": "Classificar sequências em recursivas e não recursivas, reconhecendo que o conceito de recursão está presente não apenas na Matemática, mas também nas artes e na literatura."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA15",
+    "Habilidade": "Utilizar a simbologia algébrica para expressar regularidades encontradas em sequências numéricas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA16",
+    "Habilidade": "Reconhecer se duas expressões algébricas obtidas para descrever a regularidade de uma mesma sequência numérica são ou não equivalentes."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA17",
+    "Habilidade": "Resolver e elaborar problemas que envolvam variação de proporcionalidade direta e de proporcionalidade inversa entre duas grandezas, utilizando sentença algébrica para expressar a relação entre elas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA18",
+    "Habilidade": "Resolver e elaborar problemas que possam ser representados por equações polinomiais de 1º grau, redutíveis à forma ax+b=c, fazendo uso das propriedades da igualdade."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA19",
+    "Habilidade": "Realizar transformações de polígonos representados no plano cartesiano, decorrentes da multiplicação das coordenadas de seus vértices por um número inteiro."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA20",
+    "Habilidade": "Reconhecer e representar, no plano cartesiano, o simétrico de figuras em relação aos eixos e à origem."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA21",
+    "Habilidade": "Reconhecer e construir figuras obtidas por simetrias de translação, rotação e reflexão, usando instrumentos de desenho ou softwares de geometria dinâmica e vincular esse estudo a representações planas de obras de arte, elementos arquitetônicos, entre outros."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA22",
+    "Habilidade": "Construir circunferências, utilizando compasso, reconhecê-las como lugar geométrico e utilizá-las para fazer composições artísticas e resolver problemas que envolvam objetos equidistantes."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA23",
+    "Habilidade": "Verificar relações entre os ângulos formados por retas paralelas cortadas por uma transversal, com e sem uso de softwares de geometria dinâmica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA24",
+    "Habilidade": "Construir triângulos, usando régua e compasso, reconhecer a condição de existência do triângulo quanto à medida dos lados e verificar que a soma das medidas dos ângulos internos de um triângulo é 180°."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA25",
+    "Habilidade": "Reconhecer a rigidez geométrica dos triângulos e suas aplicações, como na construção de estruturas arquitetônicas (telhados, estruturas metálicas e outras) ou nas artes plásticas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA26",
+    "Habilidade": "Descrever, por escrito e por meio de um fluxograma, um algoritmo para a construção de um triângulo qualquer, conhecidas as medidas dos três lados."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA27",
+    "Habilidade": "Calcular medidas de ângulos internos de polígonos regulares, sem o uso de fórmulas, e estabelecer relações entre ângulos internos e externos de polígonos, preferencialmente vinculadas à construção de mosaicos e de ladrilhamentos."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA28",
+    "Habilidade": "Descrever, por escrito e por meio de um fluxograma, um algoritmo para a construção de um polígono regular (como quadrado e triângulo equilátero), conhecida a medida de seu lado."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA29",
+    "Habilidade": "Resolver e elaborar problemas que envolvam medidas de grandezas inseridos em contextos oriundos de situações cotidianas ou de outras áreas do conhecimento, reconhecendo que toda medida empírica é aproximada."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA30",
+    "Habilidade": "Resolver e elaborar problemas de cálculo de medida do volume de blocos retangulares, envolvendo as unidades usuais (metro cúbico, decímetro cúbico e centímetro cúbico)."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA31",
+    "Habilidade": "Estabelecer expressões de cálculo de área de triângulos e de quadriláteros."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA32",
+    "Habilidade": "Resolver e elaborar problemas de cálculo de medida de área de figuras planas que podem ser decompostas por quadrados, retângulos e/ou triângulos, utilizando a equivalência entre áreas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA33",
+    "Habilidade": "Estabelecer o número como a razão entre a medida de uma circunferência e seu diâmetro, para compreender e resolver problemas, inclusive os de natureza histórica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA34",
+    "Habilidade": "Planejar e realizar experimentos aleatórios ou simulações que envolvem cálculo de probabilidades ou estimativas por meio de frequência de ocorrências."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA35",
+    "Habilidade": "Compreender, em contextos significativos, o significado de média estatística como indicador da tendência de uma pesquisa, calcular seu valor e relacioná-lo, intuitivamente, com a amplitude do conjunto de dados."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA36",
+    "Habilidade": "Planejar e realizar pesquisa envolvendo tema da realidade social, identificando a necessidade de ser censitária ou de usar amostra, e interpretar os dados para comunicá-los por meio de relatório escrito, tabelas e gráficos, com o apoio de planilhas eletrônicas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "7º ano",
+    "Codigo": "EF07MA37",
+    "Habilidade": "Interpretar e analisar dados apresentados em gráfico de setores divulgados pela mídia e compreender quando é possível ou conveniente sua utilização."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA01",
+    "Habilidade": "Efetuar cálculos com potências de expoentes inteiros e aplicar esse conhecimento na representação de números em notação científica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA02",
+    "Habilidade": "Resolver e elaborar problemas usando a relação entre potenciação e radiciação, para representar uma raiz como potência de expoente fracionário."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA03",
+    "Habilidade": "Resolver e elaborar problemas de contagem cuja resolução envolve a aplicação do princípio multiplicativo."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA04",
+    "Habilidade": "Resolver e elaborar problemas, envolvendo cálculo de porcentagens, incluindo o uso de tecnologias digitais."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA05",
+    "Habilidade": "Reconhecer e utilizar procedimentos para a obtenção de uma fração geratriz para uma dízima periódica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA06",
+    "Habilidade": "Resolver e elaborar problemas que envolvam cálculo do valor numérico de expressões algébricas, utilizando as propriedades das operações."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA07",
+    "Habilidade": "Associar uma equação linear de 1º grau com duas incógnitas a uma reta no plano cartesiano."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA08",
+    "Habilidade": "Resolver e elaborar problemas relacionados ao seu contexto próximo, que possam ser representados por sistemas de equações de 1º grau com duas incógnitas e interpretá-los, utilizando, inclusive, o plano cartesiano como recurso."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA09",
+    "Habilidade": "Resolver e elaborar, com e sem uso de tecnologias, problemas que possam ser representados por equações polinomiais de 2º grau do tipo ax2=b."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA10",
+    "Habilidade": "Identificar a regularidade de uma sequência numérica ou figural não recursiva e construir um algoritmo por meio de um fluxograma que permita indicar os números ou as figuras seguintes."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA11",
+    "Habilidade": "Identificar a regularidade de uma sequência numérica recursiva e construir um algoritmo por meio de um fluxograma que permita indicar os números seguintes."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA12",
+    "Habilidade": "Identificar a natureza da variação de duas grandezas, direta e inversamente proporcionais ou não proporcionais, expressando a relação existente por meio de sentença algébrica e representá-la no plano cartesiano."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA13",
+    "Habilidade": "Resolver e elaborar problemas que envolvam grandezas direta ou inversamente proporcionais, por meio de estratégias variadas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA14",
+    "Habilidade": "Demonstrar propriedades de quadriláteros por meio da identificação da congruência de triângulos."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA15",
+    "Habilidade": "Construir, utilizando instrumentos de desenho ou softwares de geometria dinâmica, mediatriz, bissetriz, ângulos de 90°, 60°, 45° e 30° e polígonos regulares."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA16",
+    "Habilidade": "Descrever, por escrito e por meio de um fluxograma, um algoritmo para a construção de um hexágono regular de qualquer área, a partir da medida do ângulo central e da utilização de esquadros e compasso."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA17",
+    "Habilidade": "Aplicar os conceitos de mediatriz e bissetriz como lugares geométricos na resolução de problemas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA18",
+    "Habilidade": "Reconhecer e construir figuras obtidas por composições de transformações geométricas (translação, reflexão e rotação), com o uso de instrumentos de desenho ou de softwares de geometria dinâmica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA19",
+    "Habilidade": "Resolver e elaborar problemas que envolvam medidas de área de figuras geométricas, utilizando expressões de cálculo de área (quadriláteros, triângulos e círculos), em situações como determinar medida de terrenos."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA20",
+    "Habilidade": "Reconhecer a relação entre um litro e um decímetro cúbico e a relação entre litro e metro cúbico, para resolver problemas de cálculo de capacidade de recipientes."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA21",
+    "Habilidade": "Resolver e elaborar problemas que envolvam o cálculo do volume de recipiente cujo formato é o de um bloco retangular."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA22",
+    "Habilidade": "Calcular a probabilidade de eventos, com base na construção do espaço amostral, utilizando o princípio multiplicativo, e reconhecer que a soma das probabilidades de todos os elementos do espaço amostral é igual a 1."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA23",
+    "Habilidade": "Avaliar a adequação de diferentes tipos de gráficos para representar um conjunto de dados de uma pesquisa."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA24",
+    "Habilidade": "Classificar as frequências de uma variável contínua de uma pesquisa em classes, de modo que resumam os dados de maneira adequada para a tomada de decisões."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA25",
+    "Habilidade": "Obter os valores de medidas de tendência central de uma pesquisa estatística (média, moda e mediana), com a compreensão de seus significados, e relacioná-los com a dispersão de dados, indicada pela amplitude."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA26",
+    "Habilidade": "Selecionar razões, de diferentes naturezas (física, ética ou econômica), que justificam a realização de pesquisas amostrais e não censitárias, e reconhecer que a seleção da amostra pode ser feita de diferentes maneiras (amostra casual simples, sistemática e estratificada)."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "8º ano",
+    "Codigo": "EF08MA27",
+    "Habilidade": "Planejar e executar pesquisa amostral, selecionando uma técnica de amostragem adequada, e escrever relatório que contenha os gráficos apropriados para representar os conjuntos de dados, destacando aspectos como as medidas de tendência central, a amplitude e as conclusões."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA01",
+    "Habilidade": "Reconhecer que, uma vez fixada uma unidade de comprimento, existem segmentos de reta cujo comprimento não é expresso por número racional (como as medidas de diagonais de um polígono e alturas de um triângulo, quando se toma a medida de cada lado como unidade)."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA02",
+    "Habilidade": "Reconhecer um número irracional como um número real cuja representação decimal é infinita e não periódica, e estimar a localização de alguns deles na reta numérica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA03",
+    "Habilidade": "Efetuar cálculos com números reais, inclusive potências com expoentes fracionários."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA04",
+    "Habilidade": "Resolver e elaborar problemas com números reais, inclusive em notação científica, envolvendo diferentes operações."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA05",
+    "Habilidade": "Resolver e elaborar problemas que envolvam porcentagens, com a ideia de aplicação de percentuais sucessivos e a determinação das taxas percentuais, preferencialmente com o uso de tecnologias digitais, no contexto da educação financeira."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA06",
+    "Habilidade": "Compreender as funções como relações de dependência unívoca entre duas variáveis e suas representações numérica, algébrica e gráfica e utilizar esse conceito para analisar situações que envolvam relações funcionais entre duas variáveis."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA07",
+    "Habilidade": "Resolver problemas que envolvam a razão entre duas grandezas de espécies diferentes, como velocidade e densidade demográfica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA08",
+    "Habilidade": "Resolver e elaborar problemas que envolvam relações de proporcionalidade direta e inversa entre duas ou mais grandezas, inclusive escalas, divisão em partes proporcionais e taxa de variação, em contextos socioculturais, ambientais e de outras áreas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA09",
+    "Habilidade": "Compreender os processos de fatoração de expressões algébricas, com base em suas relações com os produtos notáveis, para resolver e elaborar problemas que possam ser representados por equações polinomiais do 2º grau."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA10",
+    "Habilidade": "Demonstrar relações simples entre os ângulos formados por retas paralelas cortadas por uma transversal."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA11",
+    "Habilidade": "Resolver problemas por meio do estabelecimento de relações entre arcos, ângulos centrais e ângulos inscritos na circunferência, fazendo uso, inclusive, de softwares de geometria dinâmica."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA12",
+    "Habilidade": "Reconhecer as condições necessárias e suficientes para que dois triângulos sejam semelhantes."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA13",
+    "Habilidade": "Demonstrar relações métricas do triângulo retângulo, entre elas o teorema de Pitágoras, utilizando, inclusive, a semelhança de triângulos."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA14",
+    "Habilidade": "Resolver e elaborar problemas de aplicação do teorema de Pitágoras ou das relações de proporcionalidade envolvendo retas paralelas cortadas por secantes."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA15",
+    "Habilidade": "Descrever, por escrito e por meio de um fluxograma, um algoritmo para a construção de um polígono regular cuja medida do lado é conhecida, utilizando régua e compasso, como também softwares."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA16",
+    "Habilidade": "Determinar o ponto médio de um segmento de reta e a distância entre dois pontos quaisquer, dadas as coordenadas desses pontos no plano cartesiano, sem o uso de fórmulas, e utilizar esse conhecimento para calcular, por exemplo, medidas de perímetros e áreas de figuras planas construídas no plano."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA17",
+    "Habilidade": "Reconhecer vistas ortogonais de figuras espaciais e aplicar esse conhecimento para desenhar objetos em perspectiva."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA18",
+    "Habilidade": "Reconhecer e empregar unidades usadas para expressar medidas muito grandes ou muito pequenas, tais como distância entre planetas e sistemas solares, tamanho de vírus ou de células, capacidade de armazenamento de computadores, entre outros."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA19",
+    "Habilidade": "Resolver e elaborar problemas que envolvam medidas de volumes de prismas e de cilindros retos, inclusive com uso de expressões de cálculo, em situações cotidianas."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA20",
+    "Habilidade": "Reconhecer, em experimentos aleatórios, eventos independentes e dependentes e calcular a probabilidade de sua ocorrência, nos dois casos."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA21",
+    "Habilidade": "Analisar e identificar, em gráficos divulgados pela mídia, os elementos que podem induzir, às vezes propositadamente, erros de leitura, como escalas inapropriadas, legendas não explicitadas corretamente, omissão de informações importantes (fontes e datas), entre outros."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA22",
+    "Habilidade": "Escolher e construir o gráfico mais adequado (colunas, setores, linhas), com ou sem uso de planilhas eletrônicas, para apresentar um determinado conjunto de dados, destacando aspectos como as medidas de tendência central."
+  },
+  {
+    "Disciplina": "Matemática",
+    "Ano": "9º ano",
+    "Codigo": "EF09MA23",
+    "Habilidade": "Planejar e executar pesquisa amostral envolvendo tema da realidade social e comunicar os resultados por meio de relatório contendo avaliação de medidas de tendência central e da amplitude, tabelas e gráficos adequados, construídos com o apoio de planilhas eletrônicas"
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI01",
+    "Habilidade": "Identificar diferentes formas de compreensão da noção de tempo e de periodização dos processos históricos, considerando continuidades e rupturas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI02",
+    "Habilidade": "Identificar a gênese da produção do saber histórico e analisar o significado das fontes que originaram formas de registro em sociedades e épocas distintas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI03",
+    "Habilidade": "Identificar hipóteses científicas sobre o surgimento da espécie humana e sua historicidade e analisar os significados dos mitos de fundação."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI04",
+    "Habilidade": "Conhecer as teorias sobre a origem do povoamento do continente americano."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI05",
+    "Habilidade": "Descrever modificações da natureza e da paisagem realizadas por diferentes sociedades, com destaque para povos indígenas originários e povos africanos, discutindo a natureza e a lógica dessas transformações."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI06",
+    "Habilidade": "Identificar geograficamente as rotas de povoamento no território americano."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI07",
+    "Habilidade": "Identificar aspectos e formas de registro das sociedades antigas na África, no Oriente Médio e nas Américas, distinguindo significados presentes na cultura material e na tradição oral."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI08",
+    "Habilidade": "Identificar os espaços territoriais ocupados e os aportes culturais, científicos, sociais e econômicos dos astecas, maias, incas e povos indígenas de diversas regiões brasileiras."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI09",
+    "Habilidade": "Discutir o conceito de Antiguidade Clássica, seu alcance e limite na tradição ocidental e seus impactos sobre outras sociedades e culturas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI10",
+    "Habilidade": "Explicar a formação da Grécia Antiga, com ênfase na formação da pólis e nas transformações políticas, sociais e culturais."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI11",
+    "Habilidade": "Caracterizar o processo de formação da Roma Antiga e suas configurações sociais e políticas nos períodos monárquico e republicano."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI12",
+    "Habilidade": "Associar o conceito de cidadania às dinâmicas de inclusão e exclusão na Grécia e em Roma antigas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI13",
+    "Habilidade": "Conceituar “império” no mundo antigo, analisando as diferentes formas de equilíbrio e desequilíbrio entre as partes envolvidas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI14",
+    "Habilidade": "Identificar e analisar diferentes formas de contato, adaptação ou exclusão entre populações em diferentes tempos e espaços."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI15",
+    "Habilidade": "Descrever as dinâmicas de circulação de pessoas, produtos e culturas no Mediterrâneo e seu significado."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI16",
+    "Habilidade": "Caracterizar e comparar as dinâmicas de abastecimento e as formas de organização do trabalho e da vida social em diferentes sociedades e períodos, com destaque para as relações entre senhores e servos."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI17",
+    "Habilidade": "Diferenciar escravidão, servidão e trabalho livre no mundo antigo."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI18",
+    "Habilidade": "Analisar o papel da religião cristã na cultura e nos modos de organização social no período medieval."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "6º ano",
+    "Codigo": "EF06HI19",
+    "Habilidade": "Descrever e analisar os diferentes papéis sociais das mulheres no mundo antigo e nas sociedades medievais."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI01",
+    "Habilidade": "Explicar o significado de “modernidade” e suas lógicas de inclusão e exclusão, na concepção europeia."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI02",
+    "Habilidade": "Identificar conexões e interações entre as sociedades do Novo Mundo, da Europa, da África e da Ásia no contexto das navegações, considerando as interações nos oceanos Atlântico, Índico e Pacífico."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI03",
+    "Habilidade": "Identificar aspectos e processos específicos das sociedades africanas e americanas antes da chegada dos europeus, com destaque para as formas de organização social e o desenvolvimento de saberes e técnicas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI04",
+    "Habilidade": "Identificar as principais características dos Humanismos e dos Renascimentos e analisar seus significados."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI05",
+    "Habilidade": "Identificar e relacionar as vinculações entre as reformas religiosas e os processos culturais e sociais do período moderno na Europa e na América."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI06",
+    "Habilidade": "Comparar as navegações no Atlântico e no Pacífico entre os séculos XIV e XVI."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI07",
+    "Habilidade": "Descrever os processos de formação e consolidação das monarquias e suas principais características, visando à compreensão das razões da centralização política."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI08",
+    "Habilidade": "Descrever as formas de organização das sociedades americanas no tempo da conquista, compreendendo os mecanismos de alianças, confrontos e resistências."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI09",
+    "Habilidade": "Analisar os diferentes impactos da conquista europeia da América para as populações ameríndias e identificar as formas de resistência."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI10",
+    "Habilidade": "Analisar, com base em documentos históricos, diferentes interpretações sobre as dinâmicas das sociedades americanas no período colonial."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI11",
+    "Habilidade": "Analisar a formação histórico-geográfica do território da América portuguesa por meio de mapas históricos."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI12",
+    "Habilidade": "Identificar a distribuição territorial da população brasileira em diferentes épocas, considerando a diversidade étnico-racial e étnico-cultural (indígena, africana, europeia e asiática)."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI13",
+    "Habilidade": "Caracterizar a ação dos europeus e suas lógicas mercantis visando ao domínio no mundo atlântico."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI14",
+    "Habilidade": "Descrever as dinâmicas comerciais das sociedades americanas e africanas e analisar suas interações com outras sociedades do Ocidente e do Oriente."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI15",
+    "Habilidade": "Discutir o conceito de escravidão moderna e suas distinções em relação ao escravismo antigo e à servidão medieval."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI16",
+    "Habilidade": "Analisar os mecanismos e as dinâmicas do comércio de escravizados em suas diferentes fases, identificando agentes responsáveis pelo tráfico e regiões africanas de procedência."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "7º ano",
+    "Codigo": "EF07HI17",
+    "Habilidade": "Discutir a passagem do mercantilismo para o capitalismo."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI01",
+    "Habilidade": "Identificar os principais aspectos conceituais do Iluminismo e do Liberalismo e discutir a relação entre eles e a organização do mundo contemporâneo."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI02",
+    "Habilidade": "Identificar as particularidades político-sociais da Inglaterra do século XVII e analisar os desdobramentos posteriores à Revolução Gloriosa."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI03",
+    "Habilidade": "Analisar os impactos da Revolução Industrial na produção e circulação de povos, produtos e culturas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI04",
+    "Habilidade": "Identificar e relacionar os processos da Revolução Francesa e seus desdobramentos na Europa e no mundo."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI05",
+    "Habilidade": "Explicar os movimentos e as rebeliões da América portuguesa, articulando as temáticas locais e suas interfaces com processos ocorridos na Europa e nas Américas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI06",
+    "Habilidade": "Aplicar os conceitos de Estado, nação, território, governo e país para o entendimento de conflitos e tensões."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI07",
+    "Habilidade": "Identificar e contextualizar as especificidades dos diversos processos de independência nas Américas, seus aspectos populacionais e suas conformações territoriais."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI08",
+    "Habilidade": "Conhecer o ideário dos líderes dos movimentos independentistas e seu papel nas revoluções que levaram à independência das colônias hispano-americanas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI09",
+    "Habilidade": "Conhecer as características e os principais pensadores do Pan-americanismo."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI10",
+    "Habilidade": "Identificar a Revolução de São Domingo como evento singular e desdobramento da Revolução Francesa e avaliar suas implicações."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI11",
+    "Habilidade": "Identificar e explicar os protagonismos e a atuação de diferentes grupos sociais e étnicos nas lutas de independência no Brasil, na América espanhola e no Haiti."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI12",
+    "Habilidade": "Caracterizar a organização política e social no Brasil desde a chegada da Corte portuguesa, em 1808, até 1822, e seus desdobramentos para a história política brasileira."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI13",
+    "Habilidade": "Analisar o processo de independência em diferentes países latino-americanos e comparar as formas de governo neles adotadas"
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI14",
+    "Habilidade": "Discutir a noção da tutela dos grupos indígenas e a participação dos negros na sociedade brasileira do final do período colonial, identificando permanências de preconceitos, estereótipos e violências contra essas populações no Brasil e nas Américas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI15",
+    "Habilidade": "Identificar e analisar o equilíbrio das forças e os sujeitos envolvidos nas disputas políticas durante o Primeiro e o Segundo Reinado."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI16",
+    "Habilidade": "Identificar, comparar e analisar a diversidade política, social e regional nas rebeliões e nos movimentos contestatórios ao poder centralizado."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI17",
+    "Habilidade": "Relacionar as transformações territoriais, em razão de questões de fronteiras, com as tensões e os conflitos durante o Império."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI18",
+    "Habilidade": "Identificar as questões internas e externas sobre a atuação do Brasil na Guerra do Paraguai e discutir diferentes versões sobre o conflito."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI19",
+    "Habilidade": "Formular questionamentos sobre o legado da escravidão nas Américas, com base na seleção e consulta de fontes de diferentes naturezas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI20",
+    "Habilidade": "Identificar e relacionar aspectos das estruturas sociais da atualidade com os legados da escravidão no Brasil e discutir a importância de ações afirmativas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI21",
+    "Habilidade": "Identificar e analisar as políticas oficiais com relação aos povos indígenas durante o Império."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI22",
+    "Habilidade": "Discutir o papel das culturas letradas, não letradas e das artes na produção das identidades no Brasil do século XIX."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI23",
+    "Habilidade": "Estabelecer relações causais entre as ideologias raciais e o determinismo no contexto do imperialismo europeu e seus impactos na África e na Ásia."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI24",
+    "Habilidade": "Reconhecer os principais produtos utilizados pelos europeus, procedentes do continente africano durante o imperialismo, e analisar os impactos sobre as comunidades locais na forma de organização e exploração econômica."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI25",
+    "Habilidade": "Caracterizar e contextualizar aspectos das relações entre os Estados Unidos da América e a América Latina no século XIX."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI26",
+    "Habilidade": "Identificar e contextualizar o protagonismo das populações locais na resistência ao imperialismo na África e na Ásia."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "8º ano",
+    "Codigo": "EF08HI27",
+    "Habilidade": "Identificar as tensões e os significados dos discursos civilizatórios, avaliando seus impactos negativos para os povos indígenas originários e as populações negras nas Américas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI01",
+    "Habilidade": "Descrever e contextualizar os principais aspectos sociais, culturais, econômicos e políticos da emergência da República no Brasil."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI02",
+    "Habilidade": "Caracterizar e compreender os ciclos da história republicana, identificando particularidades da história local e regional até 1954."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI03",
+    "Habilidade": "Identificar os mecanismos de inserção dos negros na sociedade brasileira pós-abolição e avaliar seus resultados."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI04",
+    "Habilidade": "Discutir a importância da participação da população negra na formação econômica, política e social do Brasil."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI05",
+    "Habilidade": "Identificar os processos de urbanização e modernização da sociedade brasileira e avaliar suas contradições e seus impactos na região em que vive."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI06",
+    "Habilidade": "Identificar e discutir o papel do trabalhismo como força política, social e cultural no Brasil, em diferentes escalas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI07",
+    "Habilidade": "Identificar e explicar, em meio a lógicas de inclusão e exclusão, as pautas dos povos indígenas no contexto republicano até 1964 e das populações afrodescendentes."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI08",
+    "Habilidade": "Identificar as transformações ocorridas no debate sobre as questões da diversidade no Brasil durante o século XX e compreender o significado das mudanças de abordagem em relação ao tema."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI09",
+    "Habilidade": "Relacionar as conquistas de direitos políticos, sociais e civis à atuação de movimentos sociais."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI10",
+    "Habilidade": "Identificar e relacionar as dinâmicas do capitalismo e suas crises, os grandes conflitos mundiais e os conflitos vivenciados na Europa."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI11",
+    "Habilidade": "Identificar as especificidades e os desdobramentos mundiais da Revolução Russa e seu significado histórico."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI12",
+    "Habilidade": "Analisar a crise capitalista de 1929 e seus desdobramentos em relação à economia global."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI13",
+    "Habilidade": "Descrever e contextualizar os processos da emergência do fascismo e do nazismo, a consolidação dos Estados totalitários e as práticas de extermínio, como o Holocausto."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI14",
+    "Habilidade": "Caracterizar e discutir as dinâmicas do colonialismo no continente africano e asiático e as lógicas de resistência das populações locais diante das questões internacionais."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI15",
+    "Habilidade": "Discutir as motivações que levaram à criação da Organização das Nações Unidas (ONU) no contexto do pós-guerra e os propósitos dessa organização."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI16",
+    "Habilidade": "Relacionar a Carta dos Direitos Humanos ao processo de afirmação dos direitos fundamentais e de defesa da dignidade humana, valorizando as instituições voltadas à defesa desses direitos e à identificação dos agentes responsáveis por sua violação."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI17",
+    "Habilidade": "Identificar e analisar processos sociais, econômicos, culturais e políticos do Brasil a partir de 1946."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI18",
+    "Habilidade": "Descrever e analisar as relações entre as transformações urbanas e seus impactos na cultura brasileira entre 1946 e 1964 e na produção das desigualdades regionais e sociais."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI19",
+    "Habilidade": "Identificar e compreender o processo que resultou na ditadura civil-militar no Brasil e discutir a emergência de questões relacionadas à memória e à justiça sobre os casos de violação dos direitos humanos."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI20",
+    "Habilidade": "Discutir os processos de resistência e as propostas de reorganização da sociedade brasileira durante a ditadura civil-militar."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI21",
+    "Habilidade": "Identificar e relacionar as demandas indígenas e quilombolas como forma de contestação ao modelo desenvolvimentista da ditadura."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI22",
+    "Habilidade": "Discutir o papel da mobilização da sociedade brasileira do final do período ditatorial até a Constituição de 1988."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI23",
+    "Habilidade": "Identificar direitos civis, políticos e sociais expressos na Constituição de 1988 e relacioná-los à noção de cidadania e ao pacto da sociedade brasileira de combate a diversas formas de preconceito, como o racismo."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI24",
+    "Habilidade": "Analisar as transformações políticas, econômicas, sociais e culturais de 1989 aos dias atuais, identificando questões prioritárias para a promoção da cidadania e dos valores democráticos."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI25",
+    "Habilidade": "Relacionar as transformações da sociedade brasileira aos protagonismos da sociedade civil após 1989."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI26",
+    "Habilidade": "Discutir e analisar as causas da violência contra populações marginalizadas, com vistas à tomada de consciência e à construção de uma cultura de paz, empatia e respeito às pessoas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI27",
+    "Habilidade": "Relacionar aspectos das mudanças econômicas, culturais e sociais ocorridas no Brasil a partir da década de 1990 ao papel do País no cenário internacional na era da globalização."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI28",
+    "Habilidade": "Identificar e analisar aspectos da Guerra Fria, seus principais conflitos e as tensões geopolíticas no interior dos blocos liderados por soviéticos e estadunidenses."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI30",
+    "Habilidade": "Comparar características dos regimes ditatoriais latino-americanos, considerando censura, opressão, uso da força e reformas econômicas e sociais."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI31",
+    "Habilidade": "Descrever e avaliar os processos de descolonização na África e na Ásia."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI32",
+    "Habilidade": "Analisar mudanças e permanências associadas à globalização, considerando críticas às políticas globais."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI33",
+    "Habilidade": "Analisar transformações nas relações políticas locais e globais geradas pelas tecnologias digitais de informação e comunicação."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI34",
+    "Habilidade": "Discutir motivações para a adoção de diferentes políticas econômicas na América Latina e seus impactos sociais."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI35",
+    "Habilidade": "Analisar aspectos do fenômeno do terrorismo contemporâneo, incluindo movimentos migratórios e choques entre grupos e culturas."
+  },
+  {
+    "Disciplina": "História",
+    "Ano": "9º ano",
+    "Codigo": "EF09HI36",
+    "Habilidade": "Identificar e discutir diversidades identitárias e seus significados históricos no século XXI, combatendo preconceito e violência."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE01",
+    "Habilidade": "Comparar modificações das paisagens nos lugares de vivência e os usos desses lugares em diferentes tempos."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE02",
+    "Habilidade": "Analisar modificações de paisagens por diferentes tipos de sociedade, com destaque para os povos originários."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE03",
+    "Habilidade": "Descrever os movimentos do planeta e sua relação com a circulação geral da atmosfera, o tempo atmosférico e os padrões climáticos."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE04",
+    "Habilidade": "Descrever o ciclo da água, comparando o escoamento superficial no ambiente urbano e rural, reconhecendo os principais componentes da morfologia das bacias e das redes hidrográficas e a sua localização no modelado da superfície terrestre e da cobertura vegetal."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE05",
+    "Habilidade": "Relacionar padrões climáticos, tipos de solo, relevo e formações vegetais."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE06",
+    "Habilidade": "Identificar as características das paisagens transformadas pelo trabalho humano a partir do desenvolvimento da agropecuária e do processo de industrialização."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE07",
+    "Habilidade": "Explicar as mudanças na interação humana com a natureza a partir do surgimento das cidades."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE08",
+    "Habilidade": "Medir distâncias na superfície pelas escalas gráficas e numéricas dos mapas."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE09",
+    "Habilidade": "Elaborar modelos tridimensionais, blocos-diagramas e perfis topográficos e de vegetação, visando à representação de elementos e estruturas da superfície terrestre."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE10",
+    "Habilidade": "Explicar as diferentes formas de uso do solo (rotação de terras, terraceamento, aterros etc.) e de apropriação dos recursos hídricos (sistema de irrigação, tratamento e redes de distribuição), bem como suas vantagens e desvantagens em diferentes épocas e lugares."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE11",
+    "Habilidade": "Analisar distintas interações das sociedades com a natureza, com base na distribuição dos componentes físico-naturais, incluindo as transformações da biodiversidade local e do mundo."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE12",
+    "Habilidade": "Identificar o consumo dos recursos hídricos e o uso das principais bacias hidrográficas no Brasil e no mundo, enfatizando as transformações nos ambientes urbanos."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "6º ano",
+    "Codigo": "EF06GE13",
+    "Habilidade": "Analisar consequências, vantagens e desvantagens das práticas humanas na dinâmica climática (ilha de calor etc.)."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE01",
+    "Habilidade": "Avaliar, por meio de exemplos extraídos dos meios de comunicação, ideias e estereótipos acerca das paisagens e da formação territorial do Brasil."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE02",
+    "Habilidade": "Analisar a influência dos fluxos econômicos e populacionais na formação socioeconômica e territorial do Brasil, compreendendo os conflitos e as tensões históricas e contemporâneas."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE03",
+    "Habilidade": "Selecionar argumentos que reconheçam as territorialidades dos povos indígenas originários, das comunidades remanescentes de quilombos, de povos das florestas e do cerrado, de ribeirinhos e caiçaras, entre outros grupos sociais do campo e da cidade, como direitos legais dessas comunidades."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE04",
+    "Habilidade": "Analisar a distribuição territorial da população brasileira, considerando a diversidade étnico-cultural (indígena, africana, europeia e asiática), assim como aspectos de renda, sexo e idade nas regiões brasileiras."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE05",
+    "Habilidade": "Analisar fatos e situações representativas das alterações ocorridas entre o período mercantilista e o advento do capitalismo."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE06",
+    "Habilidade": "Discutir em que medida a produção, a circulação e o consumo de mercadorias provocam impactos ambientais, assim como influem na distribuição de riquezas, em diferentes lugares."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE07",
+    "Habilidade": "Analisar a influência e o papel das redes de transporte e comunicação na configuração do território brasileiro."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE08",
+    "Habilidade": "Estabelecer relações entre os processos de industrialização e inovação tecnológica com as transformações socioeconômicas do território brasileiro."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE09",
+    "Habilidade": "Interpretar e elaborar mapas temáticos e históricos, inclusive utilizando tecnologias digitais, com informações demográficas e econômicas do Brasil (cartogramas), identificando padrões espaciais, regionalizações e analogias espaciais."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE10",
+    "Habilidade": "Elaborar e interpretar gráficos de barras, gráficos de setores e histogramas, com base em dados socioeconômicos das regiões brasileiras."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE11",
+    "Habilidade": "Caracterizar dinâmicas dos componentes físico-naturais no território nacional, bem como sua distribuição e biodiversidade (Florestas Tropicais, Cerrados, Caatingas, Campos Sulinos e Matas de Araucária)."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "7º ano",
+    "Codigo": "EF07GE12",
+    "Habilidade": "Comparar unidades de conservação existentes no Município de residência e em outras localidades brasileiras, com base na organização do Sistema Nacional de Unidades de Conservação (SNUC)."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE01",
+    "Habilidade": "Descrever as rotas de dispersão da população humana pelo planeta e os principais fluxos migratórios em diferentes períodos da história, discutindo os fatores históricos e condicionantes físico-naturais associados à distribuição da população humana pelos continentes."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE02",
+    "Habilidade": "Relacionar fatos e situações representativas da história das famílias do Município em que se localiza a escola, considerando a diversidade e os fluxos migratórios da população mundial."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE03",
+    "Habilidade": "Analisar aspectos representativos da dinâmica demográfica, considerando características da população (perfil etário, crescimento vegetativo e mobilidade espacial)."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE04",
+    "Habilidade": "Compreender os fluxos de migração na América Latina (movimentos voluntários e forçados, assim como fatores e áreas de expulsão e atração) e as principais políticas migratórias da região."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE05",
+    "Habilidade": "Aplicar os conceitos de Estado, nação, território, governo e país para o entendimento de conflitos e tensões na contemporaneidade, com destaque para as situações geopolíticas na América e na África e suas múltiplas regionalizações a partir do pós-guerra."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE06",
+    "Habilidade": "Analisar a atuação das organizações mundiais nos processos de integração cultural e econômica nos contextos americano e africano, reconhecendo, em seus lugares de vivência, marcas desses processos."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE07",
+    "Habilidade": "Analisar os impactos geoeconômicos, geoestratégicos e geopolíticos da ascensão dos Estados Unidos da América no cenário internacional em sua posição de liderança global e na relação com a China e o Brasil."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE08",
+    "Habilidade": "Analisar a situação do Brasil e de outros países da América Latina e da potência estadunidense na ordem mundial do pós-guerra."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE09",
+    "Habilidade": "Analisar os padrões econômicos mundiais de produção, distribuição e intercâmbio dos produtos agrícolas e industrializados, tendo como referência os Estados Unidos da América e os países denominados de BRICS (Brasil, Rússia, Índia, China e África do Sul)."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE10",
+    "Habilidade": "Distinguir e analisar conflitos e ações dos movimentos sociais brasileiros, no campo e na cidade, comparando com outros movimentos sociais existentes nos países latino-americanos."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE11",
+    "Habilidade": "Analisar áreas de conflito e tensões nas regiões de fronteira do continente latino-americano e o papel de organismos internacionais e regionais de cooperação nesses cenários."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE12",
+    "Habilidade": "Compreender os objetivos e analisar a importância dos organismos de integração do território americano (Mercosul, OEA, OEI, Nafta, Unasul, Alba, Comunidade Andina, Aladi, entre outros)."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE13",
+    "Habilidade": "Analisar a influência do desenvolvimento científico e tecnológico na caracterização dos tipos de trabalho e na economia dos espaços urbanos e rurais da América e da África."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE14",
+    "Habilidade": "Analisar os processos de desconcentração, descentralização e recentralização das atividades econômicas a partir do capital estadunidense e chinês em diferentes regiões no mundo, com destaque para o Brasil."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE15",
+    "Habilidade": "Analisar a importância dos principais recursos hídricos da América Latina (Aquífero Guarani, Bacias do rio da Prata, do Amazonas e do Orinoco, sistemas de nuvens na Amazônia e nos Andes, entre outros) e discutir os desafios relacionados à gestão e comercialização da água."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE16",
+    "Habilidade": "Analisar as principais problemáticas comuns às grandes cidades latino-americanas, particularmente aquelas relacionadas à distribuição, estrutura e dinâmica da população e às condições de vida e trabalho."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE17",
+    "Habilidade": "Analisar a segregação socioespacial em ambientes urbanos da América Latina, com atenção especial ao estudo de favelas, alagados e zona de riscos."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE18",
+    "Habilidade": "Elaborar mapas ou outras formas de representação cartográfica para analisar as redes e as dinâmicas urbanas e rurais, ordenamento territorial, contextos culturais, modo de vida e usos e ocupação de solos da África e América."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE19",
+    "Habilidade": "Interpretar cartogramas, mapas esquemáticos (croquis) e anamorfoses geográficas com informações geográficas acerca da África e América."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE20",
+    "Habilidade": "Analisar características de países e grupos de países da América e da África no que se refere aos aspectos populacionais, urbanos, políticos e econômicos, e discutir as desigualdades sociais e econômicas e as pressões sobre a natureza e suas riquezas (sua apropriação e valoração na produção e circulação), o que resulta na espoliação desses povos."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE21",
+    "Habilidade": "Analisar o papel ambiental e territorial da Antártica no contexto geopolítico, sua relevância para os países da América do Sul e seu valor como área destinada à pesquisa e à compreensão do ambiente global."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE22",
+    "Habilidade": "Identificar os principais recursos naturais dos países da América Latina, analisando seu uso para a produção de matéria-prima e energia e sua relevância para a cooperação entre os países do Mercosul."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE23",
+    "Habilidade": "Identificar paisagens da América Latina e associá-las, por meio da cartografia, aos diferentes povos da região, com base em aspectos da geomorfologia, da biogeografia e da climatologia."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "8º ano",
+    "Codigo": "EF08GE24",
+    "Habilidade": "Analisar as principais características produtivas dos países latino-americanos (como exploração mineral na Venezuela; agricultura de alta especialização e exploração mineira no Chile; circuito da carne nos pampas argentinos e no Brasil; circuito da cana-de-açúcar em Cuba; polígono industrial do sudeste brasileiro e plantações de soja no centro-oeste; maquiladoras mexicanas, entre outros)."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE01",
+    "Habilidade": "Analisar criticamente de que forma a hegemonia europeia foi exercida em várias regiões do planeta, notadamente em situações de conflito, intervenções militares e/ou influência cultural em diferentes tempos e lugares."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE02",
+    "Habilidade": "Analisar a atuação das corporações internacionais e das organizações econômicas mundiais na vida da população em relação ao consumo, à cultura e à mobilidade."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE03",
+    "Habilidade": "Identificar diferentes manifestações culturais de minorias étnicas como forma de compreender a multiplicidade cultural na escala mundial, defendendo o princípio do respeito às diferenças."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE04",
+    "Habilidade": "Relacionar diferenças de paisagens aos modos de viver de diferentes povos na Europa, Ásia e Oceania, valorizando identidades e interculturalidades regionais."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE05",
+    "Habilidade": "Analisar fatos e situações para compreender a integração mundial (econômica, política e cultural), comparando as diferentes interpretações: globalização e mundialização."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE06",
+    "Habilidade": "Associar o critério de divisão do mundo em Ocidente e Oriente com o Sistema Colonial implantado pelas potências europeias."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE07",
+    "Habilidade": "Analisar os componentes físico-naturais da Eurásia e os determinantes histórico-geográficos de sua divisão em Europa e Ásia."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE08",
+    "Habilidade": "Analisar transformações territoriais, considerando o movimento de fronteiras, tensões, conflitos e múltiplas regionalidades na Europa, na Ásia e na Oceania."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE09",
+    "Habilidade": "Analisar características de países e grupos de países europeus, asiáticos e da Oceania em seus aspectos populacionais, urbanos, políticos e econômicos, e discutir suas desigualdades sociais e econômicas e pressões sobre seus ambientes físico-naturais."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE10",
+    "Habilidade": "Analisar os impactos do processo de industrialização na produção e circulação de produtos e culturas na Europa, na Ásia e na Oceania."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE11",
+    "Habilidade": "Relacionar as mudanças técnicas e científicas decorrentes do processo de industrialização com as transformações no trabalho em diferentes regiões do mundo e suas consequências no Brasil."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE12",
+    "Habilidade": "Relacionar o processo de urbanização às transformações da produção agropecuária, à expansão do desemprego estrutural e ao papel crescente do capital financeiro em diferentes países, com destaque para o Brasil."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE13",
+    "Habilidade": "Analisar a importância da produção agropecuária na sociedade urbano-industrial ante o problema da desigualdade mundial de acesso aos recursos alimentares e à matéria-prima."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE14",
+    "Habilidade": "Elaborar e interpretar gráficos de barras e de setores, mapas temáticos e esquemáticos (croquis) e anamorfoses geográficas para analisar, sintetizar e apresentar dados e informações sobre diversidade, diferenças e desigualdades sociopolíticas e geopolíticas mundiais."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE15",
+    "Habilidade": "Comparar e classificar diferentes regiões do mundo com base em informações populacionais, econômicas e socioambientais representadas em mapas temáticos e com diferentes projeções cartográficas."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE16",
+    "Habilidade": "Identificar e comparar diferentes domínios morfoclimáticos da Europa, da Ásia e da Oceania."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE17",
+    "Habilidade": "Explicar as características físico-naturais e a forma de ocupação e usos da terra em diferentes regiões da Europa, da Ásia e da Oceania."
+  },
+  {
+    "Disciplina": "Geografia",
+    "Ano": "9º ano",
+    "Codigo": "EF09GE18",
+    "Habilidade": "Identificar e analisar as cadeias industriais e de inovação e as consequências dos usos de recursos naturais e das diferentes fontes de energia (tais como termoelétrica, hidrelétrica, eólica e nuclear) em diferentes países."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI01",
+    "Habilidade": "Classificar como homogênea ou heterogênea a mistura de dois ou mais materiais (água e sal, água e óleo, água e areia etc.)."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI02",
+    "Habilidade": "Identificar evidências de transformações químicas a partir do resultado de misturas de materiais que originam produtos diferentes dos que foram misturados (mistura de ingredientes para fazer um bolo, mistura de vinagre com bicarbonato de sódio etc.)."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI03",
+    "Habilidade": "Selecionar métodos mais adequados para a separação de diferentes sistemas heterogêneos a partir da identificação de processos de separação de materiais (como a produção de sal de cozinha, a destilação de petróleo, entre outros)."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI04",
+    "Habilidade": "Associar a produção de medicamentos e outros materiais sintéticos ao desenvolvimento científico e tecnológico, reconhecendo benefícios e avaliando impactos socioambientais."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI05",
+    "Habilidade": "Explicar a organização básica das células e seu papel como unidade estrutural e funcional dos seres vivos."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI06",
+    "Habilidade": "Concluir, com base na análise de ilustrações e/ou modelos (físicos ou digitais), que os organismos são um complexo arranjo de sistemas com diferentes níveis de organização."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI07",
+    "Habilidade": "Justificar o papel do sistema nervoso na coordenação das ações motoras e sensoriais do corpo, com base na análise de suas estruturas básicas e respectivas funções."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI08",
+    "Habilidade": "Explicar a importância da visão (captação e interpretação das imagens) na interação do organismo com o meio e, com base no funcionamento do olho humano, selecionar lentes adequadas para a correção de diferentes defeitos da visão."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI09",
+    "Habilidade": "Deduzir que a estrutura, a sustentação e a movimentação dos animais resultam da interação entre os sistemas muscular, ósseo e nervoso."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI10",
+    "Habilidade": "Explicar como o funcionamento do sistema nervoso pode ser afetado por substâncias psicoativas."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI11",
+    "Habilidade": "Identificar as diferentes camadas que estruturam o planeta Terra (da estrutura interna à atmosfera) e suas principais características."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI12",
+    "Habilidade": "Identificar diferentes tipos de rocha, relacionando a formação de fósseis a rochas sedimentares em diferentes períodos geológicos."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI13",
+    "Habilidade": "Selecionar argumentos e evidências que demonstrem a esfericidade da Terra."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "6º ano",
+    "Codigo": "EF06CI14",
+    "Habilidade": "Inferir que as mudanças na sombra de uma vara (gnômon) ao longo do dia em diferentes períodos do ano são uma evidência dos movimentos relativos entre a Terra e o Sol, que podem ser explicados por meio dos movimentos de rotação e translação da Terra e da inclinação de seu eixo de rotação em relação ao plano de sua órbita em torno do Sol."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI01",
+    "Habilidade": "Discutir a aplicação, ao longo da história, das máquinas simples e propor soluções e invenções para a realização de tarefas mecânicas cotidianas."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI02",
+    "Habilidade": "Diferenciar temperatura, calor e sensação térmica nas diferentes situações de equilíbrio termodinâmico cotidianas."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI03",
+    "Habilidade": "Utilizar o conhecimento das formas de propagação do calor para justificar a utilização de determinados materiais (condutores e isolantes) na vida cotidiana, explicar o princípio de funcionamento de alguns equipamentos (garrafa térmica, coletor solar etc.) e/ou construir soluções tecnológicas a partir desse conhecimento."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI04",
+    "Habilidade": "Avaliar o papel do equilíbrio termodinâmico para a manutenção da vida na Terra, para o funcionamento de máquinas térmicas e em outras situações cotidianas."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI05",
+    "Habilidade": "Discutir o uso de diferentes tipos de combustível e máquinas térmicas ao longo do tempo, para avaliar avanços, questões econômicas e problemas socioambientais causados pela produção e uso desses materiais e máquinas."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI06",
+    "Habilidade": "Discutir e avaliar mudanças econômicas, culturais e sociais, tanto na vida cotidiana quanto no mundo do trabalho, decorrentes do desenvolvimento de novos materiais e tecnologias (como automação e informatização)."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI07",
+    "Habilidade": "Caracterizar os principais ecossistemas brasileiros quanto à paisagem, à quantidade de água, ao tipo de solo, à disponibilidade de luz solar, à temperatura etc., correlacionando essas características à flora e fauna específicas."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI08",
+    "Habilidade": "Avaliar como os impactos provocados por catástrofes naturais ou mudanças nos componentes físicos, biológicos ou sociais de um ecossistema afetam suas populações, podendo ameaçar ou provocar a extinção de espécies, alteração de hábitos, migração etc."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI09",
+    "Habilidade": "Interpretar as condições de saúde da comunidade, cidade ou estado, com base na análise e comparação de indicadores de saúde (como taxa de mortalidade infantil, cobertura de saneamento básico e incidência de doenças de veiculação hídrica, atmosférica entre outras) e dos resultados de políticas públicas destinadas à saúde."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI10",
+    "Habilidade": "Argumentar sobre a importância da vacinação para a saúde pública, com base em informações sobre a maneira como a vacina atua no organismo e o papel histórico da vacinação para a manutenção da saúde individual e coletiva e para a erradicação de doenças."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI11",
+    "Habilidade": "Analisar historicamente o uso da tecnologia, incluindo a digital, nas diferentes dimensões da vida humana, considerando indicadores ambientais e de qualidade de vida."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI12",
+    "Habilidade": "Demonstrar que o ar é uma mistura de gases, identificando sua composição, e discutir fenômenos naturais ou antrópicos que podem alterar essa composição."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI13",
+    "Habilidade": "Descrever o mecanismo natural do efeito estufa, seu papel fundamental para o desenvolvimento da vida na Terra, discutir as ações humanas responsáveis pelo seu aumento artificial (queima dos combustíveis fósseis, desmatamento, queimadas etc.) e selecionar e implementar propostas para a reversão ou controle desse quadro."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI14",
+    "Habilidade": "Justificar a importância da camada de ozônio para a vida na Terra, identificando os fatores que aumentam ou diminuem sua presença na atmosfera, e discutir propostas individuais e coletivas para sua preservação."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI15",
+    "Habilidade": "Interpretar fenômenos naturais (como vulcões, terremotos e tsunamis) e justificar a rara ocorrência desses fenômenos no Brasil, com base no modelo das placas tectônicas."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "7º ano",
+    "Codigo": "EF07CI16",
+    "Habilidade": "Justificar o formato das costas brasileira e africana com base na teoria da deriva dos continentes."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI01",
+    "Habilidade": "Identificar e classificar diferentes fontes (renováveis e não renováveis) e tipos de energia utilizados em residências, comunidades ou cidades."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI02",
+    "Habilidade": "Construir circuitos elétricos com pilha/bateria, fios e lâmpada ou outros dispositivos e compará-los a circuitos elétricos residenciais."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI03",
+    "Habilidade": "Classificar equipamentos elétricos residenciais (chuveiro, ferro, lâmpadas, TV, rádio, geladeira etc.) de acordo com o tipo de transformação de energia (da energia elétrica para a térmica, luminosa, sonora e mecânica, por exemplo)."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI04",
+    "Habilidade": "Calcular o consumo de eletrodomésticos a partir dos dados de potência (descritos no próprio equipamento) e tempo médio de uso para avaliar o impacto de cada equipamento no consumo doméstico mensal."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI05",
+    "Habilidade": "Propor ações coletivas para otimizar o uso de energia elétrica em sua escola e/ou comunidade, com base na seleção de equipamentos segundo critérios de sustentabilidade (consumo de energia e eficiência energética) e hábitos de consumo responsável."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI06",
+    "Habilidade": "Discutir e avaliar usinas de geração de energia elétrica (termelétricas, hidrelétricas, eólicas etc.), suas semelhanças e diferenças, seus impactos socioambientais, e como essa energia chega e é usada em sua cidade, comunidade, casa ou escola."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI07",
+    "Habilidade": "Comparar diferentes processos reprodutivos em plantas e animais em relação aos mecanismos adaptativos e evolutivos."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI08",
+    "Habilidade": "Analisar e explicar as transformações que ocorrem na puberdade considerando a atuação dos hormônios sexuais e do sistema nervoso."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI09",
+    "Habilidade": "Comparar o modo de ação e a eficácia dos diversos métodos contraceptivos e justificar a necessidade de compartilhar a responsabilidade na escolha e na utilização do método mais adequado à prevenção da gravidez precoce e indesejada e de Infecções Sexualmente Transmissíveis (ISTs)."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI10",
+    "Habilidade": "Identificar os principais sintomas, modos de transmissão e tratamento de algumas DST (com ênfase na AIDS), e discutir estratégias e métodos de prevenção."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI11",
+    "Habilidade": "Selecionar argumentos que evidenciem as múltiplas dimensões da sexualidade humana (biológica, sociocultural, afetiva e ética)."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI12",
+    "Habilidade": "Justificar, por meio da construção de modelos e da observação da Lua, a ocorrência das fases da Lua e dos eclipses, com base nas posições relativas entre Sol, Terra e Lua."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI13",
+    "Habilidade": "Representar os movimentos de rotação e translação da Terra e analisar o papel da inclinação do eixo de rotação da Terra em relação à sua órbita na ocorrência das estações do ano, com a utilização de modelos tridimensionais."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI14",
+    "Habilidade": "Relacionar climas regionais aos padrões de circulação atmosférica e oceânica e ao aquecimento desigual causado pela forma e pelos movimentos da Terra."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI15",
+    "Habilidade": "Identificar as principais variáveis envolvidas na previsão do tempo e simular situações nas quais elas possam ser medidas."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI16",
+    "Habilidade": "Discutir iniciativas que contribuam para restabelecer o equilíbrio ambiental a partir da identificação de alterações climáticas regionais e globais provocadas pela intervenção humana."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "8º ano",
+    "Codigo": "EF08CI17",
+    "Habilidade": "Reconhecer a importância da pesquisa científica para os avanços tecnológicos, valorizando a participação da mulher na ciência."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI01",
+    "Habilidade": "Investigar as mudanças de estado físico da matéria e explicar essas transformações com base no modelo de constituição submicroscópica."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI02",
+    "Habilidade": "Comparar quantidades de reagentes e produtos envolvidos em transformações químicas, estabelecendo a proporção entre as suas massas."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI03",
+    "Habilidade": "Identificar modelos que descrevem a estrutura da matéria (constituição do átomo e composição de moléculas simples) e reconhecer sua evolução histórica."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI04",
+    "Habilidade": "Planejar e executar experimentos que evidenciem que todas as cores de luz podem ser formadas pela composição das três cores primárias da luz e que a cor de um objeto está relacionada também à cor da luz que o ilumina."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI05",
+    "Habilidade": "Investigar os principais mecanismos envolvidos na transmissão e recepção de imagem e som que revolucionaram os sistemas de comunicação humana."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI06",
+    "Habilidade": "Classificar as radiações eletromagnéticas por suas frequências, fontes e aplicações, discutindo e avaliando as implicações de seu uso em controle remoto, telefone celular, raio X, forno de micro-ondas, fotocélulas etc."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI07",
+    "Habilidade": "Discutir o papel do avanço tecnológico na aplicação das radiações na medicina diagnóstica (raio X, ultrassom, ressonância nuclear magnética) e no tratamento de doenças (radioterapia, cirurgia óptica a laser, infravermelho, ultravioleta etc.)."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI08",
+    "Habilidade": "Associar os gametas à transmissão das características hereditárias, estabelecendo relações entre ancestrais e descendentes."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI09",
+    "Habilidade": "Discutir as ideias de Mendel sobre hereditariedade (fatores hereditários, segregação, gametas, fecundação), considerando-as para resolver problemas envolvendo a transmissão de características hereditárias em diferentes organismos."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI10",
+    "Habilidade": "Comparar as ideias evolucionistas de Lamarck e Darwin apresentadas em textos científicos e históricos, identificando semelhanças e diferenças entre essas ideias e sua importância para explicar a diversidade biológica."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI11",
+    "Habilidade": "Discutir a evolução e a diversidade das espécies com base na atuação da seleção natural sobre as variantes de uma mesma espécie, resultantes de processo reprodutivo."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI12",
+    "Habilidade": "Justificar a importância das unidades de conservação para a preservação da biodiversidade e do patrimônio nacional, considerando os diferentes tipos de unidades (parques, reservas e florestas nacionais), as populações humanas e as atividades a eles relacionados."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI13",
+    "Habilidade": "Propor iniciativas individuais e coletivas para a solução de problemas ambientais da cidade ou da comunidade, com base na análise de ações de consumo consciente e de sustentabilidade bem-sucedidas."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI14",
+    "Habilidade": "Descrever a composição e a estrutura do Sistema Solar (Sol, planetas rochosos, planetas gigantes gasosos e corpos menores), assim como a localização do Sistema Solar na nossa Galáxia (a Via Láctea) e dela no Universo (apenas uma galáxia dentre bilhões)."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI15",
+    "Habilidade": "Relacionar diferentes leituras do céu e explicações sobre a origem da Terra, do Sol ou do Sistema Solar às necessidades de distintas culturas (agricultura, caça, mito, orientação espacial e temporal etc.)."
+  },
+  {
+    "Disciplina": "Ciências",
+    "Ano": "9º ano",
+    "Codigo": "EF09CI16",
+    "Habilidade": "Selecionar argumentos sobre a viabilidade da sobrevivência humana fora da Terra, com base nas condições necessárias à vida, nas características dos planetas e nas distâncias e nos tempos envolvidos em viagens interplanetárias e interestelares."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP01",
+    "Habilidade": "Analisar a estrutura e funcionamento dos hiperlinks em textos noticiosos publicados na Web e vislumbrar possibilidades de uma escrita hipertextual."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP02",
+    "Habilidade": "Explorar o espaço reservado ao leitor nos jornais, nas revistas, nos impressos e on-line, nos sites noticiosos etc., destacando notícias, fotorreportagens, entrevistas, charges, assuntos, temas, debates em foco, posicionando-se de maneira ética e respeitosa frente a esses textos e opiniões a eles relacionadas, e publicar notícias, notas jornalísticas, fotorreportagem de interesse geral nesses espaços do leitor."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP03",
+    "Habilidade": "Comparar informações sobre um mesmo fato divulgadas em diferentes veículos e mídias, analisando e avaliando a confiabilidade."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP04",
+    "Habilidade": "Distinguir, em segmentos descontínuos de textos, fato da opinião enunciada em relação a esse mesmo fato."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP05",
+    "Habilidade": "Identificar e avaliar teses/opiniões/posicionamentos explícitos e argumentos em textos argumentativos (carta de leitor, comentário, artigo de opinião, resenha crítica etc.), manifestando concordância ou discordância."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP06",
+    "Habilidade": "Identificar os efeitos de sentido provocados pela seleção lexical, topicalização de elementos e seleção e hierarquização de informações, uso de 3ª pessoa etc."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP07",
+    "Habilidade": "Identificar o uso de recursos persuasivos em textos argumentativos diversos (como a elaboração do título, escolhas lexicais, construções metafóricas, a explicitação ou a ocultação de fontes de informação) e perceber seus efeitos de sentido."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP08",
+    "Habilidade": "Identificar os efeitos de sentido devidos à escolha de imagens estáticas, sequenciação ou sobreposição de imagens, definição de figura/fundo, ângulo, profundidade e foco, cores/tonalidades, relação com o escrito etc., em notícias, reportagens, fotorreportagens, foto-denúncias, memes, gifs, anúncios publicitários e propagandas publicados em jornais, revistas, sites na internet etc."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP09",
+    "Habilidade": "Planejar notícia impressa e para circulação em outras mídias (rádio ou TV/vídeo), tendo em vista as condições de produção do texto – objetivo, leitores/espectadores, veículos e mídia de circulação, etc. -, a partir da escolha do fato a ser noticiado (de relevância para a turma, escola ou comunidade), do levantamento de dados e informações sobre o fato – que pode envolver entrevistas com envolvidos ou com especialistas, consulta a fontes, análise de documentos, cobertura de eventos, etc. - , do registro dessas informações e dados, da escolha de fotos ou imagens a produzir ou a utilizar, etc. E a previsão de uma estrutura hipertextual (no caso de publicação em sites ou blogs noticiosos)."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP10",
+    "Habilidade": "Produzir notícia impressa tendo em vista características do gênero — título ou manchete com verbo no tempo presente, linha fina (opcional), lide, progressão dada pela ordem decrescente de importância dos fatos, uso de 3ª pessoa, de palavras que indicam precisão — e produzir notícia para TV, rádio e internet, considerando as características do gênero e os recursos das mídias disponíveis."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP11",
+    "Habilidade": "Planejar resenhas, vlogs, vídeos e podcasts variados, e textos e vídeos de apresentação e apreciação próprios das culturas juvenis (algumas possibilidades: fanzines, fanclipes, e-zines, gameplay, detonado etc.), dentre outros, tendo em vista as condições de produção do texto — objetivo, leitores/espectadores, veículos e mídia de circulação etc. —, a partir da escolha de uma produção ou evento cultural para analisar – livro, filme, série, game, canção, videoclipe, fanclipe, show, saraus, slams, etc. – da busca de informação sobre a produção ou evento escolhido, da síntese de informações sobre a obra/evento e do elenco/seleção de aspectos, elementos ou recusos que possam ser destacados positiva ou negativamente ou da roteirização do passo a passo do game para posterior gravação dos vídeos."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP12",
+    "Habilidade": "Produzir resenhas críticas, vlogs, vídeos, podcasts variados e produções e gêneros próprios das culturas juvenis (algumas possibilidades: fanzines, fanclipes, e-zines, gameplay, detonado etc.), que apresentem/descrevam e/ou avaliem produções culturais (livro, filme, série, game, canção, disco, videoclipe etc.) ou evento (show, sarau, slam etc.), tendo em vista o contexto de produção dado, as características do gênero, os recursos das mídias envolvidas e a textualização adequada dos textos e/ou produções."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP13",
+    "Habilidade": "Produzir, revisar e editar textos publicitários, levando em conta o contexto de produção dado, explorando recursos multissemióticos, relacionando elementos verbais e visuais, utilizando adequadamente estratégias discursivas de persuasão e/ou convencimento e criando título ou slogan que façam o leitor motivar-se a interagir com o texto produzido e se sinta atraído pelo serviço, ideia ou produto em questão."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP14",
+    "Habilidade": "Definir o contexto de produção da entrevista (objetivos, o que se pretende conseguir, por que aquele entrevistado etc.), levantar informações sobre o entrevistado e sobre o acontecimento ou tema em questão, preparar o roteiro de perguntas e realizar entrevista oral com envolvidos ou especialistas relacionados com o fato noticiado ou com o tema em pauta, usando roteiro previamente elaborado e formulando outras perguntas a partir das respostas dadas e, quando for o caso, selecionar partes, transcrever e proceder a uma edição escrita do texto, adequando-o a seu contexto de publicação e garantindo a relevância das informações mantidas e a continuidade temática."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP15",
+    "Habilidade": "Identificar a proibição imposta ou o direito garantido, bem como as circunstâncias de sua aplicação, em artigos relativos a normas, regimentos escolares, regimentos e estatutos da sociedade civil, regulamentações para o mercado publicitário, Código de Defesa do Consumidor, Código Nacional de Trânsito, ECA, Constituição, dentre outros."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP16",
+    "Habilidade": "Explorar e analisar espaços de reclamação de direitos e de envio de solicitações (tais como ouvidorias, SAC, canais ligados a órgãos públicos, plataformas do consumidor, plataformas de reclamação), bem como de textos pertencentes a gêneros que circulam nesses espaços, reclamação ou carta de reclamação, solicitação ou carta de solicitação, como forma de ampliar as possibilidades de produção desses textos em casos que remetam a reivindicações que envolvam a escola, a comunidade ou algum de seus membros como forma de se engajar na busca de solução de problemas pessoais, dos outros e coletivos."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP17",
+    "Habilidade": "Analisar, a partir do contexto de produção, a forma de organização das cartas de solicitação e de reclamação (datação, forma de início, apresentação contextualizada do pedido ou da reclamação, em geral, acompanhada de explicações, argumentos e/ou relatos do problema, fórmula de finalização mais ou menos cordata, dependendo do tipo de carta e subscrição) e algumas das marcas linguísticas relacionadas à argumentação, explicação ou relato de fatos, como forma de possibilitar a escrita fundamentada de cartas como essas ou de postagens em canais próprios de reclamações e solicitações em situações que envolvam questões relativas à escola, à comunidade ou a algum dos seus membros."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP18",
+    "Habilidade": "Identificar o objeto da reclamação e/ou da solicitação e sua sustentação, explicação ou justificativa, de forma a poder analisar a pertinência da solicitação ou justificação."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP19",
+    "Habilidade": "Realizar levantamento de questões, problemas que requeiram a denúncia de desrespeito a direitos, reivindicações, reclamações, solicitações que contemplem a comunidade escolar ou algum de seus membros e examinar normas e legislações."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP20",
+    "Habilidade": "Realizar pesquisa, a partir de recortes e questões definidos previamente, usando fontes indicadas e abertas."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP21",
+    "Habilidade": "Divulgar resultados de pesquisas por meio de apresentações orais, painéis, artigos de divulgação científica, verbetes de enciclopédia, podcasts científicos etc."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP22",
+    "Habilidade": "Produzir resumos, a partir das notas e/ou esquemas feitos, com o uso adequado de paráfrases e citações."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP23",
+    "Habilidade": "Respeitar os turnos de fala, na participação em conversações e em discussões ou atividades coletivas, na sala de aula e na escola e formular perguntas coerentes e adequadas em momentos oportunos em situações de aulas, apresentação oral, seminário etc."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP24",
+    "Habilidade": "Tomar nota de aulas, apresentações orais, entrevistas (ao vivo, áudio, TV, vídeo), identificando e hierarquizando as informações principais, tendo em vista apoiar o estudo e a produção de sínteses e reflexões pessoais ou outros objetivos em questão."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP25",
+    "Habilidade": "Reconhecer e utilizar os critérios de organização tópica (do geral para o específico, do específico para o geral etc.), as marcas linguísticas dessa organização (marcadores de ordenação e enumeração, de explicação, definição e exemplificação, por exemplo) e os mecanismos de paráfrase, de maneira a organizar mais adequadamente a coesão e a progressão temática de seus textos."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP26",
+    "Habilidade": "Reconhecer a estrutura de hipertexto em textos de divulgação científica e proceder à remissão a conceitos e relações por meio de notas de rodapés ou boxes."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP27",
+    "Habilidade": "Analisar, entre os textos literários e entre estes e outras manifestações artísticas (como cinema, teatro, música, artes visuais e midiáticas), referências explícitas ou implícitas a outros textos, quanto aos temas, personagens e recursos literários e semióticos."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP28",
+    "Habilidade": "Ler, de forma autônoma, e compreender — selecionando procedimentos e estratégias de leitura adequados a diferentes objetivos e levando em conta características dos gêneros e suportes — romances infanto-juvenis, contos populares, contos de terror, lendas brasileiras, indígenas e africanas, narrativas de aventuras, narrativas de enigma, mitos, crônicas, autobiografias, histórias em quadrinhos, mangás, poemas de forma livre e fixa (como sonetos e cordéis), vídeo-poemas, poemas visuais, dentre outros, expressando avaliação sobre o texto lido e estabelecendo preferências por gêneros, temas, autores."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP29",
+    "Habilidade": "Identificar, em texto dramático, personagem, ato, cena, fala e indicações cênicas e a organização do texto: enredo, conflitos, ideias principais, pontos de vista, universos de referência."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP30",
+    "Habilidade": "Criar narrativas ficcionais, tais como contos populares, contos de suspense, mistério, terror, humor, narrativas de enigma, crônicas, histórias em quadrinhos, dentre outros, que utilizem cenários e personagens realistas ou de fantasia, observando os elementos da estrutura narrativa próprios ao gênero pretendido, tais como enredo, personagens, tempo, espaço e narrador, utilizando tempos verbais adequados à narração de fatos passados, empregando conhecimentos sobre diferentes modos de se iniciar uma história e de inserir os discursos direto e indireto."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP31",
+    "Habilidade": "Criar poemas compostos por versos livres e de forma fixa (como quadras e sonetos), utilizando recursos visuais, semânticos e sonoros, tais como cadências, ritmos e rimas, e poemas visuais e vídeo-poemas, explorando as relações entre imagem e texto verbal, a distribuição da mancha gráfica (poema visual) e outros recursos visuais e sonoros."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP35",
+    "Habilidade": "Distinguir palavras derivadas por acréscimo de afixos e palavras compostas."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP36",
+    "Habilidade": "Utilizar, ao produzir texto, recursos de coesão referencial (léxica e pronominal) e sequencial e outros recursos expressivos adequados ao gênero textual."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP37",
+    "Habilidade": "Analisar, em diferentes textos, os efeitos de sentido decorrentes do uso de recursos linguístico-discursivos de prescrição, causalidade, sequências descritivas e expositivas e ordenação de eventos."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67LP38",
+    "Habilidade": "Analisar os efeitos de sentido do uso de figuras de linguagem, como comparação, metáfora, metonímia, personificação, hipérbole, entre outras."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP01",
+    "Habilidade": "Analisar os interesses que movem o campo jornalístico, os efeitos das novas tecnologias no campo e as condições que fazem da informação uma mercadoria, de forma a poder desenvolver uma atitude crítica frente aos textos jornalísticos."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP02",
+    "Habilidade": "Analisar diferentes práticas (curtir, compartilhar, comentar, curar etc.) e textos pertencentes a diferentes gêneros da cultura digital (meme, gif, comentário, charge digital etc.) envolvidos no trato com a informação e opinião, de forma a possibilitar uma presença mais crítica e ética nas redes."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP03",
+    "Habilidade": "Analisar textos de opinião (artigos de opinião, editoriais, cartas de leitores, comentários, posts de blog e de redes sociais, charges, memes, gifs etc.) e posicionar-se de forma crítica e fundamentada, ética e respeitosa frente a fatos e opiniões relacionados a esses textos."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP04",
+    "Habilidade": "Identificar e avaliar teses/opiniões/posicionamentos explícitos e implícitos, argumentos e contra-argumentos em textos argumentativos do campo (carta de leitor, comentário, artigo de opinião, resenha crítica etc.), posicionando-se frente à questão controversa de forma sustentada."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP05",
+    "Habilidade": "Analisar o efeito de sentido produzido pelo uso, em textos, de recurso a formas de apropriação textual (paráfrases, citações, discurso direto, indireto ou indireto livre)."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP06",
+    "Habilidade": "Analisar o uso de recursos persuasivos em textos argumentativos diversos (como a elaboração do título, escolhas lexicais, construções metafóricas, a explicitação ou a ocultação de fontes de informação) e seus efeitos de sentido."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP07",
+    "Habilidade": "Analisar, em notícias, reportagens e peças publicitárias em várias mídias, os efeitos de sentido devidos ao tratamento e à composição dos elementos nas imagens em movimento, à performance, à montagem feita (ritmo, duração e sincronização entre as linguagens — complementaridades, interferências etc.) e ao ritmo, melodia, instrumentos e sampleamentos das músicas e efeitos sonoros."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP08",
+    "Habilidade": "Planejar reportagem impressa e em outras mídias (rádio ou TV/vídeo, sites), tendo em vista as condições de produção do texto — objetivo, leitores/espectadores, veículos e mídia de circulação etc. —, a partir da escolha do fato a ser aprofundado ou do tema a ser focado, do levantamento de dados e informações sobre o fato ou tema, do registro dessas informações e dados, da escolha de fotos ou imagens a produzir ou a utilizar etc., da produção de infográficos, quando for o caso, e da organização hipertextual (no caso a publicação em sites ou blogs noticiosos ou mesmo de jornais impressos, por meio de boxes variados)."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP09",
+    "Habilidade": "Produzir reportagem impressa, com título, linha fina (optativa), organização composicional (expositiva, interpretativa e/ou opinativa), progressão temática e uso de recursos linguísticos compatíveis com as escolhas feitas, e reportagens multimidiáticas, tendo em vista as condições de produção, as características do gênero, os recursos e as mídias disponíveis, bem como os recursos de captação e edição de áudio e imagem e adequação a norma padrão."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP10",
+    "Habilidade": "Planejar artigos de opinião, tendo em vista as condições de produção do texto — objetivo, leitores/espectadores, veículos e mídia de circulação etc. —, a partir da escolha do tema ou questão a ser discutido(a), da relevância para a turma, escola ou comunidade, do levantamento de dados e informações sobre a questão, de argumentos relacionados a diferentes posicionamentos em jogo, da definição — o que pode envolver consultas a fontes diversas, entrevistas com especialistas, análise de textos, organização esquemática das informações e argumentos — dos (tipos de) argumentos e estratégias que pretende utilizar para convencer os leitores."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP11",
+    "Habilidade": "Produzir, revisar e editar peças e campanhas publicitárias, envolvendo o uso articulado e complementar de diferentes peças publicitárias: cartaz, banner, indoor, folheto, panfleto, anúncio de jornal/revista, para internet, spot, propaganda de rádio, TV etc., a partir da escolha da questão/problema/causa significativa para a escola e/ou a comunidade escolar, da definição do público-alvo, das peças que serão produzidas, das estratégias de persuasão e convencimento que serão utilizadas."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP12",
+    "Habilidade": "Planejar coletivamente a realização de um debate sobre tema previamente definido, de interesse coletivo, com regras acordadas e planejar, em grupo, participação em debate a partir do levantamento de informações e argumentos que possam sustentar o posicionamento a ser defendido, tendo em vista as condições de produção do debate — perfil dos ouvintes e demais participantes, objetivos do debate, motivações para sua realização, argumentos e estratégias de convencimento mais eficazes etc. — e participar de debates regrados, na condição de membro de uma equipe de debatedor, apresentador/mediador, espectador (com ou sem direito a perguntas), e/ou de juiz/avaliador, como forma de compreender o funcionamento do debate, e poder participar de forma convincente, ética, respeitosa e crítica e desenvolver uma atitude de respeito e diálogo para com as ideias divergentes."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP13",
+    "Habilidade": "Planejar entrevistas orais com pessoas ligadas ao fato noticiado, especialistas etc., como forma de obter dados e informações sobre os fatos cobertos sobre o tema ou questão discutida ou temáticas em estudo, levando em conta o gênero e seu contexto de produção, partindo do levantamento de informações sobre o entrevistado e sobre a temática e da elaboração de um roteiro de perguntas, garantindo a relevância das informações mantidas e a continuidade temática."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP14",
+    "Habilidade": "Analisar, em textos argumentativos e propositivos, os movimentos argumentativos de sustentação, refutação e negociação e os tipos de argumentos, avaliando a força/tipo dos argumentos utilizados."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP15",
+    "Habilidade": "Utilizar, nos debates, operadores argumentativos que marcam a defesa de ideia e de diálogo com a tese do outro: concordo, discordo, concordo parcialmente, do meu ponto de vista, na perspectiva aqui assumida etc."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP16",
+    "Habilidade": "Analisar a modalização realizada em textos noticiosos e argumentativos, por meio das modalidades apreciativas, viabilizadas por classes e estruturas gramaticais como adjetivos, locuções adjetivas, advérbios, locuções adverbiais, orações adjetivas e adverbiais, orações relativas restritivas e explicativas etc., de maneira a perceber a apreciação ideológica sobre os fatos noticiados ou as posições implícitas ou assumidas."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP17",
+    "Habilidade": "Relacionar textos e documentos legais e normativos de importância universal, nacional ou local que envolvam direitos, em especial, de crianças, adolescentes e jovens — tais como a Declaração dos Direitos Humanos, a Constituição Brasileira, o ECA —, e a regulamentação da organização escolar — por exemplo, regimento escolar —, a seus contextos de produção, reconhecendo e analisando possíveis motivações, finalidades e sua vinculação com experiências humanas e fatos históricos e sociais, como forma de ampliar a compreensão dos direitos e deveres, de fomentar os princípios democráticos e uma atuação pautada pela ética da responsabilidade (o outro tem direito a uma vida digna tanto quanto eu tenho)."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP18",
+    "Habilidade": "Explorar e analisar instâncias e canais de participação disponíveis na escola (conselho de escola, outros colegiados, grêmio livre), na comunidade (associações, coletivos, movimentos, etc.), no munícipio ou no país, incluindo formas de participação digital, como canais e plataformas de participação (como portal e-cidadania), serviços, portais e ferramentas de acompanhamentos do trabalho de políticos e de tramitação de leis, canais de educação política, bem como de propostas e proposições que circulam nesses canais, de forma a participar do debate de ideias e propostas na esfera social e engajar-se com a busca de soluções para problemas ou questões que envolvam a vida da escola e da comunidade."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP19",
+    "Habilidade": "Analisar, a partir do contexto de produção, a forma de organização das cartas abertas, abaixo-assinados e petições on-line (identificação dos signatários, explicitação da reivindicação feita, acompanhada ou não de uma breve apresentação da problemática e/ou de justificativas que visam sustentar a reivindicação) e a proposição, discussão e aprovação de propostas políticas ou de soluções para problemas de interesse público, apresentadas ou lidas nos canais digitais de participação, identificando suas marcas linguísticas, como forma de possibilitar a escrita ou subscrição consciente de abaixo-assinados e textos dessa natureza e poder se posicionar de forma crítica e fundamentada frente às propostas."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP20",
+    "Habilidade": "Comparar propostas políticas e de solução de problemas, identificando o que se pretende fazer/implementar, por que (motivações, justificativas), para que (objetivos, benefícios e consequências esperados), como (ações e passos), quando etc. e a forma de avaliar a eficácia da proposta/solução, contrastando dados e informações de diferentes fontes, identificando coincidências, complementaridades e contradições, de forma a poder compreender e posicionar-se criticamente sobre os dados e informações usados em fundamentação de propostas e analisar a coerência entre os elementos, de forma a tomar decisões fundamentadas."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP21",
+    "Habilidade": "Realizar enquetes e pesquisas de opinião, de forma a levantar prioridades, problemas a resolver ou propostas que possam contribuir para melhoria da escola ou da comunidade, caracterizar demanda/necessidade, documentando-a de diferentes maneiras por meio de diferentes procedimentos, gêneros e mídias e, quando for o caso, selecionar informações e dados relevantes de fontes pertinentes diversas (sites, impressos, vídeos etc.), avaliando a qualidade e a utilidade dessas fontes, que possam servir de contextualização e fundamentação de propostas, de forma a justificar a proposição de propostas, projetos culturais e ações de intervenção."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP22",
+    "Habilidade": "Compreender e comparar as diferentes posições e interesses em jogo em uma discussão ou apresentação de propostas, avaliando a validade e força dos argumentos e as consequências do que está sendo proposto e, quando for o caso, formular e negociar propostas de diferentes naturezas relativas a interesses coletivos envolvendo a escola ou a comunidade escolar."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP23",
+    "Habilidade": "Analisar, em textos argumentativos, reivindicatórios e propositivos, os movimentos argumentativos utilizados (sustentação, refutação e negociação), avaliando a força dos argumentos utilizados."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP24",
+    "Habilidade": "Realizar pesquisa, estabelecendo o recorte das questões, usando fontes abertas e confiáveis."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP25",
+    "Habilidade": "Divulgar o resultado de pesquisas por meio de apresentações orais, verbetes de enciclopédias colaborativas, reportagens de divulgação científica, vlogs científicos, vídeos de diferentes tipos etc."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP26",
+    "Habilidade": "Produzir resenhas, a partir das notas e/ou esquemas feitos, com o manejo adequado das vozes envolvidas (do resenhador, do autor da obra e, se for o caso, também dos autores citados na obra resenhada), por meio do uso de paráfrases, marcas do discurso reportado e citações."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP27",
+    "Habilidade": "Tecer considerações e formular problematizações pertinentes, em momentos oportunos, em situações de aulas, apresentação oral, seminário etc."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP28",
+    "Habilidade": "Tomar nota de videoaulas, aulas digitais, apresentações multimídias, vídeos de divulgação científica, documentários e afins, identificando, em função dos objetivos, informações principais para apoio ao estudo e realizando, quando necessário, uma síntese final que destaque e reorganize os pontos ou conceitos centrais e suas relações e que, em alguns casos, seja acompanhada de reflexões pessoais, que podem conter dúvidas, questionamentos, considerações etc."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP29",
+    "Habilidade": "Utilizar e perceber mecanismos de progressão temática, tais como retomadas anafóricas (“que, cujo, onde”, pronomes do caso reto e oblíquos, pronomes demonstrativos, nomes correferentes etc.), catáforas (remetendo para adiante ao invés de retomar o já dito), uso de organizadores textuais, de coesivos etc., e analisar os mecanismos de reformulação e paráfrase utilizados nos textos de divulgação do conhecimento."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP30",
+    "Habilidade": "Analisar a estrutura de hipertexto e hiperlinks em textos de divulgação científica que circulam na Web e proceder à remissão a conceitos e relações por meio de links."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP31",
+    "Habilidade": "Analisar e utilizar modalização epistêmica, isto é, modos de indicar uma avaliação sobre o valor de verdade e as condições de verdade de uma posição, tais como os asseverativos – quando se concorda com (‘realmente, evidentemente, naturalmente, efetivamente, claro, certo, lógico, sem dúvida” etc.) ou discorda de (“de jeito nenhum, de forma alguma”) uma ideia; e os quase-asseverativos, que indicam que se considera o conteúdo como quase certo (“talvez, assim, possivelmente, provavelmente e eventualmente”)."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP32",
+    "Habilidade": "Analisar os efeitos de sentido decorrentes do uso de mecanismos de intertextualidade (referências, alusões, retomadas) entre os textos literários, entre esses textos literários e outras manifestações artísticas (cinema, teatro, artes visuais e midiáticas, música), quanto aos temas, personagens, estilos, autores etc., e entre o texto original e paródias, paráfrases, pastiches, trailer honesto, vídeos-minuto, vidding, dentre outros."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP33",
+    "Habilidade": "Ler, de forma autônoma, e compreender — selecionando procedimentos e estratégias de leitura adequados a diferentes objetivos e levando em conta características dos gêneros e suportes — romances, contos contemporâneos, minicontos, fábulas contemporâneas, romances juvenis, biografias romanceadas, novelas, crônicas visuais, narrativas de ficção científica, narrativas de suspense, poemas de forma livre e fixa (como haicai), poema concreto, ciberpoema, dentre outros, expressando avaliação sobre o texto lido e estabelecendo preferências por gêneros, temas, autores."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP34",
+    "Habilidade": "Analisar a organização de texto dramático apresentado em teatro, televisão, cinema, identificando e percebendo os sentidos decorrentes dos recursos linguísticos e semióticos que sustentam sua realização como peça teatral, novela, filme etc."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP35",
+    "Habilidade": "Criar contos ou crônicas (em especial, líricas), crônicas visuais, minicontos, narrativas de aventura e de ficção científica, dentre outros, com temáticas próprias ao gênero, usando os conhecimentos sobre os constituintes estruturais e recursos expressivos típicos dos gêneros narrativos pretendidos, e, no caso de produção em grupo, ferramentas de escrita colaborativa."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP36",
+    "Habilidade": "Parodiar poemas conhecidos da literatura e criar textos em versos (como poemas concretos, ciberpoemas, haicais, liras, microrroteiros, lambe-lambes e outros tipos de poemas), explorando recursos sonoros, semânticos (como figuras de linguagem e jogos de palavras) e visuais (como relações entre imagem e texto verbal e distribuição da mancha gráfica), de forma a propiciar diferentes efeitos de sentido."
+  },
+  {
+    "Disciplina": "Língua Portuguesa",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89LP37",
+    "Habilidade": "Analisar os efeitos de sentido do uso de figuras de linguagem como ironia, eufemismo, antítese, aliteração, assonância, dentre outras."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF01",
+    "Habilidade": "Experimentar e fruir, na escola e fora dela, jogos eletrônicos diversos, valorizando e respeitando os sentidos e significados atribuídos a eles por diferentes grupos sociais e etários."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF02",
+    "Habilidade": "Identificar as transformações nas características dos jogos eletrônicos em função dos avanços das tecnologias e nas respectivas exigências corporais colocadas por esses diferentes tipos de jogos."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF03",
+    "Habilidade": "Experimentar e fruir esportes de marca, precisão, invasão e técnico-combinatórios, valorizando o trabalho coletivo e o protagonismo."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF04",
+    "Habilidade": "Praticar um ou mais esportes de marca, precisão, invasão e técnico-combinatórios oferecidos pela escola, usando habilidades técnico-táticas básicas e respeitando regras."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF05",
+    "Habilidade": "Planejar e utilizar estratégias para solucionar os desafios técnicos e táticos, tanto nos esportes de marca, precisão, invasão e técnico-combinatórios como nas modalidades esportivas escolhidas para praticar de forma específica."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF06",
+    "Habilidade": "Analisar as transformações na organização e na prática dos esportes em suas diferentes manifestações (profissional e comunitário/lazer)."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF07",
+    "Habilidade": "Propor e produzir alternativas para experimentação dos esportes não disponíveis e/ou acessíveis na comunidade e das demais práticas corporais tematizadas na escola."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF08",
+    "Habilidade": "Experimentar e fruir exercícios físicos que solicitem diferentes capacidades físicas, identificando seus tipos (força, velocidade, resistência, flexibilidade) e as sensações corporais provocadas pela sua prática."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF09",
+    "Habilidade": "Construir, coletivamente, procedimentos e normas de convívio que viabilizem a participação de todos na prática de exercícios físicos, com o objetivo de promover a saúde."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF10",
+    "Habilidade": "Diferenciar exercício físico de atividade física e propor alternativas para a prática de exercícios físicos dentro e fora do ambiente escolar."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF11",
+    "Habilidade": "Experimentar, fruir e recriar danças urbanas, identificando seus elementos constitutivos (ritmo, espaço, gestos)."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF12",
+    "Habilidade": "Planejar e utilizar estratégias para aprender elementos constitutivos das danças urbanas."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF13",
+    "Habilidade": "Diferenciar as danças urbanas das demais manifestações da dança, valorizando e respeitando os sentidos e significados atribuídos a elas por diferentes grupos sociais."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF14",
+    "Habilidade": "Experimentar, fruir e recriar diferentes lutas do Brasil, valorizando a própria segurança e integridade física, bem como as dos demais."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF15",
+    "Habilidade": "Planejar e utilizar estratégias básicas das lutas do Brasil, respeitando o colega como oponente."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF16",
+    "Habilidade": "Identificar as características (códigos, rituais, elementos técnico-táticos, indumentária, materiais, instalações, instituições) das lutas do Brasil."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF17",
+    "Habilidade": "Problematizar preconceitos e estereótipos relacionados ao universo das lutas e demais práticas corporais, propondo alternativas para superá-los, com base na solidariedade, na justiça, na equidade e no respeito."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF18",
+    "Habilidade": "Experimentar e fruir diferentes práticas corporais de aventura urbanas, valorizando a própria segurança e integridade física, bem como as dos demais."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF19",
+    "Habilidade": "Identificar os riscos durante a realização de práticas corporais de aventura urbanas e planejar estratégias para sua superação."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF20",
+    "Habilidade": "Executar práticas corporais de aventura urbanas, respeitando o patrimônio público e utilizando alternativas para a prática segura em diversos espaços."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF67EF21",
+    "Habilidade": "Identificar a origem das práticas corporais de aventura e as possibilidades de recriá-las, reconhecendo as características (instrumentos, equipamentos de segurança, indumentária, organização) e seus tipos de práticas."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF01",
+    "Habilidade": "Experimentar diferentes papéis (jogador, árbitro e técnico) e fruir os esportes de rede/parede, campo e taco, invasão e combate, valorizando o trabalho coletivo e o protagonismo."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF02",
+    "Habilidade": "Praticar um ou mais esportes de rede/parede, campo e taco, invasão e combate oferecidos pela escola, usando habilidades técnico-táticas básicas."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF03",
+    "Habilidade": "Formular e utilizar estratégias para solucionar os desafios técnicos e táticos, tanto nos esportes de campo e taco, rede/parede, invasão e combate como nas modalidades esportivas escolhidas para praticar de forma específica."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF04",
+    "Habilidade": "Identificar os elementos técnicos ou técnico-táticos individuais, combinações táticas, sistemas de jogo e regras das modalidades esportivas praticadas, bem como diferenciar as modalidades esportivas com base nos critérios da lógica interna das categorias de esporte: rede/parede, campo e taco, invasão e combate."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF05",
+    "Habilidade": "Identificar as transformações históricas do fenômeno esportivo e discutir alguns de seus problemas (doping, corrupção, violência etc.) e a forma como as mídias os apresentam."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF06",
+    "Habilidade": "Verificar locais disponíveis na comunidade para a prática de esportes e das demais práticas corporais tematizadas na escola, propondo e produzindo alternativas para utilizá-los no tempo livre."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF07",
+    "Habilidade": "Experimentar e fruir um ou mais programas de exercícios físicos, identificando as exigências corporais desses diferentes programas e reconhecendo a importância de uma prática individualizada, adequada às características e às necessidades de cada sujeito."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF08",
+    "Habilidade": "Discutir as transformações históricas dos padrões de desempenho, saúde e beleza, considerando a forma como são apresentados nos diferentes meios (científico, midiático etc.)."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF09",
+    "Habilidade": "Problematizar a prática excessiva de exercícios físicos e o uso de medicamentos para a ampliação do rendimento ou potencialização das transformações corporais."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF10",
+    "Habilidade": "Experimentar e fruir um ou mais tipos de ginástica de conscientização corporal, identificando as suas exigências corporais."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF11",
+    "Habilidade": "Identificar as diferenças e as semelhanças entre a ginástica de conscientização corporal e as de condicionamento físico e discutir como a prática de cada uma dessas manifestações pode contribuir para a melhoria das condições de vida, saúde, bem-estar e cuidado consigo mesmo."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF12",
+    "Habilidade": "Experimentar, fruir e recriar danças de salão, valorizando a diversidade cultural e respeitando a tradição dessas culturas."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF13",
+    "Habilidade": "Planejar e utilizar estratégias para se apropriar dos elementos constitutivos (ritmo, espaço, gestos) das danças de salão."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF14",
+    "Habilidade": "Discutir estereótipos e preconceitos relativos às danças de salão e demais práticas corporais e propor alternativas para sua superação."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF15",
+    "Habilidade": "Analisar as características (ritmos, gestos, coreografias e músicas) das danças de salão, bem como suas transformações históricas e os grupos de origem."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF16",
+    "Habilidade": "Experimentar e fruir a execução dos movimentos pertencentes às lutas do mundo, adotando procedimentos de segurança e respeitando o oponente."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF17",
+    "Habilidade": "Planejar e utilizar estratégias básicas das lutas experimentadas, reconhecendo as suas características técnico-táticas."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF18",
+    "Habilidade": "Discutir as transformações históricas, o processo de esportivização e a midiatização de uma ou mais lutas, valorizando e respeitando as culturas de origem."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF19",
+    "Habilidade": "Experimentar e fruir diferentes práticas corporais de aventura na natureza, valorizando a própria segurança e integridade física, bem como as dos demais, respeitando o patrimônio natural e minimizando os impactos de degradação ambiental."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF20",
+    "Habilidade": "Identificar riscos, formular estratégias e observar normas de segurança para superar os desafios na realização de práticas corporais de aventura na natureza."
+  },
+  {
+    "Disciplina": "Educação Física",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF89EF21",
+    "Habilidade": "Identificar as características (equipamentos de segurança, instrumentos, indumentária, organização) das práticas corporais de aventura na natureza, bem como suas transformações históricas."
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR01",
+    "Habilidade": "Pesquisar, apreciar e analisar formas distintas das artes visuais tradicionais e contemporâneas.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR02",
+    "Habilidade": "Pesquisar e analisar diferentes estilos visuais, contextualizando-os no tempo e no espaço.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR03",
+    "Habilidade": "Analisar situações nas quais as linguagens das artes visuais se integram às linguagens audiovisuais.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR04",
+    "Habilidade": "Analisar os elementos constitutivos das artes visuais.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR05",
+    "Habilidade": "Experimentar e analisar diferentes formas de expressão artística.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR06",
+    "Habilidade": "Desenvolver processos de criação em artes visuais, com base em temas ou interesses artísticos, de modo individual, coletivo e colaborativo, fazendo uso de materiais, instrumentos e recursos convencionais, alternativos e digitais.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR07",
+    "Habilidade": "Dialogar com princípios conceituais, proposições temáticas, repertórios imagéticos e processos de criação nas produções visuais.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR08",
+    "Habilidade": "Diferenciar as categorias artísticas.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR09",
+    "Habilidade": "Pesquisar e analisar diferentes formas de expressão.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR10",
+    "Habilidade": "Explorar elementos constitutivos do movimento cotidiano e do movimento dançado, abordando criticamente o desenvolvimento das formas da dança em sua história tradicional e contemporânea.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR11",
+    "Habilidade": "Experimentar e analisar os fatores de movimento na dança.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR12",
+    "Habilidade": "Investigar e experimentar procedimentos de improvisação e criação.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR13",
+    "Habilidade": "Investigar brincadeiras, jogos, danças coletivas e outras práticas de dança de diferentes matrizes estéticas e culturais.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR14",
+    "Habilidade": "Analisar e experimentar diferentes elementos e espaços para composição cênica e apresentação coreográfica.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR15",
+    "Habilidade": "Discutir as experiências pessoais e coletivas em dança vivenciadas na escola e em outros contextos.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR16",
+    "Habilidade": "Analisar criticamente, por meio da apreciação musical, usos e funções da música em seus contextos de produção e circulação, relacionando as práticas musicais às diferentes dimensões da vida social, cultural, política, histórica, econômica, estética e ética.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR17",
+    "Habilidade": "Explorar e analisar, criticamente, diferentes meios e equipamentos culturais de circulação da música e do conhecimento musical.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR19",
+    "Habilidade": "Identificar e analisar diferentes estilos musicais, contextualizando-os no tempo e no espaço, de modo a aprimorar a capacidade de apreciação da estética musical.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR20",
+    "Habilidade": "Explorar e analisar elementos constitutivos da música.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR21",
+    "Habilidade": "Explorar e analisar fontes e materiais sonoros em práticas de composição/criação, execução e apreciação musical, reconhecendo timbres e características de instrumentos musicais diversos.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR22",
+    "Habilidade": "Explorar e identificar diferentes formas de registro musical, bem como procedimentos e técnicas de registro em áudio e audiovisual.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR23",
+    "Habilidade": "Explorar e criar improvisações e composições, convencionais ou não convencionais, com o intuito de expressar ideias musicais de maneira individual, coletiva e colaborativa.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR24",
+    "Habilidade": "Reconhecer e apreciar artistas e grupos de teatro brasileiros e estrangeiros de diferentes épocas.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR25",
+    "Habilidade": "Identificar e analisar diferentes estilos cênicos.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR26",
+    "Habilidade": "Explorar diferentes elementos envolvidos na composição dos acontecimentos cênicos.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR27",
+    "Habilidade": "Pesquisar e criar formas de dramaturgias e espaços cênicos para o acontecimento teatral, em diálogo com o teatro contemporâneo.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR28",
+    "Habilidade": "Investigar e experimentar diferentes funções teatrais.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR29",
+    "Habilidade": "Experimentar a gestualidade e as construções corporais e vocais.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "6º e 7º anos",
+    "Codigo": "EF69AR30",
+    "Habilidade": "Compor improvisações e acontecimentos cênicos com base em textos dramáticos ou outros.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR01",
+    "Habilidade": "Pesquisar, apreciar e analisar formas distintas das artes visuais tradicionais e contemporâneas.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR02",
+    "Habilidade": "Pesquisar e analisar diferentes estilos visuais, contextualizando-os no tempo e no espaço.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR03",
+    "Habilidade": "Analisar situações nas quais as linguagens das artes visuais se integram às linguagens audiovisuais.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR04",
+    "Habilidade": "Analisar os elementos constitutivos das artes visuais na apreciação de diferentes produções artísticas.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR05",
+    "Habilidade": "Experimentar e analisar diferentes formas de expressão artística.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR06",
+    "Habilidade": "Desenvolver processos de criação em artes visuais, com base em temas ou interesses artísticos, de modo individual, coletivo e colaborativo, fazendo uso de materiais, instrumentos e recursos convencionais, alternativos e digitais.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR07",
+    "Habilidade": "Dialogar com princípios conceituais, proposições temáticas, repertórios imagéticos e processos de criação nas produções visuais.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR08",
+    "Habilidade": "Diferenciar as categorias artísticas.",
+    "Area": "Artes Visuais"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR09",
+    "Habilidade": "Pesquisar e analisar diferentes formas de expressão, representação e encenação da dança.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR10",
+    "Habilidade": "Explorar elementos constitutivos do movimento cotidiano e do movimento dançado, abordando criticamente o desenvolvimento das formas da dança em sua história tradicional e contemporânea.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR11",
+    "Habilidade": "Experimentar e analisar os fatores de movimento.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR12",
+    "Habilidade": "Investigar e experimentar procedimentos de improvisação e criação.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR13",
+    "Habilidade": "Investigar brincadeiras, jogos, danças coletivas e outras práticas de dança de diferentes matrizes estéticas e culturais como referência para a criação e a composição de danças autorais, individualmente e em grupo.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR14",
+    "Habilidade": "Analisar e experimentar diferentes elementos e espaços para composição cênica e apresentação coreográfica.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR15",
+    "Habilidade": "Discutir as experiências pessoais e coletivas em dança vivenciadas na escola e em outros contextos, problematizando estereótipos e preconceitos.",
+    "Area": "Dança"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR16",
+    "Habilidade": "Analisar criticamente usos e funções da música em seus contextos de produção e circulação, relacionando as práticas musicais às diferentes dimensões da vida social, cultural, política, histórica, econômica, estética e ética.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR17",
+    "Habilidade": "Explorar e analisar, criticamente, diferentes meios e equipamentos culturais de circulação da música e do conhecimento musical.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR18",
+    "Habilidade": "Reconhecer e apreciar o papel de músicos e grupos de música brasileiros e estrangeiros que contribuíram para o desenvolvimento de formas e gêneros musicais.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR19",
+    "Habilidade": "Identificar e analisar diferentes estilos musicais, contextualizando-os no tempo e no espaço, de modo a aprimorar a capacidade de apreciação da estética musical.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR20",
+    "Habilidade": "Explorar e analisar elementos constitutivos da música, por meio de recursos tecnológicos.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR21",
+    "Habilidade": "Explorar e analisar fontes e materiais sonoros em práticas de composição/criação, execução e apreciação musical, reconhecendo timbres e características de instrumentos musicais diversos.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR22",
+    "Habilidade": "Explorar e identificar diferentes formas de registro musical, bem como procedimentos e técnicas de registro em áudio e audiovisual.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR23",
+    "Habilidade": "Explorar e criar improvisações, composições, arranjos, jingles e trilhas sonoras, utilizando vozes, sons corporais e/ou instrumentos acústicos ou eletrônicos, convencionais ou não convencionais, de forma a expressar ideias musicais de maneira individual, coletiva e colaborativa.",
+    "Area": "Música"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR24",
+    "Habilidade": "Reconhecer e apreciar artistas e grupos de teatro brasileiros e estrangeiros de diferentes épocas, investigar os modos de criação, de produção, de divulgação, de circulação e de organização da atuação profissional em teatro.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR25",
+    "Habilidade": "Identificar e analisar diferentes estilos cênicos, contextualizando-os no tempo e no espaço de modo a aprimorar a capacidade de apreciação da estética teatral.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR26",
+    "Habilidade": "Explorar diferentes elementos envolvidos na composição dos acontecimentos cênicos (figurinos, adereços, cenário, iluminação e sonoplastia) e reconhecer seus vocabulários.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR27",
+    "Habilidade": "Pesquisar e criar formas de dramaturgias e espaços cênicos para o acontecimento teatral, em diálogo com o teatro contemporâneo.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR28",
+    "Habilidade": "Investigar e experimentar diferentes funções teatrais e discutir os limites e os desafios do trabalho artístico coletivo e colaborativo.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR29",
+    "Habilidade": "Experimentar a gestualidade e as construções corporais e vocais de maneira imaginativa na improvisação teatral e no jogo cênico.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR30",
+    "Habilidade": "Compor improvisações e acontecimentos cênicos com base em textos dramáticos ou outros estímulos, caracterizar personagens e considerar a relação com o espectador.",
+    "Area": "Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR31",
+    "Habilidade": "Relacionar as práticas artísticas às diferentes dimensões da vida social, cultural, política, histórica, econômica, estética e ética.",
+    "Area": "Artes Visuais / Dança / Música / Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR32",
+    "Habilidade": "Projetos temáticos e relações entre diversas linguagens artísticas.",
+    "Area": "Artes Visuais / Dança / Música / Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR33",
+    "Habilidade": "Analisar aspectos históricos, sociais e políticos da produção artística, de modo a problematizar as narrativas eurocêntricas e as diversas categorizações da arte (arte, artesanato, folclore, design etc.).",
+    "Area": "Artes Visuais / Dança / Música / Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR34",
+    "Habilidade": "Analisar e valorizar o patrimônio cultural, material e imaterial.",
+    "Area": "Artes Visuais / Dança / Música / Teatro"
+  },
+  {
+    "Disciplina": "Arte",
+    "Ano": "8º e 9º anos",
+    "Codigo": "EF69AR35",
+    "Habilidade": "Identificar e manipular diferentes tecnologias e recursos digitais.",
+    "Area": "Artes Visuais / Dança / Música / Teatro"
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "6º ano",
+    "Codigo": "EF06ER01",
+    "Habilidade": "Reconhecer o papel da tradição escrita na preservação e manutenção de memórias, acontecimentos e ensinamentos religiosos."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "6º ano",
+    "Codigo": "EF06ER02",
+    "Habilidade": "Reconhecer e valorizar os textos sagrados escritos das diversas manifestações, tradições religiosas e filosofias de vida."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "6º ano",
+    "Codigo": "EF06ER03",
+    "Habilidade": "Identificar os modos de ser, pensar e agir nos diferentes textos orais e escritos."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "6º ano",
+    "Codigo": "EF06ER07",
+    "Habilidade": "Perceber a relação entre mito, rito e símbolo nas práticas de diferentes manifestações, tradições religiosas e filosofias de vida."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "6º ano",
+    "Codigo": "EF06ER06",
+    "Habilidade": "Reconhecer que a memória dos acontecimentos sagrados é cultivada por meio de mitos, ritos e símbolos nas diferentes manifestações, tradições religiosas e filosofias de vida."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "7º ano",
+    "Codigo": "EF07ER06",
+    "Habilidade": "Problematizar processos de exclusão e desigualdades, estimulados por crenças, ideologias religiosas, filosofias de vida nos diferentes tempos e espaços."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "7º ano",
+    "Codigo": "EF07ER08",
+    "Habilidade": "Reconhecer o estado laico, o direito à liberdade de consciência, crença ou convicção, questionando concepções e práticas sociais que a violam."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "7º ano",
+    "Codigo": "EF07ER01",
+    "Habilidade": "Reconhecer e respeitar as práticas de espiritualidades em distintas manifestações, tradições religiosas e filosofias de vida."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "7º ano",
+    "Codigo": "EF07ER02",
+    "Habilidade": "Identificar práticas de espiritualidade em situações como acidentes, doenças, fenômenos climáticos, entre outros."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "7º ano",
+    "Codigo": "EF07ER07",
+    "Habilidade": "Reconhecer os papéis atribuídos às lideranças de diferentes manifestações, tradições religiosas e filosofias de vida na defesa e na promoção dos direitos humanos."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "7º ano",
+    "Codigo": "EF07ER04",
+    "Habilidade": "Conhecer líderes religiosos que se destacaram e analisar suas contribuições à sociedade."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08ER01",
+    "Habilidade": "Discutir como as crenças e as convicções podem influenciar escolhas e atitudes pessoais e coletivas."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08ER02",
+    "Habilidade": "Analisar manifestações, tradições religiosas e filosofias de vida destacando seus princípios éticos."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08ER03",
+    "Habilidade": "Analisar doutrinas das diferentes manifestações, tradições religiosas e filosofias de vida e suas concepções de mundo, vida e morte."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08ER04",
+    "Habilidade": "Discutir como manifestações, tradições religiosas e filosofias de vida podem influenciar diferentes campos da esfera pública como política, saúde, educação, economia, entre outros."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08ER05",
+    "Habilidade": "Debater sobre as possibilidades e os limites da interferência das manifestações, tradições religiosas e filosofias de vida na esfera pública."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08ER06",
+    "Habilidade": "Analisar práticas, projetos e políticas públicas que contribuem para a promoção da liberdade de pensamento, crenças e convicções."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08ER07",
+    "Habilidade": "Analisar as formas de uso das mídias e das tecnologias pelas diferentes manifestações, tradições religiosas e filosofias de vida."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09ER01",
+    "Habilidade": "Analisar princípios e orientações para o cuidado da vida, nas diversas manifestações, tradições religiosas e filosofias de vida."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09ER02",
+    "Habilidade": "Analisar expressões de valorização e de desrespeito à vida abordadas nas diferentes mídias."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09ER05",
+    "Habilidade": "Conhecer as diferentes ideias de continuidade da vida elaboradas por manifestações, tradições religiosas e filosofias de vida como possibilidade de superação de finitude humana, tais como: ancestralidade, reencarnação, transmigração e a ressurreição."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09ER03",
+    "Habilidade": "Compreender os sentidos e os significados da vida e da morte para as filosofias de vida, como: o ateísmo, niilismo, ceticismo e agnosticismo."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09ER04",
+    "Habilidade": "Analisar diferentes ritos fúnebres decorrentes das concepções de vida e morte em diferentes manifestações, tradições religiosas e filosofias de vida."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09ER06",
+    "Habilidade": "Reconhecer a coexistência como uma atitude ética de respeito à vida e à dignidade humana."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09ER07",
+    "Habilidade": "Identificar princípios éticos, religiosos e culturais que possam alicerçar a construção de projetos de vida, condutas pessoais e práticas sociais."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09ER08",
+    "Habilidade": "Problematizar situações de banalização da vida e da morte, refletindo sobre os sentidos do viver e do morrer."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "6º ano",
+    "Codigo": "EF06",
+    "Habilidade": "Identificar e problematizar situações de violências, prevenindo e protegendo crianças e adolescentes do abuso e exploração sexual, bullying, racismo, machismo, entre outros."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "6º ano",
+    "Codigo": "EF06",
+    "Habilidade": "Compreender os conceitos de religião, crenças, religiosidades, filosofias de vida e espiritualidades."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "6º ano",
+    "Codigo": "EF06",
+    "Habilidade": "Perceber que os textos sagrados podem estimular práticas de solidariedade, justiça e paz, podendo também fundamentar ações que afrontam os direitos humanos e da Terra."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "7º ano",
+    "Codigo": "EF06",
+    "Habilidade": "Identificar e problematizar situações de violências, prevenindo e protegendo crianças e adolescentes do abuso e exploração sexual, bullying, racismo, machismo, xenofobia, LGBTfobia, entre outros."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "7º ano",
+    "Codigo": "EF07",
+    "Habilidade": "Conhecer e respeitar os diferentes espaços e territórios sagrados das manifestações e tradições religiosas e sua importância para a espiritualidade na vida das pessoas."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "7º ano",
+    "Codigo": "EF07",
+    "Habilidade": "Reconhecer a relação das manifestações, tradições religiosas e filosofias de vida, os espaços, as experiências sensoriais e a transcendência."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08",
+    "Habilidade": "Identificar e problematizar situações de violências, prevenindo e protegendo adolescentes do abuso e exploração sexual, bullying, racismo, machismo, xenofobia, LGBTfobia, entre outros."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08",
+    "Habilidade": "Refletir sobre as implicações da atuação de instituições religiosas em um Estado laico e em uma sociedade diversa culturalmente."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08",
+    "Habilidade": "Identificar práticas que reconheçam a diversidade cultural religiosa na perspectiva dos direitos humanos e da Terra."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08",
+    "Habilidade": "Analisar as funções e os significados de ritos para as manifestações, as tradições religiosas e filosofias de vida."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "8º ano",
+    "Codigo": "EF08",
+    "Habilidade": "Reconhecer nas festas religiosas e nas peregrinações no contexto regional, nacional e mundial, a memória dos acontecimentos sagrados, culturais e a manutenção das diferentes manifestações, tradições religiosas e filosofias de vida."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09",
+    "Habilidade": "Problematizar situações de violências, prevenindo e protegendo adolescentes do ciberbullying, racismo, suicídio, discriminações, preconceitos, LGBTfobia, intolerância religiosa, violência doméstica, feminicídio, entre outros."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09",
+    "Habilidade": "Problematizar a vida como experiência existencial na coletividade, considerando princípios éticos, estéticos, econômicos, políticos, ambientais e socioculturais."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09",
+    "Habilidade": "Elaborar questionamentos referentes à existência humana e às situações limites que integram a vida, articulados às questões socioambientais, geopolíticas, culturais, religiosas, de gênero e sexualidade, dentre outras."
+  },
+  {
+    "Disciplina": "Ensino Religioso",
+    "Ano": "9º ano",
+    "Codigo": "EF09",
+    "Habilidade": "Conhecer os aspectos legais referentes à liberdade religiosa."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI01",
+    "Habilidade": "Demonstrar iniciativa para utilizar a língua inglesa em situações de interação oral."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI02",
+    "Habilidade": "Coletar informações do grupo, perguntando e respondendo sobre a família, os amigos, a escola e a comunidade."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI03",
+    "Habilidade": "Empregar expressões de uso cotidiano de sala de aula para solicitar esclarecimentos sobre o que não entendeu e/ou o significado de palavras ou expressões."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI04",
+    "Habilidade": "Reconhecer, com o apoio de palavras cognatas e pistas do contexto discursivo, o assunto e as informações principais em textos orais."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI05",
+    "Habilidade": "Falar de si e de outras pessoas, explicitando informações pessoais e características relacionadas a gostos, preferências e rotinas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI06",
+    "Habilidade": "Planejar apresentações sobre temáticas diversas, como família, comunidade e escola, compartilhando-as oralmente com o grupo."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI07",
+    "Habilidade": "Formular hipóteses sobre a finalidade de um texto, com base em sua estrutura, organização textual e pistas gráficas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI08",
+    "Habilidade": "Identificar o assunto de um texto, reconhecendo sua organização textual e palavras cognatas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI09",
+    "Habilidade": "Localizar informações específicas em texto."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI10",
+    "Habilidade": "Construir repertório lexical, compreendendo a organização de um dicionário bilíngue e consultando fontes diversas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI11",
+    "Habilidade": "Construir repertório lexical explorando ambientes virtuais e/ou aplicativos."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI12",
+    "Habilidade": "Compartilhar ideias e opiniões sobre o que o texto lido informa ou comunica."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI13",
+    "Habilidade": "Listar ideias para a produção de textos, considerando o tema e o assunto."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI14",
+    "Habilidade": "Selecionar e organizar ideias em função da estrutura e do objetivo do texto."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI15",
+    "Habilidade": "Produzir textos escritos sobre si mesmo, sua família, seus amigos, gostos, preferências, rotinas, comunidade, contexto escolar e outras temáticas abordadas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI16",
+    "Habilidade": "Construir repertório relativo às expressões usadas para o convívio social e o uso da língua inglesa em sala de aula."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI17",
+    "Habilidade": "Construir repertório lexical relativo a temáticas abordadas (escola, família, rotina diária, atividades de lazer, esportes entre outros)."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI18",
+    "Habilidade": "Reconhecer semelhanças e diferenças na pronúncia de palavras da língua inglesa e da língua materna e/ou outras línguas conhecidas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI19",
+    "Habilidade": "Descrever sobre si mesmo, sua família, seus amigos, gostos, preferências e rotinas e rotinas, suma comunidade, seu contexto escolar e outras temáticas abordadas utilizando o verbo to be e o presente do indicativo."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI20",
+    "Habilidade": "Descrever ações em progresso utilizando o presente contínuo."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI21",
+    "Habilidade": "Aplicar em enunciados de atividades, comandos e instruções no modo imperativo."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI22",
+    "Habilidade": "Descrever relações interpessoais e de posse por meio do apóstrofo (‘) + s."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI23",
+    "Habilidade": "Empregar os adjetivos possessivos em produções orais e escritas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI24",
+    "Habilidade": "Reconhecer o alcance da língua inglesa no mundo como língua materna e/ou oficial (primeira ou segunda língua)."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI25",
+    "Habilidade": "Identificar a presença da língua inglesa na sociedade brasileira/comunidade e seu significado (palavras, expressões, suportes e esferas de circulação e consumo)."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "6º ano",
+    "Codigo": "EF06LI26",
+    "Habilidade": "Avaliar elementos e produtos culturais de países de língua inglesa absorvidos pela sociedade brasileira/comunidade."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI01",
+    "Habilidade": "Trocar ideias e engajar-se colaborativamente em brincadeiras, jogos e situações de interação oral realizadas em sala de aula."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI02",
+    "Habilidade": "Entrevistar pessoas da comunidade escolar sobre temáticas interdisciplinares abordadas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI03",
+    "Habilidade": "Compreender textos orais a partir dos conhecimentos prévios."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI04",
+    "Habilidade": "Identificar o contexto, a finalidade, o assunto e os interlocutores em textos orais presentes no cinema, na internet, na televisão, entre outros."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI05",
+    "Habilidade": "Compor narrativas orais sobre fatos, acontecimentos e personalidades."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI06",
+    "Habilidade": "Inferir o sentido global de textos com base em leitura rápida, observação de títulos, imagens, primeiras e últimas frases de parágrafos e palavras-chave repetidas ou cognatas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI07",
+    "Habilidade": "Identificar informações-chave de partes de um texto em língua inglesa (parágrafos)."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI08",
+    "Habilidade": "Construir o sentido global de um texto relacionando suas partes."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI09",
+    "Habilidade": "Selecionar a informação desejada em um texto."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI10",
+    "Habilidade": "Escolher textos de fontes confiáveis para estudos e pesquisas escolares em ambientes virtuais."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI11",
+    "Habilidade": "Participar de troca de opiniões e informações sobre textos lidos em sala de aula ou em outros ambientes."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI12",
+    "Habilidade": "Planejar a escrita de textos em função do contexto, (público, da finalidade, do layout e do suporte)."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI13",
+    "Habilidade": "Explorar a produção textual organizando em unidades de sentido, dividindo-os em parágrafos, tópicos e subtópicos, considerando diferentes possibilidades de formato de texto, suporte e organização gráfica."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI14",
+    "Habilidade": "Produzir textos diversos sobre fatos, acontecimentos e/ou personalidades."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI15",
+    "Habilidade": "Construir repertório lexical relativo a verbos regulares e irregulares no passado, preposições de tempo e lugar e conectores."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI16",
+    "Habilidade": "Reconhecer a pronúncia de verbos regulares no passado (-ed)."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI17",
+    "Habilidade": "Explorar o caráter polissêmico de palavras de acordo com o contexto de uso."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI18",
+    "Habilidade": "Produzir textos orais e escritos mostrando relações de sequência e causalidade utilizando o passado simples e o passado contínuo."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI19",
+    "Habilidade": "Diferenciar sujeito de objeto utilizando pronomes a eles relacionados."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI20",
+    "Habilidade": "Descrever habilidades com o verbo modal can, no presente e no passado."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI21",
+    "Habilidade": "Analisar o alcance da língua inglesa e seus contextos de uso no mundo globalizado."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI22",
+    "Habilidade": "Reconhecer a variação linguística como fenômeno natural das línguas, refutando preconceitos."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "7º ano",
+    "Codigo": "EF07LI23",
+    "Habilidade": "Reconhecer a variação linguística como manifestação de formas de expressão do/no mundo."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI01",
+    "Habilidade": "Esclarecer informações, resolver mal-entendidos e emitir opiniões."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI02",
+    "Habilidade": "Explorar, em situações de interação oral, recursos linguísticos e paralinguísticos (gestos, expressões faciais, entre outros)."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI03",
+    "Habilidade": "Construir o sentido global de textos orais, relacionando suas partes, o assunto principal e as informações relevantes."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI04",
+    "Habilidade": "Informar/comunicar/falar do futuro utilizando recursos e repertório linguísticos apropriados."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI05",
+    "Habilidade": "Inferir informações e relações não explícitas no texto para a construção de sentidos."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI06",
+    "Habilidade": "Valorizar o patrimônio cultural produzido em língua inglesa por meio de textos narrativos."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI07",
+    "Habilidade": "Acessar e usufruir do patrimônio artístico-literário em língua inglesa por meio de ambientes virtuais e/ou aplicativos."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI08",
+    "Habilidade": "Analisar criticamente o conteúdo de textos, comparando diferentes perspectivas sobre um mesmo assunto."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI09",
+    "Habilidade": "Analisar a própria produção escrita e a dos colegas com base na contexto de comunicação, finalidade, público, conteúdo, organização e estrutura."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI10",
+    "Habilidade": "Reconstruir o texto com cortes, acréscimos, reformulações e correções para aprimoramento, edição e publicação final."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI11",
+    "Habilidade": "Produzir textos com estratégias de escrita, como planejamento, rascunho, revisão e edição, apontando sonhos e projetos para o futuro."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI12",
+    "Habilidade": "Construir repertório lexical relativo a planos, previsões e expectativas para o futuro."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI13",
+    "Habilidade": "Reconhecer sufixos e prefixos comuns utilizados na formação de palavras em língua inglesa."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI14",
+    "Habilidade": "Descrever planos e expectativas e fazer previsões utilizando formas verbais do futuro para descrever planos e expectativas e fazer previsões."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI15",
+    "Habilidade": "Comparar qualidades e quantidades utilizando as formas comparativas e superlativas de adjetivos."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI16",
+    "Habilidade": "Utilizar os quantificadores (some, any, many e much) em práticas contextualizadas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI17",
+    "Habilidade": "Construir períodos compostos por subordinação para empregar os pronomes relativos (who, which, that e whose)."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI18",
+    "Habilidade": "Construir repertório cultural por meio do contato com manifestações artístico-culturais vinculadas à língua inglesa, valorizando a diversidade entre culturas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI19",
+    "Habilidade": "Investigar como expressões, gestos e comportamentos são interpretados em função de aspectos culturais."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "8º ano",
+    "Codigo": "EF08LI20",
+    "Habilidade": "Examinar fatores que podem impedir o entendimento entre pessoas de culturas diferentes que falam a língua inglesa."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI01",
+    "Habilidade": "Expor pontos de vista, argumentos e contra-argumentos, considerando o contexto e os recursos linguísticos e paralinguísticos."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI02",
+    "Habilidade": "Compilar as ideias-chave de textos por meio de tomada de notas."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI03",
+    "Habilidade": "Analisar posicionamentos defendidos e refutados em textos orais sobre temas de interesse social e coletivo."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI04",
+    "Habilidade": "Expor resultados de pesquisa ou estudo, adequando as estratégias de construção do texto oral aos objetivos de comunicação e ao contexto."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI05",
+    "Habilidade": "Identificar recursos de persuasão utilizados em textos publicitários e de propaganda como elementos de convencimento."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI06",
+    "Habilidade": "Distinguir fatos de opiniões em textos argumentativos da esfera jornalística."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI07",
+    "Habilidade": "Identificar argumentos principais e as evidências ou exemplos que os sustentam."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI08",
+    "Habilidade": "Analisar a qualidade e a validade das informações veiculadas em ambientes virtuais de informação e socialização."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI09",
+    "Habilidade": "Compartilhar, com os colegas, a leitura dos textos escritos pelo grupo, valorizando os diferentes pontos de vista defendidos, com ética e respeito."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI10",
+    "Habilidade": "Expor e defender ponto de vista em texto escrito, pesquisando dados, evidências e exemplos para sustentar argumentos."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI11",
+    "Habilidade": "Construir textos da esfera publicitária de forma adequada ao contexto de circulação, utilizando recursos verbais e não verbais."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI12",
+    "Habilidade": "Produzir textos sobre temas de interesse coletivo local ou global que revelem posicionamento crítico."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI13",
+    "Habilidade": "Reconhecer, nos novos gêneros digitais, novas formas de escrita na constituição das mensagens."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI14",
+    "Habilidade": "Construir argumentação e intencionalidade discursiva utilizando conectores indicadores de adição, condição, oposição, contraste, conclusão e síntese."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI15",
+    "Habilidade": "Empregar as formas verbais em orações condicionais dos tipos 1 e 2 (If-clauses)."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI16",
+    "Habilidade": "Indicar recomendação, necessidade ou obrigação e probabilidade empregando os verbos modais should, must, have to, may e might."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI17",
+    "Habilidade": "Debater sobre a expansão da língua inglesa pelo mundo, em função do processo de colonização nas Américas, África, Ásia e Oceania."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI18",
+    "Habilidade": "Analisar a importância da língua inglesa para o desenvolvimento das ciências (produção, divulgação e discussão de novos conhecimentos), da economia e da política no cenário mundial."
+  },
+  {
+    "Disciplina": "Inglês",
+    "Ano": "9º ano",
+    "Codigo": "EF09LI19",
+    "Habilidade": "Discutir a comunicação intercultural por meio da língua inglesa como mecanismo de valorização pessoal e de construção de identidades no mundo globalizado."
+  }
+];
 
   public static habilidadesLinguaPortuguesaEM = [
     {

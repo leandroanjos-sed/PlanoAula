@@ -94,9 +94,46 @@
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             @if (!(serieAno.valid && disciplina.valid)) {
             <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as habilidades!</span>
-            } @else {
+            } @else if( !serieAno.value?.includes('Ensino Médio') && !disciplina.value?.includes('Artes')) {
             <p-listbox id="lbHabilidades" formControlName="habilidade" [options]="habilidades" [checkbox]="true"
                 [filter]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+                [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
+                (onChange)="onChangeHabilidade($event)">
+                <ng-template let-item pTemplate="item">
+                    <div>{{ (item.Codigo.length > 4 ? item.Codigo : '') + ' - ' + item.Habilidade }}</div>
+                </ng-template>
+            </p-listbox>
+            } @else {
+            <div class="m-1 mt-2"><span class="text-lg font-semibold">Artes Visuais</span></div>
+            <p-listbox id="lbHabilidades" formControlName="habilidadeArtesVisuais" [options]="habilidadesArtesVisuais" [checkbox]="true"
+                [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+                [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
+                (onChange)="onChangeHabilidade($event)">
+                <ng-template let-item pTemplate="item">
+                    <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
+                </ng-template>
+            </p-listbox>
+            <div class="m-1 mt-2"><span class="text-lg font-semibold">Dança</span></div>
+            <p-listbox id="lbHabilidades" formControlName="habilidadeDanca" [options]="habilidadesDanca" [checkbox]="true"
+                [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+                [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
+                (onChange)="onChangeHabilidade($event)">
+                <ng-template let-item pTemplate="item">
+                    <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
+                </ng-template>
+            </p-listbox>
+            <div class="m-1 mt-2"><span class="text-lg font-semibold">Música</span></div>
+            <p-listbox id="lbHabilidades" formControlName="habilidadeMusica" [options]="habilidadesMusica" [checkbox]="true"
+                [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+                [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
+                (onChange)="onChangeHabilidade($event)">
+                <ng-template let-item pTemplate="item">
+                    <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
+                </ng-template>
+            </p-listbox>
+            <div class="m-1 mt-2"><span class="text-lg font-semibold">Teatro</span></div>
+            <p-listbox id="lbHabilidades" formControlName="habilidadeTeatro" [options]="habilidadesTeatro" [checkbox]="true"
+                [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
                 (onChange)="onChangeHabilidade($event)">
                 <ng-template let-item pTemplate="item">
@@ -105,13 +142,11 @@
             </p-listbox>
             }
         </div>
+        @if (serieAno.value?.includes('Ensino Médio') && disciplina.value?.includes('Língua Portuguesa')){
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Habilidades de Língua Portuguesa</span><span
                 class="text-color-secondary"> (max. 4)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-            @if (!(serieAno.valid && disciplina.valid)) {
-            <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as habilidades!</span>
-            } @else if (serieAno.value?.includes('Ensino Médio') && disciplina.value?.includes('Língua Portuguesa')) {
             <p-listbox id="lbHabilidadesLinguaPortuguesa" formControlName="habilidadeLinguaPortuguesa"
                 [options]="habilidadesLinguaPortuguesa" [checkbox]="true" [filter]="true" [showToggleAll]="false"
                 optionLabel="Habilidade" [multiple]="true" [listStyle]="{'max-height': '320px'}"
@@ -120,8 +155,8 @@
                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
                 </ng-template>
             </p-listbox>
-            }
         </div>
+        }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Habilidades do Currículo Digital</span><span
                 class="text-color-secondary"> (max. 4)</span>
@@ -155,8 +190,9 @@
                     placeholder="Digite aqui o caminho metodológico"></textarea>
             </div>
         </div>
-        @if(serieAno.value?.includes('Ensino Médio') && (disciplina.value?.includes('Biologia') || disciplina.value?.includes('Matemática') ||
-        disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Geografia'))){
+        @if(serieAno.value?.includes('Ensino Médio') && (disciplina.value?.includes('Biologia') ||
+        disciplina.value?.includes('Matemática') ||
+        disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Geografia'))) {
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">IFAs (Itinerários Formativos)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>

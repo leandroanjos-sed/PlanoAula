@@ -45,12 +45,19 @@ export class PlanejamentoComponent {
   habilidades: any[] = [];
   habilidadesCurriculoDigital: any[] = [];
   habilidadesLinguaPortuguesa: any[] = [];
+  habilidadesArtesVisuais: any[] = [];
+  habilidadesDanca: any[] = [];
+  habilidadesMusica: any[] = [];
+  habilidadesTeatro: any[] = [];
   competencias: any[] = [];
   escolas = [
     {
       label: 'São Lourenço do Oeste',
       value: 'sao-lourenco-do-oeste',
-      items: [{ label: 'EEB Sóror Angélica', value: 'EEB Sóror Angélica' }, { label: 'CEJA', value: 'CEJA' }],
+      items: [
+        { label: 'EEB Sóror Angélica', value: 'EEB Sóror Angélica' },
+        { label: 'CEJA', value: 'CEJA' },
+      ],
     },
     {
       label: 'Campo Erê',
@@ -189,6 +196,10 @@ export class PlanejamentoComponent {
     habilidade: new FormControl(),
     habilidadeLinguaPortuguesa: new FormControl(),
     habilidadeCurriculoDigital: new FormControl(),
+    habilidadeArtesVisuais: new FormControl(),
+    habilidadeDanca: new FormControl(),
+    habilidadeMusica: new FormControl(),
+    habilidadeTeatro: new FormControl(),
     itinerarioFormativo: new FormControl(),
     objetoConhecimento: new FormControl(undefined, Validators.required),
     caminhoMetodologico: new FormControl(undefined, Validators.required),
@@ -345,6 +356,34 @@ export class PlanejamentoComponent {
         HabilidadeUtil.habilidadesCurriculoDigital.filter(
           (t) => !t.Etapa.includes('Ensino Médio'),
         );
+
+      if (this.disciplina.value?.includes('Arte')) {
+        this.habilidadesArtesVisuais =
+          HabilidadeUtil.habilidadesAnosFinais.filter(
+            (t) =>
+              this.disciplina.value?.includes(t.Disciplina) &&
+              t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+              t.Area?.includes('Teatro'),
+          );
+        this.habilidadesDanca = HabilidadeUtil.habilidadesAnosFinais.filter(
+          (t) =>
+            this.disciplina.value?.includes(t.Disciplina) &&
+            t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+            t.Area?.includes('Dança'),
+        );
+        this.habilidadesMusica = HabilidadeUtil.habilidadesAnosFinais.filter(
+          (t) =>
+            this.disciplina.value?.includes(t.Disciplina) &&
+            t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+            t.Area?.includes('Música'),
+        );
+        this.habilidadesTeatro = HabilidadeUtil.habilidadesAnosFinais.filter(
+          (t) =>
+            this.disciplina.value?.includes(t.Disciplina) &&
+            t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+            t.Area?.includes('Teatro'),
+        );
+      }
     } else {
       this.competencias = CompetenciaUtil.competenciasEnsinoMedio;
       this.competencias = this.competencias.filter((t) =>
@@ -382,14 +421,15 @@ export class PlanejamentoComponent {
           (t) => !t.Etapa.includes('Ensino Médio'),
         );
 
-      this.habilidadesLinguaPortuguesa = this.habilidadesLinguaPortuguesa.filter(
-        (t) =>
-          this.disciplina.value?.includes(t.Disciplina) &&
-          t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
-          this.competencia.value
-            ?.map((c: any) => c.Numero + '')
-            .includes(...t.Competencia as number[]),
-      );
+      this.habilidadesLinguaPortuguesa =
+        this.habilidadesLinguaPortuguesa.filter(
+          (t) =>
+            this.disciplina.value?.includes(t.Disciplina) &&
+            t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+            this.competencia.value
+              ?.map((c: any) => c.Numero + '')
+              .includes(...(t.Competencia as number[])),
+        );
     }
   }
 
@@ -408,11 +448,11 @@ export class PlanejamentoComponent {
     let isEnsinoMedio = this.serieAno.value?.includes('Ensino Médio');
     const dados = structuredClone(this.planejamentoForm.getRawValue());
 
-    if(dados.outrasReferencias && dados.outrasReferencias.length > 0){
+    if (dados.outrasReferencias && dados.outrasReferencias.length > 0) {
       dados.referencia.push(dados.outrasReferencias);
     }
 
-    if(dados.outrosInstrumentos && dados.outrosInstrumentos.length > 0){
+    if (dados.outrosInstrumentos && dados.outrosInstrumentos.length > 0) {
       dados.instrumento.push(dados.outrosInstrumentos);
     }
 
@@ -438,7 +478,12 @@ export class PlanejamentoComponent {
         doc.setTextColor('#0000FC');
         doc.text('eebsororangelica@sed.sc.gov.br', 51, 26);
         doc.setDrawColor('#0000FF');
-        doc.line(51, 26.5, 52 + doc.getTextWidth('eebsororangelica@sed.sc.gov.br'), 26.5 );
+        doc.line(
+          51,
+          26.5,
+          52 + doc.getTextWidth('eebsororangelica@sed.sc.gov.br'),
+          26.5,
+        );
         doc.setTextColor('#000000');
         doc.text('Fone 49 3372 - 1049', 115, 26);
         break;
@@ -511,10 +556,10 @@ export class PlanejamentoComponent {
     doc.setFontSize(14);
 
     if (isEnsinoMedio) {
-      doc.text('PLANO DE AULA - ENSINO MÉDIO', 105, 60);
+      doc.text('PLANO DE AULA - ENSINO MÉDIO', 70, 60);
     } else {
-      doc.text('PLANO DE AULA', 125, 60);
-      doc.text('NO ENSINO FUNDAMENTAL', 110, 66);
+      doc.text('PLANO DE AULA', 89, 60);
+      doc.text('NO ENSINO FUNDAMENTAL', 75, 66);
     }
 
     autoTable(doc, {
@@ -527,11 +572,11 @@ export class PlanejamentoComponent {
         lineColor: 0,
       },
       columnStyles: {
-        0: { cellWidth: 24, halign: 'center' },
-        1: { cellWidth: 27, halign: 'center' },
-        2: { cellWidth: 24, halign: 'center' },
+        0: { cellWidth: 30, halign: 'center' },
+        1: { cellWidth: 50, halign: 'center' },
+        2: { cellWidth: 25, halign: 'center' },
         3: { cellWidth: 25, halign: 'center' },
-        4: { cellWidth: 24, halign: 'center' },
+        4: { cellWidth: 25, halign: 'center' },
         5: { cellWidth: 'auto', halign: 'center' },
       },
       body: [
@@ -546,6 +591,74 @@ export class PlanejamentoComponent {
       ],
     });
 
+    let body = [
+      ['Professor', dados.professor ?? ''],
+      [
+        'Competências       específicas da área',
+        dados.competencia
+          ?.map((t: any) => t.Numero + ' - ' + t.Competencia)
+          ?.join('\n\n') ?? '',
+      ],
+      [
+        'Habilidade',
+        dados.habilidade
+          ?.map(
+            (t: any) =>
+              (t.Codigo.length > 4 ? t.Codigo : '') + ' - ' + t.Habilidade,
+          )
+          ?.join('\n\n') ?? '',
+      ],
+      ['Objetos de conhecimento', dados.objetoConhecimento ?? ''],
+      ['Caminho Metodológico', dados.caminhoMetodologico ?? ''],
+      ['Atividades Integradoras     (40 horas anuais)', ''],
+      ['Recomposição da Aprendizagem (Língua Portuguesa e Matemática)', ''],
+      ['Critérios de Avaliação', ''],
+      [
+        'Instrumentos de Avaliação',
+        juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',
+      ],
+      ['Adaptação curricular para estudante incluso', ''],
+      ['Referências', dados.referencia?.join('\n\n') ?? ''],
+    ];
+
+    if (
+      this.serieAno.value?.includes('Ensino Médio') &&
+      (this.disciplina.value?.includes('Biologia') ||
+        this.disciplina.value?.includes('Matemática') ||
+        this.disciplina.value?.includes('Língua Portuguesa') ||
+        this.disciplina.value?.includes('Geografia'))
+    ) {
+      body.splice(5, 0, [
+        'IFAs (itinerários Formativos)',
+        dados.itinerarioFormativo ?? '',
+      ]);
+    }
+
+    if (
+      !this.serieAno.value?.includes('Ensino Médio') &&
+      this.disciplina.value?.includes('Artes')
+    ) {
+      body.splice(2, 1, [
+        'Habilidade',
+        'Artes Visuais\n\n' +
+          dados.habilidadeArtesVisuais
+            ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
+            ?.join('\n\n') +
+          '\n\nDança\n\n' +
+          dados.habilidadeDanca
+            ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
+            ?.join('\n\n') +
+          '\n\nMúsica\n\n' +
+          dados.habilidadeMusica
+            ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
+            ?.join('\n\n') +
+          '\n\nTeatro\n\n' +
+          dados.habilidadeTeatro
+            ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
+            ?.join('\n\n'),
+      ]);
+    }
+
     autoTable(doc, {
       theme: 'grid',
       startY: (doc as any).lastAutoTable.finalY,
@@ -559,34 +672,7 @@ export class PlanejamentoComponent {
         0: { cellWidth: 50, valign: 'middle', halign: 'left' },
         1: { cellWidth: 'auto' },
       },
-      body: [
-        ['Professor', dados.professor ?? ''],
-        [
-          'Competências       específicas da área',
-          dados.competencia
-            ?.map((t: any) => t.Numero + ' - ' + t.Competencia)
-            ?.join('\n\n') ?? '',
-        ],
-        [
-          'Habilidade',
-          dados.habilidade
-            ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
-            ?.join('\n\n') ?? '',
-        ],
-        ['Objetos de conhecimento', dados.objetoConhecimento ?? ''],
-        ['Critérios de avaliação', ''],
-        ['Caminho Metodológico', dados.caminhoMetodologico ?? ''],
-        ['IFAs (Itinerários Formativos)', dados.itinerarioFormativo ?? ''],
-        ['Atividades Integradoras     (40 horas anuais)', ''],
-        ['Recomposição da Aprendizagem (Língua Portuguesa e Matemática)', ''],
-        ['Critérios de Avaliação', ''],
-        [
-          'Instrumentos de Avaliação',
-          juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',
-        ],
-        ['Adaptação curricular para estudante incluso', ''],
-        ['Referências', dados.referencia?.join('\n\n') ?? ''],
-      ],
+      body: body,
     });
 
     //doc.save('plano_de_aula.pdf');
