@@ -12,7 +12,7 @@ import {
 } from '@angular/forms';
 import { InputTextModule } from 'primeng/inputtext';
 import { ListboxChangeEvent, ListboxModule } from 'primeng/listbox';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgClass } from '@angular/common';
 import { CompetenciaUtil } from '../../util/competencia-util';
 import { MessageService } from 'primeng/api';
 import { ToastModule } from 'primeng/toast';
@@ -36,12 +36,14 @@ import autoTable from 'jspdf-autotable';
     ListboxModule,
     ToastModule,
     InputTextareaModule,
+    NgClass,
   ],
   templateUrl: './planejamento.component.html',
   styleUrl: './planejamento.component.scss',
   providers: [MessageService],
 })
 export class PlanejamentoComponent {
+  exibirTodosOsCampos: boolean = false;
   habilidades: any[] = [];
   habilidadesCurriculoDigital: any[] = [];
   habilidadesLinguaPortuguesa: any[] = [];
@@ -191,7 +193,7 @@ export class PlanejamentoComponent {
     serieAno: new FormControl(undefined, Validators.required),
     disciplina: new FormControl(undefined, Validators.required),
     professor: new FormControl(undefined, Validators.required),
-    quantidadeAulas: new FormControl(0, Validators.required),
+    quantidadeAulas: new FormControl(undefined, Validators.required),
     competencia: new FormControl(),
     habilidade: new FormControl(),
     habilidadeLinguaPortuguesa: new FormControl(),
@@ -201,13 +203,14 @@ export class PlanejamentoComponent {
     habilidadeMusica: new FormControl(),
     habilidadeTeatro: new FormControl(),
     itinerarioFormativo: new FormControl(),
-    objetoConhecimento: new FormControl(undefined, Validators.required),
-    caminhoMetodologico: new FormControl(undefined, Validators.required),
+    objetoConhecimento: new FormControl(),
+    caminhoMetodologico: new FormControl(),
     recomposicaoAprendizagem: new FormControl(),
     adaptacaoCurricular: new FormControl(),
     atividadesIntegradoras: new FormControl(),
     recurso: new FormControl(),
     outrosRecursos: new FormControl(),
+    criteriosAvaliacao: new FormControl(),
     instrumento: new FormControl(),
     referencia: new FormControl(),
     outrasReferencias: new FormControl(),
@@ -241,6 +244,23 @@ export class PlanejamentoComponent {
   }
   get instrumento() {
     return this.planejamentoForm.get('instrumento')!;
+  }
+  get professor() {
+    return this.planejamentoForm.get('professor')!;
+  }
+  get quantidadeAulas() {
+    return this.planejamentoForm.get('quantidadeAulas')!;
+  }
+
+  exibirOsCampos() {
+    if (this.planejamentoForm.invalid) {
+      Object.values(this.planejamentoForm.controls).forEach((c) => {
+        c.markAsDirty();
+        c.markAsTouched();
+      });
+      return;
+    }
+    this.exibirTodosOsCampos = true;
   }
 
   onChangeSerieAnos(event: DropdownChangeEvent) {
@@ -398,7 +418,7 @@ export class PlanejamentoComponent {
 
   onChangeCompetencia(event: ListboxChangeEvent) {
     if (event.value?.length > 2) {
-      this.competencia.setValue(event.value?.slice(-2));
+      event.value?.pop();
       this.messageService.add({
         severity: 'info',
         detail: 'Máximo de duas competências por plano de aula!',
@@ -424,24 +444,50 @@ export class PlanejamentoComponent {
           (t) => !t.Etapa.includes('Ensino Médio'),
         );
 
+      const numeros = new Set<number>(
+        this.competencia.value?.map((c: any) => c.Numero) ?? [],
+      );
+
       this.habilidadesLinguaPortuguesa =
-        this.habilidadesLinguaPortuguesa.filter(
-          (t) =>
-            this.disciplina.value?.includes(t.Disciplina) &&
-            t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
-            this.competencia.value
-              ?.map((c: any) => c.Numero + '')
-              .includes(...(t.Competencia as number[])),
-        );
+        HabilidadeUtil.habilidadesLinguaPortuguesaEM
+          .map((grupo) => ({
+            ...grupo,
+            items: grupo.items.filter((t) =>
+              t.Competencia.some((comp) => numeros.has(comp)),
+            ),
+          }))
+          .filter((grupo) => grupo.items.length > 0);
     }
   }
 
   onChangeHabilidade(event: ListboxChangeEvent) {
     if (event.value?.length > 4) {
-      this.habilidade.setValue(event.value?.slice(-4));
+      event.value?.pop();
       this.messageService.add({
         severity: 'info',
         detail: 'Máximo de quatro habilidades por plano de aula!',
+        summary: 'Aviso',
+      });
+    }
+  }
+
+  onChangeHabilidadeArte(event: ListboxChangeEvent) {
+    if (event.value?.length > 2) {
+      event.value?.pop();
+      this.messageService.add({
+        severity: 'info',
+        detail: 'Máximo de quatro habilidades por plano de aula!',
+        summary: 'Aviso',
+      });
+    }
+  }
+
+  onChangeInstrumentos(event: ListboxChangeEvent) {
+    if (event.value?.length > 2) {
+      event.value?.pop();
+      this.messageService.add({
+        severity: 'info',
+        detail: 'Máximo de dois instrumentos de avaliação!',
         summary: 'Aviso',
       });
     }
@@ -576,7 +622,7 @@ export class PlanejamentoComponent {
       },
       columnStyles: {
         0: { cellWidth: 30, halign: 'center' },
-        1: { cellWidth: 50, halign: 'center' },
+        1: { cellWidth: 25, halign: 'center' },
         2: { cellWidth: 25, halign: 'center' },
         3: { cellWidth: 25, halign: 'center' },
         4: { cellWidth: 25, halign: 'center' },
@@ -584,17 +630,20 @@ export class PlanejamentoComponent {
       },
       body: [
         [
-          'Componente curricular',
-          dados.disciplina ?? '',
           'Ano/série',
           dados.serieAno?.split(',')[0] ?? '',
           'Número de Aulas',
           dados.quantidadeAulas,
+          'Período',
+          (dados.dataInicial?.toLocaleDateString() ?? '') +
+            ' - ' +
+            (dados.dataFinal?.toLocaleDateString() ?? ''),
         ],
       ],
     });
 
     let body = [
+      ['Componente curricular', dados.disciplina ?? ''],
       ['Professor', dados.professor ?? ''],
       [
         'Competências       específicas da área',
@@ -611,16 +660,31 @@ export class PlanejamentoComponent {
           )
           ?.join('\n\n') ?? '',
       ],
+      [
+        'Habilidade do Currículo Digital',
+        dados.habilidadeCurriculoDigital
+          ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
+          ?.join('\n\n') ?? '',
+      ],
       ['Objetos de conhecimento', dados.objetoConhecimento ?? ''],
       ['Caminho Metodológico', dados.caminhoMetodologico ?? ''],
-      ['Atividades Integradoras     (40 horas anuais)', dados.atividadesIntegradoras ?? ''],
-      ['Recomposição da Aprendizagem (Língua Portuguesa e Matemática)', dados.recomposicaoAprendizagem ?? ''],
-      ['Critérios de Avaliação', ''],
+      [
+        'Atividades Integradoras     (40 horas anuais)',
+        dados.atividadesIntegradoras ?? '',
+      ],
+      [
+        'Recomposição da Aprendizagem (Língua Portuguesa e Matemática)',
+        dados.recomposicaoAprendizagem ?? '',
+      ],
+      ['Critérios de Avaliação', dados.criteriosAvaliacao ?? ''],
       [
         'Instrumentos de Avaliação',
         juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',
       ],
-      ['Adaptação curricular para estudante incluso', dados.adaptacaoCurricular ?? ''],
+      [
+        'Adaptação curricular para estudante incluso',
+        dados.adaptacaoCurricular ?? '',
+      ],
       ['Referências', dados.referencia?.join('\n\n') ?? ''],
     ];
 
@@ -660,6 +724,28 @@ export class PlanejamentoComponent {
             ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
             ?.join('\n\n'),
       ]);
+    }
+
+    if (
+      this.serieAno.value?.includes('Ensino Médio') &&
+      this.disciplina.value?.includes('Língua Portuguesa')
+    ) {
+      const porCampo = new Map<string, string[]>();
+
+      for (const t of dados.habilidadeLinguaPortuguesa ?? []) {
+        if (!porCampo.has(t.CampoDeAtuacao)) {
+          porCampo.set(t.CampoDeAtuacao, []);
+        }
+        porCampo.get(t.CampoDeAtuacao)!.push(`${t.Codigo} - ${t.Habilidade}`);
+      }
+
+      const texto = Array.from(porCampo.entries())
+        .map(
+          ([campo, habilidades]) => `${campo}\n\n${habilidades.join('\n\n')}`,
+        )
+        .join('\n\n\n');
+
+      body.splice(4, 0, ['Habilidades de Língua Portuguesa', texto ?? '']);
     }
 
     autoTable(doc, {

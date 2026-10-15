@@ -1,5 +1,5 @@
 <p-toast></p-toast>
-<form [formGroup]="planejamentoForm" ngForm="FormPlanejamento">
+<form [formGroup]="planejamentoForm" (ngSubmit)="exibirOsCampos()">
     <div class="surface-0 border-round grid grid-nogutter shadow-1">
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Identificação do planejamento</span>
@@ -17,18 +17,27 @@
                             </div>
                         </ng-template>
                     </p-dropdown>
+                    @if (escola.invalid && (escola.dirty || escola.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
                 </div>
                 <div class="col-6 md:col-3 p-1">
                     <label for="cDataInicio" class="font-semibold">Data inicial:*</label>
                     <p-calendar appDateMask id="cDataInicio" formControlName="dataInicial" styleClass="w-full"
                         placeholder="dd/mm/aaaa" [showIcon]="true" [showOnFocus]="false"
                         [keepInvalid]="false"></p-calendar>
+                    @if (dataInicial.invalid && (dataInicial.dirty || dataInicial.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
                 </div>
                 <div class="col-6 md:col-3 p-1">
                     <label for="cDataFinal" class="font-semibold">Data final:*</label>
                     <p-calendar appDateMask id="cDataFinal" formControlName="dataFinal" styleClass="w-full"
                         placeholder="dd/mm/aaaa" [showIcon]="true" [showOnFocus]="false"
                         [keepInvalid]="false"></p-calendar>
+                    @if (dataFinal.invalid && (dataFinal.dirty || dataFinal.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
                 </div>
                 <div class="col-6 p-1">
                     <label for="ddSerieAno" class="font-semibold">Série/Ano:*</label>
@@ -44,6 +53,9 @@
                             </div>
                         </ng-template>
                     </p-dropdown>
+                    @if (serieAno.invalid && (serieAno.dirty || serieAno.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
                 </div>
                 <div class="col-6 p-1">
                     <label for="ddDisciplinas" class="font-semibold">Disciplina:*</label>
@@ -59,20 +71,34 @@
                             </div>
                         </ng-template>
                     </p-dropdown>
+                    @if (disciplina.invalid && (disciplina.dirty || disciplina.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
                 </div>
                 <div class="col-8 p-1">
                     <label for="itProfessor" class="font-semibold">Professor:*</label>
                     <input id="itProfessor" formControlName="professor" pInputText maxlength="200" class="w-full"
                         placeholder="Digite seu nome" />
+                    @if (professor.invalid && (professor.dirty || professor.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
                 </div>
                 <div class="col-4 p-1">
                     <label for="inQuantidadeAulas" class="font-semibold">Quantidade de aulas:*</label>
                     <p-inputNumber id="inQuantidadeAulas" formControlName="quantidadeAulas" inputStyleClass="text-right"
-                        class="w-full" styleClass="w-full" [showButtons]="true" [min]="0" [max]="100"
-                        allowEmpty="false" />
+                        class="w-full" styleClass="w-full" [showButtons]="true" [min]="0" [max]="100" />
+                    @if (quantidadeAulas.invalid && (quantidadeAulas.dirty || quantidadeAulas.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
                 </div>
             </div>
         </div>
+        @if (!exibirTodosOsCampos) {
+            <div class="col-12 p-4 text-right">
+                <p-button label="Continuar" type="submit"></p-button>
+            </div>
+        }
+        @if (exibirTodosOsCampos) {
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Competências</span><span class="text-color-secondary"> (max. 2)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
@@ -108,7 +134,7 @@
             <p-listbox id="lbHabilidades" formControlName="habilidadeArtesVisuais" [options]="habilidadesArtesVisuais"
                 [checkbox]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
-                (onChange)="onChangeHabilidade($event)">
+                (onChange)="onChangeHabilidadeArte($event)">
                 <ng-template let-item pTemplate="item">
                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
                 </ng-template>
@@ -117,7 +143,7 @@
             <p-listbox id="lbHabilidades" formControlName="habilidadeDanca" [options]="habilidadesDanca"
                 [checkbox]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
-                (onChange)="onChangeHabilidade($event)">
+                (onChange)="onChangeHabilidadeArte($event)">
                 <ng-template let-item pTemplate="item">
                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
                 </ng-template>
@@ -126,7 +152,7 @@
             <p-listbox id="lbHabilidades" formControlName="habilidadeMusica" [options]="habilidadesMusica"
                 [checkbox]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
-                (onChange)="onChangeHabilidade($event)">
+                (onChange)="onChangeHabilidadeArte($event)">
                 <ng-template let-item pTemplate="item">
                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
                 </ng-template>
@@ -135,7 +161,7 @@
             <p-listbox id="lbHabilidades" formControlName="habilidadeTeatro" [options]="habilidadesTeatro"
                 [checkbox]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
-                (onChange)="onChangeHabilidade($event)">
+                (onChange)="onChangeHabilidadeArte($event)">
                 <ng-template let-item pTemplate="item">
                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
                 </ng-template>
@@ -150,7 +176,12 @@
             <p-listbox id="lbHabilidadesLinguaPortuguesa" formControlName="habilidadeLinguaPortuguesa"
                 [options]="habilidadesLinguaPortuguesa" [checkbox]="true" [filter]="true" [showToggleAll]="false"
                 optionLabel="Habilidade" [multiple]="true" [listStyle]="{'max-height': '320px'}"
-                emptyMessage="Selecione Série/Ano e Disciplina!">
+                emptyMessage="Selecione Série/Ano e Disciplina!" [group]="true" (onChange)="onChangeHabilidade($event)">
+                <ng-template let-group pTemplate="group">
+                    <div class="flex align-items-center">
+                        <span>{{ group.label }}</span>
+                    </div>
+                </ng-template>
                 <ng-template let-item pTemplate="item">
                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
                 </ng-template>
@@ -190,8 +221,8 @@
                     placeholder="Digite aqui o caminho metodológico"></textarea>
             </div>
         </div>
-         <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Atividades Integradoras       (40 horas anuais)</span>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Atividades Integradoras (40 horas anuais)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <div class="w-full">
                 <textarea rows="5" cols="30" pInputTextarea formControlName="atividadesIntegradoras" class="w-full"
@@ -234,10 +265,20 @@
             </div>
         </div>
         <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Instrumentos de Avaliação</span>
+            <span class="text-xl font-semibold">Critérios de Avaliação</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="criteriosAvaliacao" class="w-full"
+                    placeholder="Digite aqui os critérios de avaliação"></textarea>
+            </div>
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Instrumentos de Avaliação</span><span class="text-color-secondary">
+                (max. 2)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <p-listbox id="lbInstrumentos" formControlName="instrumento" [options]="instrumentos" [checkbox]="true"
-                [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '900px'}">
+                [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '900px'}"
+                (onChange)="onChangeInstrumentos($event)">
             </p-listbox>
         </div>
         <div class="col-12 p-2">
@@ -263,5 +304,6 @@
         <div class="col-12 p-4 text-right">
             <p-button label="Gerar PDF" (onClick)="gerarPdf()"></p-button>
         </div>
+        }
     </div>
 </form>
