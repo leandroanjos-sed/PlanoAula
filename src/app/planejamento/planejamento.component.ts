@@ -12,7 +12,7 @@ import {
 } from '@angular/forms';
 import { InputTextModule } from 'primeng/inputtext';
 import { ListboxChangeEvent, ListboxModule } from 'primeng/listbox';
-import { CommonModule, NgClass } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { CompetenciaUtil } from '../../util/competencia-util';
 import { MessageService } from 'primeng/api';
 import { ToastModule } from 'primeng/toast';
@@ -36,7 +36,6 @@ import autoTable from 'jspdf-autotable';
     ListboxModule,
     ToastModule,
     InputTextareaModule,
-    NgClass,
   ],
   templateUrl: './planejamento.component.html',
   styleUrl: './planejamento.component.scss',
@@ -494,6 +493,14 @@ export class PlanejamentoComponent {
   }
 
   async gerarPdf() {
+    if (this.planejamentoForm.invalid) {
+      Object.values(this.planejamentoForm.controls).forEach((c) => {
+        c.markAsDirty();
+        c.markAsTouched();
+      });
+      return;
+    }
+
     let isEnsinoMedio = this.serieAno.value?.includes('Ensino Médio');
     const dados = structuredClone(this.planejamentoForm.getRawValue());
 
