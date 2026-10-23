@@ -431,8 +431,7 @@ export class PlanejamentoComponent {
 
       this.habilidades = this.habilidades.filter(
         (t) =>
-          this.disciplina.value?.includes(t.Area) &&
-          t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+          this.disciplina.value?.includes(t.Area) &&          
           this.competencia.value
             ?.map((c: any) => c.Numero + '')
             .includes(t.Competencia as number),
@@ -649,70 +648,21 @@ export class PlanejamentoComponent {
       ],
     });
 
-    let body = [
-      ['Componente curricular', dados.disciplina ?? ''],
-      ['Professor', dados.professor ?? ''],
-      [
-        'Competências       específicas da área',
-        dados.competencia
-          ?.map((t: any) => t.Numero + ' - ' + t.Competencia)
-          ?.join('\n\n') ?? '',
-      ],
-      [
-        'Habilidade',
-        dados.habilidade
-          ?.map(
-            (t: any) =>
-              (t.Codigo.length > 4 ? t.Codigo : '') + ' - ' + t.Habilidade,
-          )
-          ?.join('\n\n') ?? '',
-      ],
-      [
-        'Habilidade do Currículo Digital',
-        dados.habilidadeCurriculoDigital
-          ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
-          ?.join('\n\n') ?? '',
-      ],
-      ['Objetos de conhecimento', dados.objetoConhecimento ?? ''],
-      ['Caminho Metodológico', dados.caminhoMetodologico ?? ''],
-      [
-        'Atividades Integradoras     (40 horas anuais)',
-        dados.atividadesIntegradoras ?? '',
-      ],
-      [
-        'Recomposição da Aprendizagem (Língua Portuguesa e Matemática)',
-        dados.recomposicaoAprendizagem ?? '',
-      ],
-      ['Critérios de Avaliação', dados.criteriosAvaliacao ?? ''],
-      [
-        'Instrumentos de Avaliação',
-        juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',
-      ],
-      [
-        'Adaptação curricular para estudante incluso',
-        dados.adaptacaoCurricular ?? '',
-      ],
-      ['Referências', dados.referencia?.join('\n\n') ?? ''],
-    ];
-
-    if (
-      this.serieAno.value?.includes('Ensino Médio') &&
-      (this.disciplina.value?.includes('Biologia') ||
-        this.disciplina.value?.includes('Matemática') ||
-        this.disciplina.value?.includes('Língua Portuguesa') ||
-        this.disciplina.value?.includes('Geografia'))
-    ) {
-      body.splice(5, 0, [
-        'IFAs (itinerários Formativos)',
-        dados.itinerarioFormativo ?? '',
-      ]);
-    }
+    let body: any[] = [];
+    body.push(['Componente curricular', dados.disciplina ?? '']);
+    body.push(['Professor', dados.professor ?? '']);
+    body.push([
+      'Competências       específicas da área',
+      dados.competencia
+        ?.map((t: any) => t.Numero + ' - ' + t.Competencia)
+        ?.join('\n\n') ?? '',
+    ]);
 
     if (
       !this.serieAno.value?.includes('Ensino Médio') &&
       this.disciplina.value?.includes('Artes')
     ) {
-      body.splice(2, 1, [
+      body.push([
         'Habilidade',
         'Artes Visuais\n\n' +
           dados.habilidadeArtesVisuais
@@ -730,6 +680,16 @@ export class PlanejamentoComponent {
           dados.habilidadeTeatro
             ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
             ?.join('\n\n'),
+      ]);
+    } else {
+      body.push([
+        'Habilidade',
+        dados.habilidade
+          ?.map(
+            (t: any) =>
+              (t.Codigo.length > 4 ? t.Codigo : '') + ' - ' + t.Habilidade,
+          )
+          ?.join('\n\n') ?? '',
       ]);
     }
 
@@ -752,8 +712,51 @@ export class PlanejamentoComponent {
         )
         .join('\n\n\n');
 
-      body.splice(4, 0, ['Habilidades de Língua Portuguesa', texto ?? '']);
+      body.push(['Habilidades de Língua Portuguesa', texto ?? '']);
     }
+
+    body.push([
+      'Habilidade do Currículo Digital',
+      dados.habilidadeCurriculoDigital
+        ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
+        ?.join('\n\n') ?? '',
+    ]);
+
+    if (
+      this.serieAno.value?.includes('Ensino Médio') &&
+      (this.disciplina.value?.includes('Biologia') ||
+        this.disciplina.value?.includes('Matemática') ||
+        this.disciplina.value?.includes('Língua Portuguesa') ||
+        this.disciplina.value?.includes('Geografia'))
+    ) {
+      body.push([
+        'IFAs (itinerários Formativos)',
+        dados.itinerarioFormativo ?? '',
+      ]);
+    }
+
+    body.push(['Objetos de conhecimento', dados.objetoConhecimento ?? '']);
+    body.push(['Caminho Metodológico', dados.caminhoMetodologico ?? '']);
+    if (this.serieAno.value?.includes('Ensino Médio')) {
+      body.push([
+        'Atividades Integradoras     (40 horas anuais)',
+        dados.atividadesIntegradoras ?? '',
+      ]);
+    }
+    body.push([
+      'Recomposição da Aprendizagem (Língua Portuguesa e Matemática)',
+      dados.recomposicaoAprendizagem ?? '',
+    ]);
+    body.push(['Critérios de Avaliação', dados.criteriosAvaliacao ?? '']);
+    body.push([
+      'Instrumentos de Avaliação',
+      juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',
+    ]);
+    body.push([
+      'Adaptação curricular para estudante incluso',
+      dados.adaptacaoCurricular ?? '',
+    ]);
+    body.push(['Referências', dados.referencia?.join('\n\n') ?? '']);
 
     autoTable(doc, {
       theme: 'grid',

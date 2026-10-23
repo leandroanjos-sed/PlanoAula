@@ -221,14 +221,16 @@
                     placeholder="Digite aqui o caminho metodológico"></textarea>
             </div>
         </div>
-        <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Atividades Integradoras (40 horas anuais)</span>
-            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-            <div class="w-full">
-                <textarea rows="5" cols="30" pInputTextarea formControlName="atividadesIntegradoras" class="w-full"
-                    placeholder="Digite aqui a adaptação curricular para estudante incluso"></textarea>
+        @if(serieAno.value?.includes('Ensino Médio')){
+            <div class="col-12 p-2">
+                <span class="text-xl font-semibold">Atividades Integradoras (40 horas anuais)</span>
+                <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+                <div class="w-full">
+                    <textarea rows="5" cols="30" pInputTextarea formControlName="atividadesIntegradoras" class="w-full"
+                        placeholder="Digite aqui a adaptação curricular para estudante incluso"></textarea>
+                </div>
             </div>
-        </div>
+        }
         @if(disciplina.value?.includes('Língua Portuguesa') ||
         disciplina.value?.includes('Matemática')){
         <div class="col-12 p-2">
