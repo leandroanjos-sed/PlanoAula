@@ -221,16 +221,6 @@
                     placeholder="Digite aqui o caminho metodológico"></textarea>
             </div>
         </div>
-        @if(serieAno.value?.includes('Ensino Médio')){
-        <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Atividades Integradoras (40 horas anuais)</span>
-            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-            <div class="w-full">
-                <textarea rows="5" cols="30" pInputTextarea formControlName="atividadesIntegradoras" class="w-full"
-                    placeholder="Digite aqui a adaptação curricular para estudante incluso"></textarea>
-            </div>
-        </div>
-        }
         @if(disciplina.value?.includes('Língua Portuguesa') ||
         disciplina.value?.includes('Matemática')){
         <div class="col-12 p-2">
@@ -248,18 +238,6 @@
             </div>
         </div>
 
-        }
-        @if(serieAno.value?.includes('Ensino Médio') && (disciplina.value?.includes('Biologia') ||
-        disciplina.value?.includes('Matemática') ||
-        disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Geografia'))) {
-        <div class="col-12 p-2">
-            <span class="text-xl font-semibold">IFAs (Itinerários Formativos)</span>
-            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-            <div class="w-full">
-                <textarea rows="5" cols="30" pInputTextarea formControlName="itinerarioFormativo" class="w-full"
-                    placeholder="Digite aqui o itinerários formativos"></textarea>
-            </div>
-        </div>
         }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Recursos Pedagógicos</span>

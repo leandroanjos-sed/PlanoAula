@@ -212,13 +212,11 @@ export class PlanejamentoComponent {
     habilidadeDanca: new FormControl(),
     habilidadeMusica: new FormControl(),
     habilidadeTeatro: new FormControl(),
-    itinerarioFormativo: new FormControl(),
     objetoConhecimento: new FormControl(),
     caminhoMetodologico: new FormControl(),
     recomposicaoAprendizagem: new FormControl(),
     adaptacaoCurricular: new FormControl('', Validators.required),
     naoPossuiAdaptacaoCurricular: new FormControl(false),
-    atividadesIntegradoras: new FormControl(),
     recurso: new FormControl(),
     outrosRecursos: new FormControl(),
     criteriosAvaliacao: new FormControl(),
@@ -847,27 +845,8 @@ export class PlanejamentoComponent {
         ?.join('\n\n') ?? '',
     ]);
 
-    if (
-      this.serieAno.value?.includes('Ensino Médio') &&
-      (this.disciplina.value?.includes('Biologia') ||
-        this.disciplina.value?.includes('Matemática') ||
-        this.disciplina.value?.includes('Língua Portuguesa') ||
-        this.disciplina.value?.includes('Geografia'))
-    ) {
-      body.push([
-        'IFAs (itinerários Formativos)',
-        dados.itinerarioFormativo ?? '',
-      ]);
-    }
-
     body.push(['Objetos de conhecimento', dados.objetoConhecimento ?? '']);
     body.push(['Caminho Metodológico', dados.caminhoMetodologico ?? '']);
-    if (this.serieAno.value?.includes('Ensino Médio')) {
-      body.push([
-        'Atividades Integradoras     (40 horas anuais)',
-        dados.atividadesIntegradoras ?? '',
-      ]);
-    }
     body.push([
       'Recomposição da Aprendizagem (Língua Portuguesa e Matemática)',
       dados.recomposicaoAprendizagem
