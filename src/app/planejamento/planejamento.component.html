@@ -237,10 +237,17 @@
             <span class="text-xl font-semibold">Recomposição da Aprendizagem</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <div class="w-full">
-                <textarea rows="5" cols="30" pInputTextarea formControlName="recomposicaoAprendizagem" class="w-full"
-                    placeholder="Digite aqui a recomposição da aprendizagem"></textarea>
+                <p-listbox id="lbHabilidades" formControlName="recomposicaoAprendizagem"
+                    [options]="habilidadesRecomposicaoAprendizagem" [checkbox]="true" [filter]="true" [showToggleAll]="false"
+                    optionLabel="Habilidade" [multiple]="true" [listStyle]="{'max-height': '320px'}"
+                    emptyMessage="Selecione Série/Ano e Disciplina!" (onChange)="onChangeHabilidade($event)">
+                    <ng-template let-item pTemplate="item">
+                        <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
+                    </ng-template>
+                </p-listbox>
             </div>
         </div>
+
         }
         @if(serieAno.value?.includes('Ensino Médio') && (disciplina.value?.includes('Biologia') ||
         disciplina.value?.includes('Matemática') ||

@@ -6601,4 +6601,1236 @@ export class HabilidadeUtil {
       ],
     },
   ];
+
+  public static habilidadesAnosIniciais = [
+    {
+      Habilidade:
+        'Ler palavras novas com precisão na decodificação, no caso de palavras de uso frequente, ler globalmente, por memorização.',
+      Codigo: 'EF12LP01',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Buscar, selecionar e ler, com a mediação do professor (leitura compartilhada), textos que circulam em meios impressos ou digitais, de acordo com as necessidades e os interesses.',
+      Codigo: 'EF12LP02',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Copiar textos breves, mantendo suas características e voltando para o texto sempre que tiver dúvidas sobre sua distribuição gráfica, espaçamento entre as palavras, escrita das palavras e pontuação.',
+      Codigo: 'EF12LP03',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Ler e compreender, em colaboração com os colegas e com a ajuda do professor ou já com certa autonomia, listas, agendas, calendários, avisos, convites, receitas, instruções de montagem (digitais ou impressos), dentre outros gêneros do campo da vida cotidiana, considerando a situação comunicativa e o tema/assunto do texto e relacionando sua forma de organização à sua finalidade.',
+      Codigo: 'EF12LP04',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, (re)contagens de histórias, poemas e outros textos versificados (letras de canção, quadrinhas, cordel), poemas visuais, tiras e histórias em quadrinhos, dentre outros gêneros do campo artístico-literário, considerando a situação comunicativa e a finalidade do texto.',
+      Codigo: 'EF12LP05',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Planejar e produzir, em colaboração com os colegas e com a ajuda do professor, recados, avisos, convites, receitas, instruções de montagem, dentre outros gêneros do campo da vida cotidiana, que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto.',
+      Codigo: 'EF12LP06',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Identificar e (re) produzir, em cantiga, quadras, quadrinhas, parlendas, trava-línguas e canções, rimas, aliterações, assonâncias, o ritmo de fala relacionado ao ritmo e à melodia das músicas e seus efeitos de sentido.',
+      Codigo: 'EF12LP07',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.',
+      Codigo: 'EF12LP08',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Ler e compreender, em colaboração com os colegas e com a ajuda do professor, slogans, anúncios publicitários e textos de campanhas de conscientização destinados ao público infantil, dentre outros gêneros do campo publicitário, considerando a situação comunicativa e o tema/assunto do texto.',
+      Codigo: 'EF12LP09',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Ler e compreender, em colaboração com os colegas e com a ajuda do professor, cartazes, avisos, folhetos, regras e regulamentos que organizam a vida na comunidade escolar, dentre outros gêneros do campo da atuação cidadã, considerando a situação comunicativa e o tema/assunto do texto.',
+      Codigo: 'EF12LP10',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Escrever, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, digitais ou impressos, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.',
+      Codigo: 'EF12LP11',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Escrever, em colaboração com os colegas e com a ajuda do professor, slogans, anúncios publicitários e textos de campanhas de conscientização destinados ao público infantil, dentre outros gêneros do campo publicitário, considerando a situação comunicativa e o tema/assunto/finalidade do texto.',
+      Codigo: 'EF12LP12',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Planejar, em colaboração com os colegas e com a ajuda do professor, slogans e peça de campanha de conscientização destinada ao público infantil que possam ser repassados oralmente por meio de ferramentas digitais, em áudio ou vídeo, considerando a situação comunicativa e o tema/assunto/finalidade do texto.',
+      Codigo: 'EF12LP13',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Identificar e reproduzir, em fotolegendas de notícias, álbum de fotos digital noticioso, cartas de leitor (revista infantil), digitais ou impressos, a formatação e a diagramação específica de cada um desses gêneros, inclusive em suas versões orais.',
+      Codigo: 'EF12LP14',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade: 'Identificar a forma de composição de slogans publicitários.',
+      Codigo: 'EF12LP15',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Identificar e reproduzir, em anúncios publicitários e textos de campanhas de conscientização destinados ao público infantil (orais e escritos, digitais ou impressos), a formatação e a diagramação específica de cada um desses gêneros, inclusive o uso de imagens.',
+      Codigo: 'EF12LP16',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Ler e compreender, em colaboração com os colegas e com a ajuda do professor, enunciados de tarefas escolares, diagramas, curiosidades, pequenos relatos de experimentos, entrevistas, verbetes de enciclopédia infantil, entre outros gêneros do campo investigativo, considerando a situação comunicativa e o tema/assunto do texto.',
+      Codigo: 'EF12LP17',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Apreciar poemas e outros textos versificados, observando rimas, sonoridades, jogos de palavras, reconhecendo seu pertencimento ao mundo imaginário e sua dimensão de encantamento, jogo e fruição.',
+      Codigo: 'EF12LP18',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Reconhecer, em textos versificados, rimas, sonoridades, jogos de palavras, palavras, expressões, comparações, relacionando-as com sensações e associações.',
+      Codigo: 'EF12LP19',
+      Ano: '1º e 2º anos',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Ler e compreender, silenciosamente e, em seguida, em voz alta, com autonomia e fluência, textos curtos com nível de textualidade adequado.',
+      Codigo: 'EF35LP01',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Selecionar livros da biblioteca e/ou do cantinho de leitura da sala de aula e/ou disponíveis em meios digitais para leitura individual, justificando a escolha e compartilhando com os colegas sua opinião, após a leitura.',
+      Codigo: 'EF35LP02',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Identificar a ideia central do texto, demonstrando compreensão global.',
+      Codigo: 'EF35LP03',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade: 'Inferir informações implícitas nos textos lidos.',
+      Codigo: 'EF35LP04',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Inferir o sentido de palavras ou expressões desconhecidas em textos, com base no contexto da frase ou do texto.',
+      Codigo: 'EF35LP05',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Recuperar relações entre partes de um texto, identificando substituições lexicais (de substantivos por sinônimos) ou pronominais (uso de pronomes anafóricos – pessoais, possessivos, demonstrativos) que contribuem para a continuidade do texto.',
+      Codigo: 'EF35LP06',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Utilizar, ao produzir um texto, conhecimentos linguísticos e gramaticais, tais como ortografia, regras básicas de concordância nominal e verbal, pontuação (ponto final, ponto de exclamação, ponto de interrogação, vírgulas em enumerações) e pontuação do discurso direto, quando for o caso.',
+      Codigo: 'EF35LP07',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Utilizar, ao produzir um texto, recursos de referenciação (por substituição lexical ou por pronomes pessoais, possessivos e demonstrativos), vocabulário apropriado ao gênero, recursos de coesão pronominal (pronomes anafóricos) e articuladores de relações de sentido (tempo, causa, oposição, conclusão, comparação), com nível suficiente de informatividade.',
+      Codigo: 'EF35LP08',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Organizar o texto em unidades de sentido, dividindo-o em parágrafos segundo as normas gráficas e de acordo com as características do gênero textual.',
+      Codigo: 'EF35LP09',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Identificar gêneros do discurso oral, utilizados em diferentes situações e contextos comunicativos, e suas características linguístico-expressivas e composicionais (conversação espontânea, conversação telefônica, entrevistas pessoais, entrevistas no rádio ou na TV, debate, noticiário de rádio e TV, narração de jogos esportivos no rádio e TV, aula, debate etc.).',
+      Codigo: 'EF35LP10',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Ouvir gravações, canções, textos falados em diferentes variações linguísticas, identificando características regionais, urbanas e rurais da fala e respeitando as diversas variedades linguísticas como características do uso da língua por diferentes grupos regionais ou diferentes culturas locais, rejeitando preconceitos linguísticos.',
+      Codigo: 'EF35LP11',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Recorrer ao dicionário para esclarecer dúvida sobre a escrita de palavras, especialmente no caso de palavras com relações irregulares fonema-grafema.',
+      Codigo: 'EF35LP12',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Memorizar a grafia de palavras de uso frequente nas quais as relações fonema-grafema são irregulares e com h inicial que não representa fonema.',
+      Codigo: 'EF35LP13',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Identificar em textos e usar na produção textual pronomes pessoais, possessivos e demonstrativos, como recurso coesivo anafórico.',
+      Codigo: 'EF35LP14',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Opinar e defender ponto de vista sobre tema polêmico relacionado a situações vivenciadas na escola e/ou na comunidade, utilizando registro formal e estrutura adequada à argumentação, considerando a situação comunicativa e o tema/assunto do texto.',
+      Codigo: 'EF35LP15',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Identificar e reproduzir, em notícias, manchetes, lides e corpo de notícias simples para público infantil e cartas de reclamação (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.',
+      Codigo: 'EF35LP16',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Buscar e selecionar, com o apoio do professor, informações de interesse sobre fenômenos sociais e naturais, em textos que circulam em meios impressos ou digitais.',
+      Codigo: 'EF35LP17',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Escutar, com atenção, apresentações de trabalhos realizadas por colegas, formulando perguntas pertinentes ao tema e solicitando esclarecimentos sempre que necessário.',
+      Codigo: 'EF35LP18',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Recuperar as ideias principais em situações formais de escuta de exposições, apresentações e palestras.',
+      Codigo: 'EF35LP19',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Expor trabalhos ou pesquisas escolares, em sala de aula, com apoio de recursos multissemióticos (imagens, diagrama, tabelas etc.), orientando-se por roteiro escrito, planejando o tempo de fala e adequando a linguagem à situação comunicativa.',
+      Codigo: 'EF35LP20',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Ler e compreender, de forma autônoma, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores.',
+      Codigo: 'EF35LP21',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Perceber diálogos em textos narrativos, observando o efeito de sentido de verbos de enunciação e, se for o caso, o uso de variedades linguísticas no discurso direto.',
+      Codigo: 'EF35LP22',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Apreciar poemas e outros textos versificados, observando rimas, aliterações e diferentes modos de divisão dos versos, estrofes e refrãos e seu efeito de sentido.',
+      Codigo: 'EF35LP23',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Identificar funções do texto dramático (escrito para ser encenado) e sua organização por meio de diálogos entre personagens e marcadores das falas das personagens e de cena.',
+      Codigo: 'EF35LP24',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Criar narrativas ficcionais, com certa autonomia, utilizando detalhes descritivos, sequências de eventos e imagens apropriadas para sustentar o sentido do texto, e marcadores de tempo, espaço e de fala de personagens.',
+      Codigo: 'EF35LP25',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Ler e compreender, com certa autonomia, narrativas ficcionais que apresentem cenários e personagens, observando os elementos da estrutura narrativa: enredo, tempo, espaço, personagens, narrador e a construção do discurso indireto e discurso direto.',
+      Codigo: 'EF35LP26',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Ler e compreender, com certa autonomia, textos em versos, explorando rimas, sons e jogos de palavras, imagens poéticas (sentidos figurados) e recursos visuais e sonoros.',
+      Codigo: 'EF35LP27',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Declamar poemas, com entonação, postura e interpretação adequadas.',
+      Codigo: 'EF35LP28',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Identificar, em narrativas, cenário, personagem central, conflito gerador, resolução e o ponto de vista com base no qual histórias são narradas, diferenciando narrativas em primeira e terceira pessoas.',
+      Codigo: 'EF35LP29',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Diferenciar discurso indireto e discurso direto, determinando o efeito de sentido de verbos de enunciação e explicando o uso de variedades linguísticas no discurso direto, quando for o caso.',
+      Codigo: 'EF35LP30',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Identificar, em textos versificados, efeitos de sentido decorrentes do uso de recursos rítmicos e sonoros e de metáforas.',
+      Codigo: 'EF35LP31',
+      Ano: '3º, 4º e 5º ano',
+      Disciplina: 'Língua Portuguesa',
+    },
+    {
+      Habilidade:
+        'Utilizar números naturais como indicador de quantidade ou de ordem em diferentes situações cotidianas e reconhecer situações em que os números não indicam contagem nem ordem, mas sim código de identificação.',
+      Codigo: 'EF01MA01',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Contar de maneira exata ou aproximada, utilizando diferentes estratégias como o pareamento e outros agrupamentos.',
+      Codigo: 'EF01MA02',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Estimar e comparar quantidades de objetos de dois conjuntos (em torno de 20 elementos), por estimativa e/ou por correspondência (um a um, dois a dois) para indicar “tem mais”, “tem menos” ou “tem a mesma quantidade”.',
+      Codigo: 'EF01MA03',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Contar a quantidade de objetos de coleções até 100 unidades e apresentar o resultado por registros verbais e simbólicos, em situações de seu interesse, como jogos, brincadeiras, materiais da sala de aula, entre outros.',
+      Codigo: 'EF01MA04',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Comparar números naturais de até duas ordens em situações cotidianas, com e sem suporte da reta numérica.',
+      Codigo: 'EF01MA05',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Construir fatos básicos da adição e utilizá-los em procedimentos de cálculo para resolver problemas.',
+      Codigo: 'EF01MA06',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Compor e decompor número de até duas ordens, por meio de diferentes adições, com o suporte de material manipulável, contribuindo para a compreensão de características do sistema de numeração decimal e o desenvolvimento de estratégias de cálculo.',
+      Codigo: 'EF01MA07',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas de adição e de subtração, envolvendo números de até dois algarismos, com os significados de juntar, acrescentar, separar e retirar, com o suporte de imagens e/ou material manipulável, utilizando estratégias e formas de registro pessoais.',
+      Codigo: 'EF01MA08',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Organizar e ordenar objetos familiares ou representações por figuras, por meio de atributos, tais como cor, forma e medida.',
+      Codigo: 'EF01MA09',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Descrever, após o reconhecimento e a explicitação de um padrão (ou regularidade), os elementos ausentes em sequências recursivas de números naturais, objetos ou figuras.',
+      Codigo: 'EF01MA10',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Descrever a localização de pessoas e de objetos no espaço em relação à sua própria posição, utilizando termos como à direita, à esquerda, em frente, atrás.',
+      Codigo: 'EF01MA11',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Descrever a localização de pessoas e de objetos no espaço segundo um dado ponto de referência, compreendendo que, para a utilização de termos que se referem à posição, como direita, esquerda, em cima, em baixo, é necessário explicitar-se o referencial.',
+      Codigo: 'EF01MA12',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Relacionar figuras geométricas espaciais (cones, cilindros, esferas e blocos retangulares) a objetos familiares do mundo físico.',
+      Codigo: 'EF01MA13',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Identificar e nomear figuras planas (círculo, quadrado, retângulo e triângulo) em desenhos apresentados em diferentes disposições ou em contornos de faces de sólidos geométricos.',
+      Codigo: 'EF01MA14',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Comparar comprimentos, capacidades ou massas, utilizando termos como mais alto, mais baixo, mais comprido, mais curto, mais grosso, mais fino, mais largo, mais pesado, mais leve, cabe mais, cabe menos, entre outros, para ordenar objetos de uso cotidiano.',
+      Codigo: 'EF01MA15',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Relatar em linguagem verbal ou não verbal sequência de acontecimentos relativos a um dia, utilizando, quando possível, os horários dos eventos.',
+      Codigo: 'EF01MA16',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer e relacionar períodos do dia, dias da semana e meses do ano, utilizando calendário, quando necessário.',
+      Codigo: 'EF01MA17',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Produzir a escrita de uma data, apresentando o dia, o mês e o ano, e indicar o dia da semana de uma data, consultando calendários.',
+      Codigo: 'EF01MA18',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer e relacionar valores de moedas e cédulas do sistema monetário brasileiro para resolver situações simples do cotidiano do estudante.',
+      Codigo: 'EF01MA19',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Classificar eventos envolvendo o acaso, tais como “acontecerá com certeza”, “talvez aconteça” e “é impossível acontecer”, em situações do cotidiano.',
+      Codigo: 'EF01MA20',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Ler dados expressos em tabelas e em gráficos de colunas simples.',
+      Codigo: 'EF01MA21',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Realizar pesquisa, envolvendo até duas variáveis categóricas de seu interesse e universo de até 30 elementos, e organizar dados por meio de representações pessoais.',
+      Codigo: 'EF01MA22',
+      Ano: '1º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Comparar e ordenar números naturais (até a ordem de centenas) pela compreensão de características do sistema de numeração decimal (valor posicional e função do zero).',
+      Codigo: 'EF02MA01',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Fazer estimativas por meio de estratégias diversas a respeito da quantidade de objetos de coleções e registrar o resultado da contagem desses objetos (até 1000 unidades).',
+      Codigo: 'EF02MA02',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Comparar quantidades de objetos de dois conjuntos, por estimativa e/ou por correspondência (um a um, dois a dois, entre outros), para indicar “tem mais”, “tem menos” ou “tem a mesma quantidade”, indicando, quando for o caso, quantos a mais e quantos a menos.',
+      Codigo: 'EF02MA03',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Compor e decompor números naturais de até três ordens, com suporte de material manipulável, por meio de diferentes adições.',
+      Codigo: 'EF02MA04',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Construir fatos básicos da adição e subtração e utilizá-los no cálculo mental ou escrito.',
+      Codigo: 'EF02MA05',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas de adição e de subtração, envolvendo números de até três ordens, com os significados de juntar, acrescentar, separar, retirar, utilizando estratégias pessoais ou convencionais.',
+      Codigo: 'EF02MA06',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas de multiplicação (por 2, 3, 4 e 5) com a ideia de adição de parcelas iguais por meio de estratégias e formas de registro pessoais, utilizando ou não suporte de imagens e/ou material manipulável.',
+      Codigo: 'EF02MA07',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas envolvendo dobro, metade, triplo e terça parte, com o suporte de imagens ou material manipulável, utilizando estratégias pessoais.',
+      Codigo: 'EF02MA08',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Construir sequências de números naturais em ordem crescente ou decrescente a partir de um número qualquer, utilizando uma regularidade estabelecida.',
+      Codigo: 'EF02MA09',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Descrever um padrão (ou regularidade) de sequências repetitivas e de sequências recursivas, por meio de palavras, símbolos ou desenhos.',
+      Codigo: 'EF02MA10',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Descrever os elementos ausentes em sequências repetitivas e em sequências recursivas de números naturais, objetos ou figuras.',
+      Codigo: 'EF02MA11',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Identificar e registrar, em linguagem verbal ou não verbal, a localização e os deslocamentos de pessoas e de objetos no espaço, considerando mais de um ponto de referência, e indicar as mudanças de direção e de sentido.',
+      Codigo: 'EF02MA12',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Esboçar roteiros a ser seguidos ou plantas de ambientes familiares, assinalando entradas, saídas e alguns pontos de referência.',
+      Codigo: 'EF02MA13',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer, nomear e comparar figuras geométricas espaciais (cubo, bloco retangular, pirâmide, cone, cilindro e esfera), relacionando-as com objetos do mundo físico.',
+      Codigo: 'EF02MA14',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer, comparar e nomear figuras planas (círculo, quadrado, retângulo e triângulo), por meio de características comuns, em desenhos apresentados em diferentes disposições ou em sólidos geométricos.',
+      Codigo: 'EF02MA15',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Estimar, medir e comparar comprimentos de lados de salas (incluindo contorno) e de polígonos, utilizando unidades de medida não padronizadas e padronizadas (metro, centímetro e milímetro) e instrumentos adequados.',
+      Codigo: 'EF02MA16',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Estimar, medir e comparar capacidade e massa, utilizando estratégias pessoais e unidades de medida não padronizadas ou padronizadas (litro, mililitro, grama e quilograma).',
+      Codigo: 'EF02MA17',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Indicar a duração de intervalos de tempo entre duas datas, como dias da semana e meses do ano, utilizando calendário, para planejamentos e organização de agenda.',
+      Codigo: 'EF02MA18',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Medir a duração de um intervalo de tempo por meio de relógio digital e registrar o horário do início e do fim do intervalo.',
+      Codigo: 'EF02MA19',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Estabelecer a equivalência de valores entre moedas e cédulas do sistema monetário brasileiro para resolver situações cotidianas.',
+      Codigo: 'EF02MA20',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Classificar resultados de eventos cotidianos aleatórios como “pouco prováveis”, “muito prováveis”, “improváveis” e “impossíveis”.',
+      Codigo: 'EF02MA21',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Comparar informações de pesquisas apresentadas por meio de tabelas de dupla entrada e em gráficos de colunas simples ou barras, para melhor compreender aspectos da realidade próxima.',
+      Codigo: 'EF02MA22',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Realizar pesquisa em universo de até 30 elementos, escolhendo até três variáveis categóricas de seu interesse, organizando os dados coletados em listas, tabelas e gráficos de colunas simples.',
+      Codigo: 'EF02MA23',
+      Ano: '2º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Ler, escrever e comparar números naturais de até a ordem de unidade de milhar, estabelecendo relações entre os registros numéricos e em língua materna.',
+      Codigo: 'EF03MA01',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Identificar características do sistema de numeração decimal, utilizando a composição e a decomposição de número natural de até quatro ordens.',
+      Codigo: 'EF03MA02',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Construir e utilizar fatos básicos da adição e da multiplicação para o cálculo mental ou escrito.',
+      Codigo: 'EF03MA03',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Estabelecer a relação entre números naturais e pontos da reta numérica para utilizá-la na ordenação dos números naturais e, também, na construção de fatos da adição e da subtração, relacionando-os com deslocamentos para a direita ou para a esquerda.',
+      Codigo: 'EF03MA04',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Utilizar diferentes procedimentos de cálculo mental e escrito para resolver problemas significativos envolvendo adição e subtração com números naturais.',
+      Codigo: 'EF03MA05',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas de adição e subtração com os significados de juntar, acrescentar, separar, retirar, comparar e completar quantidades, utilizando diferentes estratégias de cálculo exato ou aproximado, incluindo cálculo mental.',
+      Codigo: 'EF03MA06',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas de multiplicação (por 2, 3, 4, 5 e 10) com os significados de adição de parcelas iguais e elementos apresentados em disposição retangular, utilizando diferentes estratégias de cálculo e registros.',
+      Codigo: 'EF03MA07',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas de divisão de um número natural por outro (até 10), com resto zero e com resto diferente de zero, com os significados de repartição equitativa e de medida, por meio de estratégias e registros pessoais.',
+      Codigo: 'EF03MA08',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Associar o quociente de uma divisão com resto zero de um número natural por 2, 3, 4, 5 e 10 às ideias de metade, terça, quarta, quinta e décima partes.',
+      Codigo: 'EF03MA09',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Identificar regularidades em sequências ordenadas de números naturais, resultantes da realização de adições ou subtrações sucessivas, por um mesmo número, descrever uma regra de formação da sequência e determinar elementos faltantes ou seguintes.',
+      Codigo: 'EF03MA10',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Compreender a ideia de igualdade para escrever diferentes sentenças de adições ou de subtração de dois números naturais que resultem na mesma soma ou diferença.',
+      Codigo: 'EF03MA11',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Descrever e representar, por meio de esboços de trajetos ou utilizando croquis e maquetes, a movimentação de pessoas ou de objetos no espaço, incluindo mudanças de direção e sentido, com base em diferentes pontos de referência.',
+      Codigo: 'EF03MA12',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Associar figuras geométricas espaciais (cubo, bloco retangular, pirâmide, cone, cilindro e esfera) a objetos do mundo físico e nomear essas figuras.',
+      Codigo: 'EF03MA13',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Descrever características de algumas figuras geométricas espaciais (prismas retos, pirâmides, cilindros, cones), relacionando-as com suas planificações.',
+      Codigo: 'EF03MA14',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Classificar e comparar figuras planas (triângulo, quadrado, retângulo, trapézio e paralelogramo) em relação a seus lados (quantidade, posições relativas e comprimento) e vértices.',
+      Codigo: 'EF03MA15',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer figuras congruentes, usando sobreposição e desenhos em malhas quadriculadas ou triangulares, incluindo o uso de tecnologias digitais.',
+      Codigo: 'EF03MA16',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer que o resultado de uma medida depende da unidade de medida utilizada.',
+      Codigo: 'EF03MA17',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Escolher a unidade de medida e o instrumento mais apropriado para medições de comprimento, tempo e capacidade.',
+      Codigo: 'EF03MA18',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Estimar, medir e comparar comprimentos, utilizando unidades de medida não padronizadas e padronizadas mais usuais (metro, centímetro e milímetro) e diversos instrumentos de medida.',
+      Codigo: 'EF03MA19',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Estimar e medir capacidade e massa, utilizando unidades de medida não padronizadas e padronizadas mais usuais (litro, mililitro, quilograma, grama e miligrama), reconhecendo-as em leitura de rótulos e embalagens, entre outros.',
+      Codigo: 'EF03MA20',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Comparar, visualmente ou por superposição, áreas de faces de objetos, de figuras planas ou de desenhos.',
+      Codigo: 'EF03MA21',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Ler e registrar medidas e intervalos de tempo, utilizando relógios (analógico e digital) para informar os horários de início e término de realização de uma atividade e sua duração.',
+      Codigo: 'EF03MA22',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Ler horas em relógios digitais e em relógios analógicos e reconhecer a relação entre hora e minutos e entre minuto e segundos.',
+      Codigo: 'EF03MA23',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas que envolvam a comparação e a equivalência de valores monetários do sistema brasileiro em situações de compra, venda e troca.',
+      Codigo: 'EF03MA24',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Identificar, em eventos familiares aleatórios, todos os resultados possíveis, estimando os que têm maiores ou menores chances de ocorrência.',
+      Codigo: 'EF03MA25',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver problemas cujos dados estão apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas.',
+      Codigo: 'EF03MA26',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Ler, interpretar e comparar dados apresentados em tabelas de dupla entrada, gráficos de barras ou de colunas, envolvendo resultados de pesquisas significativas, utilizando termos como maior e menor frequência, apropriando-se desse tipo de linguagem para compreender aspectos da realidade sociocultural significativos.',
+      Codigo: 'EF03MA27',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Realizar pesquisa envolvendo variáveis categóricas em um universo de até 50 elementos, organizar os dados coletados utilizando listas, tabelas simples ou de dupla entrada e representá-los em gráficos de colunas simples, com e sem uso de tecnologias digitais.',
+      Codigo: 'EF03MA28',
+      Ano: '3º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Ler, escrever e ordenar números naturais até a ordem de dezenas de milhar.',
+      Codigo: 'EF04MA01',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Mostrar, por decomposição e composição, que todo número natural pode ser escrito por meio de adições e multiplicações por potências de dez, para compreender o sistema de numeração decimal e desenvolver estratégias de cálculo.',
+      Codigo: 'EF04MA02',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas com números naturais envolvendo adição e subtração, utilizando estratégias diversas, como cálculo, cálculo mental e algoritmos, além de fazer estimativas do resultado.',
+      Codigo: 'EF04MA03',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Utilizar as relações entre adição e subtração, bem como entre multiplicação e divisão, para ampliar as estratégias de cálculo.',
+      Codigo: 'EF04MA04',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Utilizar as propriedades das operações para desenvolver estratégias de cálculo.',
+      Codigo: 'EF04MA05',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas envolvendo diferentes significados da multiplicação (adição de parcelas iguais, organização retangular e proporcionalidade), utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos.',
+      Codigo: 'EF04MA06',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas de divisão cujo divisor tenha no máximo dois algarismos, envolvendo os significados de repartição equitativa e de medida, utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos.',
+      Codigo: 'EF04MA07',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver, com o suporte de imagem e/ou material manipulável, problemas simples de contagem, como a determinação do número de agrupamentos possíveis ao se combinar cada elemento de uma coleção com todos os elementos de outra, utilizando estratégias e formas de registro pessoais.',
+      Codigo: 'EF04MA08',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer as frações unitárias mais usuais (1/2, 1/3, 1/4, 1/5, 1/10 e 1/100) como unidades de medida menores do que uma unidade, utilizando a reta numérica como recurso.',
+      Codigo: 'EF04MA09',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer que as regras do sistema de numeração decimal podem ser estendidas para a representação decimal de um número racional e relacionar décimos e centésimos com a representação do sistema monetário brasileiro.',
+      Codigo: 'EF04MA10',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Identificar regularidades em sequências numéricas compostas por múltiplos de um número natural.',
+      Codigo: 'EF04MA11',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer, por meio de investigações, que há grupos de números naturais para os quais as divisões por um determinado número resultam em restos iguais, identificando regularidades.',
+      Codigo: 'EF04MA12',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer, por meio de investigações, utilizando a calculadora quando necessário, as relações inversas entre as operações de adição e de subtração e de multiplicação e de divisão, para aplicá-las na resolução de problemas.',
+      Codigo: 'EF04MA13',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer e mostrar, por meio de exemplos, que a relação de igualdade existente entre dois termos permanece quando se adiciona ou se subtrai um mesmo número a cada um desses termos.',
+      Codigo: 'EF04MA14',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Determinar o número desconhecido que torna verdadeira uma igualdade que envolve as operações fundamentais com números naturais.',
+      Codigo: 'EF04MA15',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Descrever deslocamentos e localização de pessoas e de objetos no espaço, por meio de malhas quadriculadas e representações como desenhos, mapas, planta baixa e croquis, empregando termos como direita e esquerda, mudanças de direção e sentido, intersecção, transversais, paralelas e perpendiculares.',
+      Codigo: 'EF04MA16',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Associar prismas e pirâmides a suas planificações e analisar, nomear e comparar seus atributos, estabelecendo relações entre as representações planas e espaciais.',
+      Codigo: 'EF04MA17',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer ângulos retos e não retos em figuras poligonais com o uso de dobraduras, esquadros ou softwares de geometria.',
+      Codigo: 'EF04MA18',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer simetria de reflexão em figuras e em pares de figuras geométricas planas e utilizá-la na construção de figuras congruentes, com o uso de malhas quadriculadas e de softwares de geometria.',
+      Codigo: 'EF04MA19',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Medir e estimar comprimentos (incluindo perímetros), massas e capacidades, utilizando unidades de medida padronizadas mais usuais, valorizando e respeitando a cultura local.',
+      Codigo: 'EF04MA20',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Medir, comparar e estimar área de figuras planas desenhadas em malha quadriculada, pela contagem dos quadradinhos ou de metades de quadradinho, reconhecendo que duas figuras com formatos diferentes podem ter a mesma medida de área.',
+      Codigo: 'EF04MA21',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Ler e registrar medidas e intervalos de tempo em horas, minutos e segundos em situações relacionadas ao seu cotidiano, como informar os horários de início e término de realização de uma tarefa e sua duração.',
+      Codigo: 'EF04MA22',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer temperatura como grandeza e o grau Celsius como unidade de medida a ela associada e utilizá-lo em comparações de temperaturas em diferentes regiões do Brasil ou no exterior ou, ainda, em discussões que envolvam problemas relacionados ao aquecimento global.',
+      Codigo: 'EF04MA23',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Registrar as temperaturas máxima e mínima diárias, em locais do seu cotidiano, e elaborar gráficos de colunas com as variações diárias da temperatura, utilizando, inclusive, planilhas eletrônicas.',
+      Codigo: 'EF04MA24',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas que envolvam situações de compra e venda e formas de pagamento, utilizando termos como troco e desconto, enfatizando o consumo ético, consciente e responsável.',
+      Codigo: 'EF04MA25',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Identificar, entre eventos aleatórios cotidianos, aqueles que têm maior chance de ocorrência, reconhecendo características de resultados mais prováveis, sem utilizar frações.',
+      Codigo: 'EF04MA26',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Analisar dados apresentados em tabelas simples ou de dupla entrada e em gráficos de colunas ou pictóricos, com base em informações das diferentes áreas do conhecimento, e produzir texto com a síntese de sua análise.',
+      Codigo: 'EF04MA27',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Realizar pesquisa envolvendo variáveis categóricas e numéricas e organizar dados coletados por meio de tabelas e gráficos de colunas simples ou agrupadas, com e sem uso de tecnologias digitais.',
+      Codigo: 'EF04MA28',
+      Ano: '4º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Ler, escrever e ordenar números naturais até a ordem das centenas de milhar com compreensão das principais características do sistema de numeração decimal.',
+      Codigo: 'EF05MA01',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Ler, escrever e ordenar números racionais na forma decimal com compreensão das principais características do sistema de numeração decimal, utilizando, como recursos, a composição e decomposição e a reta numérica.',
+      Codigo: 'EF05MA02',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Identificar e representar frações (menores e maiores que a unidade), associando-as ao resultado de uma divisão ou à ideia de parte de um todo, utilizando a reta numérica como recurso.',
+      Codigo: 'EF05MA03',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade: 'Identificar frações equivalentes.',
+      Codigo: 'EF05MA04',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Comparar e ordenar números racionais positivos (representações fracionária e decimal), relacionando-os a pontos na reta numérica.',
+      Codigo: 'EF05MA05',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Associar as representações 10%, 25%, 50%, 75% e 100% respectivamente à décima parte, quarta parte, metade, três quartos e um inteiro, para calcular porcentagens, utilizando estratégias pessoais, cálculo mental e calculadora, em contextos de educação financeira, entre outros.',
+      Codigo: 'EF05MA06',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas de adição e subtração com números naturais e com números racionais, cuja representação decimal seja finita, utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos.',
+      Codigo: 'EF05MA07',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas de multiplicação e divisão com números naturais e com números racionais cuja representação decimal é finita (com multiplicador natural e divisor natural e diferente de zero), utilizando estratégias diversas, como cálculo por estimativa, cálculo mental e algoritmos.',
+      Codigo: 'EF05MA08',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas simples de contagem envolvendo o princípio multiplicativo, como a determinação do número de agrupamentos possíveis ao se combinar cada elemento de uma coleção com todos os elementos de outra coleção, por meio de diagramas de árvore ou por tabelas.',
+      Codigo: 'EF05MA09',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Concluir, por meio de investigações, que a relação de igualdade existente entre dois membros permanece ao adicionar, subtrair, multiplicar ou dividir cada um desses membros por um mesmo número, para construir a noção de equivalência.',
+      Codigo: 'EF05MA10',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas cuja conversão em sentença matemática seja uma igualdade com uma operação em que um dos termos é desconhecido.',
+      Codigo: 'EF05MA11',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver problemas que envolvam variação de proporcionalidade direta entre duas grandezas, para associar a quantidade de um produto ao valor a pagar, alterar as quantidades de ingredientes de receitas, ampliar ou reduzir escala em mapas, entre outros.',
+      Codigo: 'EF05MA12',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver problemas envolvendo a partilha de uma quantidade em duas partes desiguais, tais como dividir uma quantidade em duas partes, de modo que uma seja o dobro da outra, com compreensão da ideia de razão entre as partes e delas com o todo.',
+      Codigo: 'EF05MA13',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Utilizar e compreender diferentes representações para a localização de objetos no plano, como mapas, células em planilhas eletrônicas e coordenadas geográficas, a fim de desenvolver as primeiras noções de coordenadas cartesianas.',
+      Codigo: 'EF05MA14',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Interpretar, descrever e representar a localização ou movimentação de objetos no plano cartesiano (1º quadrante), utilizando coordenadas cartesianas, indicando mudanças de direção e de sentido e giros.',
+      Codigo: 'EF05MA15',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Associar figuras espaciais a suas planificações (prismas, pirâmides, cilindros e cones) e analisar, nomear e comparar seus atributos.',
+      Codigo: 'EF05MA16',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer, nomear e comparar polígonos, considerando lados, vértices e ângulos, e desenhá-los, utilizando material de desenho ou tecnologias digitais.',
+      Codigo: 'EF05MA17',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer a congruência dos ângulos e a proporcionalidade entre os lados correspondentes de figuras poligonais em situações de ampliação e de redução em malhas quadriculadas e usando tecnologias digitais.',
+      Codigo: 'EF05MA18',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Resolver e elaborar problemas envolvendo medidas das grandezas comprimento, área, massa, tempo, temperatura e capacidade, recorrendo a transformações entre as unidades mais usuais em contextos socioculturais.',
+      Codigo: 'EF05MA19',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Concluir, por meio de investigações, que figuras de perímetros iguais podem ter áreas diferentes e que, também, figuras que têm a mesma área podem ter perímetros diferentes.',
+      Codigo: 'EF05MA20',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Reconhecer volume como grandeza associada a sólidos geométricos e medir volumes por meio de empilhamento de cubos, utilizando, preferencialmente, objetos concretos.',
+      Codigo: 'EF05MA21',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Apresentar todos os possíveis resultados de um experimento aleatório, estimando se esses resultados são igualmente prováveis ou não.',
+      Codigo: 'EF05MA22',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Determinar a probabilidade de ocorrência de um resultado em eventos aleatórios, quando todos os resultados possíveis têm a mesma chance de ocorrer (equiprováveis).',
+      Codigo: 'EF05MA23',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Interpretar dados estatísticos apresentados em textos, tabelas e gráficos (colunas ou linhas), referentes a outras áreas do conhecimento ou a outros contextos, como saúde e trânsito, e produzir textos com o objetivo de sintetizar conclusões.',
+      Codigo: 'EF05MA24',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+    {
+      Habilidade:
+        'Realizar pesquisa envolvendo variáveis categóricas e numéricas, organizar dados coletados por meio de tabelas, gráficos de colunas, pictóricos e de linhas, com e sem uso de tecnologias digitais, e apresentar texto escrito sobre a finalidade da pesquisa e a síntese dos resultados.',
+      Codigo: 'EF05MA25',
+      Ano: '5º ano',
+      Disciplina: 'Matemática',
+    },
+  ];
 }

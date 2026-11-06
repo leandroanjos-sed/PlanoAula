@@ -52,6 +52,7 @@ export class PlanejamentoComponent {
   habilidadesDanca: any[] = [];
   habilidadesMusica: any[] = [];
   habilidadesTeatro: any[] = [];
+  habilidadesRecomposicaoAprendizagem: any[] = [];
   competencias: any[] = [];
   escolas = [
     {
@@ -431,6 +432,41 @@ export class PlanejamentoComponent {
             t.Area?.includes('Teatro'),
         );
       }
+
+      if (this.disciplina.value?.includes('Língua Portuguesa')) {
+        const serie = Number(this.serieAno.value[0]);
+        const mesmaDisciplina = (t: any) =>
+          this.disciplina.value?.includes(t.Disciplina);
+
+        // anos iniciais: sempre todas
+        const iniciais =
+          HabilidadeUtil.habilidadesAnosIniciais.filter(mesmaDisciplina);
+
+        // anos finais: só as que podem ser de anos anteriores ao selecionado
+        const finais = HabilidadeUtil.habilidadesAnosFinais.filter(
+          (t) =>
+            mesmaDisciplina(t) && this.anoInicialHabilidade(t.Codigo) < serie,
+        );
+
+        this.habilidadesRecomposicaoAprendizagem = [...iniciais, ...finais];
+      }
+      if (this.disciplina.value?.includes('Matemática')) {
+        const serie = Number(this.serieAno.value[0]);
+        const mesmaDisciplina = (t: any) =>
+          this.disciplina.value?.includes(t.Disciplina);
+
+        // anos iniciais: sempre todas
+        const iniciais =
+          HabilidadeUtil.habilidadesAnosIniciais.filter(mesmaDisciplina);
+
+        // anos finais: só as que podem ser de anos anteriores ao selecionado
+        const finais = HabilidadeUtil.habilidadesAnosFinais.filter(
+          (t) =>
+            mesmaDisciplina(t) && this.anoInicialHabilidade(t.Codigo) < serie,
+        );
+
+        this.habilidadesRecomposicaoAprendizagem = [...iniciais, ...finais];
+      }
     } else {
       this.competencias = CompetenciaUtil.competenciasEnsinoMedio;
       this.competencias = this.competencias.filter((t) =>
@@ -480,6 +516,58 @@ export class PlanejamentoComponent {
             ),
           }))
           .filter((grupo) => grupo.items.length > 0);
+    }
+
+    if (this.disciplina.value?.includes('Língua Portuguesa')) {
+      this.habilidadesRecomposicaoAprendizagem = HabilidadeUtil.habilidadesAnosIniciais.filter(t => t.Disciplina.includes('Língua Portuguesa'));
+      this.habilidadesRecomposicaoAprendizagem.push(
+        ...HabilidadeUtil.habilidadesAnosFinais.filter((t) =>
+          t.Disciplina.includes('Língua Portuguesa'),
+        ),
+      );
+      if (this.serieAno.value[0] > 1) {
+        this.habilidadesRecomposicaoAprendizagem.push(
+          ...HabilidadeUtil.habilidadesEnsinoMedio.filter(
+            (t) =>
+              t.Area?.includes('Linguagens e suas Tecnologias') &&
+              this.competencia.value
+                ?.map((c: any) => c.Numero + '')
+                .includes(t.Competencia as unknown as number),
+          ),
+        );
+        const numeros = new Set<number>(
+          this.competencia.value?.map((c: any) => c.Numero) ?? [],
+        );
+        this.habilidadesRecomposicaoAprendizagem.push(
+          ...HabilidadeUtil.habilidadesLinguaPortuguesaEM
+            .map((grupo) => ({
+              ...grupo,
+              items: grupo.items.filter((t) =>
+                t.Competencia.some((comp) => numeros.has(comp)),
+              ),
+            }))
+            .filter((grupo) => grupo.items.length > 0).flatMap((item) => item.items),
+        );
+      }
+    }
+    if (this.disciplina.value?.includes('Matemática')) {
+      this.habilidadesRecomposicaoAprendizagem = HabilidadeUtil.habilidadesAnosIniciais.filter(t => t.Disciplina.includes('Matemática'));
+      this.habilidadesRecomposicaoAprendizagem.push(
+        ...HabilidadeUtil.habilidadesAnosFinais.filter((t) =>
+          t.Disciplina.includes('Matemática'),
+        ),
+      );
+      if (this.serieAno.value[0] > 1) {
+        this.habilidadesRecomposicaoAprendizagem.push(
+          ...HabilidadeUtil.habilidadesEnsinoMedio.filter(
+            (t) =>
+              t.Area?.includes('Matemática') &&
+              this.competencia.value
+                ?.map((c: any) => c.Numero + '')
+                .includes(t.Competencia as unknown as number),
+          ),
+        );
+      }
     }
   }
 
@@ -782,7 +870,12 @@ export class PlanejamentoComponent {
     }
     body.push([
       'Recomposição da Aprendizagem (Língua Portuguesa e Matemática)',
-      dados.recomposicaoAprendizagem ?? '',
+      dados.recomposicaoAprendizagem
+          ?.map(
+            (t: any) =>
+              (t.Codigo.length > 4 ? t.Codigo : '') + ' - ' + t.Habilidade,
+          )
+          ?.join('\n\n') ?? '',
     ]);
     body.push(['Critérios de Avaliação', dados.criteriosAvaliacao ?? '']);
     body.push([
@@ -825,6 +918,11 @@ export class PlanejamentoComponent {
       reader.onloadend = () => resolve(reader.result as string);
       reader.readAsDataURL(blob);
     });
+  }
+
+  private anoInicialHabilidade(codigo: string): number {
+    const cod = codigo.slice(2, 4);
+    return cod[0] === '0' ? Number(cod) : Number(cod[0]);
   }
 }
 
