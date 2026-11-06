@@ -10,7 +10,7 @@
                 <div class="col-12 md:col-6 p-1">
                     <label for="ddEscola" class="font-semibold">Escola:*</label>
                     <p-dropdown id="ddEscola" formControlName="escola" [options]="escolas"
-                        placeholder="Selecione uma Escola" [group]="true" styleClass="w-full">
+                        placeholder="Selecione uma Escola" [group]="true" styleClass="w-full" (onChange)="onChangeEscola($event)">
                         <ng-template let-group pTemplate="group">
                             <div class="flex align-items-center">
                                 <span>{{ group.label }}</span>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-6 p-1">
                     <label for="ddSerieAno" class="font-semibold">Série/Ano:*</label>
-                    <p-dropdown id="ddSerieAno" formControlName="serieAno" [options]="seriesAnos"
+                    <p-dropdown id="ddSerieAno" formControlName="serieAno" [options]="seriesAnosSelecionaveis"
                         placeholder="Selecione uma Série/Ano" [group]="true" styleClass="w-full"
                         (onChange)="onChangeSerieAnos($event)">
                         <ng-template pTemplate="selectedItem" let-item>

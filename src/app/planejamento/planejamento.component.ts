@@ -134,6 +134,8 @@ export class PlanejamentoComponent {
     },
   ];
 
+  seriesAnosSelecionaveis: any[] = [];
+
   disciplinas: any[] = [];
 
   instrumentos: any[] = [
@@ -284,6 +286,15 @@ export class PlanejamentoComponent {
       return;
     }
     this.exibirTodosOsCampos = true;
+  }
+
+  onChangeEscola(event: DropdownChangeEvent) {
+    //Sóror e Cedup não tem EF
+    if(event.value?.includes('CEDUP') || event.value?.includes('EEB Sóror Angélica')){
+      this.seriesAnosSelecionaveis = [this.seriesAnos[1]];
+    } else {
+      this.seriesAnosSelecionaveis = this.seriesAnos;
+    }
   }
 
   onChangeSerieAnos(event: DropdownChangeEvent) {
