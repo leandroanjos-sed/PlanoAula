@@ -3,6 +3,7 @@ import { DropdownChangeEvent, DropdownModule } from 'primeng/dropdown';
 import { CalendarModule } from 'primeng/calendar';
 import { DateMaskDirective } from '../../util/date-mask.directive';
 import { InputNumberModule } from 'primeng/inputnumber';
+import { CheckboxChangeEvent, CheckboxModule } from 'primeng/checkbox';
 import {
   FormControl,
   FormGroup,
@@ -36,6 +37,7 @@ import autoTable from 'jspdf-autotable';
     ListboxModule,
     ToastModule,
     InputTextareaModule,
+    CheckboxModule,
   ],
   templateUrl: './planejamento.component.html',
   styleUrl: './planejamento.component.scss',
@@ -183,6 +185,14 @@ export class PlanejamentoComponent {
     'Livros e Revistas Didáticas',
     'Recursos Educacionais Digitais',
     'Músicas',
+    'Quadra poliesportiva',
+    'Quadra de areia',
+    'Poste e bola de espiribol',
+    'Biblioteca',
+    'Horta ou jardins',
+    'Auditório',
+    'Mesas de tênis ou xadrez',
+    'Caixa de som',
   ];
 
   planejamentoForm: FormGroup = new FormGroup({
@@ -205,7 +215,8 @@ export class PlanejamentoComponent {
     objetoConhecimento: new FormControl(),
     caminhoMetodologico: new FormControl(),
     recomposicaoAprendizagem: new FormControl(),
-    adaptacaoCurricular: new FormControl(),
+    adaptacaoCurricular: new FormControl('', Validators.required),
+    naoPossuiAdaptacaoCurricular: new FormControl(false),
     atividadesIntegradoras: new FormControl(),
     recurso: new FormControl(),
     outrosRecursos: new FormControl(),
@@ -250,9 +261,23 @@ export class PlanejamentoComponent {
   get quantidadeAulas() {
     return this.planejamentoForm.get('quantidadeAulas')!;
   }
+  get adaptacaoCurricular() {
+    return this.planejamentoForm.get('adaptacaoCurricular')!;
+  }
+  get naoPossuiAdaptacaoCurricular() {
+    return this.planejamentoForm.get('naoPossuiAdaptacaoCurricular');
+  }
 
   exibirOsCampos() {
-    if (this.planejamentoForm.invalid) {
+    if (
+      this.escola.invalid ||
+      this.dataInicial.invalid ||
+      this.dataFinal.invalid ||
+      this.serieAno.invalid ||
+      this.disciplina.invalid ||
+      this.professor.invalid ||
+      this.quantidadeAulas.invalid
+    ) {
       Object.values(this.planejamentoForm.controls).forEach((c) => {
         c.markAsDirty();
         c.markAsTouched();
@@ -431,7 +456,7 @@ export class PlanejamentoComponent {
 
       this.habilidades = this.habilidades.filter(
         (t) =>
-          this.disciplina.value?.includes(t.Area) &&          
+          this.disciplina.value?.includes(t.Area) &&
           this.competencia.value
             ?.map((c: any) => c.Numero + '')
             .includes(t.Competencia as number),
@@ -489,6 +514,18 @@ export class PlanejamentoComponent {
         summary: 'Aviso',
       });
     }
+  }
+
+  onChangeNaoPossuiAdaptacaoCurricular(event: CheckboxChangeEvent) {
+    if (event.checked) {
+      this.adaptacaoCurricular.removeValidators(Validators.required);
+      this.adaptacaoCurricular.setValue('');
+      this.adaptacaoCurricular.disable();
+    } else {
+      this.adaptacaoCurricular.addValidators(Validators.required);
+      this.adaptacaoCurricular.enable();
+    }
+    this.adaptacaoCurricular.updateValueAndValidity();
   }
 
   async gerarPdf() {

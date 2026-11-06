@@ -5516,614 +5516,614 @@ export class HabilidadeUtil {
         'Conhecer os aspectos legais referentes à liberdade religiosa.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI01',
       Habilidade:
         'Demonstrar iniciativa para utilizar a língua inglesa em situações de interação oral.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI02',
       Habilidade:
         'Coletar informações do grupo, perguntando e respondendo sobre a família, os amigos, a escola e a comunidade.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI03',
       Habilidade:
         'Empregar expressões de uso cotidiano de sala de aula para solicitar esclarecimentos sobre o que não entendeu e/ou o significado de palavras ou expressões.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI04',
       Habilidade:
         'Reconhecer, com o apoio de palavras cognatas e pistas do contexto discursivo, o assunto e as informações principais em textos orais.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI05',
       Habilidade:
         'Falar de si e de outras pessoas, explicitando informações pessoais e características relacionadas a gostos, preferências e rotinas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI06',
       Habilidade:
         'Planejar apresentações sobre temáticas diversas, como família, comunidade e escola, compartilhando-as oralmente com o grupo.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI07',
       Habilidade:
         'Formular hipóteses sobre a finalidade de um texto, com base em sua estrutura, organização textual e pistas gráficas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI08',
       Habilidade:
         'Identificar o assunto de um texto, reconhecendo sua organização textual e palavras cognatas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI09',
       Habilidade: 'Localizar informações específicas em texto.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI10',
       Habilidade:
         'Construir repertório lexical, compreendendo a organização de um dicionário bilíngue e consultando fontes diversas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI11',
       Habilidade:
         'Construir repertório lexical explorando ambientes virtuais e/ou aplicativos.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI12',
       Habilidade:
         'Compartilhar ideias e opiniões sobre o que o texto lido informa ou comunica.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI13',
       Habilidade:
         'Listar ideias para a produção de textos, considerando o tema e o assunto.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI14',
       Habilidade:
         'Selecionar e organizar ideias em função da estrutura e do objetivo do texto.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI15',
       Habilidade:
         'Produzir textos escritos sobre si mesmo, sua família, seus amigos, gostos, preferências, rotinas, comunidade, contexto escolar e outras temáticas abordadas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI16',
       Habilidade:
         'Construir repertório relativo às expressões usadas para o convívio social e o uso da língua inglesa em sala de aula.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI17',
       Habilidade:
         'Construir repertório lexical relativo a temáticas abordadas (escola, família, rotina diária, atividades de lazer, esportes entre outros).',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI18',
       Habilidade:
         'Reconhecer semelhanças e diferenças na pronúncia de palavras da língua inglesa e da língua materna e/ou outras línguas conhecidas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI19',
       Habilidade:
         'Descrever sobre si mesmo, sua família, seus amigos, gostos, preferências e rotinas e rotinas, suma comunidade, seu contexto escolar e outras temáticas abordadas utilizando o verbo to be e o presente do indicativo.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI20',
       Habilidade:
         'Descrever ações em progresso utilizando o presente contínuo.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI21',
       Habilidade:
         'Aplicar em enunciados de atividades, comandos e instruções no modo imperativo.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI22',
       Habilidade:
         'Descrever relações interpessoais e de posse por meio do apóstrofo (‘) + s.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI23',
       Habilidade:
         'Empregar os adjetivos possessivos em produções orais e escritas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI24',
       Habilidade:
         'Reconhecer o alcance da língua inglesa no mundo como língua materna e/ou oficial (primeira ou segunda língua).',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI25',
       Habilidade:
         'Identificar a presença da língua inglesa na sociedade brasileira/comunidade e seu significado (palavras, expressões, suportes e esferas de circulação e consumo).',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '6º ano',
       Codigo: 'EF06LI26',
       Habilidade:
         'Avaliar elementos e produtos culturais de países de língua inglesa absorvidos pela sociedade brasileira/comunidade.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI01',
       Habilidade:
         'Trocar ideias e engajar-se colaborativamente em brincadeiras, jogos e situações de interação oral realizadas em sala de aula.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI02',
       Habilidade:
         'Entrevistar pessoas da comunidade escolar sobre temáticas interdisciplinares abordadas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI03',
       Habilidade:
         'Compreender textos orais a partir dos conhecimentos prévios.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI04',
       Habilidade:
         'Identificar o contexto, a finalidade, o assunto e os interlocutores em textos orais presentes no cinema, na internet, na televisão, entre outros.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI05',
       Habilidade:
         'Compor narrativas orais sobre fatos, acontecimentos e personalidades.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI06',
       Habilidade:
         'Inferir o sentido global de textos com base em leitura rápida, observação de títulos, imagens, primeiras e últimas frases de parágrafos e palavras-chave repetidas ou cognatas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI07',
       Habilidade:
         'Identificar informações-chave de partes de um texto em língua inglesa (parágrafos).',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI08',
       Habilidade:
         'Construir o sentido global de um texto relacionando suas partes.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI09',
       Habilidade: 'Selecionar a informação desejada em um texto.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI10',
       Habilidade:
         'Escolher textos de fontes confiáveis para estudos e pesquisas escolares em ambientes virtuais.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI11',
       Habilidade:
         'Participar de troca de opiniões e informações sobre textos lidos em sala de aula ou em outros ambientes.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI12',
       Habilidade:
         'Planejar a escrita de textos em função do contexto, (público, da finalidade, do layout e do suporte).',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI13',
       Habilidade:
         'Explorar a produção textual organizando em unidades de sentido, dividindo-os em parágrafos, tópicos e subtópicos, considerando diferentes possibilidades de formato de texto, suporte e organização gráfica.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI14',
       Habilidade:
         'Produzir textos diversos sobre fatos, acontecimentos e/ou personalidades.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI15',
       Habilidade:
         'Construir repertório lexical relativo a verbos regulares e irregulares no passado, preposições de tempo e lugar e conectores.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI16',
       Habilidade:
         'Reconhecer a pronúncia de verbos regulares no passado (-ed).',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI17',
       Habilidade:
         'Explorar o caráter polissêmico de palavras de acordo com o contexto de uso.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI18',
       Habilidade:
         'Produzir textos orais e escritos mostrando relações de sequência e causalidade utilizando o passado simples e o passado contínuo.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI19',
       Habilidade:
         'Diferenciar sujeito de objeto utilizando pronomes a eles relacionados.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI20',
       Habilidade:
         'Descrever habilidades com o verbo modal can, no presente e no passado.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI21',
       Habilidade:
         'Analisar o alcance da língua inglesa e seus contextos de uso no mundo globalizado.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI22',
       Habilidade:
         'Reconhecer a variação linguística como fenômeno natural das línguas, refutando preconceitos.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '7º ano',
       Codigo: 'EF07LI23',
       Habilidade:
         'Reconhecer a variação linguística como manifestação de formas de expressão do/no mundo.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI01',
       Habilidade:
         'Esclarecer informações, resolver mal-entendidos e emitir opiniões.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI02',
       Habilidade:
         'Explorar, em situações de interação oral, recursos linguísticos e paralinguísticos (gestos, expressões faciais, entre outros).',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI03',
       Habilidade:
         'Construir o sentido global de textos orais, relacionando suas partes, o assunto principal e as informações relevantes.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI04',
       Habilidade:
         'Informar/comunicar/falar do futuro utilizando recursos e repertório linguísticos apropriados.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI05',
       Habilidade:
         'Inferir informações e relações não explícitas no texto para a construção de sentidos.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI06',
       Habilidade:
         'Valorizar o patrimônio cultural produzido em língua inglesa por meio de textos narrativos.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI07',
       Habilidade:
         'Acessar e usufruir do patrimônio artístico-literário em língua inglesa por meio de ambientes virtuais e/ou aplicativos.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI08',
       Habilidade:
         'Analisar criticamente o conteúdo de textos, comparando diferentes perspectivas sobre um mesmo assunto.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI09',
       Habilidade:
         'Analisar a própria produção escrita e a dos colegas com base na contexto de comunicação, finalidade, público, conteúdo, organização e estrutura.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI10',
       Habilidade:
         'Reconstruir o texto com cortes, acréscimos, reformulações e correções para aprimoramento, edição e publicação final.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI11',
       Habilidade:
         'Produzir textos com estratégias de escrita, como planejamento, rascunho, revisão e edição, apontando sonhos e projetos para o futuro.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI12',
       Habilidade:
         'Construir repertório lexical relativo a planos, previsões e expectativas para o futuro.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI13',
       Habilidade:
         'Reconhecer sufixos e prefixos comuns utilizados na formação de palavras em língua inglesa.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI14',
       Habilidade:
         'Descrever planos e expectativas e fazer previsões utilizando formas verbais do futuro para descrever planos e expectativas e fazer previsões.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI15',
       Habilidade:
         'Comparar qualidades e quantidades utilizando as formas comparativas e superlativas de adjetivos.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI16',
       Habilidade:
         'Utilizar os quantificadores (some, any, many e much) em práticas contextualizadas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI17',
       Habilidade:
         'Construir períodos compostos por subordinação para empregar os pronomes relativos (who, which, that e whose).',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI18',
       Habilidade:
         'Construir repertório cultural por meio do contato com manifestações artístico-culturais vinculadas à língua inglesa, valorizando a diversidade entre culturas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI19',
       Habilidade:
         'Investigar como expressões, gestos e comportamentos são interpretados em função de aspectos culturais.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '8º ano',
       Codigo: 'EF08LI20',
       Habilidade:
         'Examinar fatores que podem impedir o entendimento entre pessoas de culturas diferentes que falam a língua inglesa.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI01',
       Habilidade:
         'Expor pontos de vista, argumentos e contra-argumentos, considerando o contexto e os recursos linguísticos e paralinguísticos.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI02',
       Habilidade:
         'Compilar as ideias-chave de textos por meio de tomada de notas.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI03',
       Habilidade:
         'Analisar posicionamentos defendidos e refutados em textos orais sobre temas de interesse social e coletivo.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI04',
       Habilidade:
         'Expor resultados de pesquisa ou estudo, adequando as estratégias de construção do texto oral aos objetivos de comunicação e ao contexto.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI05',
       Habilidade:
         'Identificar recursos de persuasão utilizados em textos publicitários e de propaganda como elementos de convencimento.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI06',
       Habilidade:
         'Distinguir fatos de opiniões em textos argumentativos da esfera jornalística.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI07',
       Habilidade:
         'Identificar argumentos principais e as evidências ou exemplos que os sustentam.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI08',
       Habilidade:
         'Analisar a qualidade e a validade das informações veiculadas em ambientes virtuais de informação e socialização.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI09',
       Habilidade:
         'Compartilhar, com os colegas, a leitura dos textos escritos pelo grupo, valorizando os diferentes pontos de vista defendidos, com ética e respeito.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI10',
       Habilidade:
         'Expor e defender ponto de vista em texto escrito, pesquisando dados, evidências e exemplos para sustentar argumentos.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI11',
       Habilidade:
         'Construir textos da esfera publicitária de forma adequada ao contexto de circulação, utilizando recursos verbais e não verbais.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI12',
       Habilidade:
         'Produzir textos sobre temas de interesse coletivo local ou global que revelem posicionamento crítico.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI13',
       Habilidade:
         'Reconhecer, nos novos gêneros digitais, novas formas de escrita na constituição das mensagens.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI14',
       Habilidade:
         'Construir argumentação e intencionalidade discursiva utilizando conectores indicadores de adição, condição, oposição, contraste, conclusão e síntese.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI15',
       Habilidade:
         'Empregar as formas verbais em orações condicionais dos tipos 1 e 2 (If-clauses).',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI16',
       Habilidade:
         'Indicar recomendação, necessidade ou obrigação e probabilidade empregando os verbos modais should, must, have to, may e might.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI17',
       Habilidade:
         'Debater sobre a expansão da língua inglesa pelo mundo, em função do processo de colonização nas Américas, África, Ásia e Oceania.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI18',
       Habilidade:
         'Analisar a importância da língua inglesa para o desenvolvimento das ciências (produção, divulgação e discussão de novos conhecimentos), da economia e da política no cenário mundial.',
     },
     {
-      Disciplina: 'Inglês',
+      Disciplina: 'Língua Inglesa',
       Ano: '9º ano',
       Codigo: 'EF09LI19',
       Habilidade:

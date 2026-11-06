@@ -94,9 +94,9 @@
             </div>
         </div>
         @if (!exibirTodosOsCampos) {
-            <div class="col-12 p-4 text-right">
-                <p-button label="Continuar" type="submit"></p-button>
-            </div>
+        <div class="col-12 p-4 text-right">
+            <p-button label="Continuar" type="submit"></p-button>
+        </div>
         }
         @if (exibirTodosOsCampos) {
         <div class="col-12 p-2">
@@ -222,14 +222,14 @@
             </div>
         </div>
         @if(serieAno.value?.includes('Ensino Médio')){
-            <div class="col-12 p-2">
-                <span class="text-xl font-semibold">Atividades Integradoras (40 horas anuais)</span>
-                <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-                <div class="w-full">
-                    <textarea rows="5" cols="30" pInputTextarea formControlName="atividadesIntegradoras" class="w-full"
-                        placeholder="Digite aqui a adaptação curricular para estudante incluso"></textarea>
-                </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Atividades Integradoras (40 horas anuais)</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="atividadesIntegradoras" class="w-full"
+                    placeholder="Digite aqui a adaptação curricular para estudante incluso"></textarea>
             </div>
+        </div>
         }
         @if(disciplina.value?.includes('Língua Portuguesa') ||
         disciplina.value?.includes('Matemática')){
@@ -258,7 +258,7 @@
             <span class="text-xl font-semibold">Recursos Pedagógicos</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <p-listbox id="lbRecurso" formControlName="recurso" [options]="recursos" [checkbox]="true"
-                [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '900px'}">
+                [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '1200px'}">
             </p-listbox>
             <div class="w-full mt-2">
                 <label class="font-semibold">Outros recursos</label>
@@ -290,6 +290,8 @@
                 <textarea rows="5" cols="30" pInputTextarea formControlName="adaptacaoCurricular" class="w-full"
                     placeholder="Digite aqui a adaptação curricular para estudante incluso"></textarea>
             </div>
+            <p-checkbox label="Esta turma não tem estudante incluso" formControlName="naoPossuiAdaptacaoCurricular"
+                (onChange)="onChangeNaoPossuiAdaptacaoCurricular($event)" [binary]="true"></p-checkbox>
         </div>
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Referências</span>
