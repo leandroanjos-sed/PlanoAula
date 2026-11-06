@@ -409,25 +409,25 @@ export class PlanejamentoComponent {
           HabilidadeUtil.habilidadesAnosFinais.filter(
             (t) =>
               this.disciplina.value?.includes(t.Disciplina) &&
-              t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+              t.Ano?.includes(this.serieAno.value[0]) &&
               t.Area?.includes('Teatro'),
           );
         this.habilidadesDanca = HabilidadeUtil.habilidadesAnosFinais.filter(
           (t) =>
             this.disciplina.value?.includes(t.Disciplina) &&
-            t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+            t.Ano?.includes(this.serieAno.value[0]) &&
             t.Area?.includes('Dança'),
         );
         this.habilidadesMusica = HabilidadeUtil.habilidadesAnosFinais.filter(
           (t) =>
             this.disciplina.value?.includes(t.Disciplina) &&
-            t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+            t.Ano?.includes(this.serieAno.value[0]) &&
             t.Area?.includes('Música'),
         );
         this.habilidadesTeatro = HabilidadeUtil.habilidadesAnosFinais.filter(
           (t) =>
             this.disciplina.value?.includes(t.Disciplina) &&
-            t.Codigo.slice(2, 4).includes(this.serieAno.value[0]) &&
+            t.Ano?.includes(this.serieAno.value[0]) &&
             t.Area?.includes('Teatro'),
         );
       }
