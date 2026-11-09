@@ -5413,105 +5413,105 @@ export class HabilidadeUtil {
     {
       Disciplina: 'Ensino Religioso',
       Ano: '6º ano',
-      Codigo: 'EF06',
+      Codigo: 'EF06ER-1',
       Habilidade:
         'Identificar e problematizar situações de violências, prevenindo e protegendo crianças e adolescentes do abuso e exploração sexual, bullying, racismo, machismo, entre outros.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '6º ano',
-      Codigo: 'EF06',
+      Codigo: 'EF06ER-2',
       Habilidade:
         'Compreender os conceitos de religião, crenças, religiosidades, filosofias de vida e espiritualidades.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '6º ano',
-      Codigo: 'EF06',
+      Codigo: 'EF06ER-3',
       Habilidade:
         'Perceber que os textos sagrados podem estimular práticas de solidariedade, justiça e paz, podendo também fundamentar ações que afrontam os direitos humanos e da Terra.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '7º ano',
-      Codigo: 'EF06',
+      Codigo: 'EF06ER-4',
       Habilidade:
         'Identificar e problematizar situações de violências, prevenindo e protegendo crianças e adolescentes do abuso e exploração sexual, bullying, racismo, machismo, xenofobia, LGBTfobia, entre outros.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '7º ano',
-      Codigo: 'EF07',
+      Codigo: 'EF07ER-5',
       Habilidade:
         'Conhecer e respeitar os diferentes espaços e territórios sagrados das manifestações e tradições religiosas e sua importância para a espiritualidade na vida das pessoas.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '7º ano',
-      Codigo: 'EF07',
+      Codigo: 'EF07ER-6',
       Habilidade:
         'Reconhecer a relação das manifestações, tradições religiosas e filosofias de vida, os espaços, as experiências sensoriais e a transcendência.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '8º ano',
-      Codigo: 'EF08',
+      Codigo: 'EF08ER-7',
       Habilidade:
         'Identificar e problematizar situações de violências, prevenindo e protegendo adolescentes do abuso e exploração sexual, bullying, racismo, machismo, xenofobia, LGBTfobia, entre outros.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '8º ano',
-      Codigo: 'EF08',
+      Codigo: 'EF08ER08',
       Habilidade:
         'Refletir sobre as implicações da atuação de instituições religiosas em um Estado laico e em uma sociedade diversa culturalmente.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '8º ano',
-      Codigo: 'EF08',
+      Codigo: 'EF08ER-8',
       Habilidade:
         'Identificar práticas que reconheçam a diversidade cultural religiosa na perspectiva dos direitos humanos e da Terra.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '8º ano',
-      Codigo: 'EF08',
+      Codigo: 'EF08ER-9',
       Habilidade:
         'Analisar as funções e os significados de ritos para as manifestações, as tradições religiosas e filosofias de vida.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '8º ano',
-      Codigo: 'EF08',
+      Codigo: 'EF08ER-9',
       Habilidade:
         'Reconhecer nas festas religiosas e nas peregrinações no contexto regional, nacional e mundial, a memória dos acontecimentos sagrados, culturais e a manutenção das diferentes manifestações, tradições religiosas e filosofias de vida.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '9º ano',
-      Codigo: 'EF09',
+      Codigo: 'EF09ER-11',
       Habilidade:
         'Problematizar situações de violências, prevenindo e protegendo adolescentes do ciberbullying, racismo, suicídio, discriminações, preconceitos, LGBTfobia, intolerância religiosa, violência doméstica, feminicídio, entre outros.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '9º ano',
-      Codigo: 'EF09',
+      Codigo: 'EF09ER-12',
       Habilidade:
         'Problematizar a vida como experiência existencial na coletividade, considerando princípios éticos, estéticos, econômicos, políticos, ambientais e socioculturais.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '9º ano',
-      Codigo: 'EF09',
+      Codigo: 'EF09ER-13',
       Habilidade:
         'Elaborar questionamentos referentes à existência humana e às situações limites que integram a vida, articulados às questões socioambientais, geopolíticas, culturais, religiosas, de gênero e sexualidade, dentre outras.',
     },
     {
       Disciplina: 'Ensino Religioso',
       Ano: '9º ano',
-      Codigo: 'EF09',
+      Codigo: 'EF09ER-14',
       Habilidade:
         'Conhecer os aspectos legais referentes à liberdade religiosa.',
     },

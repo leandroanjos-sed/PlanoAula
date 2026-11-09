@@ -21,6 +21,8 @@ import { HabilidadeUtil } from '../../util/habilidade-util';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import jsPDF from 'jspdf';
 import autoTable from 'jspdf-autotable';
+import { CriterioUtil } from '../../util/criterio-util';
+import { minimoPreenchidos } from '../../util/functions';
 
 @Component({
   selector: 'app-planejamento',
@@ -54,6 +56,7 @@ export class PlanejamentoComponent {
   habilidadesTeatro: any[] = [];
   habilidadesRecomposicaoAprendizagem: any[] = [];
   competencias: any[] = [];
+  criteriosDeAvaliacao: any[] = [];
   escolas = [
     {
       label: 'São Lourenço do Oeste',
@@ -198,34 +201,68 @@ export class PlanejamentoComponent {
     'Caixa de som',
   ];
 
-  planejamentoForm: FormGroup = new FormGroup({
-    escola: new FormControl(undefined, Validators.required),
-    dataInicial: new FormControl(undefined, Validators.required),
-    dataFinal: new FormControl(undefined, Validators.required),
-    serieAno: new FormControl(undefined, Validators.required),
-    disciplina: new FormControl(undefined, Validators.required),
-    professor: new FormControl(undefined, Validators.required),
-    quantidadeAulas: new FormControl(undefined, Validators.required),
-    competencia: new FormControl(),
-    habilidade: new FormControl(),
-    habilidadeLinguaPortuguesa: new FormControl(),
-    habilidadeCurriculoDigital: new FormControl(),
-    habilidadeArtesVisuais: new FormControl(),
-    habilidadeDanca: new FormControl(),
-    habilidadeMusica: new FormControl(),
-    habilidadeTeatro: new FormControl(),
-    objetoConhecimento: new FormControl(),
-    caminhoMetodologico: new FormControl(),
-    recomposicaoAprendizagem: new FormControl(),
-    adaptacaoCurricular: new FormControl('', Validators.required),
-    naoPossuiAdaptacaoCurricular: new FormControl(false),
-    recurso: new FormControl(),
-    outrosRecursos: new FormControl(),
-    criteriosAvaliacao: new FormControl(),
-    instrumento: new FormControl(),
-    referencia: new FormControl(),
-    outrasReferencias: new FormControl(),
-  });
+  planejamentoForm: FormGroup = new FormGroup(
+    {
+      escola: new FormControl(undefined, Validators.required),
+      dataInicial: new FormControl(undefined, Validators.required),
+      dataFinal: new FormControl(undefined, Validators.required),
+      serieAno: new FormControl(undefined, Validators.required),
+      disciplina: new FormControl(undefined, Validators.required),
+      professor: new FormControl(undefined, Validators.required),
+      quantidadeAulas: new FormControl(undefined, Validators.required),
+      competencia: new FormControl(undefined, [
+        Validators.required,
+        Validators.minLength(1),
+      ]),
+      habilidade: new FormControl(),
+      habilidadeLinguaPortuguesa: new FormControl(),
+      habilidadeCurriculoDigital: new FormControl(undefined, [
+        Validators.required,
+        Validators.minLength(1),
+      ]),
+      habilidadeArtesVisuais: new FormControl(),
+      habilidadeDanca: new FormControl(),
+      habilidadeMusica: new FormControl(),
+      habilidadeTeatro: new FormControl(),
+      objetoConhecimento: new FormControl(undefined, [
+        Validators.required,
+        Validators.minLength(1),
+      ]),
+      caminhoMetodologico: new FormControl(undefined, [
+        Validators.required,
+        Validators.minLength(1),
+      ]),
+      recomposicaoAprendizagem: new FormControl(),
+      adaptacaoCurricular: new FormControl('', Validators.required),
+      naoPossuiAdaptacaoCurricular: new FormControl(false),
+      recurso: new FormControl(),
+      outrosRecursos: new FormControl(),
+      criteriosAvaliacao: new FormControl(undefined, [
+        Validators.required,
+        Validators.minLength(1),
+      ]),
+      instrumento: new FormControl(undefined, [
+        Validators.required,
+        Validators.minLength(1),
+      ]),
+      referencia: new FormControl(),
+      outrasReferencias: new FormControl(),
+    },
+    {
+      validators: [
+        minimoPreenchidos(
+          ['referencia', 'outrasReferencia'],
+          1,
+          'referenciaObrigatoria',
+        ),
+        minimoPreenchidos(
+          ['recurso', 'outrosRecursos'],
+          1,
+          'recursoObrigatorio',
+        ),
+      ],
+    },
+  );
 
   constructor(private messageService: MessageService) {}
 
@@ -266,7 +303,40 @@ export class PlanejamentoComponent {
     return this.planejamentoForm.get('adaptacaoCurricular')!;
   }
   get naoPossuiAdaptacaoCurricular() {
-    return this.planejamentoForm.get('naoPossuiAdaptacaoCurricular');
+    return this.planejamentoForm.get('naoPossuiAdaptacaoCurricular')!;
+  }
+  get habilidadeLinguaPortuguesa() {
+    return this.planejamentoForm.get('habilidadeLinguaPortuguesa')!;
+  }
+  get habilidadeCurriculoDigital() {
+    return this.planejamentoForm.get('habilidadeCurriculoDigital')!;
+  }
+  get habilidadeArtesVisuais() {
+    return this.planejamentoForm.get('habilidadeArtesVisuais')!;
+  }
+  get habilidadeDanca() {
+    return this.planejamentoForm.get('habilidadeDanca')!;
+  }
+  get habilidadeMusica() {
+    return this.planejamentoForm.get('habilidadeMusica')!;
+  }
+  get habilidadeTeatro() {
+    return this.planejamentoForm.get('habilidadeTeatro')!;
+  }
+  get recomposicaoAprendizagem() {
+    return this.planejamentoForm.get('recomposicaoAprendizagem')!;
+  }
+  get objetoConhecimento() {
+    return this.planejamentoForm.get('objetoConhecimento')!;
+  }
+  get caminhoMetodologico() {
+    return this.planejamentoForm.get('caminhoMetodologico')!;
+  }
+  get outrosRecursos() {
+    return this.planejamentoForm.get('outrosRecursos')!;
+  }
+  get criteriosAvaliacao() {
+    return this.planejamentoForm.get('criteriosAvaliacao')!;
   }
 
   exibirOsCampos() {
@@ -290,7 +360,10 @@ export class PlanejamentoComponent {
 
   onChangeEscola(event: DropdownChangeEvent) {
     //Sóror e Cedup não tem EF
-    if(event.value?.includes('CEDUP') || event.value?.includes('EEB Sóror Angélica')){
+    if (
+      event.value?.includes('CEDUP') ||
+      event.value?.includes('EEB Sóror Angélica')
+    ) {
       this.seriesAnosSelecionaveis = [this.seriesAnos[1]];
     } else {
       this.seriesAnosSelecionaveis = this.seriesAnos;
@@ -440,7 +513,31 @@ export class PlanejamentoComponent {
             t.Ano?.includes(this.serieAno.value[0]) &&
             t.Area?.includes('Teatro'),
         );
+
+        this.planejamentoForm.addValidators(
+          minimoPreenchidos(
+            [
+              'habilidadeArtesVisuais',
+              'habilidadeDanca',
+              'habilidadeMusica',
+              'habilidadeTeatro',
+            ],
+            1,
+            'habilidadeObrigatoria',
+          ),
+        );
+        this.habilidade.removeValidators([
+          Validators.required,
+          Validators.minLength(1),
+        ]);
+      } else {
+        this.habilidade.addValidators([
+          Validators.required,
+          Validators.minLength(1),
+        ]);
       }
+      this.planejamentoForm.updateValueAndValidity();
+      this.habilidade.updateValueAndValidity();
 
       if (this.disciplina.value?.includes('Língua Portuguesa')) {
         const serie = Number(this.serieAno.value[0]);
@@ -458,7 +555,19 @@ export class PlanejamentoComponent {
         );
 
         this.habilidadesRecomposicaoAprendizagem = [...iniciais, ...finais];
+
+        this.habilidadeLinguaPortuguesa.addValidators([
+          Validators.required,
+          Validators.minLength(1),
+        ]);
+      } else {
+        this.habilidadeLinguaPortuguesa.removeValidators([
+          Validators.required,
+          Validators.minLength(1),
+        ]);
       }
+      this.habilidadeLinguaPortuguesa.updateValueAndValidity();
+
       if (this.disciplina.value?.includes('Matemática')) {
         const serie = Number(this.serieAno.value[0]);
         const mesmaDisciplina = (t: any) =>
@@ -483,6 +592,39 @@ export class PlanejamentoComponent {
       );
       this.competencias = this.competencias;
     }
+
+    if (
+      this.disciplina.value?.includes('Língua Portuguesa') ||
+      this.disciplina.value?.includes('Matemática')
+    ) {
+      this.recomposicaoAprendizagem.addValidators([
+        Validators.required,
+        Validators.minLength(1),
+      ]);
+    } else {
+      this.recomposicaoAprendizagem.removeValidators([
+        Validators.required,
+        Validators.minLength(1),
+      ]);
+    }
+    this.recomposicaoAprendizagem.updateValueAndValidity();
+
+    this.competencia.setValue(undefined);
+    this.competencia.updateValueAndValidity();
+    this.habilidade.setValue(undefined);
+    this.habilidade.updateValueAndValidity();
+    this.habilidadeLinguaPortuguesa.setValue(undefined);
+    this.habilidadeLinguaPortuguesa.updateValueAndValidity();
+    this.habilidadeCurriculoDigital.setValue(undefined);
+    this.habilidadeCurriculoDigital.updateValueAndValidity();
+    this.habilidadeArtesVisuais.setValue(undefined);
+    this.habilidadeArtesVisuais.updateValueAndValidity();
+    this.habilidadeDanca.setValue(undefined);
+    this.habilidadeDanca.updateValueAndValidity();
+    this.habilidadeMusica.setValue(undefined);
+    this.habilidadeMusica.updateValueAndValidity();
+    this.habilidadeTeatro.setValue(undefined);
+    this.habilidadeTeatro.updateValueAndValidity();
   }
 
   onChangeCompetencia(event: ListboxChangeEvent) {
@@ -525,10 +667,19 @@ export class PlanejamentoComponent {
             ),
           }))
           .filter((grupo) => grupo.items.length > 0);
+
+      this.habilidade.addValidators([
+        Validators.required,
+        Validators.minLength(1),
+      ]);
     }
+    this.habilidade.updateValueAndValidity();
 
     if (this.disciplina.value?.includes('Língua Portuguesa')) {
-      this.habilidadesRecomposicaoAprendizagem = HabilidadeUtil.habilidadesAnosIniciais.filter(t => t.Disciplina.includes('Língua Portuguesa'));
+      this.habilidadesRecomposicaoAprendizagem =
+        HabilidadeUtil.habilidadesAnosIniciais.filter((t) =>
+          t.Disciplina.includes('Língua Portuguesa'),
+        );
       this.habilidadesRecomposicaoAprendizagem.push(
         ...HabilidadeUtil.habilidadesAnosFinais.filter((t) =>
           t.Disciplina.includes('Língua Portuguesa'),
@@ -555,12 +706,26 @@ export class PlanejamentoComponent {
                 t.Competencia.some((comp) => numeros.has(comp)),
               ),
             }))
-            .filter((grupo) => grupo.items.length > 0).flatMap((item) => item.items),
+            .filter((grupo) => grupo.items.length > 0)
+            .flatMap((item) => item.items),
         );
       }
+      this.habilidadeLinguaPortuguesa.addValidators([
+        Validators.required,
+        Validators.minLength(1),
+      ]);
+    } else {
+      this.habilidadeLinguaPortuguesa.removeValidators([
+        Validators.required,
+        Validators.minLength(1),
+      ]);
     }
+    this.habilidadeLinguaPortuguesa.updateValueAndValidity();
     if (this.disciplina.value?.includes('Matemática')) {
-      this.habilidadesRecomposicaoAprendizagem = HabilidadeUtil.habilidadesAnosIniciais.filter(t => t.Disciplina.includes('Matemática'));
+      this.habilidadesRecomposicaoAprendizagem =
+        HabilidadeUtil.habilidadesAnosIniciais.filter((t) =>
+          t.Disciplina.includes('Matemática'),
+        );
       this.habilidadesRecomposicaoAprendizagem.push(
         ...HabilidadeUtil.habilidadesAnosFinais.filter((t) =>
           t.Disciplina.includes('Matemática'),
@@ -589,6 +754,30 @@ export class PlanejamentoComponent {
         summary: 'Aviso',
       });
     }
+
+    if (this.serieAno.value?.includes('Ensino Médio')) {
+      this.criteriosDeAvaliacao = CriterioUtil.criteriosEnsinoMedio.filter(
+        (t) => this.habilidade.value?.some((r: any) => r.Codigo == t.codigo),
+      );
+    } else {
+      this.criteriosDeAvaliacao =
+        CriterioUtil.criteriosEnsinoFundamental.filter((t) =>
+          this.habilidade.value?.some((r: any) => r.Codigo == t.codigo),
+        );
+    }
+
+    if (
+      this.serieAno.value?.includes('Ensino Médio') &&
+      this.disciplina.value?.includes('Língua Portuguesa')
+    ) {
+      this.criteriosDeAvaliacao.push(
+        ...CriterioUtil.criteriosEnsinoMedio.filter((t) =>
+          this.habilidadeLinguaPortuguesa.value?.some(
+            (r: any) => r.Codigo == t.codigo,
+          ),
+        ),
+      );
+    }
   }
 
   onChangeHabilidadeArte(event: ListboxChangeEvent) {
@@ -597,6 +786,27 @@ export class PlanejamentoComponent {
       this.messageService.add({
         severity: 'info',
         detail: 'Máximo de quatro habilidades por plano de aula!',
+        summary: 'Aviso',
+      });
+    }
+
+    this.criteriosDeAvaliacao = CriterioUtil.criteriosEnsinoFundamental.filter(
+      (t) =>
+        this.habilidadeArtesVisuais.value?.some(
+          (r: any) => r.Codigo == t.codigo,
+        ) ||
+        this.habilidadeDanca.value?.some((r: any) => r.Codigo == t.codigo) ||
+        this.habilidadeMusica.value?.some((r: any) => r.Codigo == t.codigo) ||
+        this.habilidadeTeatro.value?.some((r: any) => r.Codigo == t.codigo),
+    );
+  }
+
+  onChangeCriterio(event: ListboxChangeEvent) {
+    if (event.value?.length > 4) {
+      event.value?.pop();
+      this.messageService.add({
+        severity: 'info',
+        detail: 'Máximo de quatro critérios por plano de aula!',
         summary: 'Aviso',
       });
     }
@@ -631,6 +841,27 @@ export class PlanejamentoComponent {
         c.markAsDirty();
         c.markAsTouched();
       });
+      if (this.planejamentoForm.hasError('referenciaObrigatoria')) {
+        this.messageService.add({
+          severity: 'warn',
+          detail: 'Referência é obrigatória',
+          summary: 'Aviso',
+        });
+      }
+      if (this.planejamentoForm.hasError('recursoObrigatorio')) {
+        this.messageService.add({
+          severity: 'warn',
+          detail: 'Recurso é obrigatório',
+          summary: 'Aviso',
+        });
+      }
+      if (this.planejamentoForm.hasError('habilidadeObrigatoria')) {
+        this.messageService.add({
+          severity: 'warn',
+          detail: 'Habilidade é obrigatória',
+          summary: 'Aviso',
+        });
+      }
       return;
     }
 
@@ -639,10 +870,6 @@ export class PlanejamentoComponent {
 
     if (dados.outrasReferencias && dados.outrasReferencias.length > 0) {
       dados.referencia.push(dados.outrasReferencias);
-    }
-
-    if (dados.outrosInstrumentos && dados.outrosInstrumentos.length > 0) {
-      dados.instrumento.push(dados.outrosInstrumentos);
     }
 
     const doc = new jsPDF({
@@ -821,7 +1048,7 @@ export class PlanejamentoComponent {
         dados.habilidade
           ?.map(
             (t: any) =>
-              (t.Codigo.length > 4 ? t.Codigo : '') + ' - ' + t.Habilidade,
+              (!t.Codigo.includes('-') ? t.Codigo : '') + ' - ' + t.Habilidade,
           )
           ?.join('\n\n') ?? '',
       ]);
@@ -861,13 +1088,21 @@ export class PlanejamentoComponent {
     body.push([
       'Recomposição da Aprendizagem (Língua Portuguesa e Matemática)',
       dados.recomposicaoAprendizagem
-          ?.map(
-            (t: any) =>
-              (t.Codigo.length > 4 ? t.Codigo : '') + ' - ' + t.Habilidade,
-          )
-          ?.join('\n\n') ?? '',
+        ?.map(
+          (t: any) =>
+            (!t.Codigo.includes('-') ? t.Codigo : '') + ' - ' + t.Habilidade,
+        )
+        ?.join('\n\n') ?? '',
     ]);
-    body.push(['Critérios de Avaliação', dados.criteriosAvaliacao ?? '']);
+    body.push([
+      'Critérios de Avaliação',
+      dados.criteriosAvaliacao
+        ?.map(
+          (t: any) =>
+            (!t.codigo.includes('-') ? t.codigo : '') + ' - ' + t.criterio,
+        )
+        ?.join('\n\n') ?? '',
+    ]);
     body.push([
       'Instrumentos de Avaliação',
       juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',
