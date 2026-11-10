@@ -639,4 +639,974 @@ export class CompetenciaUtil {
         'Investigar situações-problema e avaliar aplicações do conhecimento científico e tecnológico e suas implicações no mundo, utilizando procedimentos e linguagens próprios das Ciências da Natureza, para propor soluções que considerem demandas locais, regionais e/ou globais, e comunicar suas descobertas e conclusões a públicos variados, em diversos contextos e por meio de diferentes mídias e tecnologias digitais de informação e comunicação (TDIC)',
     },
   ];
+
+  public static competenciasGeraisTecnicoAgricola = [
+    {
+      numero: 1,
+      nome: 'Agricultura',
+      carga_horaria: 80,
+      competencia_geral:
+        'Conhecer e utilizar a relação solo-água-planta-atmosfera para planejar, organizar, executar e monitorar a exploração e manejo dos solos de acordo com suas características químicas, físicas e biológicas.',
+    },
+    {
+      numero: 2,
+      nome: 'Culturas Anuais',
+      carga_horaria: 100,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar as alternativas de otimização dos fatores climáticos na implantação, crescimento, desenvolvimento e controle fitossanitário das culturas anuais, acompanhando a colheita e a pós-colheita.',
+    },
+    {
+      numero: 3,
+      nome: 'Olericultura',
+      carga_horaria: 80,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar as alternativas de otimização dos fatores climáticos para a propagação, cultivo, produção e controle fitossanitário das olerícolas em ambientes abertos e protegidos, acompanhando a colheita e a pós-colheita.',
+    },
+    {
+      numero: 4,
+      nome: 'Fruticultura',
+      carga_horaria: 80,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar as alternativas de otimização de fatores climáticos no plantio, crescimento, desenvolvimento, produção e controle fitossanitário das frutíferas, acompanhando a colheita e a pós-colheita.',
+    },
+    {
+      numero: 5,
+      nome: 'Paisagismo',
+      carga_horaria: 60,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar os projetos paisagísticos, identificando estilos, modelos, elementos vegetais, materiais e acessórios a serem empregados.',
+    },
+    {
+      numero: 6,
+      nome: 'Silvicultura',
+      carga_horaria: 60,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar as alternativas de otimização de fatores climáticos no plantio, crescimento, desenvolvimento, produção, controle fitossanitário e a colheita das espécies silvícolas.',
+    },
+    {
+      numero: 7,
+      nome: 'Viveiricultura',
+      carga_horaria: 60,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar a coleta de sementes, a escolha de material vegetativo para a produção de mudas, através de propagação sexuada e assexuada em viveiros, para o consumo próprio e comercialização, de acordo com a legislação vigente.',
+    },
+    {
+      numero: 8,
+      nome: 'Defesa Sanitária Vegetal',
+      carga_horaria: 80,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar os programas e métodos de defesa sanitária vegetal, de acordo com a legislação vigente.',
+    },
+    {
+      numero: 9,
+      nome: 'Forragicultura',
+      carga_horaria: 60,
+      competencia_geral:
+        'Identificar, selecionar, planejar, executar e monitorar o cultivo e a produção das forrageiras, avaliando seus valores nutricionais e sua melhor utilização na atividade pecuária.',
+    },
+    {
+      numero: 10,
+      nome: 'Zootecnia e Defesa Sanitária Animal',
+      carga_horaria: 80,
+      competencia_geral:
+        'Conhecer a fisiologia e morfologia animal para planejar, organizar, executar e monitorar programas de nutrição, sanidade, reprodução animal e melhoramento genético em projetos zootécnicos.',
+    },
+    {
+      numero: 11,
+      nome: 'Criação de Animal de Pequeno Porte',
+      carga_horaria: 100,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar os métodos de produção e manejo, bem como os programas profiláticos e terapêuticos na produção animal de pequeno porte.',
+    },
+    {
+      numero: 12,
+      nome: 'Criação de Animal de Médio Porte',
+      carga_horaria: 100,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar os métodos de produção e manejo, bem como os programas profiláticos e terapêuticos na produção animal de médio porte.',
+    },
+    {
+      numero: 13,
+      nome: 'Criação de Animal de Grande Porte',
+      carga_horaria: 100,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar os métodos de produção e manejo, bem como os programas profiláticos e terapêuticos na produção animal de grande porte.',
+    },
+    {
+      numero: 14,
+      nome: 'Mecanização Agrícola',
+      carga_horaria: 80,
+      competencia_geral:
+        'Conhecer, organizar, executar e monitorar o funcionamento, manutenção e regulagens das máquinas e implementos agrícolas para sua correta utilização, de acordo com as normas de segurança.',
+    },
+    {
+      numero: 15,
+      nome: 'Irrigação e Drenagem',
+      carga_horaria: 60,
+      competencia_geral:
+        'Planejar, organizar, executar, orientar e monitorar projetos de irrigação e drenagem de acordo com a legislação vigente.',
+    },
+    {
+      numero: 16,
+      nome: 'Construções e Instalações Rurais',
+      carga_horaria: 60,
+      competencia_geral:
+        'Planejar, elaborar e executar projetos de construções e instalações de benfeitorias rurais, identificando materiais e suas aplicações.',
+    },
+    {
+      numero: 17,
+      nome: 'Desenho e Topografia',
+      carga_horaria: 100,
+      competencia_geral:
+        'Conhecer e operar os instrumentos topográficos a fim de orientar e executar os métodos de levantamentos planimétricos e altimétricos para a obtenção de representações gráficas na área rural.',
+    },
+    {
+      numero: 18,
+      nome: 'Produtos Agroindustriais',
+      carga_horaria: 80,
+      competencia_geral:
+        'Planejar, organizar, executar e monitorar a obtenção, o preparo, a conservação da matéria-prima e os processos higiênico-sanitários na elaboração de produtos agroindustriais de origem animal e vegetal.',
+    },
+    {
+      numero: 19,
+      nome: 'Associativismo, Cooperativismo e Extensão Rural',
+      carga_horaria: 80,
+      competencia_geral:
+        'Conhecer, identificar, constituir, organizar e gerenciar sistemas associativistas, cooperativistas, sindicais e de extensão rural.',
+    },
+    {
+      numero: 20,
+      nome: 'Administração e Economia Rural',
+      carga_horaria: 80,
+      competencia_geral:
+        'Planejar, organizar, implantar e gerenciar sistemas de controle na qualidade dos processos de produção agropecuária, modelos de gestão de empreendimentos, teoria econômica e técnicas mercadológicas de distribuição e comercialização de produtos.',
+    },
+    {
+      numero: 21,
+      nome: 'Planejamento e Projetos Agropecuários',
+      carga_horaria: 80,
+      competencia_geral:
+        'Conhecer, planejar, elaborar, executar e monitorar perícias, laudos, pareceres, relatórios e projetos de viabilidade, custeio, investimento e licenciamento ambiental nas atividades agropecuárias.',
+    },
+    {
+      numero: 22,
+      nome: 'Deontologia e Organização Profissional',
+      carga_horaria: 40,
+      competencia_geral:
+        'Conhecer, entender e utilizar o sistema de fiscalização, as organizações da categoria e a legislação profissional do Técnico Agrícola, respeitando os princípios éticos.',
+    },
+    {
+      numero: 23,
+      nome: 'Práticas Agropecuárias Orientadas',
+      carga_horaria: 500,
+      competencia_geral:
+        'Conhecer e desenvolver as práticas agropecuárias inerentes às atribuições profissionais e de acordo com o projeto pedagógico do curso.',
+    },
+    {
+      numero: 24,
+      nome: 'Estágio Curricular Obrigatório',
+      carga_horaria: 500,
+      competencia_geral:
+        'Conhecer, planejar e desenvolver estágio curricular obrigatório visando ao aprendizado de competências próprias da atividade profissional e à contextualização curricular, objetivando o desenvolvimento do educando para a vida cidadã e para o trabalho.',
+    },
+  ];
+
+  public static competenciaEspecificasTecnicoAgricola = [
+    {
+      competencia: 1,
+      competencia_especifica: 'Conhecer a origem e evolução da agricultura',
+    },
+    {
+      competencia: 1,
+      competencia_especifica:
+        'Conhecer a formação, constituição, perfil e classificação da aptidão agrícola dos solos',
+    },
+    {
+      competencia: 1,
+      competencia_especifica:
+        'Conhecer e utilizar a relação solo-água-planta-atmosfera',
+    },
+    {
+      competencia: 1,
+      competencia_especifica:
+        'Planejar, organizar, executar e monitorar a exploração, o manejo e a conservação do solo e da água de acordo com suas características e preservação ambiental',
+    },
+    {
+      competencia: 1,
+      competencia_especifica:
+        'Conhecer as metodologias de avaliação da fertilidade do solo, fontes de corretivos e nutrientes, métodos e técnicas de correção, adubação e recuperação dos solos',
+    },
+    {
+      competencia: 1,
+      competencia_especifica:
+        'Conhecer e avaliar a fertilidade do solo por meio da interpretação da análise físico-química do solo, para a recomendação de correção e adubação',
+    },
+    {
+      competencia: 2,
+      competencia_especifica:
+        'Conhecer a origem e a evolução das culturas anuais',
+    },
+    {
+      competencia: 2,
+      competencia_especifica:
+        'Dominar as características morfológicas e fisiológicas das plantas',
+    },
+    {
+      competencia: 2,
+      competencia_especifica:
+        'Aprender e utilizar o zoneamento agrícola das culturas estudadas',
+    },
+    {
+      competencia: 2,
+      competencia_especifica:
+        'Conhecer, utilizar e monitorar os diferentes sistemas de cultivo',
+    },
+    {
+      competencia: 2,
+      competencia_especifica:
+        'Conhecer e identificar plantas invasoras, pragas e doenças',
+    },
+    {
+      competencia: 2,
+      competencia_especifica:
+        'Aprender, planejar e utilizar os métodos de rotação, sucessão e consorciação de culturas',
+    },
+    {
+      competencia: 2,
+      competencia_especifica:
+        'Planejar, implantar, monitorar e avaliar os métodos de controle de plantas invasoras, pragas e doenças',
+    },
+    {
+      competencia: 2,
+      competencia_especifica:
+        'Projetar, implantar e monitorar programas de adubação, correção e avaliação nutricional das plantas',
+    },
+    {
+      competencia: 2,
+      competencia_especifica:
+        'Programar, dimensionar e monitorar a colheita, transporte, armazenagem e beneficiamento dos produtos',
+    },
+    {
+      competencia: 3,
+      competencia_especifica: 'Conhecer a origem e a evolução da olericultura',
+    },
+    {
+      competencia: 3,
+      competencia_especifica:
+        'Dominar e utilizar os métodos de propagação de olerícolas',
+    },
+    {
+      competencia: 3,
+      competencia_especifica:
+        'Discriminar as características morfológicas e fisiológicas correlacionadas à estrutura da planta em relação a sua função econômica',
+    },
+    {
+      competencia: 3,
+      competencia_especifica:
+        'Identificar, planejar, avaliar e monitorar a interferência dos fatores edafoclimáticos na elaboração do cronograma de cultivo das hortaliças',
+    },
+    {
+      competencia: 3,
+      competencia_especifica:
+        'Conhecer, planejar e utilizar os sistemas de rotação, sucessão e consorciação de culturas',
+    },
+    {
+      competencia: 3,
+      competencia_especifica:
+        'Planejar, executar e monitorar as formas de adubação, semeadura, plantio, tratos culturais, controle de plantas invasoras, pragas e doenças',
+    },
+    {
+      competencia: 3,
+      competencia_especifica:
+        'Dominar as metodologias dos sistemas de cultivo a campo, em ambientes protegidos e sistemas de hidroponia',
+    },
+    {
+      competencia: 3,
+      competencia_especifica:
+        'Conhecer, utilizar, organizar e monitorar os métodos e técnicas de colheita, seleção, classificação, embalagem, rotulagem, armazenamento e comercialização',
+    },
+    {
+      competencia: 4,
+      competencia_especifica: 'Conhecer a origem e a evolução da fruticultura',
+    },
+    {
+      competencia: 4,
+      competencia_especifica:
+        'Discriminar as características morfológicas e fisiológicas correlacionadas à estrutura da planta em relação a sua função econômica',
+    },
+    {
+      competencia: 4,
+      competencia_especifica:
+        'Dominar e utilizar os métodos de propagação de frutíferas',
+    },
+    {
+      competencia: 4,
+      competencia_especifica:
+        'Conhecer, planejar, implantar e monitorar pomares de acordo com sua viabilidade econômica',
+    },
+    {
+      competencia: 4,
+      competencia_especifica:
+        'Identificar, planejar, avaliar e monitorar a interferência dos fatores edafoclimáticos na implantação e produção do pomar',
+    },
+    {
+      competencia: 4,
+      competencia_especifica:
+        'Conhecer, planejar, executar e monitorar as formas de plantio, tratos culturais, controle de plantas invasoras, pragas e doenças',
+    },
+    {
+      competencia: 4,
+      competencia_especifica:
+        'Dominar, utilizar, organizar e monitorar os métodos e técnicas de colheita, seleção, classificação, embalagem, rotulagem, armazenamento e comercialização',
+    },
+    {
+      competencia: 5,
+      competencia_especifica:
+        'Conhecer o histórico e a importância do paisagismo',
+    },
+    {
+      competencia: 5,
+      competencia_especifica:
+        'Compreender e utilizar os diferentes estilos de jardins e suas classificações',
+    },
+    {
+      competencia: 5,
+      competencia_especifica:
+        'Conhecer e empregar os grupos de plantas nos projetos paisagísticos',
+    },
+    {
+      competencia: 5,
+      competencia_especifica:
+        'Planejar, projetar, implantar e monitorar projetos paisagísticos para a organização dos diferentes tipos de jardins',
+    },
+    {
+      competencia: 5,
+      competencia_especifica:
+        'Dominar e utilizar os métodos de propagação de plantas ornamentais',
+    },
+    {
+      competencia: 6,
+      competencia_especifica:
+        'Conhecer o histórico e a divisão da silvicultura de acordo com sua função e finalidade econômica',
+    },
+    {
+      competencia: 6,
+      competencia_especifica:
+        'Dominar e utilizar os métodos de propagação em silvicultura',
+    },
+    {
+      competencia: 6,
+      competencia_especifica:
+        'Identificar, planejar, avaliar e monitorar a interferência dos fatores edafoclimáticos na implantação e produção de espécies florestais',
+    },
+    {
+      competencia: 6,
+      competencia_especifica:
+        'Compreender, planejar, implantar e monitorar projetos florestais das principais espécies nativas e exóticas',
+    },
+    {
+      competencia: 6,
+      competencia_especifica:
+        'Conhecer, planejar, executar e monitorar as formas de plantio, tratos culturais, controle de plantas invasoras, pragas e doenças',
+    },
+    {
+      competencia: 6,
+      competencia_especifica:
+        'Dominar, utilizar, organizar e monitorar os métodos e técnicas de colheita, seleção, classificação, armazenamento e comercialização',
+    },
+    {
+      competencia: 7,
+      competencia_especifica:
+        'Conhecer os tipos de viveiros para planejar, implantar e monitorar os diferentes sistemas de produção de mudas de acordo com cada espécie',
+    },
+    {
+      competencia: 7,
+      competencia_especifica:
+        'Discriminar as características morfológicas e fisiológicas correlacionadas à estrutura da planta em relação a sua função econômica',
+    },
+    {
+      competencia: 7,
+      competencia_especifica:
+        'Identificar, planejar, avaliar e monitorar a interferência dos fatores edafoclimáticos na produção de mudas',
+    },
+    {
+      competencia: 7,
+      competencia_especifica:
+        'Dominar, planejar e utilizar os métodos e técnicas de coleta e seleção de sementes e de material vegetativo para a propagação sexuada e assexuada de mudas',
+    },
+    {
+      competencia: 7,
+      competencia_especifica:
+        'Planejar, executar e monitorar as formas de adubação, semeadura, plantio, tratos culturais, controle de plantas invasoras, pragas e doenças',
+    },
+    {
+      competencia: 7,
+      competencia_especifica:
+        'Conhecer e aplicar a legislação para a certificação e comercialização de mudas',
+    },
+    {
+      competencia: 8,
+      competencia_especifica:
+        'Conhecer e identificar as principais pragas, doenças e plantas invasoras de importância agrícola',
+    },
+    {
+      competencia: 8,
+      competencia_especifica:
+        'Avaliar níveis de equilíbrio, controle e de danos econômicos das culturas',
+    },
+    {
+      competencia: 8,
+      competencia_especifica:
+        'Analisar os fatores ambientais e climáticos que interagem em relação às pragas, doenças e plantas invasoras',
+    },
+    {
+      competencia: 8,
+      competencia_especifica:
+        'Definir os métodos de prevenção, erradicação e controle de pragas, doenças e plantas invasoras',
+    },
+    {
+      competencia: 8,
+      competencia_especifica:
+        'Conhecer, interpretar e elaborar o receituário próprio',
+    },
+    {
+      competencia: 8,
+      competencia_especifica:
+        'Conhecer e aplicar a Legislação Federal e Estadual que dispõe sobre o uso de agrotóxicos',
+    },
+    {
+      competencia: 9,
+      competencia_especifica:
+        'Conhecer as principais espécies forrageiras e suas características bromatológicas indicadas para a nutrição animal',
+    },
+    {
+      competencia: 9,
+      competencia_especifica:
+        'Compreender, relacionar e avaliar a influência dos fatores agroclimáticos no desenvolvimento da planta',
+    },
+    {
+      competencia: 9,
+      competencia_especifica:
+        'Dominar, planejar, implantar e monitorar os métodos de propagação, manejo e cultivo das diferentes espécies forrageiras',
+    },
+    {
+      competencia: 9,
+      competencia_especifica:
+        'Identificar, monitorar e controlar plantas invasoras, plantas tóxicas, pragas, doenças e avaliar níveis de danos econômicos',
+    },
+    {
+      competencia: 9,
+      competencia_especifica:
+        'Planejar e dimensionar a colheita da biomassa forrageira com os seus respectivos sistemas de armazenamento',
+    },
+    {
+      competencia: 9,
+      competencia_especifica:
+        'Programar e monitorar os sistemas de manejo de pastagens',
+    },
+    {
+      competencia: 9,
+      competencia_especifica:
+        'Dominar, monitorar e organizar os métodos e técnicas de utilização, conservação e controle da qualidade da produção forrageira',
+    },
+    {
+      competencia: 10,
+      competencia_especifica:
+        'Conhecer o histórico, evolução e divisão da zootecnia',
+    },
+    {
+      competencia: 10,
+      competencia_especifica:
+        'Entender as funções, agrupamentos e aptidões zootécnicas',
+    },
+    {
+      competencia: 10,
+      competencia_especifica:
+        'Conhecer as características morfológicas e fisiológicas da produção animal',
+    },
+    {
+      competencia: 10,
+      competencia_especifica:
+        'Compreender as exigências nutricionais, os nutrientes e os alimentos utilizados',
+    },
+    {
+      competencia: 10,
+      competencia_especifica:
+        'Planejar, aplicar e monitorar programas de nutrição animal',
+    },
+    {
+      competencia: 10,
+      competencia_especifica:
+        'Dominar, aplicar e monitorar métodos e programas de reprodução e melhoramento genético',
+    },
+    {
+      competencia: 10,
+      competencia_especifica:
+        'Discriminar e identificar doenças de ordem metabólica, parasitária, infectocontagiosa e seus métodos de controle',
+    },
+    {
+      competencia: 10,
+      competencia_especifica:
+        'Conhecer e desenvolver técnicas de bem-estar, profilaxia e biosseguridade animal',
+    },
+    {
+      competencia: 11,
+      competencia_especifica:
+        'Diferenciar as principais espécies e raças nos diferentes habitat',
+    },
+    {
+      competencia: 11,
+      competencia_especifica:
+        'Manejar os sistemas de produção animal em todas suas fases',
+    },
+    {
+      competencia: 11,
+      competencia_especifica:
+        'Aplicar técnicas de reprodução e melhoramento genético',
+    },
+    {
+      competencia: 11,
+      competencia_especifica:
+        'Conhecer, planejar, utilizar, monitorar e avaliar as técnicas de alimentação e manejo',
+    },
+    {
+      competencia: 11,
+      competencia_especifica: 'Identificar as principais doenças',
+    },
+    {
+      competencia: 11,
+      competencia_especifica:
+        'Conhecer, planejar, utilizar e monitorar programas profiláticos, higiênicos e sanitários',
+    },
+    {
+      competencia: 11,
+      competencia_especifica:
+        'Conhecer e interpretar a legislação vigente e as normas de controle sanitário',
+    },
+    {
+      competencia: 12,
+      competencia_especifica:
+        'Conhecer a história e evolução de cada cadeia produtiva, a classificação zoológica e a descrição das principais espécies e raças',
+    },
+    {
+      competencia: 12,
+      competencia_especifica:
+        'Conhecer, utilizar e manejar os diversos sistemas de criação e processos de produção',
+    },
+    {
+      competencia: 12,
+      competencia_especifica:
+        'Dominar, avaliar e utilizar métodos e técnicas de reprodução animal e de melhoramento genético',
+    },
+    {
+      competencia: 12,
+      competencia_especifica:
+        'Planejar, utilizar, monitorar e avaliar as técnicas de alimentação e utilização de concentrados e volumosos',
+    },
+    {
+      competencia: 12,
+      competencia_especifica: 'Compreender e identificar as principais doenças',
+    },
+    {
+      competencia: 12,
+      competencia_especifica:
+        'Conhecer e utilizar programas profiláticos, higiênicos e sanitários',
+    },
+    {
+      competencia: 13,
+      competencia_especifica:
+        'Conhecer a história e a evolução de cada cadeia produtiva, a classificação zoológica e a descrição das principais espécies e raças',
+    },
+    {
+      competencia: 13,
+      competencia_especifica:
+        'Conhecer, utilizar e manejar os diversos sistemas de criação e processos de produção',
+    },
+    {
+      competencia: 13,
+      competencia_especifica:
+        'Dominar, avaliar e utilizar métodos e técnicas de reprodução animal e de melhoramento genético',
+    },
+    {
+      competencia: 13,
+      competencia_especifica:
+        'Planejar, utilizar, monitorar e avaliar as técnicas de alimentação e utilização de concentrados e volumosos',
+    },
+    {
+      competencia: 13,
+      competencia_especifica:
+        'Compreender e identificar as principais doenças e parasitas',
+    },
+    {
+      competencia: 13,
+      competencia_especifica:
+        'Utilizar programas profiláticos, higiênicos e sanitários',
+    },
+    {
+      competencia: 14,
+      competencia_especifica:
+        'Conhecer a origem e evolução da mecanização agrícola no Brasil e no mundo',
+    },
+    {
+      competencia: 14,
+      competencia_especifica:
+        'Aplicar as unidades de medidas empregadas na mecanização agrícola',
+    },
+    {
+      competencia: 14,
+      competencia_especifica:
+        'Conhecer e classificar máquinas, implementos e ferramentas agrícolas',
+    },
+    {
+      competencia: 14,
+      competencia_especifica:
+        'Compreender e acompanhar a manutenção dos motores agrícolas e seus sistemas de arrefecimento, elétrico, transmissão, hidráulico, lubrificação, alimentação de ar e combustível',
+    },
+    {
+      competencia: 14,
+      competencia_especifica:
+        'Entender e programar a manutenção e regulagem de implementos e ferramentas agrícolas',
+    },
+    {
+      competencia: 14,
+      competencia_especifica:
+        'Dominar o funcionamento para operar motores, tratores, implementos e ferramentas agrícolas',
+    },
+    {
+      competencia: 14,
+      competencia_especifica:
+        'Conhecer as normas de segurança do trabalho no uso de tratores, implementos e ferramentas agrícolas',
+    },
+    {
+      competencia: 15,
+      competencia_especifica:
+        'Conhecer a evolução, características e importância da irrigação na agricultura',
+    },
+    {
+      competencia: 15,
+      competencia_especifica:
+        'Compreender a relação solo-água-planta-atmosfera e suas interações com os sistemas, materiais e equipamentos de irrigação',
+    },
+    {
+      competencia: 15,
+      competencia_especifica:
+        'Planejar e dimensionar os diversos sistemas de irrigação de acordo com cada cultura',
+    },
+    {
+      competencia: 15,
+      competencia_especifica:
+        'Dominar o manejo e a eficiência de irrigação conforme exigência das culturas e sistemas utilizados',
+    },
+    {
+      competencia: 15,
+      competencia_especifica:
+        'Conhecer e utilizar sistemas de drenagem no solo de cultivo',
+    },
+    {
+      competencia: 15,
+      competencia_especifica:
+        'Conhecer a legislação para uso dos recursos hídricos na agricultura',
+    },
+    {
+      competencia: 16,
+      competencia_especifica:
+        'Conhecer a origem e evolução das construções e instalações de benfeitorias rurais',
+    },
+    {
+      competencia: 16,
+      competencia_especifica:
+        'Discriminar e identificar os materiais, elementos estruturais e partes complementares aplicados nas construções e instalações de benfeitorias rurais',
+    },
+    {
+      competencia: 16,
+      competencia_especifica:
+        'Identificar os parâmetros técnicos das atividades agropecuárias para dimensionar as construções e instalações de benfeitorias rurais',
+    },
+    {
+      competencia: 16,
+      competencia_especifica:
+        'Dominar a elaboração de projetos de construções e instalações de benfeitorias rurais',
+    },
+    {
+      competencia: 16,
+      competencia_especifica:
+        'Realizar a manutenção e adequação de construções e instalações de benfeitorias rurais',
+    },
+    {
+      competencia: 16,
+      competencia_especifica: 'Conhecer as fontes alternativas de energia',
+    },
+    {
+      competencia: 16,
+      competencia_especifica: 'Conhecer a legislação vigente',
+    },
+    {
+      competencia: 17,
+      competencia_especifica:
+        'Conhecer a origem e evolução da geodesia e da topografia, bem como diferenças de aplicação entre ambas',
+    },
+    {
+      competencia: 17,
+      competencia_especifica:
+        'Discriminar, identificar e utilizar materiais, equipamentos e instrumentos topográficos e de desenho técnico',
+    },
+    {
+      competencia: 17,
+      competencia_especifica:
+        'Dominar levantamentos altimétricos, planimétricos e planialtimétricos',
+    },
+    {
+      competencia: 17,
+      competencia_especifica:
+        'Compreender o uso de imagens aéreas, aerofotogrametria e imagem de satélite',
+    },
+    {
+      competencia: 17,
+      competencia_especifica:
+        'Dominar os métodos de transferência de coordenadas e referências de nível',
+    },
+    {
+      competencia: 17,
+      competencia_especifica:
+        'Interpretar e elaborar representações gráficas pertinentes aos projetos agropecuários, de acordo com as normas técnicas da ABNT e legislação vigente',
+    },
+    {
+      competencia: 17,
+      competencia_especifica: 'Conhecer e utilizar escalas',
+    },
+    {
+      competencia: 18,
+      competencia_especifica:
+        'Conhecer, interpretar e utilizar as normas, técnicas e legislação vigente relacionada à manipulação, industrialização e comercialização de alimentos',
+    },
+    {
+      competencia: 18,
+      competencia_especifica:
+        'Dominar e utilizar as ferramentas de controle de qualidade nas agroindústrias',
+    },
+    {
+      competencia: 18,
+      competencia_especifica:
+        'Analisar e avaliar as características, propriedades, formas de obtenção, conservação e armazenamento da matéria-prima para a agroindústria',
+    },
+    {
+      competencia: 18,
+      competencia_especifica:
+        'Conhecer, utilizar e monitorar os processos de industrialização dos produtos agroindustriais',
+    },
+    {
+      competencia: 18,
+      competencia_especifica:
+        'Planejar, implantar e monitorar os sistemas de tratamento de efluentes das agroindústrias',
+    },
+    {
+      competencia: 18,
+      competencia_especifica:
+        'Compreender, analisar e utilizar as formas de agregação de valor à produção agroindustrial e aos canais de comercialização',
+    },
+    {
+      competencia: 19,
+      competencia_especifica:
+        'Conhecer a história e a evolução do sistema associativista, cooperativista e sindical',
+    },
+    {
+      competencia: 19,
+      competencia_especifica:
+        'Discriminar e identificar as características e o funcionamento administrativo das associações, cooperativas e sindicatos',
+    },
+    {
+      competencia: 19,
+      competencia_especifica:
+        'Compreender os tipos de associações e os ramos de cooperativas e seu funcionamento',
+    },
+    {
+      competencia: 19,
+      competencia_especifica:
+        'Dominar, planejar, elaborar a constituição e registros de associações, cooperativas e sindicatos',
+    },
+    {
+      competencia: 19,
+      competencia_especifica:
+        'Conhecer a história e a evolução da extensão rural no Brasil e no mundo',
+    },
+    {
+      competencia: 19,
+      competencia_especifica:
+        'Entender e identificar a realidade social, cultural e política no meio rural para subsidiar a prática da extensão rural',
+    },
+    {
+      competencia: 19,
+      competencia_especifica:
+        'Dominar, planejar, executar e monitorar as atividades extensionistas nas propriedades rurais',
+    },
+    {
+      competencia: 20,
+      competencia_especifica:
+        'Conhecer a história e evolução da administração e da economia rural',
+    },
+    {
+      competencia: 20,
+      competencia_especifica:
+        'Entender e identificar os aspectos de macroeconomia e microeconomia',
+    },
+    {
+      competencia: 20,
+      competencia_especifica:
+        'Compreender, classificar e utilizar as atividades e estruturas administrativas',
+    },
+    {
+      competencia: 20,
+      competencia_especifica:
+        'Elaborar, planejar, implantar, monitorar e avaliar recursos humanos, físicos e financeiros',
+    },
+    {
+      competencia: 20,
+      competencia_especifica:
+        'Coletar, processar, analisar e avaliar índices econômicos e produtivos de cada atividade agropecuária',
+    },
+    {
+      competencia: 20,
+      competencia_especifica:
+        'Monitorar e avaliar os processos de produção e implantação dos programas de gestão e qualidade',
+    },
+    {
+      competencia: 20,
+      competencia_especifica:
+        'Identificar e utilizar sistemas de controle agropecuário informatizados',
+    },
+    {
+      competencia: 20,
+      competencia_especifica:
+        'Planejar e monitorar as estratégias de marketing e a comercialização, identificando as oportunidades e opções de mercado',
+    },
+    {
+      competencia: 21,
+      competencia_especifica:
+        'Entender a necessidade e a importância do planejamento nas propriedades rurais',
+    },
+    {
+      competencia: 21,
+      competencia_especifica:
+        'Coletar, analisar e avaliar informações socioeconômicas e tendências de mercado no setor agropecuário',
+    },
+    {
+      competencia: 21,
+      competencia_especifica:
+        'Compreender e aplicar as linhas de crédito rural e seguro agrícola',
+    },
+    {
+      competencia: 21,
+      competencia_especifica:
+        'Conhecer, planejar, elaborar, implantar, monitorar e avaliar projetos de investimento e crédito rural nas propriedades',
+    },
+    {
+      competencia: 21,
+      competencia_especifica:
+        'Dominar e elaborar laudos, perícias, pareceres e relatórios',
+    },
+    {
+      competencia: 21,
+      competencia_especifica:
+        'Conhecer, elaborar, implantar, monitorar e avaliar projetos de licenciamento ambiental',
+    },
+    {
+      competencia: 21,
+      competencia_especifica:
+        'Conhecer, interpretar e aplicar a legislação vigente',
+    },
+    {
+      competencia: 22,
+      competencia_especifica:
+        'Conhecer a história do profissional Técnico Agrícola e da organização da categoria',
+    },
+    {
+      competencia: 22,
+      competencia_especifica:
+        'Compreender e aplicar a legislação profissional do Técnico Agrícola',
+    },
+    {
+      competencia: 22,
+      competencia_especifica:
+        'Entender o processo de negociação coletiva e remuneração do Técnico Agrícola',
+    },
+    {
+      competencia: 22,
+      competencia_especifica:
+        'Dominar e vivenciar o código de ética da profissão',
+    },
+    {
+      competencia: 22,
+      competencia_especifica:
+        'Compreender o funcionamento das entidades de representação estadual e nacional da categoria profissional',
+    },
+    {
+      competencia: 22,
+      competencia_especifica: 'Entender o sistema de fiscalização da profissão',
+    },
+    {
+      competencia: 22,
+      competencia_especifica:
+        'Conhecer e elaborar a Anotação de Responsabilidade Técnica (ART) no âmbito da profissão',
+    },
+    {
+      competencia: 23,
+      competencia_especifica:
+        'Conhecer as exigências e as práticas necessárias para a profissão do Técnico em Agropecuária',
+    },
+    {
+      competencia: 23,
+      competencia_especifica:
+        'Entender as áreas de atuação do Técnico em Agropecuária de acordo com suas atribuições profissionais',
+    },
+    {
+      competencia: 23,
+      competencia_especifica:
+        'Compreender o funcionamento básico das diferentes áreas de produção animal, produção vegetal, engenharia agrícola e gestão',
+    },
+    {
+      competencia: 23,
+      competencia_especifica:
+        'Conhecer as responsabilidades do profissional Técnico em Agropecuária nas diversas áreas de atuação da categoria profissional',
+    },
+    {
+      competencia: 23,
+      competencia_especifica:
+        'Dominar, planejar, executar e avaliar as principais práticas de manejo das diferentes áreas de atuação',
+    },
+    {
+      competencia: 23,
+      competencia_especifica:
+        'Conhecer o perfil profissional necessário para assumir com eficácia as atribuições profissionais do Técnico em Agropecuária',
+    },
+    {
+      competencia: 24,
+      competencia_especifica:
+        'Conhecer o programa de estágio e seu funcionamento, bem como os recursos humanos envolvidos na realização do estágio',
+    },
+    {
+      competencia: 24,
+      competencia_especifica:
+        'Conhecer a legislação que trata do estágio para cursos profissionalizantes',
+    },
+    {
+      competencia: 24,
+      competencia_especifica:
+        'Perceber as diferentes áreas em que pode ser realizado o estágio e os locais para a sua realização',
+    },
+    {
+      competencia: 24,
+      competencia_especifica:
+        'Dominar, planejar, monitorar e avaliar todas as etapas, fases ou procedimentos desenvolvidos durante o estágio, a fim de aprimorar os conhecimentos através da prática de trabalho',
+    },
+    {
+      competencia: 24,
+      competencia_especifica:
+        'Compreender as responsabilidades técnicas necessárias na área do estágio, de acordo com o termo de compromisso celebrado entre a Instituição de Ensino e a parte concedente',
+    },
+    {
+      competencia: 24,
+      competencia_especifica:
+        'Dominar a metodologia para a elaboração do relatório de estágio e apresentação à banca examinadora',
+    },
+  ];
 }
