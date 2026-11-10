@@ -625,6 +625,8 @@ export class PlanejamentoComponent {
     this.habilidadeMusica.updateValueAndValidity();
     this.habilidadeTeatro.setValue(undefined);
     this.habilidadeTeatro.updateValueAndValidity();
+    this.criteriosAvaliacao.setValue(undefined);
+    this.criteriosAvaliacao.updateValueAndValidity();
   }
 
   onChangeCompetencia(event: ListboxChangeEvent) {
