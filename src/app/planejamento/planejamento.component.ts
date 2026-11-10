@@ -1100,8 +1100,7 @@ export class PlanejamentoComponent {
       'Critérios de Avaliação',
       dados.criteriosAvaliacao
         ?.map(
-          (t: any) =>
-            (!t.codigo.includes('-') ? t.codigo : '') + ' - ' + t.criterio,
+          (t: any) => t.criterio,
         )
         ?.join('\n\n') ?? '',
     ]);
