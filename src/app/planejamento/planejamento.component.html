@@ -119,6 +119,27 @@
             }
             }
         </div>
+        @if (this.disciplina.value?.includes('Língua Portuguesa') || this.disciplina.value?.includes('Matemática')){
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Competências do Componente Currícular da Recomposição</span><span class="text-color-secondary"> (max. 2)</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            @if (!(serieAno.valid && disciplina.valid)) {
+            <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as competências!</span>
+            } @else {
+            <p-listbox id="lbCompetencias" formControlName="competenciaRecomposicao" [options]="competenciasRecomposicao" [checkbox]="true"
+                [filter]="true" [showToggleAll]="false" optionLabel="Competencia" [multiple]="true"
+                [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
+                (onChange)="onChangeCompetencia($event)">
+                <ng-template let-item pTemplate="item">
+                    <div>{{ item.Numero + ' - ' + item.Competencia }}</div>
+                </ng-template>
+            </p-listbox>
+            @if (competencia.invalid && (competencia.dirty || competencia.touched)) {
+            <small class="p-error">O campo é obrigatório</small>
+            }
+            }
+        </div>
+        }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Habilidades</span><span class="text-color-secondary"> (max. 4)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
@@ -199,6 +220,28 @@
             }
         </div>
         }
+        @if(disciplina.value?.includes('Língua Portuguesa') ||
+            disciplina.value?.includes('Matemática')){
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Habilidades da Recomposição da Aprendizagem</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <p-listbox id="lbHabilidades" formControlName="recomposicaoAprendizagem"
+                    [options]="habilidadesRecomposicaoAprendizagem" [checkbox]="true" [filter]="true"
+                    [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+                    [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
+                    (onChange)="onChangeHabilidade($event)">
+                    <ng-template let-item pTemplate="item">
+                        <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
+                    </ng-template>
+                </p-listbox>
+                @if (recomposicaoAprendizagem.invalid && (recomposicaoAprendizagem.dirty ||
+                recomposicaoAprendizagem.touched)) {
+                <small class="p-error">O campo é obrigatório</small>
+                }
+            </div>
+        </div>
+        }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Habilidades do Currículo Digital</span><span
                 class="text-color-secondary"> (max. 4)</span>
@@ -228,6 +271,17 @@
             }
         </div>
         <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Objetos de Conhecimento da Recomposição</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="objetoConhecimentoRecomposicao" class="w-full"
+                    placeholder="Digite aqui os objetos de conhecimento da recomposição de aprendizagem"></textarea>
+            </div>
+            @if (objetoConhecimentoRecomposicao.invalid && (objetoConhecimentoRecomposicao.dirty || objetoConhecimentoRecomposicao.touched)) {
+            <small class="p-error">O campo é obrigatório</small>
+            }
+        </div>
+        <div class="col-12 p-2">
             <span class="text-xl font-semibold">Caminho Metodológico</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <div class="w-full">
@@ -238,29 +292,6 @@
             <small class="p-error">O campo é obrigatório</small>
             }
         </div>
-        @if(disciplina.value?.includes('Língua Portuguesa') ||
-        disciplina.value?.includes('Matemática')){
-        <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Recomposição da Aprendizagem</span>
-            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-            <div class="w-full">
-                <p-listbox id="lbHabilidades" formControlName="recomposicaoAprendizagem"
-                    [options]="habilidadesRecomposicaoAprendizagem" [checkbox]="true" [filter]="true"
-                    [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
-                    [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
-                    (onChange)="onChangeHabilidade($event)">
-                    <ng-template let-item pTemplate="item">
-                        <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
-                    </ng-template>
-                </p-listbox>
-                @if (recomposicaoAprendizagem.invalid && (recomposicaoAprendizagem.dirty ||
-                recomposicaoAprendizagem.touched)) {
-                <small class="p-error">O campo é obrigatório</small>
-                }
-            </div>
-        </div>
-
-        }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Recursos Pedagógicos</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>

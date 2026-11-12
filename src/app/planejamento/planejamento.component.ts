@@ -56,6 +56,7 @@ export class PlanejamentoComponent {
   habilidadesTeatro: any[] = [];
   habilidadesRecomposicaoAprendizagem: any[] = [];
   competencias: any[] = [];
+  competenciasRecomposicao: any[] = [];
   criteriosDeAvaliacao: any[] = [];
   escolas = [
     {
@@ -214,6 +215,7 @@ export class PlanejamentoComponent {
         Validators.required,
         Validators.minLength(1),
       ]),
+      competenciaRecomposicao: new FormControl(),
       habilidade: new FormControl(),
       habilidadeLinguaPortuguesa: new FormControl(),
       habilidadeCurriculoDigital: new FormControl(undefined, [
@@ -228,6 +230,7 @@ export class PlanejamentoComponent {
         Validators.required,
         Validators.minLength(1),
       ]),
+      objetoConhecimentoRecomposicao: new FormControl(),
       caminhoMetodologico: new FormControl(undefined, [
         Validators.required,
         Validators.minLength(1),
@@ -284,6 +287,9 @@ export class PlanejamentoComponent {
   get competencia() {
     return this.planejamentoForm.get('competencia')!;
   }
+  get competenciaRecomposicao() {
+    return this.planejamentoForm.get('competenciaRecomposicao')!;
+  }
   get habilidade() {
     return this.planejamentoForm.get('habilidade')!;
   }
@@ -328,6 +334,9 @@ export class PlanejamentoComponent {
   }
   get objetoConhecimento() {
     return this.planejamentoForm.get('objetoConhecimento')!;
+  }
+  get objetoConhecimentoRecomposicao() {
+    return this.planejamentoForm.get('objetoConhecimentoRecomposicao')!;
   }
   get caminhoMetodologico() {
     return this.planejamentoForm.get('caminhoMetodologico')!;
@@ -585,12 +594,33 @@ export class PlanejamentoComponent {
 
         this.habilidadesRecomposicaoAprendizagem = [...iniciais, ...finais];
       }
+
+      //Competências de recomposição
+      if (this.disciplina.value?.includes('Língua Portuguesa')) {
+        this.competenciasRecomposicao = CompetenciaUtil.competenciasAnosFinais.filter((t)=> t.Disciplina == 'Língua Portuguesa');
+        //TODO adicionar competências do ensino fundamental anos iniciais.
+      }
+      if (this.disciplina.value?.includes('Matemática')) {
+        this.competenciasRecomposicao = CompetenciaUtil.competenciasAnosFinais.filter((t)=> t.Disciplina == 'Matemática');
+        //TODO adicionar competências do ensino fundamental anos iniciais.
+      }
     } else {
       this.competencias = CompetenciaUtil.competenciasEnsinoMedio;
       this.competencias = this.competencias.filter((t) =>
         event.value?.includes(t.Area),
       );
       this.competencias = this.competencias;
+
+      if (this.disciplina.value?.includes('Língua Portuguesa')) {
+        this.competenciasRecomposicao = this.competencias.filter((t)=> t.Area == 'Linguagens e suas Tecnologias');
+        this.competenciasRecomposicao.push(...CompetenciaUtil.competenciasAnosFinais.filter((t)=> t.Disciplina == 'Língua Portuguesa'));
+        //TODO adicionar competências do ensino fundamental anos iniciais.
+      }
+      if (this.disciplina.value?.includes('Matemática')) {
+        this.competenciasRecomposicao = this.competencias.filter((t)=> t.Area == 'Matemática e suas Tecnologias');
+        this.competenciasRecomposicao.push(...CompetenciaUtil.competenciasAnosFinais.filter((t)=> t.Disciplina == 'Matemática'));
+        //TODO adicionar competências do ensino fundamental anos iniciais.
+      }
     }
 
     if (
@@ -1021,6 +1051,15 @@ export class PlanejamentoComponent {
         ?.join('\n\n') ?? '',
     ]);
 
+    if (this.disciplina.value?.includes('Língua Portuguesa') || this.disciplina.value?.includes('Matemática')){
+      body.push([
+        'Competências       específicas da área da Recomposição',
+        dados.competencia
+          ?.map((t: any) => t.Numero + ' - ' + t.Competencia)
+          ?.join('\n\n') ?? '',
+      ]);
+    }
+
     if (
       !this.serieAno.value?.includes('Ensino Médio') &&
       this.disciplina.value?.includes('Artes')
@@ -1086,6 +1125,7 @@ export class PlanejamentoComponent {
     ]);
 
     body.push(['Objetos de conhecimento', dados.objetoConhecimento ?? '']);
+    body.push(['Objetos de conhecimento da recomposição', dados.objetoConhecimentoRecomposicao ?? '']);
     body.push(['Caminho Metodológico', dados.caminhoMetodologico ?? '']);
     body.push([
       'Recomposição da Aprendizagem (Língua Portuguesa e Matemática)',
