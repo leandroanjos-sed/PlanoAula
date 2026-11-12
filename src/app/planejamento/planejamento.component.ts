@@ -58,6 +58,7 @@ export class PlanejamentoComponent {
   competencias: any[] = [];
   competenciasRecomposicao: any[] = [];
   criteriosDeAvaliacao: any[] = [];
+  criteriosDeAvaliacaoCurriculoDigital: any[] = [];
   escolas = [
     {
       label: 'São Lourenço do Oeste',
@@ -218,10 +219,7 @@ export class PlanejamentoComponent {
       competenciaRecomposicao: new FormControl(),
       habilidade: new FormControl(),
       habilidadeLinguaPortuguesa: new FormControl(),
-      habilidadeCurriculoDigital: new FormControl(undefined, [
-        Validators.required,
-        Validators.minLength(1),
-      ]),
+      habilidadeCurriculoDigital: new FormControl(),
       habilidadeArtesVisuais: new FormControl(),
       habilidadeDanca: new FormControl(),
       habilidadeMusica: new FormControl(),
@@ -235,6 +233,10 @@ export class PlanejamentoComponent {
         Validators.required,
         Validators.minLength(1),
       ]),
+      caminhoMetodologicoRecomposicao: new FormControl(undefined, [
+        Validators.required,
+        Validators.minLength(1),
+      ]),
       recomposicaoAprendizagem: new FormControl(),
       adaptacaoCurricular: new FormControl('', Validators.required),
       naoPossuiAdaptacaoCurricular: new FormControl(false),
@@ -244,6 +246,7 @@ export class PlanejamentoComponent {
         Validators.required,
         Validators.minLength(1),
       ]),
+      criteriosAvaliacaoCurriculoDigital: new FormControl(),
       instrumento: new FormControl(undefined, [
         Validators.required,
         Validators.minLength(1),
@@ -346,6 +349,12 @@ export class PlanejamentoComponent {
   }
   get criteriosAvaliacao() {
     return this.planejamentoForm.get('criteriosAvaliacao')!;
+  }
+  get criteriosAvaliacaoCurriculoDigital() {
+    return this.planejamentoForm.get('criteriosAvaliacaoCurriculoDigital')!;
+  }
+  get caminhoMetodologicoRecomposicao() {
+    return this.planejamentoForm.get('caminhoMetodologicoRecomposicao')!;
   }
 
   exibirOsCampos() {
@@ -563,19 +572,8 @@ export class PlanejamentoComponent {
             mesmaDisciplina(t) && this.anoInicialHabilidade(t.Codigo) < serie,
         );
 
-        this.habilidadesRecomposicaoAprendizagem = [...iniciais, ...finais];
-
-        this.habilidadeLinguaPortuguesa.addValidators([
-          Validators.required,
-          Validators.minLength(1),
-        ]);
-      } else {
-        this.habilidadeLinguaPortuguesa.removeValidators([
-          Validators.required,
-          Validators.minLength(1),
-        ]);
-      }
-      this.habilidadeLinguaPortuguesa.updateValueAndValidity();
+        this.habilidadesRecomposicaoAprendizagem = [...iniciais, ...finais]; 
+      } 
 
       if (this.disciplina.value?.includes('Matemática')) {
         const serie = Number(this.serieAno.value[0]);
@@ -660,11 +658,11 @@ export class PlanejamentoComponent {
   }
 
   onChangeCompetencia(event: ListboxChangeEvent) {
-    if (event.value?.length > 2) {
+    if (event.value?.length > 1) {
       event.value?.pop();
       this.messageService.add({
         severity: 'info',
-        detail: 'Máximo de duas competências por plano de aula!',
+        detail: 'Máximo de uma competência por plano de aula!',
         summary: 'Aviso',
       });
     }
@@ -742,17 +740,8 @@ export class PlanejamentoComponent {
             .flatMap((item) => item.items),
         );
       }
-      this.habilidadeLinguaPortuguesa.addValidators([
-        Validators.required,
-        Validators.minLength(1),
-      ]);
-    } else {
-      this.habilidadeLinguaPortuguesa.removeValidators([
-        Validators.required,
-        Validators.minLength(1),
-      ]);
-    }
-    this.habilidadeLinguaPortuguesa.updateValueAndValidity();
+    } 
+
     if (this.disciplina.value?.includes('Matemática')) {
       this.habilidadesRecomposicaoAprendizagem =
         HabilidadeUtil.habilidadesAnosIniciais.filter((t) =>
@@ -778,11 +767,11 @@ export class PlanejamentoComponent {
   }
 
   onChangeHabilidade(event: ListboxChangeEvent) {
-    if (event.value?.length > 4) {
+    if (event.value?.length > 3) {
       event.value?.pop();
       this.messageService.add({
         severity: 'info',
-        detail: 'Máximo de quatro habilidades por plano de aula!',
+        detail: 'Máximo de três habilidades por plano de aula!',
         summary: 'Aviso',
       });
     }
@@ -795,6 +784,10 @@ export class PlanejamentoComponent {
       this.criteriosDeAvaliacao =
         CriterioUtil.criteriosEnsinoFundamental.filter((t) =>
           this.habilidade.value?.some((r: any) => r.Codigo == t.codigo),
+        );
+
+      this.criteriosDeAvaliacaoCurriculoDigital = CriterioUtil.criteriosCurriculoDigital.filter((t) =>
+          this.habilidadeCurriculoDigital.value?.some((r: any) => r.Codigo == t.codigo),
         );
     }
 
@@ -810,6 +803,24 @@ export class PlanejamentoComponent {
         ),
       );
     }
+  }
+
+  onChangeHabilidadeCurriculoDigital(event: ListboxChangeEvent) {
+    if (event.value?.length > 2) {
+      event.value?.pop();
+      this.messageService.add({
+        severity: 'info',
+        detail: 'Máximo de três habilidades por plano de aula!',
+        summary: 'Aviso',
+      });
+    }
+
+    if (!this.serieAno.value?.includes('Ensino Médio')) {
+      this.criteriosDeAvaliacaoCurriculoDigital = CriterioUtil.criteriosCurriculoDigital.filter((t) =>
+          this.habilidadeCurriculoDigital.value?.some((r: any) => r.Codigo == t.codigo),
+        );
+    }
+
   }
 
   onChangeHabilidadeArte(event: ListboxChangeEvent) {
@@ -1117,12 +1128,14 @@ export class PlanejamentoComponent {
       body.push(['Habilidades de Língua Portuguesa', texto ?? '']);
     }
 
-    body.push([
-      'Habilidade do Currículo Digital',
-      dados.habilidadeCurriculoDigital
-        ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
-        ?.join('\n\n') ?? '',
-    ]);
+    if (dados.habilidadeCurriculoDigital && dados.habilidadeCurriculoDigital.length > 0) {
+      body.push([
+        'Habilidade do Currículo Digital',
+        dados.habilidadeCurriculoDigital
+          ?.map((t: any) => t.Codigo + ' - ' + t.Habilidade)
+          ?.join('\n\n') ?? '',
+      ]);
+    }
 
     body.push(['Objetos de conhecimento', dados.objetoConhecimento ?? '']);
     body.push(['Objetos de conhecimento da recomposição', dados.objetoConhecimentoRecomposicao ?? '']);
@@ -1144,6 +1157,16 @@ export class PlanejamentoComponent {
         )
         ?.join('\n\n') ?? '',
     ]);
+    if(dados.criteriosAvaliacaoCurriculoDigital && dados.criteriosAvaliacaoCurriculoDigital.length > 0) {
+      body.push([
+       'Critérios de Avaliação do Currículo Digital',
+       dados.criteriosAvaliacaoCurriculoDigital
+         ?.map(
+           (t: any) => t.criterio,
+         )
+         ?.join('\n\n') ?? '',
+     ]);
+    }
     body.push([
       'Instrumentos de Avaliação',
       juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',

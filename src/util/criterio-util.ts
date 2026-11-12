@@ -12908,4 +12908,495 @@ export class CriterioUtil {
         'Valoriza a própria identidade cultural ao interagir e respeitar outras culturas por meio da comunicação em inglês?',
     },
   ];
+
+  public static criteriosCurriculoDigital = [
+    {
+      codigo: 'EF06CO01',
+      criterio: 'Classifica informações, agrupando-as em coleções (conjuntos)?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO01',
+      criterio: 'Associa cada coleção de informações a um ‘tipo de dados’?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO02',
+      criterio:
+        'Elabora algoritmos que envolvam instruções sequenciais, de repetição e de seleção?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO02',
+      criterio:
+        'Implementa os algoritmos elaborados utilizando uma linguagem de programação?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO03',
+      criterio: 'Descreve com precisão a solução de um problema?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO03',
+      criterio: 'Constrói o programa que implementa a solução descrita?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO04',
+      criterio:
+        'Constrói soluções de problemas utilizando a técnica de decomposição?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO04',
+      criterio:
+        'Automatiza as soluções construídas usando uma linguagem de programação?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO05',
+      criterio:
+        'Identifica os recursos ou insumos necessários (entradas) e os resultados esperados (saídas) para a resolução de problemas, determinando seus respectivos tipos de dados?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO05',
+      criterio:
+        'Estabelece a definição de problema como uma relação entre entrada e saída?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO06',
+      criterio:
+        'Compara diferentes casos particulares (instâncias) de um mesmo problema, identificando suas semelhanças e diferenças?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO06',
+      criterio:
+        'Cria um algoritmo genérico para resolver todos os casos, fazendo uso de variáveis (parâmetros)?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO07',
+      criterio:
+        'Entende como a informação é quebrada em pedaços e transmitida em pacotes através de múltiplos equipamentos?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO07',
+      criterio:
+        'Compreende como a informação transmitida em pacotes é reconstruída no destino?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO08',
+      criterio:
+        'Compreende diferentes formas de armazenar, manipular, compactar e recuperar arquivos, documentos e metadados?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO08',
+      criterio:
+        'Utiliza diferentes formas para armazenar, manipular, compactar e recuperar arquivos, documentos e metadados?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO09',
+      criterio:
+        'Apresenta conduta apropriada ao se comunicar em ambiente digital, considerando a ética e o respeito?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO09',
+      criterio:
+        'Utiliza linguagem apropriada ao se comunicar em ambiente digital, considerando a ética e o respeito?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO10',
+      criterio:
+        'Analisa o consumo de tecnologia na sociedade, compreendendo criticamente o caminho da produção dos recursos?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF06CO10',
+      criterio:
+        'Compreende criticamente os aspectos ligados à obsolescência e à sustentabilidade no consumo de tecnologia?',
+      ano: '6º Ano',
+    },
+    {
+      codigo: 'EF07CO01',
+      criterio:
+        'Cria soluções de problemas utilizando registros e matrizes unidimensionais para descrever suas informações?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO01',
+      criterio:
+        'Automatiza as soluções criadas usando uma linguagem de programação?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO02',
+      criterio: 'Analisa programas com o objetivo de detectar erros?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO02',
+      criterio:
+        'Remove os erros detectados nos programas, ampliando a confiança na sua correção?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO03',
+      criterio:
+        'Seleciona as estruturas de dados e técnicas adequadas para construir soluções computacionais de problemas de diferentes áreas, de forma individual e colaborativa?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO03',
+      criterio:
+        'Aperfeiçoa e articula saberes escolares por meio da construção de soluções computacionais?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO04',
+      criterio:
+        'Identifica os elementos e conceitos fundamentais que compõem os grafos?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO04',
+      criterio:
+        'Explora as propriedades básicas de grafos na representação de relações e problemas?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO05',
+      criterio:
+        'Cria algoritmos de forma colaborativa e cooperativa fazendo uso da decomposição e do reuso?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO05',
+      criterio:
+        'Automatiza os algoritmos criados usando uma linguagem de programação?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO06',
+      criterio: 'Identifica a função dos protocolos de comunicação em redes?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO06',
+      criterio:
+        'Compreende o papel dos protocolos para a transmissão de dados?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO07',
+      criterio: 'Identifica problemas de segurança cibernética?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO07',
+      criterio: 'Experimenta formas de proteção contra ameaças digitais?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO08',
+      criterio: 'Reconhece a existência de opiniões divergentes na web?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO08',
+      criterio:
+        'Demonstra empatia ao lidar com opiniões divergentes nos ambientes digitais?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO09',
+      criterio: 'Reconhece situações e características de cyberbullying?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO09',
+      criterio: 'Debate criticamente sobre o cyberbullying e seus impactos?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO10',
+      criterio:
+        'Identifica os impactos ambientais do descarte de peças de computadores e eletrônicos?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO10',
+      criterio:
+        'Relaciona o descarte de equipamentos eletrônicos com a sustentabilidade?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO11',
+      criterio:
+        'Cria e documenta, de forma individual ou colaborativa, produtos (vídeos, podcasts, web sites) usando recursos de tecnologia?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF07CO11',
+      criterio:
+        'Publica os produtos digitais desenvolvidos utilizando recursos tecnológicos?',
+      ano: '7º Ano',
+    },
+    {
+      codigo: 'EF08CO01',
+      criterio:
+        'Constrói soluções de problemas utilizando a técnica de recursão?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO01',
+      criterio:
+        'Automatiza as soluções recursivas usando uma linguagem de programação?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO02',
+      criterio:
+        'Cria soluções de problemas utilizando listas para descrever suas informações, empregando ou não a recursão?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO02',
+      criterio:
+        'Automatiza as soluções baseadas em listas usando uma linguagem de programação?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO03',
+      criterio:
+        'Compreende o funcionamento de algoritmos clássicos de manipulação sobre listas?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO03',
+      criterio:
+        'Utiliza algoritmos clássicos de manipulação sobre listas na resolução de problemas?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO04',
+      criterio:
+        'Seleciona as estruturas de dados e técnicas adequadas para construir soluções computacionais de problemas de diferentes áreas, de forma individual e colaborativa?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO04',
+      criterio:
+        'Aperfeiçoa e articula saberes escolares por meio da construção de soluções computacionais?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO05',
+      criterio: 'Compreende os conceitos de paralelismo e concorrência?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO05',
+      criterio:
+        'Compreende os conceitos de armazenamento e processamento distribuídos?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO06',
+      criterio: 'Entende como é organizada a estrutura da internet?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO06',
+      criterio: 'Compreende o funcionamento da internet?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO07',
+      criterio:
+        'Compreende a dinâmica de funcionamento das redes sociais e avalia a confiabilidade das informações?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO07',
+      criterio:
+        'Compartilha informações por meio de redes sociais de forma responsável, considerando o respeito e a ética?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO08',
+      criterio:
+        'Distingue os tipos de dados pessoais que são solicitados em espaços digitais?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO08',
+      criterio:
+        'Identifica os riscos associados ao fornecimento de dados pessoais em espaços digitais?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO09',
+      criterio:
+        'Identifica as diretrizes presentes nas políticas de termos de uso das redes sociais e demais plataformas?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO09',
+      criterio:
+        'Analisa criticamente as políticas de termos de uso das redes sociais e demais plataformas?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO10',
+      criterio:
+        'Identifica questões sobre segurança e privacidade relacionadas ao uso dos ambientes virtuais?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO10',
+      criterio:
+        'Discute criticamente questões de segurança e privacidade no uso dos ambientes virtuais?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO11',
+      criterio:
+        'Avalia a precisão, relevância, adequação e abrangência presentes em fontes de informação eletrônica?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF08CO11',
+      criterio:
+        'Identifica e avalia vieses que ocorrem em fontes de informação eletrônica?',
+      ano: '8º Ano',
+    },
+    {
+      codigo: 'EF09CO01',
+      criterio:
+        'Cria soluções de problemas utilizando árvores e grafos para descrever suas informações?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO01',
+      criterio:
+        'Automatiza as soluções baseadas em árvores e grafos usando uma linguagem de programação?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO02',
+      criterio:
+        'Seleciona as estruturas de dados e técnicas adequadas para construir soluções computacionais de problemas de diferentes áreas, de forma individual e colaborativa?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO02',
+      criterio:
+        'Aperfeiçoa e articula saberes escolares por meio da construção de soluções computacionais?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO03',
+      criterio:
+        'Usa autômatos para descrever comportamentos de forma abstrata?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO03',
+      criterio:
+        'Automatiza os comportamentos descritos através de uma linguagem de programação baseada em eventos?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO04',
+      criterio:
+        'Identifica diferentes tipos de malwares e ataques cibernéticos?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO04',
+      criterio:
+        'Compreende o funcionamento de malwares e outros ataques cibernéticos?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO05',
+      criterio:
+        'Analisa técnicas de criptografia voltadas para o armazenamento de dados?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO05',
+      criterio:
+        'Analisa técnicas de criptografia voltadas para a transmissão de dados?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO06',
+      criterio:
+        'Analisa problemas sociais de sua cidade e estado a partir de ambientes digitais?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO06',
+      criterio: 'Propõe soluções para os problemas sociais identificados?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO07',
+      criterio:
+        'Avalia aplicações e implicações políticas, socioambientais e culturais das tecnologias digitais, incluindo aquelas relativas ao mundo do trabalho?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO07',
+      criterio:
+        'Propõe alternativas aos desafios do mundo contemporâneo a partir da avaliação das tecnologias digitais?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO08',
+      criterio:
+        'Reconhece a distribuição desigual de recursos de computação na economia global?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO08',
+      criterio:
+        'Discute como essa distribuição desigual levanta questões de equidade, acesso e poder?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO09',
+      criterio: 'Cria ou utiliza conteúdo em meio digital?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO09',
+      criterio:
+        'Compreende questões éticas relacionadas a direitos autorais e de uso de imagem?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO10',
+      criterio:
+        'Avalia a veracidade, credibilidade e relevância da informação em seus diferentes formatos?',
+      ano: '9º Ano',
+    },
+    {
+      codigo: 'EF09CO10',
+      criterio:
+        'Identifica o propósito pelo qual a informação foi disseminada?',
+      ano: '9º Ano',
+    },
+  ];
 }

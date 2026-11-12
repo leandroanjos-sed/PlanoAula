@@ -101,7 +101,7 @@
         }
         @if (exibirTodosOsCampos) {
         <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Competências</span><span class="text-color-secondary"> (max. 2)</span>
+            <span class="text-xl font-semibold">Competências</span><span class="text-color-secondary"> (max. 1)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             @if (!(serieAno.valid && disciplina.valid)) {
             <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as competências!</span>
@@ -141,7 +141,7 @@
         </div>
         }
         <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Habilidades</span><span class="text-color-secondary"> (max. 4)</span>
+            <span class="text-xl font-semibold">Habilidades</span><span class="text-color-secondary"> (max. 3)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             @if (!(serieAno.valid && disciplina.valid)) {
             <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as habilidades!</span>
@@ -199,7 +199,7 @@
         @if (serieAno.value?.includes('Ensino Médio') && disciplina.value?.includes('Língua Portuguesa')){
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Habilidades de Língua Portuguesa</span><span
-                class="text-color-secondary"> (max. 4)</span>
+                class="text-color-secondary"> (max. 3)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <p-listbox id="lbHabilidadesLinguaPortuguesa" formControlName="habilidadeLinguaPortuguesa"
                 [options]="habilidadesLinguaPortuguesa" [checkbox]="true" [filter]="true" [showToggleAll]="false"
@@ -223,7 +223,8 @@
         @if(disciplina.value?.includes('Língua Portuguesa') ||
             disciplina.value?.includes('Matemática')){
         <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Habilidades da Recomposição da Aprendizagem</span>
+            <span class="text-xl font-semibold">Habilidades da Recomposição da Aprendizagem</span><span
+                class="text-color-secondary"> (max. 3)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <div class="w-full">
                 <p-listbox id="lbHabilidades" formControlName="recomposicaoAprendizagem"
@@ -244,12 +245,12 @@
         }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Habilidades do Currículo Digital</span><span
-                class="text-color-secondary"> (max. 4)</span>
+                class="text-color-secondary"> (max. 2)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <p-listbox id="lbHabilidades" formControlName="habilidadeCurriculoDigital"
                 [options]="habilidadesCurriculoDigital" [checkbox]="true" [filter]="true" [showToggleAll]="false"
                 optionLabel="Habilidade" [multiple]="true" [listStyle]="{'max-height': '320px'}"
-                emptyMessage="Selecione Série/Ano e Disciplina!" (onChange)="onChangeHabilidade($event)">
+                emptyMessage="Selecione Série/Ano e Disciplina!" (onChange)="onChangeHabilidadeCurriculoDigital($event)">
                 <ng-template let-item pTemplate="item">
                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
                 </ng-template>
@@ -293,6 +294,17 @@
             }
         </div>
         <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Caminho Metodológico da Recomposição de Aprendizagem</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="caminhoMetodologicoRecomposicao" class="w-full"
+                    placeholder="Digite aqui o caminho metodológico"></textarea>
+            </div>
+            @if (caminhoMetodologicoRecomposicao.invalid && (caminhoMetodologicoRecomposicao.dirty || caminhoMetodologicoRecomposicao.touched)) {
+            <small class="p-error">O campo é obrigatório</small>
+            }
+        </div>
+        <div class="col-12 p-2">
             <span class="text-xl font-semibold">Recursos Pedagógicos</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <p-listbox id="lbRecurso" formControlName="recurso" [options]="recursos" [checkbox]="true"
@@ -323,6 +335,25 @@
                 </p-listbox>
                 @if (criteriosAvaliacao.invalid && (criteriosAvaliacao.dirty ||
                 criteriosAvaliacao.touched)) {
+                <small class="p-error">O campo é obrigatório</small>
+                }
+            </div>
+        </div>
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Critérios de Avaliação do Currículo Digital</span><span class="text-color-secondary"> (max.
+                4)</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <p-listbox id="lbCriterios" formControlName="criteriosAvaliacaoCurriculoDigital" [options]="criteriosDeAvaliacaoCurriculoDigital"
+                    [checkbox]="true" [filter]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+                    [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione as habilidades de critérios de avaliação."
+                    (onChange)="onChangeCriterio($event)">
+                    <ng-template let-item pTemplate="item">
+                        <div>{{ (!item.codigo.includes('-') ? item.codigo : '') + ' - ' + item.criterio }}</div>
+                    </ng-template>
+                </p-listbox>
+                @if (criteriosAvaliacaoCurriculoDigital.invalid && (criteriosAvaliacaoCurriculoDigital.dirty ||
+                criteriosAvaliacaoCurriculoDigital.touched))  {
                 <small class="p-error">O campo é obrigatório</small>
                 }
             </div>
