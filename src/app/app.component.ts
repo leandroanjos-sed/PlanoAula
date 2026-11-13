@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { PrimeNGConfig } from 'primeng/api';
 import { TopbarComponent } from './topbar/topbar.component';
 import { PlanejamentoComponent } from './planejamento/planejamento.component';
+import { PlatformLocation } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -13,8 +14,11 @@ import { PlanejamentoComponent } from './planejamento/planejamento.component';
 })
 export class AppComponent implements OnInit {
   title = 'Gerador de Plano de Aula';
+  isProd: boolean;
 
-  constructor(private primengConfig: PrimeNGConfig) {}
+  constructor(private primengConfig: PrimeNGConfig, platformLocation: PlatformLocation) {
+    this.isProd = platformLocation.getBaseHrefFromDOM().includes('PlanejaSLO');
+  }
 
   ngOnInit() {
     this.primengConfig.setTranslation({
