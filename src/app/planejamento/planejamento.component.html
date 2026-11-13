@@ -121,15 +121,16 @@
         </div>
         @if (this.disciplina.value?.includes('Língua Portuguesa') || this.disciplina.value?.includes('Matemática')){
         <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Competências do Componente Currícular da Recomposição</span><span class="text-color-secondary"> (max. 2)</span>
+            <span class="text-xl font-semibold">Competências da Recomposição da Aprendizagem</span><span
+                class="text-color-secondary"> (max. 1)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             @if (!(serieAno.valid && disciplina.valid)) {
             <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as competências!</span>
             } @else {
-            <p-listbox id="lbCompetencias" formControlName="competenciaRecomposicao" [options]="competenciasRecomposicao" [checkbox]="true"
-                [filter]="true" [showToggleAll]="false" optionLabel="Competencia" [multiple]="true"
-                [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
-                (onChange)="onChangeCompetencia($event)">
+            <p-listbox id="lbCompetencias" formControlName="competenciaRecomposicao"
+                [options]="competenciasRecomposicao" [checkbox]="true" [filter]="true" [showToggleAll]="false"
+                optionLabel="Competencia" [multiple]="true" [listStyle]="{'max-height': '320px'}"
+                emptyMessage="Selecione Série/Ano e Disciplina!" (onChange)="onChangeCompetencia($event)">
                 <ng-template let-item pTemplate="item">
                     <div>{{ item.Numero + ' - ' + item.Competencia }}</div>
                 </ng-template>
@@ -221,7 +222,7 @@
         </div>
         }
         @if(disciplina.value?.includes('Língua Portuguesa') ||
-            disciplina.value?.includes('Matemática')){
+        disciplina.value?.includes('Matemática')){
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Habilidades da Recomposição da Aprendizagem</span><span
                 class="text-color-secondary"> (max. 3)</span>
@@ -250,7 +251,8 @@
             <p-listbox id="lbHabilidades" formControlName="habilidadeCurriculoDigital"
                 [options]="habilidadesCurriculoDigital" [checkbox]="true" [filter]="true" [showToggleAll]="false"
                 optionLabel="Habilidade" [multiple]="true" [listStyle]="{'max-height': '320px'}"
-                emptyMessage="Selecione Série/Ano e Disciplina!" (onChange)="onChangeHabilidadeCurriculoDigital($event)">
+                emptyMessage="Selecione Série/Ano e Disciplina!"
+                (onChange)="onChangeHabilidadeCurriculoDigital($event)">
                 <ng-template let-item pTemplate="item">
                     <div>{{ item.Codigo + ' - ' + item.Habilidade }}</div>
                 </ng-template>
@@ -275,47 +277,65 @@
             <span class="text-xl font-semibold">Objetos de Conhecimento da Recomposição</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <div class="w-full">
-                <textarea rows="5" cols="30" pInputTextarea formControlName="objetoConhecimentoRecomposicao" class="w-full"
+                <textarea rows="5" cols="30" pInputTextarea formControlName="objetoConhecimentoRecomposicao"
+                    class="w-full"
                     placeholder="Digite aqui os objetos de conhecimento da recomposição de aprendizagem"></textarea>
             </div>
-            @if (objetoConhecimentoRecomposicao.invalid && (objetoConhecimentoRecomposicao.dirty || objetoConhecimentoRecomposicao.touched)) {
+            @if (objetoConhecimentoRecomposicao.invalid && (objetoConhecimentoRecomposicao.dirty ||
+            objetoConhecimentoRecomposicao.touched)) {
             <small class="p-error">O campo é obrigatório</small>
             }
         </div>
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Caminho Metodológico</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-            <div class="w-full">
-                <textarea rows="5" cols="30" pInputTextarea formControlName="caminhoMetodologico" class="w-full"
-                    placeholder="Digite aqui o caminho metodológico"></textarea>
+            <div formArrayName="caminhoMetodologico" class="flex flex-column gap-3">
+                @for (ctrl of caminhoMetodologico.controls; track $index) {
+                <div class="w-full">
+                    <label class="block mb-1 font-medium">Aula {{ $index + 1 }}</label>
+                    <input type="text" pInputText class="w-full" [formControlName]="$index"
+                        [placeholder]="'Digite o caminho metodológico da aula ' + ($index + 1)" />
+
+                    @if (ctrl.invalid && (ctrl.dirty || ctrl.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
+                </div>
+                }
             </div>
-            @if (caminhoMetodologico.invalid && (caminhoMetodologico.dirty || caminhoMetodologico.touched)) {
-            <small class="p-error">O campo é obrigatório</small>
-            }
         </div>
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Caminho Metodológico da Recomposição de Aprendizagem</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <div class="w-full">
-                <textarea rows="5" cols="30" pInputTextarea formControlName="caminhoMetodologicoRecomposicao" class="w-full"
-                    placeholder="Digite aqui o caminho metodológico"></textarea>
+                <textarea rows="5" cols="30" pInputTextarea formControlName="caminhoMetodologicoRecomposicao"
+                    class="w-full" placeholder="Digite aqui o caminho metodológico"></textarea>
             </div>
-            @if (caminhoMetodologicoRecomposicao.invalid && (caminhoMetodologicoRecomposicao.dirty || caminhoMetodologicoRecomposicao.touched)) {
+            @if (caminhoMetodologicoRecomposicao.invalid && (caminhoMetodologicoRecomposicao.dirty ||
+            caminhoMetodologicoRecomposicao.touched)) {
             <small class="p-error">O campo é obrigatório</small>
             }
         </div>
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Recursos Pedagógicos</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-            <p-listbox id="lbRecurso" formControlName="recurso" [options]="recursos" [checkbox]="true"
-                [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '1200px'}">
-            </p-listbox>
+
+            <div class="grid p-2">
+                @for (item of recursos; track item) {
+                <div class="col-12 md:col-6 flex align-items-center">
+                    <p-checkbox [inputId]="'recurso_' + $index" formControlName="recurso" [value]="item">
+                    </p-checkbox>
+                    <label [for]="'recurso_' + $index" class="ml-2 cursor-pointer">
+                        {{ item }}
+                    </label>
+                </div>
+                }
+            </div>
+
             <div class="w-full mt-2">
                 <label class="font-semibold">Outros recursos</label>
                 <textarea rows="5" cols="30" pInputTextarea formControlName="outrosRecursos" class="w-full"
                     placeholder="Digite aqui outros recursos que não estejam na lista."></textarea>
-                @if (outrosRecursos.invalid && (outrosRecursos.dirty ||
-                outrosRecursos.touched)) {
+                @if (outrosRecursos.invalid && (outrosRecursos.dirty || outrosRecursos.touched)) {
                 <small class="p-error">O campo é obrigatório</small>
                 }
             </div>
@@ -340,20 +360,22 @@
             </div>
         </div>
         <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Critérios de Avaliação do Currículo Digital</span><span class="text-color-secondary"> (max.
-                4)</span>
+            <span class="text-xl font-semibold">Critérios de Avaliação do Currículo Digital</span><span
+                class="text-color-secondary"> (max. 4)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             <div class="w-full">
-                <p-listbox id="lbCriterios" formControlName="criteriosAvaliacaoCurriculoDigital" [options]="criteriosDeAvaliacaoCurriculoDigital"
-                    [checkbox]="true" [filter]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
-                    [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione as habilidades de critérios de avaliação."
+                <p-listbox id="lbCriterios" formControlName="criteriosAvaliacaoCurriculoDigital"
+                    [options]="criteriosDeAvaliacaoCurriculoDigital" [checkbox]="true" [filter]="true"
+                    [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
+                    [listStyle]="{'max-height': '320px'}"
+                    emptyMessage="Selecione as habilidades de critérios de avaliação."
                     (onChange)="onChangeCriterio($event)">
                     <ng-template let-item pTemplate="item">
                         <div>{{ (!item.codigo.includes('-') ? item.codigo : '') + ' - ' + item.criterio }}</div>
                     </ng-template>
                 </p-listbox>
                 @if (criteriosAvaliacaoCurriculoDigital.invalid && (criteriosAvaliacaoCurriculoDigital.dirty ||
-                criteriosAvaliacaoCurriculoDigital.touched))  {
+                criteriosAvaliacaoCurriculoDigital.touched)) {
                 <small class="p-error">O campo é obrigatório</small>
                 }
             </div>
@@ -362,12 +384,21 @@
             <span class="text-xl font-semibold">Instrumentos de Avaliação</span><span class="text-color-secondary">
                 (max. 2)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-            <p-listbox id="lbInstrumentos" formControlName="instrumento" [options]="instrumentos" [checkbox]="true"
-                [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '900px'}"
-                (onChange)="onChangeInstrumentos($event)">
-            </p-listbox>
-            @if (instrumento.invalid && (instrumento.dirty ||
-            instrumento.touched)) {
+
+            <div class="grid p-2">
+                @for (item of instrumentos; track item) {
+                <div class="col-12 md:col-6 flex align-items-center">
+                    <p-checkbox [inputId]="'instrumento_' + $index" formControlName="instrumento" [value]="item"
+                        (onChange)="onChangeInstrumentos()">
+                    </p-checkbox>
+                    <label [for]="'instrumento_' + $index" class="ml-2 cursor-pointer">
+                        {{ item }}
+                    </label>
+                </div>
+                }
+            </div>
+
+            @if (instrumento.invalid && (instrumento.dirty || instrumento.touched)) {
             <small class="p-error">O campo é obrigatório</small>
             }
         </div>

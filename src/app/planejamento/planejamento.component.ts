@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, DestroyRef, inject } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { DropdownChangeEvent, DropdownModule } from 'primeng/dropdown';
 import { CalendarModule } from 'primeng/calendar';
 import { DateMaskDirective } from '../../util/date-mask.directive';
 import { InputNumberModule } from 'primeng/inputnumber';
 import { CheckboxChangeEvent, CheckboxModule } from 'primeng/checkbox';
 import {
+  FormArray,
   FormControl,
   FormGroup,
   FormsModule,
@@ -23,6 +25,7 @@ import jsPDF from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import { CriterioUtil } from '../../util/criterio-util';
 import { minimoPreenchidos } from '../../util/functions';
+import { startWith } from 'rxjs';
 
 @Component({
   selector: 'app-planejamento',
@@ -46,6 +49,7 @@ import { minimoPreenchidos } from '../../util/functions';
   providers: [MessageService],
 })
 export class PlanejamentoComponent {
+  private destroyRef = inject(DestroyRef);
   exibirTodosOsCampos: boolean = false;
   habilidades: any[] = [];
   habilidadesCurriculoDigital: any[] = [];
@@ -137,6 +141,15 @@ export class PlanejamentoComponent {
         { label: '3º Ano', value: '3º Ano, Ensino Médio' },
       ],
     },
+    {
+      label: 'Ensino Técnico',
+      value: 'ensino-tecnico',
+      items: [
+        { label: '1º Ano', value: '1º Ano, Ensino Técnico' },
+        { label: '2º Ano', value: '2º Ano, Ensino Técnico' },
+        { label: '3º Ano', value: '3º Ano, Ensino Técnico' },
+      ],
+    },
   ];
 
   seriesAnosSelecionaveis: any[] = [];
@@ -203,6 +216,36 @@ export class PlanejamentoComponent {
     'Caixa de som',
   ];
 
+  ngOnInit() {
+    this.quantidadeAulas.valueChanges
+      .pipe(
+        startWith(this.quantidadeAulas.value),
+        takeUntilDestroyed(this.destroyRef),
+      )
+      .subscribe((qtd) => this.ajustarCaminho(Number(qtd) || 0));
+  }
+
+  private ajustarCaminho(qtd: number) {
+    const arr = this.planejamentoForm.get('caminhoMetodologico') as FormArray<
+      FormControl<string>
+    >;
+    qtd = Math.max(0, Math.min(qtd, 100)); // limite de segurança
+
+    // adiciona os que faltam (mantém o que já foi digitado)
+    while (arr.length < qtd) {
+      arr.push(
+        new FormControl('', {
+          nonNullable: true,
+          validators: [Validators.required],
+        }),
+      );
+    }
+    // remove os que sobram
+    while (arr.length > qtd) {
+      arr.removeAt(arr.length - 1);
+    }
+  }
+
   planejamentoForm: FormGroup = new FormGroup(
     {
       escola: new FormControl(undefined, Validators.required),
@@ -211,7 +254,10 @@ export class PlanejamentoComponent {
       serieAno: new FormControl(undefined, Validators.required),
       disciplina: new FormControl(undefined, Validators.required),
       professor: new FormControl(undefined, Validators.required),
-      quantidadeAulas: new FormControl(undefined, Validators.required),
+      quantidadeAulas: new FormControl(1, [
+        Validators.required,
+        Validators.min(1),
+      ]),
       competencia: new FormControl(undefined, [
         Validators.required,
         Validators.minLength(1),
@@ -229,10 +275,7 @@ export class PlanejamentoComponent {
         Validators.minLength(1),
       ]),
       objetoConhecimentoRecomposicao: new FormControl(),
-      caminhoMetodologico: new FormControl(undefined, [
-        Validators.required,
-        Validators.minLength(1),
-      ]),
+      caminhoMetodologico: new FormArray<FormControl<string>>([]),
       caminhoMetodologicoRecomposicao: new FormControl(undefined, [
         Validators.required,
         Validators.minLength(1),
@@ -341,8 +384,10 @@ export class PlanejamentoComponent {
   get objetoConhecimentoRecomposicao() {
     return this.planejamentoForm.get('objetoConhecimentoRecomposicao')!;
   }
-  get caminhoMetodologico() {
-    return this.planejamentoForm.get('caminhoMetodologico')!;
+  get caminhoMetodologico(): FormArray<FormControl<string>> {
+    return this.planejamentoForm.get('caminhoMetodologico') as FormArray<
+      FormControl<string>
+    >;
   }
   get outrosRecursos() {
     return this.planejamentoForm.get('outrosRecursos')!;
@@ -378,11 +423,10 @@ export class PlanejamentoComponent {
 
   onChangeEscola(event: DropdownChangeEvent) {
     //Sóror e Cedup não tem EF
-    if (
-      event.value?.includes('CEDUP') ||
-      event.value?.includes('EEB Sóror Angélica')
-    ) {
+    if (event.value?.includes('EEB Sóror Angélica')) {
       this.seriesAnosSelecionaveis = [this.seriesAnos[1]];
+    } else if (event.value?.includes('CEDUP')) {
+      this.seriesAnosSelecionaveis = [this.seriesAnos[1], this.seriesAnos[2]];
     } else {
       this.seriesAnosSelecionaveis = this.seriesAnos;
     }
@@ -474,6 +518,37 @@ export class PlanejamentoComponent {
             },
           ],
         },
+      ];
+    } else if (event?.value?.includes('Ensino Técnico')) {
+      this.disciplinas = [
+        {
+          label: 'Administração e Economia Rural',
+          value: 'Administração e Economia Rural',
+        },
+        { label: 'Agricultura', value: 'Agricultura' },
+        { label: 'Construção e Instalação', value: 'Construção e Instalação' },
+        { label: 'Criações', value: 'Criações' },
+        { label: 'Culturas Anuais', value: 'Culturas Anuais' },
+        {
+          label: 'Defesa Sanitária Vegetal',
+          value: 'Defesa Sanitária Vegetal',
+        },
+        { label: 'Deontologia Rural', value: 'Deontologia Rural' },
+        { label: 'Desenho e Topografia', value: 'Desenho e Topografia' },
+        { label: 'Fruticultura', value: 'Fruticultura' },
+        { label: 'Indústrias Rurais', value: 'Indústrias Rurais' },
+        { label: 'Irrigação e Drenagem', value: 'Irrigação e Drenagem' },
+        {
+          label: 'Laboratório de Práticas Agropecuárias',
+          value: 'Laboratório de Práticas Agropecuárias',
+        },
+        { label: 'Mecanização Agrícola', value: 'Mecanização Agrícola' },
+        { label: 'Olericultura', value: 'Olericultura' },
+        {
+          label: 'Silvicultura e Paisagismo',
+          value: 'Silvicultura e Paisagismo',
+        },
+        { label: 'Zootecnia', value: 'Zootecnia' },
       ];
     } else {
       this.disciplinas = [];
@@ -572,8 +647,8 @@ export class PlanejamentoComponent {
             mesmaDisciplina(t) && this.anoInicialHabilidade(t.Codigo) < serie,
         );
 
-        this.habilidadesRecomposicaoAprendizagem = [...iniciais, ...finais]; 
-      } 
+        this.habilidadesRecomposicaoAprendizagem = [...iniciais, ...finais];
+      }
 
       if (this.disciplina.value?.includes('Matemática')) {
         const serie = Number(this.serieAno.value[0]);
@@ -595,11 +670,17 @@ export class PlanejamentoComponent {
 
       //Competências de recomposição
       if (this.disciplina.value?.includes('Língua Portuguesa')) {
-        this.competenciasRecomposicao = CompetenciaUtil.competenciasAnosFinais.filter((t)=> t.Disciplina == 'Língua Portuguesa');
+        this.competenciasRecomposicao =
+          CompetenciaUtil.competenciasAnosFinais.filter(
+            (t) => t.Disciplina == 'Língua Portuguesa',
+          );
         //TODO adicionar competências do ensino fundamental anos iniciais.
       }
       if (this.disciplina.value?.includes('Matemática')) {
-        this.competenciasRecomposicao = CompetenciaUtil.competenciasAnosFinais.filter((t)=> t.Disciplina == 'Matemática');
+        this.competenciasRecomposicao =
+          CompetenciaUtil.competenciasAnosFinais.filter(
+            (t) => t.Disciplina == 'Matemática',
+          );
         //TODO adicionar competências do ensino fundamental anos iniciais.
       }
     } else {
@@ -610,13 +691,25 @@ export class PlanejamentoComponent {
       this.competencias = this.competencias;
 
       if (this.disciplina.value?.includes('Língua Portuguesa')) {
-        this.competenciasRecomposicao = this.competencias.filter((t)=> t.Area == 'Linguagens e suas Tecnologias');
-        this.competenciasRecomposicao.push(...CompetenciaUtil.competenciasAnosFinais.filter((t)=> t.Disciplina == 'Língua Portuguesa'));
+        this.competenciasRecomposicao = this.competencias.filter(
+          (t) => t.Area == 'Linguagens e suas Tecnologias',
+        );
+        this.competenciasRecomposicao.push(
+          ...CompetenciaUtil.competenciasAnosFinais.filter(
+            (t) => t.Disciplina == 'Língua Portuguesa',
+          ),
+        );
         //TODO adicionar competências do ensino fundamental anos iniciais.
       }
       if (this.disciplina.value?.includes('Matemática')) {
-        this.competenciasRecomposicao = this.competencias.filter((t)=> t.Area == 'Matemática e suas Tecnologias');
-        this.competenciasRecomposicao.push(...CompetenciaUtil.competenciasAnosFinais.filter((t)=> t.Disciplina == 'Matemática'));
+        this.competenciasRecomposicao = this.competencias.filter(
+          (t) => t.Area == 'Matemática e suas Tecnologias',
+        );
+        this.competenciasRecomposicao.push(
+          ...CompetenciaUtil.competenciasAnosFinais.filter(
+            (t) => t.Disciplina == 'Matemática',
+          ),
+        );
         //TODO adicionar competências do ensino fundamental anos iniciais.
       }
     }
@@ -740,7 +833,7 @@ export class PlanejamentoComponent {
             .flatMap((item) => item.items),
         );
       }
-    } 
+    }
 
     if (this.disciplina.value?.includes('Matemática')) {
       this.habilidadesRecomposicaoAprendizagem =
@@ -786,8 +879,11 @@ export class PlanejamentoComponent {
           this.habilidade.value?.some((r: any) => r.Codigo == t.codigo),
         );
 
-      this.criteriosDeAvaliacaoCurriculoDigital = CriterioUtil.criteriosCurriculoDigital.filter((t) =>
-          this.habilidadeCurriculoDigital.value?.some((r: any) => r.Codigo == t.codigo),
+      this.criteriosDeAvaliacaoCurriculoDigital =
+        CriterioUtil.criteriosCurriculoDigital.filter((t) =>
+          this.habilidadeCurriculoDigital.value?.some(
+            (r: any) => r.Codigo == t.codigo,
+          ),
         );
     }
 
@@ -816,11 +912,13 @@ export class PlanejamentoComponent {
     }
 
     if (!this.serieAno.value?.includes('Ensino Médio')) {
-      this.criteriosDeAvaliacaoCurriculoDigital = CriterioUtil.criteriosCurriculoDigital.filter((t) =>
-          this.habilidadeCurriculoDigital.value?.some((r: any) => r.Codigo == t.codigo),
+      this.criteriosDeAvaliacaoCurriculoDigital =
+        CriterioUtil.criteriosCurriculoDigital.filter((t) =>
+          this.habilidadeCurriculoDigital.value?.some(
+            (r: any) => r.Codigo == t.codigo,
+          ),
         );
     }
-
   }
 
   onChangeHabilidadeArte(event: ListboxChangeEvent) {
@@ -855,9 +953,9 @@ export class PlanejamentoComponent {
     }
   }
 
-  onChangeInstrumentos(event: ListboxChangeEvent) {
-    if (event.value?.length > 2) {
-      event.value?.pop();
+  onChangeInstrumentos() {
+    if (this.instrumento.value?.length > 2) {
+      this.instrumento.value?.pop();
       this.messageService.add({
         severity: 'info',
         detail: 'Máximo de dois instrumentos de avaliação!',
@@ -928,23 +1026,23 @@ export class PlanejamentoComponent {
         const logo_soror = await this.carregarImagem(
           'assets/img/logos-escolas/soror-angelica.png',
         );
-        doc.addImage(logo_soror, 'PNG', 14, 7, 24, 24);
+        doc.addImage(logo_soror, 'PNG', 30, 7, 24, 24);
         doc.setFontSize(10);
-        doc.text('ESTADO DE SANTA CATARINA', 40, 14);
-        doc.text('ESCOLA DE EDUCAÇÃO BÁSICA SÓROR ANGÉLICA', 40, 18);
-        doc.text('SÃO LOURENÇO DO OESTE - SC', 40, 22);
-        doc.text('Email:', 40, 26);
+        doc.text('ESTADO DE SANTA CATARINA', 56, 14);
+        doc.text('ESCOLA DE EDUCAÇÃO BÁSICA SÓROR ANGÉLICA', 56, 18);
+        doc.text('SÃO LOURENÇO DO OESTE - SC', 56, 22);
+        doc.text('Email:', 56, 26);
         doc.setTextColor('#0000FC');
-        doc.text('eebsororangelica@sed.sc.gov.br', 51, 26);
+        doc.text('eebsororangelica@sed.sc.gov.br', 67, 26);
         doc.setDrawColor('#0000FF');
         doc.line(
-          51,
+          67,
           26.5,
-          52 + doc.getTextWidth('eebsororangelica@sed.sc.gov.br'),
+          68 + doc.getTextWidth('eebsororangelica@sed.sc.gov.br'),
           26.5,
         );
         doc.setTextColor('#000000');
-        doc.text('Fone 49 3372 - 1049', 115, 26);
+        doc.text('Fone 49 3372 - 1049', 131, 26);
         break;
       case 'EEB Emílio Garrastazu Médici':
         const logo_medici = await this.carregarImagem(
@@ -1015,15 +1113,15 @@ export class PlanejamentoComponent {
     doc.setFontSize(14);
 
     if (isEnsinoMedio) {
-      doc.text('PLANO DE AULA - ENSINO MÉDIO', 70, 60);
+      doc.text('PLANO DE AULA - ENSINO MÉDIO', 70, 45);
     } else {
-      doc.text('PLANO DE AULA', 89, 60);
-      doc.text('NO ENSINO FUNDAMENTAL', 75, 66);
+      doc.text('PLANO DE AULA', 89, 45);
+      doc.text('NO ENSINO FUNDAMENTAL', 75, 51);
     }
 
     autoTable(doc, {
       theme: 'grid',
-      startY: 70,
+      startY: 55,
       styles: {
         fontSize: 10,
         cellPadding: 2,
@@ -1062,7 +1160,10 @@ export class PlanejamentoComponent {
         ?.join('\n\n') ?? '',
     ]);
 
-    if (this.disciplina.value?.includes('Língua Portuguesa') || this.disciplina.value?.includes('Matemática')){
+    if (
+      this.disciplina.value?.includes('Língua Portuguesa') ||
+      this.disciplina.value?.includes('Matemática')
+    ) {
       body.push([
         'Competências       específicas da área da Recomposição',
         dados.competencia
@@ -1128,7 +1229,10 @@ export class PlanejamentoComponent {
       body.push(['Habilidades de Língua Portuguesa', texto ?? '']);
     }
 
-    if (dados.habilidadeCurriculoDigital && dados.habilidadeCurriculoDigital.length > 0) {
+    if (
+      dados.habilidadeCurriculoDigital &&
+      dados.habilidadeCurriculoDigital.length > 0
+    ) {
       body.push([
         'Habilidade do Currículo Digital',
         dados.habilidadeCurriculoDigital
@@ -1138,8 +1242,21 @@ export class PlanejamentoComponent {
     }
 
     body.push(['Objetos de conhecimento', dados.objetoConhecimento ?? '']);
-    body.push(['Objetos de conhecimento da recomposição', dados.objetoConhecimentoRecomposicao ?? '']);
-    body.push(['Caminho Metodológico', dados.caminhoMetodologico ?? '']);
+    body.push([
+      'Objetos de conhecimento da recomposição',
+      dados.objetoConhecimentoRecomposicao ?? '',
+    ]);
+    body.push([
+      'Caminho Metodológico',
+      this.formatarCaminho(dados.caminhoMetodologico) ?? '',
+    ]);
+    if (dados.outrosRecursos?.length > 0) {
+      dados.recurso.push(dados.outrosRecursos);
+    }
+    body.push([
+      'Recursos Metodológicos',
+      juntarComE(dados.recurso?.map((t: any) => t)) ?? '',
+    ]);
     body.push([
       'Recomposição da Aprendizagem (Língua Portuguesa e Matemática)',
       dados.recomposicaoAprendizagem
@@ -1151,30 +1268,34 @@ export class PlanejamentoComponent {
     ]);
     body.push([
       'Critérios de Avaliação',
-      dados.criteriosAvaliacao
-        ?.map(
-          (t: any) => t.criterio,
-        )
-        ?.join('\n\n') ?? '',
+      dados.criteriosAvaliacao?.map((t: any) => t.criterio)?.join('\n\n') ?? '',
     ]);
-    if(dados.criteriosAvaliacaoCurriculoDigital && dados.criteriosAvaliacaoCurriculoDigital.length > 0) {
+    if (
+      dados.criteriosAvaliacaoCurriculoDigital &&
+      dados.criteriosAvaliacaoCurriculoDigital.length > 0
+    ) {
       body.push([
-       'Critérios de Avaliação do Currículo Digital',
-       dados.criteriosAvaliacaoCurriculoDigital
-         ?.map(
-           (t: any) => t.criterio,
-         )
-         ?.join('\n\n') ?? '',
-     ]);
+        'Critérios de Avaliação do Currículo Digital',
+        dados.criteriosAvaliacaoCurriculoDigital
+          ?.map((t: any) => t.criterio)
+          ?.join('\n\n') ?? '',
+      ]);
     }
     body.push([
       'Instrumentos de Avaliação',
       juntarComE(dados.instrumento?.map((t: any) => t)) ?? '',
     ]);
-    body.push([
-      'Adaptação curricular para estudante incluso',
-      dados.adaptacaoCurricular ?? '',
-    ]);
+    if (!dados.naoPossuiAdaptacaoCurricular) {
+      body.push([
+        'Adaptação curricular para estudante incluso',
+        dados.adaptacaoCurricular ?? '',
+      ]);
+    } else {
+      body.push([
+        'Adaptação curricular para estudante incluso',
+        'Esta turma não tem estudante incluso',
+      ]);
+    }
     body.push(['Referências', dados.referencia?.join('\n\n') ?? '']);
 
     autoTable(doc, {
@@ -1212,6 +1333,12 @@ export class PlanejamentoComponent {
   private anoInicialHabilidade(codigo: string): number {
     const cod = codigo.slice(2, 4);
     return cod[0] === '0' ? Number(cod) : Number(cod[0]);
+  }
+
+  private formatarCaminho(aulas: string[]): string {
+    return aulas
+      .map((conteudo, i) => `Aula ${i + 1}:\n${conteudo.trim()}`)
+      .join('\n');
   }
 }
 
