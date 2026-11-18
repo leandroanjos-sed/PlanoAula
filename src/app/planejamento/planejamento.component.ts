@@ -148,6 +148,7 @@ export class PlanejamentoComponent {
         { label: '1º Ano', value: '1º Ano, Ensino Técnico' },
         { label: '2º Ano', value: '2º Ano, Ensino Técnico' },
         { label: '3º Ano', value: '3º Ano, Ensino Técnico' },
+        { label: '4º Ano', value: '4º Ano, Ensino Técnico' },
       ],
     },
   ];
@@ -342,6 +343,9 @@ export class PlanejamentoComponent {
   get outrasHabilidades() {
     return this.planejamentoForm.get('outrasHabilidades')!;
   }
+  get outrosCriterios() {
+    return this.planejamentoForm.get('outrosCriterios')!;
+  }
   get instrumento() {
     return this.planejamentoForm.get('instrumento')!;
   }
@@ -520,38 +524,85 @@ export class PlanejamentoComponent {
         },
       ];
     } else if (event?.value?.includes('Ensino Técnico')) {
-      this.disciplinas = [
-        {
-          label: 'Administração e Economia Rural',
-          value: 'Administração e Economia Rural',
-        },
-        { label: 'Agricultura', value: 'Agricultura' },
-        { label: 'Construção e Instalação', value: 'Construção e Instalação' },
-        { label: 'Criações', value: 'Criações' },
-        { label: 'Culturas Anuais', value: 'Culturas Anuais' },
-        {
-          label: 'Defesa Sanitária Vegetal',
-          value: 'Defesa Sanitária Vegetal',
-        },
-        { label: 'Deontologia Rural', value: 'Deontologia Rural' },
-        { label: 'Desenho e Topografia', value: 'Desenho e Topografia' },
-        { label: 'Fruticultura', value: 'Fruticultura' },
-        { label: 'Indústrias Rurais', value: 'Indústrias Rurais' },
-        { label: 'Irrigação e Drenagem', value: 'Irrigação e Drenagem' },
-        {
-          label: 'Laboratório de Práticas Agropecuárias',
-          value: 'Laboratório de Práticas Agropecuárias',
-        },
-        { label: 'Mecanização Agrícola', value: 'Mecanização Agrícola' },
-        { label: 'Olericultura', value: 'Olericultura' },
-        {
-          label: 'Silvicultura e Paisagismo',
-          value: 'Silvicultura e Paisagismo',
-        },
-        { label: 'Zootecnia', value: 'Zootecnia' },
-      ];
+      if (event?.value?.startsWith('1')) {
+        this.disciplinas = [
+          {
+            label: 'Administração e Economia Rural',
+            value: 'Administração e Economia Rural',
+          },
+          { label: 'Agricultura', value: 'Agricultura' },
+          { label: 'Criações', value: 'Criações' },
+          { label: 'Culturas Anuais', value: 'Culturas Anuais' },
+          { label: 'Fruticultura', value: 'Fruticultura' },
+          {
+            label: 'Laboratório de Práticas Agropecuárias',
+            value: 'Laboratório de Práticas Agropecuárias',
+          },
+          { label: 'Olericultura', value: 'Olericultura' },
+          {
+            label: 'Silvicultura e Paisagismo',
+            value: 'Silvicultura e Paisagismo',
+          },
+          { label: 'Zootecnia', value: 'Zootecnia' },
+        ];
+      } else if (event?.value?.startsWith('2')) {
+        this.disciplinas = [
+          {
+            label: 'Administração e Economia Rural',
+            value: 'Administração e Economia Rural',
+          },
+          { label: 'Agricultura', value: 'Agricultura' },
+          { label: 'Criações', value: 'Criações' },
+          { label: 'Culturas Anuais', value: 'Culturas Anuais' },
+          { label: 'Fruticultura', value: 'Fruticultura' },
+          { label: 'Indústrias Rurais', value: 'Indústrias Rurais' },
+          { label: 'Irrigação e Drenagem', value: 'Irrigação e Drenagem' },
+          {
+            label: 'Laboratório de Práticas Agropecuárias',
+            value: 'Laboratório de Práticas Agropecuárias',
+          },
+          { label: 'Olericultura', value: 'Olericultura' },
+          { label: 'Zootecnia', value: 'Zootecnia' },
+        ];
+      } else if (event?.value?.startsWith('3')) {
+        this.disciplinas = [
+          {
+            label: 'Administração e Economia Rural',
+            value: 'Administração e Economia Rural',
+          },
+          {
+            label: 'Construção e Instalação',
+            value: 'Construção e Instalação',
+          },
+          { label: 'Criações', value: 'Criações' },
+          { label: 'Culturas Anuais', value: 'Culturas Anuais' },
+          {
+            label: 'Defesa Sanitária Vegetal',
+            value: 'Defesa Sanitária Vegetal',
+          },
+          { label: 'Deontologia Rural', value: 'Deontologia Rural' },
+          { label: 'Desenho e Topografia', value: 'Desenho e Topografia' },
+          {
+            label: 'Laboratório de Práticas Agropecuárias',
+            value: 'Laboratório de Práticas Agropecuárias',
+          },
+          { label: 'Mecanização Agrícola', value: 'Mecanização Agrícola' },
+          { label: 'Zootecnia', value: 'Zootecnia' },
+        ];
+      } else if (event?.value?.startsWith('4')) {
+        this.disciplinas = [{ label: 'Estágio', value: 'Estágio' }];
+      }
     } else {
       this.disciplinas = [];
+    }
+
+
+    if (event?.value?.includes('Ensino Técnico')) {
+      this.planejamentoForm.addControl('outrasHabilidades', new FormControl());
+      this.planejamentoForm.addControl('outrosCriterios', new FormControl());
+    } else {
+      this.planejamentoForm.removeControl('outrasHabilidades');
+      this.planejamentoForm.removeControl('outrosCriterios');
     }
   }
 
@@ -1207,6 +1258,10 @@ export class PlanejamentoComponent {
       ]);
     }
 
+    if (this.serieAno.value?.includes('Ensino Técnico')) {
+      body.push(['Outras habilidades', dados.outrasHabilidades ?? '']);
+    }
+
     if (
       this.serieAno.value?.includes('Ensino Médio') &&
       this.disciplina.value?.includes('Língua Portuguesa')
@@ -1270,6 +1325,11 @@ export class PlanejamentoComponent {
       'Critérios de Avaliação',
       dados.criteriosAvaliacao?.map((t: any) => t.criterio)?.join('\n\n') ?? '',
     ]);
+
+    if (this.serieAno.value?.includes('Ensino Técnico')) {
+      body.push(['Outros critérios', dados.outrosCriterios ?? '']);
+    }
+    
     if (
       dados.criteriosAvaliacaoCurriculoDigital &&
       dados.criteriosAvaliacaoCurriculoDigital.length > 0

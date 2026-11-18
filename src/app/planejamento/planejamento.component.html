@@ -158,6 +158,16 @@
             @if (habilidade.invalid && (habilidade.dirty || habilidade.touched)) {
             <small class="p-error">O campo é obrigatório</small>
             }
+            @if(serieAno.value?.includes('Ensino Técnico')){
+                <div class="w-full mt-2">
+                    <label class="font-semibold">Outras Habilidades</label>
+                    <textarea rows="5" cols="30" pInputTextarea formControlName="outrasHabilidades" class="w-full"
+                        placeholder="Digite aqui outras habilidades que não estejam na lista."></textarea>
+                    @if (outrasHabilidades.invalid && (outrasHabilidades.dirty || outrasHabilidades.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
+                </div>
+             }
             } @else {
             <div class="m-1 mt-2"><span class="text-lg font-semibold">Artes Visuais</span></div>
             <p-listbox id="lbHabilidades" formControlName="habilidadeArtesVisuais" [options]="habilidadesArtesVisuais"
@@ -273,19 +283,21 @@
             <small class="p-error">O campo é obrigatório</small>
             }
         </div>
-        <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Objetos de Conhecimento da Recomposição</span>
-            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-            <div class="w-full">
-                <textarea rows="5" cols="30" pInputTextarea formControlName="objetoConhecimentoRecomposicao"
-                    class="w-full"
-                    placeholder="Digite aqui os objetos de conhecimento da recomposição de aprendizagem"></textarea>
+        @if(disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Matemática')) {
+            <div class="col-12 p-2">
+                <span class="text-xl font-semibold">Objetos de Conhecimento da Recomposição</span>
+                <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+                <div class="w-full">
+                    <textarea rows="5" cols="30" pInputTextarea formControlName="objetoConhecimentoRecomposicao"
+                        class="w-full"
+                        placeholder="Digite aqui os objetos de conhecimento da recomposição de aprendizagem"></textarea>
+                </div>
+                @if (objetoConhecimentoRecomposicao.invalid && (objetoConhecimentoRecomposicao.dirty ||
+                objetoConhecimentoRecomposicao.touched)) {
+                <small class="p-error">O campo é obrigatório</small>
+                }
             </div>
-            @if (objetoConhecimentoRecomposicao.invalid && (objetoConhecimentoRecomposicao.dirty ||
-            objetoConhecimentoRecomposicao.touched)) {
-            <small class="p-error">O campo é obrigatório</small>
-            }
-        </div>
+        }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Caminho Metodológico</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
@@ -303,6 +315,7 @@
                 }
             </div>
         </div>
+        @if(disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Matemática')) {
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Caminho Metodológico da Recomposição de Aprendizagem</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
@@ -315,6 +328,7 @@
             <small class="p-error">O campo é obrigatório</small>
             }
         </div>
+        }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Recursos Pedagógicos</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
@@ -358,6 +372,16 @@
                 <small class="p-error">O campo é obrigatório</small>
                 }
             </div>
+             @if(serieAno.value?.includes('Ensino Técnico')){
+                <div class="w-full mt-2">
+                    <label class="font-semibold">Outros Critérios</label>
+                    <textarea rows="5" cols="30" pInputTextarea formControlName="outrosCriterios" class="w-full"
+                        placeholder="Digite aqui outros critérios que não estejam na lista."></textarea>
+                    @if (outrosCriterios.invalid && (outrosCriterios.dirty || outrosCriterios.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
+                </div>
+             }
         </div>
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Critérios de Avaliação do Currículo Digital</span><span
