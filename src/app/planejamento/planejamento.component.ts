@@ -432,6 +432,14 @@ export class PlanejamentoComponent {
       this.seriesAnosSelecionaveis = [this.seriesAnos[1]];
     } else if (event.value?.includes('CEDUP')) {
       this.seriesAnosSelecionaveis = [this.seriesAnos[1], this.seriesAnos[2]];
+    } else if (
+      event.value?.includes('EEB São Bernardino') ||
+      event.value?.includes('EEB Raul Pompéia') ||
+      event.value?.includes('EEB Profª Olga Nunes de Abreu') || 
+      event.value?.includes('EEB Maria Madalena de Moura Ferro') || 
+      event.value?.includes('EEB Santa Lúcia')
+    ) {
+      this.seriesAnosSelecionaveis = [this.seriesAnos[0], this.seriesAnos[1]];
     } else {
       this.seriesAnosSelecionaveis = this.seriesAnos;
     }
