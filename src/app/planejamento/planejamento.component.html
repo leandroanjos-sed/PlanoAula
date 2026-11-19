@@ -63,9 +63,6 @@
                     <p-dropdown id="ddDisciplinas" formControlName="disciplina" [options]="disciplinas"
                         placeholder="Selecione uma disciplina" [group]="serieAno.value?.includes('Ensino Médio')"
                         styleClass="w-full" (onChange)="onChangeDisciplina($event)">
-                        <ng-template pTemplate="selectedItem" let-item>
-                            <span>{{ item.value }}</span>
-                        </ng-template>
                         <ng-template let-group pTemplate="group">
                             <div class="flex align-items-center">
                                 <span>{{ group.label }}</span>
@@ -100,6 +97,27 @@
         </div>
         }
         @if (exibirTodosOsCampos) {
+        @if (this.serieAno.value?.includes('Ensino Técnico')){
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Competências Gerais</span><span
+                class="text-color-secondary"> (max. 1)</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            @if (!(serieAno.valid && disciplina.valid)) {
+            <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as competências!</span>
+            } @else {
+            <p-listbox id="lbCompetencias" formControlName="competenciaGeral"
+                [options]="competenciasGerais" [checkbox]="true" [filter]="true" [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '320px'}"
+                emptyMessage="Selecione Série/Ano e Disciplina!" (onChange)="onChangeCompetenciaGeral()">
+                <ng-template let-item pTemplate="item">
+                    <div>{{ item.numero + ' - ' + item.nome }}<br/>{{item.competencia_geral}}</div>
+                </ng-template>
+            </p-listbox>
+            @if (competenciaGeral != null && competenciaGeral.invalid && (competenciaGeral.dirty || competenciaGeral.touched)) { 
+            <small class="p-error">O campo é obrigatório</small> 
+            }
+            }
+        </div>
+        }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Competências</span><span class="text-color-secondary"> (max. 1)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
@@ -119,7 +137,7 @@
             }
             }
         </div>
-        @if (this.disciplina.value?.includes('Língua Portuguesa') || this.disciplina.value?.includes('Matemática')){
+        @if (!this.serieAno.value?.includes('Ensino Técnico') && (this.disciplina.value?.includes('Língua Portuguesa') || this.disciplina.value?.includes('Matemática'))){
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Competências da Recomposição da Aprendizagem</span><span
                 class="text-color-secondary"> (max. 1)</span>
@@ -146,13 +164,13 @@
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             @if (!(serieAno.valid && disciplina.valid)) {
             <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as habilidades!</span>
-            } @else if(!(!serieAno.value?.includes('Ensino Médio') && disciplina.value?.includes('Artes'))) {
+            } @else if(!(!serieAno.value?.includes('Ensino Médio') && !serieAno.value?.includes('Ensino Técnico') && disciplina.value?.includes('Artes'))) {
             <p-listbox id="lbHabilidades" formControlName="habilidade" [options]="habilidades" [checkbox]="true"
                 [filter]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
                 (onChange)="onChangeHabilidade($event)">
                 <ng-template let-item pTemplate="item">
-                    <div>{{ (!item.Codigo.includes('-') ? item.Codigo : '') + ' - ' + item.Habilidade }}</div>
+                    <div>{{ (!item.Codigo?.includes('-') ? (item.Codigo ?? '') : '') + ' - ' + item.Habilidade }}</div>
                 </ng-template>
             </p-listbox>
             @if (habilidade.invalid && (habilidade.dirty || habilidade.touched)) {
@@ -231,8 +249,8 @@
             }
         </div>
         }
-        @if(disciplina.value?.includes('Língua Portuguesa') ||
-        disciplina.value?.includes('Matemática')){
+        @if(!this.serieAno.value?.includes('Ensino Técnico') && (disciplina.value?.includes('Língua Portuguesa') ||
+        disciplina.value?.includes('Matemática'))){
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Habilidades da Recomposição da Aprendizagem</span><span
                 class="text-color-secondary"> (max. 3)</span>
@@ -283,7 +301,7 @@
             <small class="p-error">O campo é obrigatório</small>
             }
         </div>
-        @if(disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Matemática')) {
+        @if(!this.serieAno.value?.includes('Ensino Técnico') && (disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Matemática'))) {
             <div class="col-12 p-2">
                 <span class="text-xl font-semibold">Objetos de Conhecimento da Recomposição</span>
                 <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
@@ -315,7 +333,7 @@
                 }
             </div>
         </div>
-        @if(disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Matemática')) {
+        @if(!this.serieAno.value?.includes('Ensino Técnico') && (disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Matemática'))) {
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Caminho Metodológico da Recomposição de Aprendizagem</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
@@ -364,7 +382,7 @@
                     [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
                     (onChange)="onChangeCriterio($event)">
                     <ng-template let-item pTemplate="item">
-                        <div>{{ (!item.codigo.includes('-') ? item.codigo : '') + ' - ' + item.criterio }}</div>
+                        <div>{{ (!item.codigo?.includes('-') ? (item.codigo ?? '') : '') + ' - ' + item.criterio }}</div>
                     </ng-template>
                 </p-listbox>
                 @if (criteriosAvaliacao.invalid && (criteriosAvaliacao.dirty ||

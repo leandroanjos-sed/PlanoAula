@@ -7836,1720 +7836,2103 @@ export class HabilidadeUtil {
 
   public static habilidadesTecnicoAgricola = [
     {
+      codigo: -1,
       competencia: 1,
-      habilidade: 'Diferenciar os diversos tipos de agricultura',
+      Habilidade: 'Diferenciar os diversos tipos de agricultura',
     },
     {
+      codigo: -2,
       competencia: 1,
-      habilidade:
+      Habilidade:
         'Determinar e identificar as diferentes classes e perfis do solo',
     },
     {
+      codigo: -3,
       competencia: 1,
-      habilidade: 'Saber identificar as diferentes constituições do solo',
+      Habilidade: 'Saber identificar as diferentes constituições do solo',
     },
     {
+      codigo: -4,
       competencia: 1,
-      habilidade: 'Classificar os solos de acordo com sua aptidão e uso',
+      Habilidade: 'Classificar os solos de acordo com sua aptidão e uso',
     },
     {
+      codigo: -5,
       competencia: 1,
-      habilidade:
+      Habilidade:
         'Identificar os aparelhos climatológicos e seus usos na agricultura',
     },
     {
+      codigo: -6,
       competencia: 1,
-      habilidade: 'Compreender o ciclo hidrológico',
+      Habilidade: 'Compreender o ciclo hidrológico',
     },
     {
+      codigo: -7,
       competencia: 1,
-      habilidade: 'Entender a influência do clima na interação solo-planta',
+      Habilidade: 'Entender a influência do clima na interação solo-planta',
     },
     {
+      codigo: -8,
       competencia: 1,
-      habilidade:
+      Habilidade:
         'Determinar e inter-relacionar as características físicas, químicas e biológicas do solo',
     },
     {
+      codigo: -9,
       competencia: 1,
-      habilidade: 'Identificar as fontes de matéria orgânica',
+      Habilidade: 'Identificar as fontes de matéria orgânica',
     },
     {
+      codigo: -10,
       competencia: 1,
-      habilidade: 'Identificar os tipos de erosão e seus efeitos',
+      Habilidade: 'Identificar os tipos de erosão e seus efeitos',
     },
     {
+      codigo: -11,
       competencia: 1,
-      habilidade: 'Propor métodos e técnicas de conservação dos solos',
+      Habilidade: 'Propor métodos e técnicas de conservação dos solos',
     },
     {
+      codigo: -12,
       competencia: 1,
-      habilidade: 'Identificar as áreas para coleta de amostras de solo',
+      Habilidade: 'Identificar as áreas para coleta de amostras de solo',
     },
     {
+      codigo: -13,
       competencia: 1,
-      habilidade: 'Coletar amostras de solo',
+      Habilidade: 'Coletar amostras de solo',
     },
     {
+      codigo: -14,
       competencia: 1,
-      habilidade:
+      Habilidade:
         'Identificar os níveis de fertilidade do solo e as exigências das culturas',
     },
     {
+      codigo: -15,
       competencia: 1,
-      habilidade: 'Diferenciar e utilizar os tipos e formas de adubação',
+      Habilidade: 'Diferenciar e utilizar os tipos e formas de adubação',
     },
     {
+      codigo: -16,
       competencia: 1,
-      habilidade:
+      Habilidade:
         'Classificar os elementos em macronutrientes e micronutrientes',
     },
     {
+      codigo: -17,
       competencia: 1,
-      habilidade:
+      Habilidade:
         'Estabelecer a relação entre pH do solo e a disponibilidade de nutrientes para a planta',
     },
     {
+      codigo: -18,
       competencia: 1,
-      habilidade:
+      Habilidade:
         'Determinar e organizar programas de rotação, sucessão e consorciação de culturas',
     },
     {
+      codigo: -19,
       competencia: 1,
-      habilidade: 'Interpretar laudos de análise de solo',
+      Habilidade: 'Interpretar laudos de análise de solo',
     },
     {
+      codigo: -20,
       competencia: 1,
-      habilidade: 'Calcular a recomendação de correção e adubação',
+      Habilidade: 'Calcular a recomendação de correção e adubação',
     },
     {
+      codigo: -21,
       competencia: 2,
-      habilidade:
+      Habilidade:
         'Utilizar dados meteorológicos como parâmetro para elaboração de planos de cultivo',
     },
     {
+      codigo: -22,
       competencia: 2,
-      habilidade:
+      Habilidade:
         'Fazer cronogramas de cultivos baseados no zoneamento agrícola',
     },
     {
+      codigo: -23,
       competencia: 2,
-      habilidade:
+      Habilidade:
         'Identificar e relacionar o estádio fenológico das plantas com as técnicas de manejo',
     },
     {
+      codigo: -24,
       competencia: 2,
-      habilidade: 'Determinar a distribuição espacial e a população de plantas',
+      Habilidade: 'Determinar a distribuição espacial e a população de plantas',
     },
     {
+      codigo: -25,
       competencia: 2,
-      habilidade:
+      Habilidade:
         'Utilizar os métodos de rotação, sucessão e consorciação de culturas',
     },
     {
+      codigo: -26,
       competencia: 2,
-      habilidade:
+      Habilidade:
         'Relacionar os estádios de desenvolvimento das plantas com o manejo de adubação',
     },
     {
+      codigo: -27,
       competencia: 2,
-      habilidade:
+      Habilidade:
         'Relacionar a ocorrência de doenças, pragas e plantas invasoras com o estádio fenológico das plantas, associados aos fatores ambientais',
     },
     {
+      codigo: -28,
       competencia: 2,
-      habilidade: 'Identificar sintomas de deficiência nutricional',
+      Habilidade: 'Identificar sintomas de deficiência nutricional',
     },
     {
+      codigo: -29,
       competencia: 2,
-      habilidade: 'Calcular e aplicar a adubação necessária para cada cultura',
+      Habilidade: 'Calcular e aplicar a adubação necessária para cada cultura',
     },
     {
+      codigo: -30,
       competencia: 2,
-      habilidade: 'Utilizar práticas de cobertura do solo',
+      Habilidade: 'Utilizar práticas de cobertura do solo',
     },
     {
+      codigo: -31,
       competencia: 2,
-      habilidade: 'Identificar o ponto de colheita das diversas culturas',
+      Habilidade: 'Identificar o ponto de colheita das diversas culturas',
     },
     {
+      codigo: -32,
       competencia: 2,
-      habilidade: 'Recomendar o escalonamento de semeadura e colheita',
+      Habilidade: 'Recomendar o escalonamento de semeadura e colheita',
     },
     {
+      codigo: -33,
       competencia: 2,
-      habilidade: 'Identificar os fatores que afetam o processo de colheita',
+      Habilidade: 'Identificar os fatores que afetam o processo de colheita',
     },
     {
+      codigo: -34,
       competencia: 2,
-      habilidade:
+      Habilidade:
         'Recomendar técnicas de secagem, armazenamento e comercialização dos produtos',
     },
     {
+      codigo: -35,
       competencia: 3,
-      habilidade: 'Identificar a origem e a evolução das espécies olerícolas',
+      Habilidade: 'Identificar a origem e a evolução das espécies olerícolas',
     },
     {
+      codigo: -36,
       competencia: 3,
-      habilidade: 'Entender os efeitos dos fatores climáticos nas plantas',
+      Habilidade: 'Entender os efeitos dos fatores climáticos nas plantas',
     },
     {
+      codigo: -37,
       competencia: 3,
-      habilidade: 'Coletar, registrar e utilizar dados meteorológicos',
+      Habilidade: 'Coletar, registrar e utilizar dados meteorológicos',
     },
     {
+      codigo: -38,
       competencia: 3,
-      habilidade: 'Elaborar e executar cronograma de cultivo e manejo cultural',
+      Habilidade: 'Elaborar e executar cronograma de cultivo e manejo cultural',
     },
     {
+      codigo: -39,
       competencia: 3,
-      habilidade:
+      Habilidade:
         'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento da planta',
     },
     {
+      codigo: -40,
       competencia: 3,
-      habilidade: 'Identificar as principais funções reprodutivas das plantas',
+      Habilidade: 'Identificar as principais funções reprodutivas das plantas',
     },
     {
+      codigo: -41,
       competencia: 3,
-      habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
+      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
     },
     {
+      codigo: -42,
       competencia: 3,
-      habilidade: 'Instalar, monitorar e manejar ambientes protegidos',
+      Habilidade: 'Instalar, monitorar e manejar ambientes protegidos',
     },
     {
+      codigo: -43,
       competencia: 3,
-      habilidade: 'Manejar sistemas de produção hidropônicos',
+      Habilidade: 'Manejar sistemas de produção hidropônicos',
     },
     {
+      codigo: -44,
       competencia: 3,
-      habilidade: 'Produzir mudas olerícolas',
+      Habilidade: 'Produzir mudas olerícolas',
     },
     {
+      codigo: -45,
       competencia: 3,
-      habilidade:
+      Habilidade:
         'Identificar porcentagem de germinação e determinar quantidade de semente, espaçamento e profundidade de plantio',
     },
     {
+      codigo: -46,
       competencia: 3,
-      habilidade: 'Realizar tratos culturais nas plantas',
+      Habilidade: 'Realizar tratos culturais nas plantas',
     },
     {
+      codigo: -47,
       competencia: 3,
-      habilidade:
+      Habilidade:
         'Fazer o reconhecimento de plantas invasoras, pragas e doenças',
     },
     {
+      codigo: -48,
       competencia: 3,
-      habilidade:
+      Habilidade:
         'Utilizar informações sobre os fatores climáticos no manejo de pragas, doenças e plantas invasoras',
     },
     {
+      codigo: -49,
       competencia: 3,
-      habilidade:
+      Habilidade:
         'Utilizar os métodos integrados de prevenção e controle de pragas, doenças e plantas invasoras',
     },
     {
+      codigo: -50,
       competencia: 3,
-      habilidade: 'Identificar o ponto de colheita',
+      Habilidade: 'Identificar o ponto de colheita',
     },
     {
+      codigo: -51,
       competencia: 3,
-      habilidade: 'Orientar e acompanhar a colheita',
+      Habilidade: 'Orientar e acompanhar a colheita',
     },
     {
+      codigo: -52,
       competencia: 3,
-      habilidade: 'Fazer seleção, classificação e padronização da produção',
+      Habilidade: 'Fazer seleção, classificação e padronização da produção',
     },
     {
+      codigo: -53,
       competencia: 3,
-      habilidade: 'Aplicar as técnicas de amadurecimento',
+      Habilidade: 'Aplicar as técnicas de amadurecimento',
     },
     {
+      codigo: -54,
       competencia: 3,
-      habilidade:
+      Habilidade:
         'Aplicar as técnicas de embalagem e rotulagem para os diversos produtos',
     },
     {
+      codigo: -55,
       competencia: 3,
-      habilidade: 'Definir os canais de comercialização',
+      Habilidade: 'Definir os canais de comercialização',
     },
     {
+      codigo: -56,
       competencia: 4,
-      habilidade: 'Identificar a origem e a evolução das espécies frutíferas',
+      Habilidade: 'Identificar a origem e a evolução das espécies frutíferas',
     },
     {
+      codigo: -57,
       competencia: 4,
-      habilidade: 'Identificar os efeitos dos fatores climáticos nas plantas',
+      Habilidade: 'Identificar os efeitos dos fatores climáticos nas plantas',
     },
     {
+      codigo: -58,
       competencia: 4,
-      habilidade: 'Executar cronograma de cultivo e manejo cultural',
+      Habilidade: 'Executar cronograma de cultivo e manejo cultural',
     },
     {
+      codigo: -59,
       competencia: 4,
-      habilidade: 'Implantar culturas intercalares',
+      Habilidade: 'Implantar culturas intercalares',
     },
     {
+      codigo: -60,
       competencia: 4,
-      habilidade:
+      Habilidade:
         'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento da planta',
     },
     {
+      codigo: -61,
       competencia: 4,
-      habilidade:
+      Habilidade:
         'Identificar e monitorar as principais funções reprodutivas das plantas',
     },
     {
+      codigo: -62,
       competencia: 4,
-      habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
+      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
     },
     {
+      codigo: -63,
       competencia: 4,
-      habilidade: 'Utilizar técnicas de quebra de dormência',
+      Habilidade: 'Utilizar técnicas de quebra de dormência',
     },
     {
+      codigo: -64,
       competencia: 4,
-      habilidade: 'Identificar e realizar tratos culturais',
+      Habilidade: 'Identificar e realizar tratos culturais',
     },
     {
+      codigo: -65,
       competencia: 4,
-      habilidade: 'Utilizar técnicas de condução de plantas frutíferas',
+      Habilidade: 'Utilizar técnicas de condução de plantas frutíferas',
     },
     {
+      codigo: -66,
       competencia: 4,
-      habilidade:
+      Habilidade:
         'Utilizar os diferentes tipos de podas nas plantas frutíferas',
     },
     {
+      codigo: -67,
       competencia: 4,
-      habilidade:
+      Habilidade:
         'Fazer o reconhecimento de plantas invasoras, pragas e doenças',
     },
     {
+      codigo: -68,
       competencia: 4,
-      habilidade:
+      Habilidade:
         'Utilizar informações sobre os fatores climáticos no manejo de pragas, doenças e plantas invasoras',
     },
     {
+      codigo: -69,
       competencia: 4,
-      habilidade:
+      Habilidade:
         'Utilizar os métodos integrados de prevenção e controle de pragas, doenças e plantas invasoras',
     },
     {
+      codigo: -70,
       competencia: 4,
-      habilidade:
+      Habilidade:
         'Identificar o ponto de colheita por meio de diferentes métodos',
     },
     {
+      codigo: -71,
       competencia: 4,
-      habilidade: 'Fazer a seleção e padronização da produção',
+      Habilidade: 'Fazer a seleção e padronização da produção',
     },
     {
+      codigo: -72,
       competencia: 4,
-      habilidade: 'Aplicar as técnicas de amadurecimento',
+      Habilidade: 'Aplicar as técnicas de amadurecimento',
     },
     {
+      codigo: -73,
       competencia: 4,
-      habilidade:
+      Habilidade:
         'Utilizar as técnicas de classificação, embalagem e rotulagem para os diversos produtos',
     },
     {
+      codigo: -74,
       competencia: 4,
-      habilidade:
+      Habilidade:
         'Orientar e acompanhar a colheita, o armazenamento e o beneficiamento',
     },
     {
+      codigo: -75,
       competencia: 4,
-      habilidade: 'Cumprir a legislação vigente',
+      Habilidade: 'Cumprir a legislação vigente',
     },
     {
+      codigo: -76,
       competencia: 5,
-      habilidade:
+      Habilidade:
         'Identificar o objetivo e a importância do projeto paisagístico',
     },
     {
+      codigo: -77,
       competencia: 5,
-      habilidade: 'Dimensionar os espaços a serem ocupados no jardim',
+      Habilidade: 'Dimensionar os espaços a serem ocupados no jardim',
     },
     {
+      codigo: -78,
       competencia: 5,
-      habilidade: 'Distinguir os tipos e estilos de jardins',
+      Habilidade: 'Distinguir os tipos e estilos de jardins',
     },
     {
+      codigo: -79,
       competencia: 5,
-      habilidade: 'Identificar as características da vegetação',
+      Habilidade: 'Identificar as características da vegetação',
     },
     {
+      codigo: -80,
       competencia: 5,
-      habilidade:
+      Habilidade:
         'Interpretar o calendário de plantio e florescimento das espécies',
     },
     {
+      codigo: -81,
       competencia: 5,
-      habilidade:
+      Habilidade:
         'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento das espécies ornamentais',
     },
     {
+      codigo: -82,
       competencia: 5,
-      habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
+      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
     },
     {
+      codigo: -83,
       competencia: 5,
-      habilidade: 'Identificar pragas, doenças e plantas invasoras',
+      Habilidade: 'Identificar pragas, doenças e plantas invasoras',
     },
     {
+      codigo: -84,
       competencia: 5,
-      habilidade:
+      Habilidade:
         'Utilizar métodos integrados de prevenção e controle de plantas invasoras, pragas e doenças',
     },
     {
+      codigo: -85,
       competencia: 5,
-      habilidade:
+      Habilidade:
         'Identificar e utilizar as técnicas de repicagem e transplante',
     },
     {
+      codigo: -86,
       competencia: 5,
-      habilidade: 'Planejar, implantar e monitorar projetos paisagísticos',
+      Habilidade: 'Planejar, implantar e monitorar projetos paisagísticos',
     },
     {
+      codigo: -87,
       competencia: 5,
-      habilidade: 'Executar cronograma de cultivo e manejo cultural',
+      Habilidade: 'Executar cronograma de cultivo e manejo cultural',
     },
     {
+      codigo: -88,
       competencia: 5,
-      habilidade: 'Realizar tratos culturais para a manutenção das espécies',
+      Habilidade: 'Realizar tratos culturais para a manutenção das espécies',
     },
     {
+      codigo: -89,
       competencia: 5,
-      habilidade: 'Cumprir a legislação vigente',
+      Habilidade: 'Cumprir a legislação vigente',
     },
     {
+      codigo: -90,
       competencia: 6,
-      habilidade: 'Interpretar o histórico e a divisão da silvicultura',
+      Habilidade: 'Interpretar o histórico e a divisão da silvicultura',
     },
     {
+      codigo: -91,
       competencia: 6,
-      habilidade:
+      Habilidade:
         'Reconhecer a finalidade da silvicultura e sua importância econômica',
     },
     {
+      codigo: -92,
       competencia: 6,
-      habilidade: 'Distinguir os tipos de florestas e suas funções',
+      Habilidade: 'Distinguir os tipos de florestas e suas funções',
     },
     {
+      codigo: -93,
       competencia: 6,
-      habilidade:
+      Habilidade:
         'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento das espécies',
     },
     {
+      codigo: -94,
       competencia: 6,
-      habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
+      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
     },
     {
+      codigo: -95,
       competencia: 6,
-      habilidade: 'Coletar sementes, mudas e estruturas propagativas',
+      Habilidade: 'Coletar sementes, mudas e estruturas propagativas',
     },
     {
+      codigo: -96,
       competencia: 6,
-      habilidade: 'Utilizar técnicas de quebra de dormência',
+      Habilidade: 'Utilizar técnicas de quebra de dormência',
     },
     {
+      codigo: -97,
       competencia: 6,
-      habilidade:
+      Habilidade:
         'Identificar porcentagem de germinação e determinar a necessidade de semente e profundidade de plantio',
     },
     {
+      codigo: -98,
       competencia: 6,
-      habilidade: 'Realizar repicagem e transplante',
+      Habilidade: 'Realizar repicagem e transplante',
     },
     {
+      codigo: -99,
       competencia: 6,
-      habilidade:
+      Habilidade:
         'Utilizar métodos integrados de prevenção e controle de pragas, doenças e plantas invasoras',
     },
     {
+      codigo: -100,
       competencia: 6,
-      habilidade:
+      Habilidade:
         'Identificar os sistemas de produção e suas técnicas de manejo',
     },
     {
+      codigo: -101,
       competencia: 6,
-      habilidade: 'Avaliar as áreas para a implantação de florestas',
+      Habilidade: 'Avaliar as áreas para a implantação de florestas',
     },
     {
+      codigo: -102,
       competencia: 6,
-      habilidade: 'Planejar, implantar e monitorar projetos florestais',
+      Habilidade: 'Planejar, implantar e monitorar projetos florestais',
     },
     {
+      codigo: -103,
       competencia: 6,
-      habilidade:
+      Habilidade:
         'Executar cronograma de implantação, cultivo e manejo cultural',
     },
     {
+      codigo: -104,
       competencia: 6,
-      habilidade: 'Planejar e dimensionar o desbaste e a colheita florestal',
+      Habilidade: 'Planejar e dimensionar o desbaste e a colheita florestal',
     },
     {
+      codigo: -105,
       competencia: 6,
-      habilidade: 'Cumprir a legislação vigente',
+      Habilidade: 'Cumprir a legislação vigente',
     },
     {
+      codigo: -106,
       competencia: 7,
-      habilidade: 'Identificar os tipos de viveiros',
+      Habilidade: 'Identificar os tipos de viveiros',
     },
     {
+      codigo: -107,
       competencia: 7,
-      habilidade: 'Manejar os diferentes sistemas de produção de mudas',
+      Habilidade: 'Manejar os diferentes sistemas de produção de mudas',
     },
     {
+      codigo: -108,
       competencia: 7,
-      habilidade:
+      Habilidade:
         'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento das mudas',
     },
     {
+      codigo: -109,
       competencia: 7,
-      habilidade: 'Planejar e implantar viveiros de acordo com cada espécie',
+      Habilidade: 'Planejar e implantar viveiros de acordo com cada espécie',
     },
     {
+      codigo: -110,
       competencia: 7,
-      habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
+      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
     },
     {
+      codigo: -111,
       competencia: 7,
-      habilidade: 'Produzir mudas',
+      Habilidade: 'Produzir mudas',
     },
     {
+      codigo: -112,
       competencia: 7,
-      habilidade: 'Utilizar técnicas de quebra de dormência',
+      Habilidade: 'Utilizar técnicas de quebra de dormência',
     },
     {
+      codigo: -113,
       competencia: 7,
-      habilidade:
+      Habilidade:
         'Calcular porcentagem de germinação, necessidade de semente e profundidade de plantio',
     },
     {
+      codigo: -114,
       competencia: 7,
-      habilidade:
+      Habilidade:
         'Utilizar métodos integrados de prevenção e de controle de pragas e doenças',
     },
     {
+      codigo: -115,
       competencia: 7,
-      habilidade: 'Identificar o ponto de transplante',
+      Habilidade: 'Identificar o ponto de transplante',
     },
     {
+      codigo: -116,
       competencia: 7,
-      habilidade: 'Fazer a seleção, padronização e comercialização das mudas',
+      Habilidade: 'Fazer a seleção, padronização e comercialização das mudas',
     },
     {
+      codigo: -117,
       competencia: 7,
-      habilidade: 'Adotar as normas de certificação de mudas',
+      Habilidade: 'Adotar as normas de certificação de mudas',
     },
     {
+      codigo: -118,
       competencia: 7,
-      habilidade:
+      Habilidade:
         'Cumprir a legislação vigente para implantação e operação de viveiros',
     },
     {
+      codigo: -119,
       competencia: 7,
-      habilidade: 'Definir os canais de comercialização',
+      Habilidade: 'Definir os canais de comercialização',
     },
     {
+      codigo: -120,
       competencia: 8,
-      habilidade:
+      Habilidade:
         'Prestar assistência técnica na compra, venda e utilização de produtos e equipamentos especializados',
     },
     {
+      codigo: -121,
       competencia: 8,
-      habilidade:
+      Habilidade:
         'Coletar e acondicionar amostra de material vegetal para avaliação técnica',
     },
     {
+      codigo: -122,
       competencia: 8,
-      habilidade: 'Diagnosticar pragas e doenças',
+      Habilidade: 'Diagnosticar pragas e doenças',
     },
     {
+      codigo: -123,
       competencia: 8,
-      habilidade: 'Identificar plantas invasoras',
+      Habilidade: 'Identificar plantas invasoras',
     },
     {
+      codigo: -124,
       competencia: 8,
-      habilidade:
+      Habilidade:
         'Conhecer, classificar e utilizar produtos agrotóxicos e afins',
     },
     {
+      codigo: -125,
       competencia: 8,
-      habilidade:
+      Habilidade:
         'Conhecer e elaborar a receita específica para cada cultura e problema de acordo com legislação vigente',
     },
     {
+      codigo: -126,
       competencia: 8,
-      habilidade:
+      Habilidade:
         'Interpretar a simbologia pertinente de bulas, rótulos, embalagens, armazenagem e transporte dos agrotóxicos e afins',
     },
     {
+      codigo: -127,
       competencia: 8,
-      habilidade: 'Utilizar a tecnologia de aplicação dos agrotóxicos e afins',
+      Habilidade: 'Utilizar a tecnologia de aplicação dos agrotóxicos e afins',
     },
     {
+      codigo: -128,
       competencia: 8,
-      habilidade:
+      Habilidade:
         'Responsabilizar-se pela elaboração da Anotação de Responsabilidade Técnica (ART) específica',
     },
     {
+      codigo: -129,
       competencia: 8,
-      habilidade:
+      Habilidade:
         'Realizar a assistência técnica e o acompanhamento na aplicação de agrotóxicos e afins',
     },
     {
+      codigo: -130,
       competencia: 8,
-      habilidade:
+      Habilidade:
         'Conhecer e utilizar o manejo integrado de pragas, doenças e plantas invasoras',
     },
     {
+      codigo: -131,
       competencia: 8,
-      habilidade: 'Cumprir a legislação vigente',
+      Habilidade: 'Cumprir a legislação vigente',
     },
     {
+      codigo: -132,
       competencia: 9,
-      habilidade: 'Coletar, registrar e utilizar dados meteorológicos',
+      Habilidade: 'Coletar, registrar e utilizar dados meteorológicos',
     },
     {
+      codigo: -133,
       competencia: 9,
-      habilidade: 'Descrever os efeitos agroclimáticos nas forrageiras',
+      Habilidade: 'Descrever os efeitos agroclimáticos nas forrageiras',
     },
     {
+      codigo: -134,
       competencia: 9,
-      habilidade: 'Executar cronogramas de cultivo',
+      Habilidade: 'Executar cronogramas de cultivo',
     },
     {
+      codigo: -135,
       competencia: 9,
-      habilidade: 'Realizar o manejo das pastagens',
+      Habilidade: 'Realizar o manejo das pastagens',
     },
     {
+      codigo: -136,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Utilizar práticas de otimização dos fatores climáticos relacionados ao crescimento e ao desenvolvimento em cultivo único ou em consorciação',
     },
     {
+      codigo: -137,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Identificar e monitorar as principais funções reprodutivas das plantas forrageiras',
     },
     {
+      codigo: -138,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Discriminar a morfologia e fisiologia das plantas forrageiras',
     },
     {
+      codigo: -139,
       competencia: 9,
-      habilidade: 'Utilizar a tecnologia de sementes',
+      Habilidade: 'Utilizar a tecnologia de sementes',
     },
     {
+      codigo: -140,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Relacionar as etapas do processo de absorção e translocação de nutrientes',
     },
     {
+      codigo: -141,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Determinar a porcentagem de germinação, quantidade de sementes ou mudas, espaçamento e profundidade de plantio',
     },
     {
+      codigo: -142,
       competencia: 9,
-      habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
+      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
     },
     {
+      codigo: -143,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Realizar a identificação de plantas invasoras, pragas e doenças',
     },
     {
+      codigo: -144,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Coletar e encaminhar amostras de pragas, plantas doentes e plantas invasoras',
     },
     {
+      codigo: -145,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Usar métodos práticos e de laboratório para identificação e diferenciação de pragas e doenças',
     },
     {
+      codigo: -146,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Utilizar informações sobre os fatores agroclimáticos no manejo de pragas, doenças, plantas invasoras e tóxicas',
     },
     {
+      codigo: -147,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Utilizar os métodos integrados de prevenção e controle de pragas, doenças, plantas invasoras e tóxicas',
     },
     {
+      codigo: -148,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Determinar o ponto de corte, rebrote, processamento, transporte e estocagem da forrageira',
     },
     {
+      codigo: -149,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Aplicar os processos de fermentação e transformação da massa, avaliando a qualidade das forrageiras armazenadas',
     },
     {
+      codigo: -150,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Aplicar as técnicas de conservação das forrageiras, fazendo a manutenção dos armazéns e dos tipos de silos',
     },
     {
+      codigo: -151,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Dimensionar equipamentos e métodos no processo de conservação das forrageiras, minimizando as perdas',
     },
     {
+      codigo: -152,
       competencia: 9,
-      habilidade: 'Quantificar as forragens a serem armazenadas',
+      Habilidade: 'Quantificar as forragens a serem armazenadas',
     },
     {
+      codigo: -153,
       competencia: 9,
-      habilidade:
+      Habilidade:
         'Avaliar e interpretar a composição bromatológica das forrageiras',
     },
     {
+      codigo: -154,
       competencia: 10,
-      habilidade:
+      Habilidade:
         'Reconhecer e classificar as espécies conforme suas funções e agrupamentos',
     },
     {
+      codigo: -155,
       competencia: 10,
-      habilidade: 'Selecionar animais para melhoramento genético',
+      Habilidade: 'Selecionar animais para melhoramento genético',
     },
     {
+      codigo: -156,
       competencia: 10,
-      habilidade: 'Acompanhar cruzamentos nas diversas espécies',
+      Habilidade: 'Acompanhar cruzamentos nas diversas espécies',
     },
     {
+      codigo: -157,
       competencia: 10,
-      habilidade: 'Avaliar resultados obtidos no melhoramento genético',
+      Habilidade: 'Avaliar resultados obtidos no melhoramento genético',
     },
     {
+      codigo: -158,
       competencia: 10,
-      habilidade: 'Aplicar processos produtivos e técnicos nos criatórios',
+      Habilidade: 'Aplicar processos produtivos e técnicos nos criatórios',
     },
     {
+      codigo: -159,
       competencia: 10,
-      habilidade:
+      Habilidade:
         'Aplicar os padrões de ambiência e bem-estar animal de acordo com cada espécie',
     },
     {
+      codigo: -160,
       competencia: 10,
-      habilidade:
+      Habilidade:
         'Entender e utilizar as características fisiológicas e morfológicas dos animais',
     },
     {
+      codigo: -161,
       competencia: 10,
-      habilidade:
+      Habilidade:
         'Determinar as exigências nutricionais e adequar o manejo alimentar de acordo com cada espécie',
     },
     {
+      codigo: -162,
       competencia: 10,
-      habilidade:
+      Habilidade:
         'Aplicar os métodos de defesa sanitária animal de acordo com a legislação vigente',
     },
     {
+      codigo: -163,
       competencia: 11,
-      habilidade:
+      Habilidade:
         'Manejar os sistemas de produção animal em todas suas fases e habitat',
     },
     {
+      codigo: -164,
       competencia: 11,
-      habilidade: 'Avaliar índices zootécnicos',
+      Habilidade: 'Avaliar índices zootécnicos',
     },
     {
+      codigo: -165,
       competencia: 11,
-      habilidade: 'Aplicar métodos de melhoramento genético',
+      Habilidade: 'Aplicar métodos de melhoramento genético',
     },
     {
+      codigo: -166,
       competencia: 11,
-      habilidade: 'Selecionar machos e fêmeas para a reprodução',
+      Habilidade: 'Selecionar machos e fêmeas para a reprodução',
     },
     {
+      codigo: -167,
       competencia: 11,
-      habilidade:
+      Habilidade:
         'Manusear materiais e equipamentos utilizados nos sistemas de produção',
     },
     {
+      codigo: -168,
       competencia: 11,
-      habilidade: 'Avaliar a composição das rações e as formas de arraçoamento',
+      Habilidade: 'Avaliar a composição das rações e as formas de arraçoamento',
     },
     {
+      codigo: -169,
       competencia: 11,
-      habilidade: 'Diagnosticar as deficiências nutricionais',
+      Habilidade: 'Diagnosticar as deficiências nutricionais',
     },
     {
+      codigo: -170,
       competencia: 11,
-      habilidade:
+      Habilidade:
         'Executar e acompanhar métodos de profilaxia e tratamento de doenças',
     },
     {
+      codigo: -171,
       competencia: 11,
-      habilidade:
+      Habilidade:
         'Aplicar normas profiláticas, higiênicas e sanitárias de produção',
     },
     {
+      codigo: -172,
       competencia: 11,
-      habilidade: 'Fazer coleta de material para análise laboratorial',
+      Habilidade: 'Fazer coleta de material para análise laboratorial',
     },
     {
+      codigo: -173,
       competencia: 11,
-      habilidade:
+      Habilidade:
         'Diferenciar os sintomas das principais doenças patológicas, parasitárias, tóxicas e desordens metabólicas',
     },
     {
+      codigo: -174,
       competencia: 11,
-      habilidade:
+      Habilidade:
         'Utilizar vias e métodos de aplicação de vacinas e medicamentos',
     },
     {
+      codigo: -175,
       competencia: 11,
-      habilidade: 'Destinar adequadamente os resíduos do processo de criação',
+      Habilidade: 'Destinar adequadamente os resíduos do processo de criação',
     },
     {
+      codigo: -176,
       competencia: 12,
-      habilidade:
+      Habilidade:
         'Identificar e definir as características das principais espécies e raças e suas aptidões',
     },
     {
+      codigo: -177,
       competencia: 12,
-      habilidade: 'Manejar diferentes sistemas de criação',
+      Habilidade: 'Manejar diferentes sistemas de criação',
     },
     {
+      codigo: -178,
       competencia: 12,
-      habilidade: 'Preparar animais para exposição',
+      Habilidade: 'Preparar animais para exposição',
     },
     {
+      codigo: -179,
       competencia: 12,
-      habilidade: 'Operar e higienizar os sistemas de ordenha',
+      Habilidade: 'Operar e higienizar os sistemas de ordenha',
     },
     {
+      codigo: -180,
       competencia: 12,
-      habilidade: 'Selecionar e manejar machos e fêmeas para a reprodução',
+      Habilidade: 'Selecionar e manejar machos e fêmeas para a reprodução',
     },
     {
+      codigo: -181,
       competencia: 12,
-      habilidade:
+      Habilidade:
         'Identificar e observar as manifestações fisiológicas da fêmea no cio',
     },
     {
+      codigo: -182,
       competencia: 12,
-      habilidade:
+      Habilidade:
         'Manusear materiais e equipamentos utilizados no sistema de reprodução',
     },
     {
+      codigo: -183,
       competencia: 12,
-      habilidade: 'Executar atividades de reprodução natural e artificial',
+      Habilidade: 'Executar atividades de reprodução natural e artificial',
     },
     {
+      codigo: -184,
       competencia: 12,
-      habilidade: 'Aplicar métodos de melhoramento genético',
+      Habilidade: 'Aplicar métodos de melhoramento genético',
     },
     {
+      codigo: -185,
       competencia: 12,
-      habilidade: 'Avaliar a performance animal',
+      Habilidade: 'Avaliar a performance animal',
     },
     {
+      codigo: -186,
       competencia: 12,
-      habilidade: 'Classificar os concentrados e volumosos',
+      Habilidade: 'Classificar os concentrados e volumosos',
     },
     {
+      codigo: -187,
       competencia: 12,
-      habilidade: 'Especificar funções nutricionais dos alimentos',
+      Habilidade: 'Especificar funções nutricionais dos alimentos',
     },
     {
+      codigo: -188,
       competencia: 12,
-      habilidade:
+      Habilidade:
         'Utilizar tabelas de composições químicas e valores nutricionais dos alimentos nas diferentes fases de criação',
     },
     {
+      codigo: -189,
       competencia: 12,
-      habilidade: 'Formular, preparar e fazer o arraçoamento',
+      Habilidade: 'Formular, preparar e fazer o arraçoamento',
     },
     {
+      codigo: -190,
       competencia: 12,
-      habilidade: 'Utilizar métodos de conservação de alimentos',
+      Habilidade: 'Utilizar métodos de conservação de alimentos',
     },
     {
+      codigo: -191,
       competencia: 12,
-      habilidade:
+      Habilidade:
         'Especificar as funções dos constituintes do sistema digestório',
     },
     {
+      codigo: -192,
       competencia: 12,
-      habilidade: 'Diagnosticar as deficiências nutricionais',
+      Habilidade: 'Diagnosticar as deficiências nutricionais',
     },
     {
+      codigo: -193,
       competencia: 12,
-      habilidade: 'Executar tratamentos profiláticos e controle sanitário',
+      Habilidade: 'Executar tratamentos profiláticos e controle sanitário',
     },
     {
+      codigo: -194,
       competencia: 12,
-      habilidade: 'Fazer coleta de material para análise laboratorial',
+      Habilidade: 'Fazer coleta de material para análise laboratorial',
     },
     {
+      codigo: -195,
       competencia: 12,
-      habilidade:
+      Habilidade:
         'Utilizar vias e métodos de aplicação de vacinas e medicamentos',
     },
     {
+      codigo: -196,
       competencia: 12,
-      habilidade:
+      Habilidade:
         'Aplicar normas profiláticas, higiênicas e sanitárias de produção',
     },
     {
+      codigo: -197,
       competencia: 12,
-      habilidade:
+      Habilidade:
         'Identificar e diferenciar os sintomas das principais doenças',
     },
     {
+      codigo: -198,
       competencia: 12,
-      habilidade: 'Destinar adequadamente os resíduos do processo de criação',
+      Habilidade: 'Destinar adequadamente os resíduos do processo de criação',
     },
     {
+      codigo: -199,
       competencia: 12,
-      habilidade:
+      Habilidade:
         'Realizar a desinfecção, higiene e limpeza das instalações e equipamentos',
     },
     {
+      codigo: -200,
       competencia: 12,
-      habilidade: 'Cumprir as legislações vigentes',
+      Habilidade: 'Cumprir as legislações vigentes',
     },
     {
+      codigo: -201,
       competencia: 13,
-      habilidade:
+      Habilidade:
         'Identificar e definir as características das principais espécies, raças e suas aptidões',
     },
     {
+      codigo: -202,
       competencia: 13,
-      habilidade: 'Manejar diferentes sistemas de criação',
+      Habilidade: 'Manejar diferentes sistemas de criação',
     },
     {
+      codigo: -203,
       competencia: 13,
-      habilidade: 'Preparar animais para exposição',
+      Habilidade: 'Preparar animais para exposição',
     },
     {
+      codigo: -204,
       competencia: 13,
-      habilidade: 'Operar e higienizar os sistemas de ordenha',
+      Habilidade: 'Operar e higienizar os sistemas de ordenha',
     },
     {
+      codigo: -205,
       competencia: 13,
-      habilidade: 'Selecionar e manejar machos e fêmeas para a reprodução',
+      Habilidade: 'Selecionar e manejar machos e fêmeas para a reprodução',
     },
     {
+      codigo: -206,
       competencia: 13,
-      habilidade:
+      Habilidade:
         'Identificar e observar as manifestações fisiológicas da fêmea no ciclo estral',
     },
     {
+      codigo: -207,
       competencia: 13,
-      habilidade:
+      Habilidade:
         'Manusear materiais e equipamentos utilizados no sistema de reprodução',
     },
     {
+      codigo: -208,
       competencia: 13,
-      habilidade: 'Executar atividades de reprodução natural e artificial',
+      Habilidade: 'Executar atividades de reprodução natural e artificial',
     },
     {
+      codigo: -209,
       competencia: 13,
-      habilidade: 'Aplicar métodos de melhoramento genético',
+      Habilidade: 'Aplicar métodos de melhoramento genético',
     },
     {
+      codigo: -210,
       competencia: 13,
-      habilidade: 'Avaliar a performance animal',
+      Habilidade: 'Avaliar a performance animal',
     },
     {
+      codigo: -211,
       competencia: 13,
-      habilidade:
+      Habilidade:
         'Fazer o reconhecimento de aspectos anatômicos, fisiológicos e reprodutivos',
     },
     {
+      codigo: -212,
       competencia: 13,
-      habilidade:
+      Habilidade:
         'Utilizar dados de composições químicas e valores nutricionais dos alimentos',
     },
     {
+      codigo: -213,
       competencia: 13,
-      habilidade:
+      Habilidade:
         'Utilizar dados de exigências nutricionais para as diferentes fases de criação',
     },
     {
+      codigo: -214,
       competencia: 13,
-      habilidade: 'Formular, preparar e fazer o arraçoamento',
+      Habilidade: 'Formular, preparar e fazer o arraçoamento',
     },
     {
+      codigo: -215,
       competencia: 13,
-      habilidade: 'Utilizar métodos de conservação de alimentos',
+      Habilidade: 'Utilizar métodos de conservação de alimentos',
     },
     {
+      codigo: -216,
       competencia: 13,
-      habilidade: 'Entender a fisiologia do sistema digestivo',
+      Habilidade: 'Entender a fisiologia do sistema digestivo',
     },
     {
+      codigo: -217,
       competencia: 13,
-      habilidade: 'Diagnosticar as deficiências nutricionais',
+      Habilidade: 'Diagnosticar as deficiências nutricionais',
     },
     {
+      codigo: -218,
       competencia: 13,
-      habilidade: 'Executar tratamentos profiláticos e controle sanitário',
+      Habilidade: 'Executar tratamentos profiláticos e controle sanitário',
     },
     {
+      codigo: -219,
       competencia: 13,
-      habilidade: 'Coletar material para análise laboratorial',
+      Habilidade: 'Coletar material para análise laboratorial',
     },
     {
+      codigo: -220,
       competencia: 13,
-      habilidade:
+      Habilidade:
         'Identificar e diferenciar os sintomas das principais doenças e parasitas',
     },
     {
+      codigo: -221,
       competencia: 13,
-      habilidade:
+      Habilidade:
         'Utilizar vias e métodos de aplicação de vacinas e medicamentos',
     },
     {
+      codigo: -222,
       competencia: 13,
-      habilidade: 'Destinar adequadamente os resíduos do processo de criação',
+      Habilidade: 'Destinar adequadamente os resíduos do processo de criação',
     },
     {
+      codigo: -223,
       competencia: 13,
-      habilidade:
+      Habilidade:
         'Aplicar as normas ambientais e sanitárias conforme legislação vigente',
     },
     {
+      codigo: -224,
       competencia: 13,
-      habilidade:
+      Habilidade:
         'Realizar a desinfecção, higiene e limpeza das instalações e equipamentos',
     },
     {
+      codigo: -225,
       competencia: 14,
-      habilidade:
+      Habilidade:
         'Classificar as máquinas, equipamentos e ferramentas agrícolas de acordo com sua utilização',
     },
     {
+      codigo: -226,
       competencia: 14,
-      habilidade:
+      Habilidade:
         'Aplicar conceitos de grandezas físicas relevantes na mecanização agrícola',
     },
     {
+      codigo: -227,
       competencia: 14,
-      habilidade:
+      Habilidade:
         'Aplicar as unidades de medidas empregadas na mecanização agrícola',
     },
     {
+      codigo: -228,
       competencia: 14,
-      habilidade:
+      Habilidade:
         'Fazer e acompanhar a manutenção do sistema de arrefecimento, elétrico, transmissão, hidráulico, lubrificação, alimentação de ar e combustível',
     },
     {
+      codigo: -229,
       competencia: 14,
-      habilidade:
+      Habilidade:
         'Realizar a manutenção de implementos e ferramentas agrícolas',
     },
     {
+      codigo: -230,
       competencia: 14,
-      habilidade:
+      Habilidade:
         'Operar motores, tratores, implementos e ferramentas agrícolas',
     },
     {
+      codigo: -231,
       competencia: 14,
-      habilidade: 'Acoplar e regular implementos agrícolas',
+      Habilidade: 'Acoplar e regular implementos agrícolas',
     },
     {
+      codigo: -232,
       competencia: 14,
-      habilidade: 'Adequar a relação trator-implemento agrícola',
+      Habilidade: 'Adequar a relação trator-implemento agrícola',
     },
     {
+      codigo: -233,
       competencia: 14,
-      habilidade:
+      Habilidade:
         'Dimensionar o conjunto operacional de acordo com a necessidade',
     },
     {
+      codigo: -234,
       competencia: 14,
-      habilidade:
+      Habilidade:
         'Aplicar e orientar as normas de segurança no trabalho com máquinas, implementos e ferramentas agrícolas',
     },
     {
+      codigo: -235,
       competencia: 14,
-      habilidade: 'Aplicar a legislação vigente',
+      Habilidade: 'Aplicar a legislação vigente',
     },
     {
+      codigo: -236,
       competencia: 15,
-      habilidade: 'Identificar a importância da irrigação na produção vegetal',
+      Habilidade: 'Identificar a importância da irrigação na produção vegetal',
     },
     {
+      codigo: -237,
       competencia: 15,
-      habilidade: 'Relacionar e selecionar as fontes de água para irrigação',
+      Habilidade: 'Relacionar e selecionar as fontes de água para irrigação',
     },
     {
+      codigo: -238,
       competencia: 15,
-      habilidade:
+      Habilidade:
         'Entender a relação solo-água-planta-atmosfera e os sistemas de irrigação',
     },
     {
+      codigo: -239,
       competencia: 15,
-      habilidade: 'Identificar as necessidades hídricas de cada cultura',
+      Habilidade: 'Identificar as necessidades hídricas de cada cultura',
     },
     {
+      codigo: -240,
       competencia: 15,
-      habilidade: 'Aplicar fertilizantes e defensivos via irrigação',
+      Habilidade: 'Aplicar fertilizantes e defensivos via irrigação',
     },
     {
+      codigo: -241,
       competencia: 15,
-      habilidade: 'Desenvolver projetos de irrigação',
+      Habilidade: 'Desenvolver projetos de irrigação',
     },
     {
+      codigo: -242,
       competencia: 15,
-      habilidade: 'Identificar a necessidade de irrigação',
+      Habilidade: 'Identificar a necessidade de irrigação',
     },
     {
+      codigo: -243,
       competencia: 15,
-      habilidade: 'Coletar dados meteorológicos',
+      Habilidade: 'Coletar dados meteorológicos',
     },
     {
+      codigo: -244,
       competencia: 15,
-      habilidade:
+      Habilidade:
         'Utilizar dados meteorológicos para cálculos de lâmina de água',
     },
     {
+      codigo: -245,
       competencia: 15,
-      habilidade:
+      Habilidade:
         'Escolher o sistema mais adequado de irrigação de acordo com a cultura',
     },
     {
+      codigo: -246,
       competencia: 15,
-      habilidade: 'Manejar sistemas de irrigação',
+      Habilidade: 'Manejar sistemas de irrigação',
     },
     {
+      codigo: -247,
       competencia: 15,
-      habilidade: 'Determinar a necessidade de drenagem do solo',
+      Habilidade: 'Determinar a necessidade de drenagem do solo',
     },
     {
+      codigo: -248,
       competencia: 15,
-      habilidade: 'Escolher o sistema ou tipo de drenagem mais adequado',
+      Habilidade: 'Escolher o sistema ou tipo de drenagem mais adequado',
     },
     {
+      codigo: -249,
       competencia: 15,
-      habilidade: 'Desenvolver projetos de drenagem',
+      Habilidade: 'Desenvolver projetos de drenagem',
     },
     {
+      codigo: -250,
       competencia: 15,
-      habilidade: 'Aplicar a legislação vigente',
+      Habilidade: 'Aplicar a legislação vigente',
     },
     {
+      codigo: -251,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Identificar as necessidades de infraestrutura nas propriedades rurais',
     },
     {
+      codigo: -252,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Diferenciar e utilizar os principais materiais empregados em construções e instalações de benfeitorias rurais',
     },
     {
+      codigo: -253,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Diferenciar os tipos de concretos e argamassas e os traços utilizados',
     },
     {
+      codigo: -254,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Quantificar os tipos de materiais empregados em projetos de construções e instalações de benfeitorias rurais',
     },
     {
+      codigo: -255,
       competencia: 16,
-      habilidade: 'Dimensionar os diferentes tipos e estruturas de coberturas',
+      Habilidade: 'Dimensionar os diferentes tipos e estruturas de coberturas',
     },
     {
+      codigo: -256,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Identificar as necessidades de infraestrutura para cada atividade agropecuária',
     },
     {
+      codigo: -257,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Utilizar os parâmetros e índices técnicos para dimensionar as construções e instalações de benfeitorias rurais',
     },
     {
+      codigo: -258,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Elaborar, implantar e monitorar projetos de construções e instalações de benfeitorias rurais',
     },
     {
+      codigo: -259,
       competencia: 16,
-      habilidade: 'Montar cronograma de execução das obras',
+      Habilidade: 'Montar cronograma de execução das obras',
     },
     {
+      codigo: -260,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Realizar a avaliação e acompanhamento durante a implantação dos projetos de construções e instalações de benfeitorias rurais',
     },
     {
+      codigo: -261,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Identificar os diversos tipos de ambientes protegidos com os sistemas de isolamento',
     },
     {
+      codigo: -262,
       competencia: 16,
-      habilidade: 'Identificar os diferentes tipos de esquadrias',
+      Habilidade: 'Identificar os diferentes tipos de esquadrias',
     },
     {
+      codigo: -263,
       competencia: 16,
-      habilidade: 'Utilizar as diferentes fontes alternativas de energia',
+      Habilidade: 'Utilizar as diferentes fontes alternativas de energia',
     },
     {
+      codigo: -264,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Aplicar as Normas Brasileiras Revisadas (NBR), da Associação Brasileira de Normas Técnicas (ABNT), relacionadas ao desenho técnico',
     },
     {
+      codigo: -265,
       competencia: 16,
-      habilidade: 'Identificar e utilizar os instrumentos de desenho técnico',
+      Habilidade: 'Identificar e utilizar os instrumentos de desenho técnico',
     },
     {
+      codigo: -266,
       competencia: 16,
-      habilidade: 'Aplicar escalas',
+      Habilidade: 'Aplicar escalas',
     },
     {
+      codigo: -267,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Elaborar e executar projetos arquitetônicos de construções e benfeitorias rurais em planta baixa, corte transversal e longitudinal, fachada, cobertura, localização e situação',
     },
     {
+      codigo: -268,
       competencia: 16,
-      habilidade:
+      Habilidade:
         'Elaborar desenho de detalhes de construções e benfeitorias rurais',
     },
     {
+      codigo: -269,
       competencia: 16,
-      habilidade: 'Cumprir a legislação vigente',
+      Habilidade: 'Cumprir a legislação vigente',
     },
     {
+      codigo: -270,
       competencia: 17,
-      habilidade: 'Conceituar a Topografia e relacioná-la com outras ciências',
+      Habilidade: 'Conceituar a Topografia e relacioná-la com outras ciências',
     },
     {
+      codigo: -271,
       competencia: 17,
-      habilidade: 'Operar equipamentos topográficos',
+      Habilidade: 'Operar equipamentos topográficos',
     },
     {
+      codigo: -272,
       competencia: 17,
-      habilidade:
+      Habilidade:
         'Planejar e executar os levantamentos altimétricos, planimétricos e planialtimétricos',
     },
     {
+      codigo: -273,
       competencia: 17,
-      habilidade: 'Demarcar curvas de nível e desnível',
+      Habilidade: 'Demarcar curvas de nível e desnível',
     },
     {
+      codigo: -274,
       competencia: 17,
-      habilidade: 'Distinguir e converter unidades de medidas',
+      Habilidade: 'Distinguir e converter unidades de medidas',
     },
     {
+      codigo: -275,
       competencia: 17,
-      habilidade: 'Utilizar as simbologias apropriadas para topografia',
+      Habilidade: 'Utilizar as simbologias apropriadas para topografia',
     },
     {
+      codigo: -276,
       competencia: 17,
-      habilidade: 'Utilizar as escalas de acordo com a legislação vigente',
+      Habilidade: 'Utilizar as escalas de acordo com a legislação vigente',
     },
     {
+      codigo: -277,
       competencia: 17,
-      habilidade:
+      Habilidade:
         'Efetuar alinhamento, balizamento e transposição de obstáculos',
     },
     {
+      codigo: -278,
       competencia: 17,
-      habilidade:
+      Habilidade:
         'Fazer anotações em caderneta de campo determinando as coordenadas',
     },
     {
+      codigo: -279,
       competencia: 17,
-      habilidade: 'Executar práticas para a determinação de rumos e azimutes',
+      Habilidade: 'Executar práticas para a determinação de rumos e azimutes',
     },
     {
+      codigo: -280,
       competencia: 17,
-      habilidade: 'Fazer medições e cálculo de área',
+      Habilidade: 'Fazer medições e cálculo de área',
     },
     {
+      codigo: -281,
       competencia: 17,
-      habilidade: 'Realizar transferência de referências de nível',
+      Habilidade: 'Realizar transferência de referências de nível',
     },
     {
+      codigo: -282,
       competencia: 17,
-      habilidade: 'Fazer medida direta e indireta de distâncias e ângulos',
+      Habilidade: 'Fazer medida direta e indireta de distâncias e ângulos',
     },
     {
+      codigo: -283,
       competencia: 17,
-      habilidade:
+      Habilidade:
         'Realizar o desmembramento, parcelamento e incorporação de imóveis rurais',
     },
     {
+      codigo: -284,
       competencia: 17,
-      habilidade:
+      Habilidade:
         'Aplicar as Normas Brasileiras Revisadas (NBR), da Associação Brasileira de Normas Técnicas (ABNT), relacionadas ao desenho técnico',
     },
     {
+      codigo: -285,
       competencia: 17,
-      habilidade: 'Identificar e utilizar os instrumentos de desenho técnico',
+      Habilidade: 'Identificar e utilizar os instrumentos de desenho técnico',
     },
     {
+      codigo: -286,
       competencia: 17,
-      habilidade: 'Aplicar escalas',
+      Habilidade: 'Aplicar escalas',
     },
     {
+      codigo: -287,
       competencia: 17,
-      habilidade:
+      Habilidade:
         'Representar graficamente as áreas, curvas de nível, perfis longitudinais e transversais obtidos de levantamentos planimétricos e altimétricos',
     },
     {
+      codigo: -288,
       competencia: 17,
-      habilidade: 'Utilizar os programas de desenho técnico',
+      Habilidade: 'Utilizar os programas de desenho técnico',
     },
     {
+      codigo: -289,
       competencia: 17,
-      habilidade: 'Aplicar a legislação vigente',
+      Habilidade: 'Aplicar a legislação vigente',
     },
     {
+      codigo: -290,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Aplicar as legislações vigentes na produção de alimentos de origem animal e vegetal',
     },
     {
+      codigo: -291,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Indicar e utilizar o processo mais apropriado para higiene, limpeza e sanitização na agroindústria',
     },
     {
+      codigo: -292,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Manipular os alimentos de forma segura com bons hábitos de higiene e cuidados com a saúde',
     },
     {
+      codigo: -293,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Utilizar os métodos de controle de qualidade na produção agroindustrial',
     },
     {
+      codigo: -294,
       competencia: 18,
-      habilidade: 'Verificar a origem e a procedência da matéria-prima',
+      Habilidade: 'Verificar a origem e a procedência da matéria-prima',
     },
     {
+      codigo: -295,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Identificar as propriedades, características e condições da matéria-prima para a agroindústria',
     },
     {
+      codigo: -296,
       competencia: 18,
-      habilidade: 'Preparar a matéria-prima para a agroindústria',
+      Habilidade: 'Preparar a matéria-prima para a agroindústria',
     },
     {
+      codigo: -297,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Utilizar métodos de conservação e armazenamento da matéria-prima e dos produtos industrializados',
     },
     {
+      codigo: -298,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Identificar as causas das alterações físicas, químicas e microbiológicas da matéria-prima e dos produtos industrializados',
     },
     {
+      codigo: -299,
       competencia: 18,
-      habilidade: 'Identificar as impurezas e contaminações da matéria-prima',
+      Habilidade: 'Identificar as impurezas e contaminações da matéria-prima',
     },
     {
+      codigo: -300,
       competencia: 18,
-      habilidade: 'Utilizar subprodutos agroindustriais',
+      Habilidade: 'Utilizar subprodutos agroindustriais',
     },
     {
+      codigo: -301,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Utilizar os procedimentos de manutenção e operação de equipamentos',
     },
     {
+      codigo: -302,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Detectar e corrigir falhas no processo produtivo agroindustrial',
     },
     {
+      codigo: -303,
       competencia: 18,
-      habilidade: 'Utilizar a água como agente de limpeza e higienização',
+      Habilidade: 'Utilizar a água como agente de limpeza e higienização',
     },
     {
+      codigo: -304,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Compreender o processo que envolve o tratamento de efluentes e dos resíduos agroindustriais',
     },
     {
+      codigo: -305,
       competencia: 18,
-      habilidade: 'Cumprir a legislação vigente',
+      Habilidade: 'Cumprir a legislação vigente',
     },
     {
+      codigo: -306,
       competencia: 18,
-      habilidade: 'Identificar locais e definir canais de comercialização',
+      Habilidade: 'Identificar locais e definir canais de comercialização',
     },
     {
+      codigo: -307,
       competencia: 18,
-      habilidade: 'Agregar valor no processo de produção',
+      Habilidade: 'Agregar valor no processo de produção',
     },
     {
+      codigo: -308,
       competencia: 18,
-      habilidade:
+      Habilidade:
         'Utilizar meios apropriados para embalagem, armazenamento e transporte dos produtos industrializados',
     },
     {
+      codigo: -309,
       competencia: 19,
-      habilidade:
+      Habilidade:
         'Saber a história e evolução do sistema associativista, cooperativista e sindical',
     },
     {
+      codigo: -310,
       competencia: 19,
-      habilidade: 'Definir os tipos de associações e suas características',
+      Habilidade: 'Definir os tipos de associações e suas características',
     },
     {
+      codigo: -311,
       competencia: 19,
-      habilidade: 'Definir os ramos cooperativistas',
+      Habilidade: 'Definir os ramos cooperativistas',
     },
     {
+      codigo: -312,
       competencia: 19,
-      habilidade:
+      Habilidade:
         'Compreender os mecanismos de gestão e de atuação das associações',
     },
     {
+      codigo: -313,
       competencia: 19,
-      habilidade:
+      Habilidade:
         'Compreender os mecanismos de gestão e de atuação das cooperativas',
     },
     {
+      codigo: -314,
       competencia: 19,
-      habilidade: 'Compreender os mecanismos de gestão e de atuação sindical',
+      Habilidade: 'Compreender os mecanismos de gestão e de atuação sindical',
     },
     {
+      codigo: -315,
       competencia: 19,
-      habilidade:
+      Habilidade:
         'Encaminhar os procedimentos de constituição e de registro de associações, cooperativas e sindicatos',
     },
     {
+      codigo: -316,
       competencia: 19,
-      habilidade: 'Aplicar a legislação vigente',
+      Habilidade: 'Aplicar a legislação vigente',
     },
     {
+      codigo: -317,
       competencia: 19,
-      habilidade: 'Compreender a história e a evolução da extensão rural',
+      Habilidade: 'Compreender a história e a evolução da extensão rural',
     },
     {
+      codigo: -318,
       competencia: 19,
-      habilidade: 'Reconhecer os modelos da extensão rural',
+      Habilidade: 'Reconhecer os modelos da extensão rural',
     },
     {
+      codigo: -319,
       competencia: 19,
-      habilidade:
+      Habilidade:
         'Identificar a realidade social, cultural e política no meio rural',
     },
     {
+      codigo: -320,
       competencia: 19,
-      habilidade:
+      Habilidade:
         'Definir as necessidades regionais de assistência e extensão rural',
     },
     {
+      codigo: -321,
       competencia: 19,
-      habilidade: 'Coletar e compilar dados regionais',
+      Habilidade: 'Coletar e compilar dados regionais',
     },
     {
+      codigo: -322,
       competencia: 19,
-      habilidade:
+      Habilidade:
         'Definir e aplicar metodologias de extensão rural e assistência técnica',
     },
     {
+      codigo: -323,
       competencia: 20,
-      habilidade: 'Entender a evolução da administração e da economia rural',
+      Habilidade: 'Entender a evolução da administração e da economia rural',
     },
     {
+      codigo: -324,
       competencia: 20,
-      habilidade:
+      Habilidade:
         'Compreender a estrutura, organização e funcionamento do agronegócio',
     },
     {
+      codigo: -325,
       competencia: 20,
-      habilidade: 'Identificar e desenvolver a cultura empreendedora',
+      Habilidade: 'Identificar e desenvolver a cultura empreendedora',
     },
     {
+      codigo: -326,
       competencia: 20,
-      habilidade: 'Identificar as funções administrativas',
+      Habilidade: 'Identificar as funções administrativas',
     },
     {
+      codigo: -327,
       competencia: 20,
-      habilidade: 'Utilizar instrumentos para coleta e organização de dados',
+      Habilidade: 'Utilizar instrumentos para coleta e organização de dados',
     },
     {
+      codigo: -328,
       competencia: 20,
-      habilidade: 'Gerenciar receitas, despesas e investimentos',
+      Habilidade: 'Gerenciar receitas, despesas e investimentos',
     },
     {
+      codigo: -329,
       competencia: 20,
-      habilidade: 'Inventariar patrimônios rurais',
+      Habilidade: 'Inventariar patrimônios rurais',
     },
     {
+      codigo: -330,
       competencia: 20,
-      habilidade: 'Classificar o imóvel agrário',
+      Habilidade: 'Classificar o imóvel agrário',
     },
     {
+      codigo: -331,
       competencia: 20,
-      habilidade:
+      Habilidade:
         'Cumprir as obrigações tributárias utilizando o calendário fiscal',
     },
     {
+      codigo: -332,
       competencia: 20,
-      habilidade: 'Utilizar a informática no processo de produção e controle',
+      Habilidade: 'Utilizar a informática no processo de produção e controle',
     },
     {
+      codigo: -333,
       competencia: 20,
-      habilidade:
+      Habilidade:
         'Coletar e compilar os resultados de análise dos fatores econômicos e produtivos',
     },
     {
+      codigo: -334,
       competencia: 20,
-      habilidade: 'Acompanhar as tendências de mercado',
+      Habilidade: 'Acompanhar as tendências de mercado',
     },
     {
+      codigo: -335,
       competencia: 20,
-      habilidade:
+      Habilidade:
         'Identificar canais de comercialização e tipos de mercado no agronegócio',
     },
     {
+      codigo: -336,
       competencia: 20,
-      habilidade: 'Calcular os custos de produção',
+      Habilidade: 'Calcular os custos de produção',
     },
     {
+      codigo: -337,
       competencia: 20,
-      habilidade: 'Elaborar plano de negócios',
+      Habilidade: 'Elaborar plano de negócios',
     },
     {
+      codigo: -338,
       competencia: 20,
-      habilidade:
+      Habilidade:
         'Implantar, verificar e acompanhar os processos de produção e os programas de qualidade dos produtos agropecuários e agroindustriais',
     },
     {
+      codigo: -339,
       competencia: 20,
-      habilidade: 'Utilizar instrumentos de marketing',
+      Habilidade: 'Utilizar instrumentos de marketing',
     },
     {
+      codigo: -340,
       competencia: 20,
-      habilidade: 'Contabilizar as etapas do processo de produção',
+      Habilidade: 'Contabilizar as etapas do processo de produção',
     },
     {
+      codigo: -341,
       competencia: 20,
-      habilidade:
+      Habilidade:
         'Registrar a produtividade da mão de obra por atividade e dimensionar as despesas com pessoal',
     },
     {
+      codigo: -342,
       competencia: 20,
-      habilidade:
+      Habilidade:
         'Registrar e efetuar os custos com manutenção e conservação de máquinas, equipamentos, implementos e ferramentas',
     },
     {
+      codigo: -343,
       competencia: 20,
-      habilidade:
+      Habilidade:
         'Verificar e cumprir a legislação trabalhista e as normas de saúde e segurança no trabalho',
     },
     {
+      codigo: -344,
       competencia: 21,
-      habilidade:
+      Habilidade:
         'Coletar, compilar e aplicar dados estatísticos de pesquisa de mercado',
     },
     {
+      codigo: -345,
       competencia: 21,
-      habilidade:
+      Habilidade:
         'Elaborar instrumentos para coleta de dados de produção, produtividade, de recursos humanos, de prestação de serviços e de infraestrutura disponíveis na região',
     },
     {
+      codigo: -346,
       competencia: 21,
-      habilidade:
+      Habilidade:
         'Relacionar as agências de créditos, fornecimento de insumos, armazenagem e difusão de tecnologia presentes na região',
     },
     {
+      codigo: -347,
       competencia: 21,
-      habilidade: 'Adequar os projetos à legislação vigente',
+      Habilidade: 'Adequar os projetos à legislação vigente',
     },
     {
+      codigo: -348,
       competencia: 21,
-      habilidade: 'Fazer o levantamento dos recursos disponíveis',
+      Habilidade: 'Fazer o levantamento dos recursos disponíveis',
     },
     {
+      codigo: -349,
       competencia: 21,
-      habilidade:
+      Habilidade:
         'Verificar a aptidão, aspiração e nível tecnológico do produtor',
     },
     {
+      codigo: -350,
       competencia: 21,
-      habilidade:
+      Habilidade:
         'Inventariar benfeitorias, instalações, máquinas, implementos, equipamentos e materiais',
     },
     {
+      codigo: -351,
       competencia: 21,
-      habilidade: 'Dimensionar e avaliar benfeitorias e instalações rurais',
+      Habilidade: 'Dimensionar e avaliar benfeitorias e instalações rurais',
     },
     {
+      codigo: -352,
       competencia: 21,
-      habilidade:
+      Habilidade:
         'Elaborar e encaminhar projetos de viabilidade, custeio e investimento',
     },
     {
+      codigo: -353,
       competencia: 21,
-      habilidade:
+      Habilidade:
         'Elaborar e encaminhar perícias, laudos, pareceres e relatórios',
     },
     {
+      codigo: -354,
       competencia: 21,
-      habilidade: 'Elaborar e encaminhar processos de licenciamento ambiental',
+      Habilidade: 'Elaborar e encaminhar processos de licenciamento ambiental',
     },
     {
+      codigo: -355,
       competencia: 21,
-      habilidade:
+      Habilidade:
         'Adequar e monitorar as atividades de acordo com a legislação ambiental vigente',
     },
     {
+      codigo: -356,
       competencia: 21,
-      habilidade:
+      Habilidade:
         'Coletar dados para a elaboração e execução de projetos ambientais',
     },
     {
+      codigo: -357,
       competencia: 22,
-      habilidade:
+      Habilidade:
         'Reconhecer os principais eventos e entidades que marcaram o movimento dos Técnicos Agrícolas',
     },
     {
+      codigo: -358,
       competencia: 22,
-      habilidade:
+      Habilidade:
         'Utilizar a legislação que dispõe sobre o exercício e atribuições da profissão de Técnico Agrícola',
     },
     {
+      codigo: -359,
       competencia: 22,
-      habilidade:
+      Habilidade:
         'Conduzir a execução técnica dos trabalhos com ética e responsabilidade',
     },
     {
+      codigo: -360,
       competencia: 22,
-      habilidade:
+      Habilidade:
         'Responsabilizar-se pelo registro de projetos compatíveis com a respectiva formação profissional através da ART',
     },
     {
+      codigo: -361,
       competencia: 22,
-      habilidade:
+      Habilidade:
         'Conhecer o organograma de composição e serviços oferecidos pelo Conselho Federal e Regional de fiscalização profissional',
     },
     {
+      codigo: -362,
       competencia: 22,
-      habilidade: 'Obter o registro profissional',
+      Habilidade: 'Obter o registro profissional',
     },
     {
+      codigo: -363,
       competencia: 22,
-      habilidade: 'Seguir os direitos e obrigações do profissional credenciado',
+      Habilidade: 'Seguir os direitos e obrigações do profissional credenciado',
     },
     {
+      codigo: -364,
       competencia: 22,
-      habilidade:
+      Habilidade:
         'Participar das organizações da categoria profissional em nível estadual e federal',
     },
     {
+      codigo: -365,
       competencia: 23,
-      habilidade:
+      Habilidade:
         'Entender as exigências na realização das práticas agropecuárias desenvolvidas no mercado de trabalho pelos profissionais Técnicos em Agropecuária',
     },
     {
+      codigo: -366,
       competencia: 23,
-      habilidade:
+      Habilidade:
         'Identificar na prática as áreas em que profissionalmente pode atuar, de acordo com suas atribuições profissionais legais',
     },
     {
+      codigo: -367,
       competencia: 23,
-      habilidade:
+      Habilidade:
         'Entender o funcionamento das atividades relacionadas ao Curso Técnico em Agropecuária',
     },
     {
+      codigo: -368,
       competencia: 23,
-      habilidade:
+      Habilidade:
         'Desenvolver na prática a responsabilidade técnica nas diversas áreas de atuação',
     },
     {
+      codigo: -369,
       competencia: 23,
-      habilidade:
+      Habilidade:
         'Realizar de maneira técnica as principais práticas de manejo, das diferentes áreas, nos diferentes laboratórios de aprendizagem e produção',
     },
     {
+      codigo: -370,
       competencia: 23,
-      habilidade:
+      Habilidade:
         'Desenvolver atributos pessoais para o exercício da profissão',
     },
     {
+      codigo: -371,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Entender o funcionamento do programa de estágio realizado para a conclusão do Curso Técnico',
     },
     {
+      codigo: -372,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Aplicar os procedimentos legais na realização do estágio, de acordo com a legislação vigente',
     },
     {
+      codigo: -373,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Identificar e diferenciar a função dos coordenadores, dos professores orientadores e coorientadores, e dos supervisores de estágio',
     },
     {
+      codigo: -374,
       competencia: 24,
-      habilidade: 'Identificar as áreas possíveis para a realização do estágio',
+      Habilidade: 'Identificar as áreas possíveis para a realização do estágio',
     },
     {
+      codigo: -375,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Definir o local onde será realizado o estágio, de acordo com a área que pretende aprofundar os conhecimentos técnicos',
     },
     {
+      codigo: -376,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Realizar junto à Instituição de Ensino e à parte concedente, a elaboração do termo de compromisso e do convênio de estágio',
     },
     {
+      codigo: -377,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Elaborar junto ao supervisor de estágio o Plano de Atividade de Estágio (PAE), de acordo com a legislação vigente',
     },
     {
+      codigo: -378,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Assumir a responsabilidade técnica da área a ser trabalhada durante a realização do estágio, de acordo com o termo de compromisso assumido',
     },
     {
+      codigo: -379,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Realizar as práticas de manejo e operação de todas as atividades necessárias, durante a realização do estágio, em consonância com o PAE',
     },
     {
+      codigo: -380,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Desenvolver a comunicação com os coordenadores, orientadores e supervisores de estágio',
     },
     {
+      codigo: -381,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Elaborar o relatório de estágio de acordo com a orientação e com a metodologia disponibilizada pelo coordenador de estágio',
     },
     {
+      codigo: -382,
       competencia: 24,
-      habilidade:
+      Habilidade:
         'Elaborar a apresentação do relatório de acordo com os critérios de orientação e metodologia do programa de estágio',
     },
     {
+      codigo: -383,
       competencia: 24,
-      habilidade: 'Apresentar o trabalho final à banca examinadora',
+      Habilidade: 'Apresentar o trabalho final à banca examinadora',
     },
   ];
 }
