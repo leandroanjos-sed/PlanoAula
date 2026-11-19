@@ -188,6 +188,7 @@ export class PlanejamentoComponent {
     'SANTA CATARINA. Secretaria de Estado da Educação. Proposta Curricular de Santa Catarina: formação integral na educação básica/Estado de Santa Catarina, 2014, 192p.',
     'SANTA CATARINA. Governo do Estado. Secretaria de Estado da Educação. Itinerário formativo de aprofundamento das áreas do conhecimento - IFA - Florianópolis, 2026.',
     'SANTA CATARINA. Secretaria de Estado da Educação. Currículo de Educação Digital da Rede Estadual de Santa Catarina – 2026. Florianópolis: Secretaria de Estado da Educação, 2026. 339 p. Disponível em: PDF institucional.',
+    'SANTA CATARINA. A proposta catarinense para o ensino Técnico Agrícola no Brasil. Organizado por Conselho Estadual de Ensino Agrícola de Santa Catarina - CONEA - Blumenau, SC: IFC, 2018. 256 p. : il.'
   ];
 
   recursos: any[] = [
