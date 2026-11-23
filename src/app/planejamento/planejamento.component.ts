@@ -1392,7 +1392,7 @@ export class PlanejamentoComponent {
     });
 
     let body: any[] = [];
-    body.push(['Componente curricular', dados.disciplina ?? '']);
+    body.push(['Componente curricular', (dados.disciplina?.competenciasGerais ? dados.disciplina.disciplina : dados.disciplina ) ?? '']);
     body.push(['Professor', dados.professor ?? '']);
     body.push([
       'Competências       específicas da área',
