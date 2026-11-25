@@ -40,6 +40,7 @@
                     <small class="p-error">O campo é obrigatório</small>
                     }
                 </div>
+                @if(escola.value != 'CEJA'){
                 <div class="col-6 p-1">
                     <label for="ddSerieAno" class="font-semibold">Série/Ano:*</label>
                     <p-dropdown id="ddSerieAno" formControlName="serieAno" [options]="seriesAnosSelecionaveis"
@@ -73,6 +74,48 @@
                     <small class="p-error">O campo é obrigatório</small>
                     }
                 </div>
+                } @else if (escola.value == 'CEJA'){
+                <div class="col-6 p-1">
+                    <label for="ddSerieAno" class="font-semibold">Série/Ano:*</label>
+                    <p-multiSelect id="ddSerieAno" formControlName="serieAno" [options]="seriesAnosSelecionaveis"
+                        placeholder="Selecione uma Série/Ano" [group]="true" styleClass="w-full"
+                        (onChange)="onChangeSerieAnos($event)" [selectionLimit]="4">
+                        <ng-template let-group pTemplate="group">
+                            <div class="flex align-items-center">
+                                <span>{{ group.label }}</span>
+                            </div>
+                        </ng-template>
+                    </p-multiSelect>
+                    @if (serieAno.invalid && (serieAno.dirty || serieAno.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
+                </div>
+                <div class="col-3 p-1">
+                    <label for="ddAreaCeja" class="font-semibold">Área:*</label>
+                    <p-dropdown id="ddAreaCeja" formControlName="areaCeja" [options]="areasCeja"
+                        placeholder="Selecione uma area"  styleClass="w-full" (onChange)="onChangeAreaCeja($event)">
+                    </p-dropdown>
+                    @if (areaCeja != undefined && areaCeja.invalid && (areaCeja.dirty || areaCeja.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
+                </div>
+                <div class="col-3 p-1">
+                    <label for="ddDisciplinas" class="font-semibold">Disciplina:*</label>
+                    <p-multiSelect id="ddDisciplinas" formControlName="disciplina" [options]="disciplinas"
+                        placeholder="Selecione uma disciplina" [group]="serieAno.value?.includes('Ensino Médio')"
+                        styleClass="w-full" (onChange)="onChangeDisciplina($event)">
+                        <ng-template let-group pTemplate="group">
+                            <div class="flex align-items-center">
+                                <span>{{ group.label }}</span>
+                            </div>
+                        </ng-template>
+                    </p-multiSelect>
+                    @if (disciplina.invalid && (disciplina.dirty || disciplina.touched)) {
+                    <small class="p-error">O campo é obrigatório</small>
+                    }
+                </div>
+                }
+               
                 <div class="col-8 p-1">
                     <label for="itProfessor" class="font-semibold">Professor:*</label>
                     <input id="itProfessor" formControlName="professor" pInputText maxlength="200" class="w-full"
@@ -99,21 +142,23 @@
         @if (exibirTodosOsCampos) {
         @if (this.serieAno.value?.includes('Ensino Técnico')){
         <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Competências Gerais</span><span
-                class="text-color-secondary"> (max. 1)</span>
+            <span class="text-xl font-semibold">Competências Gerais</span><span class="text-color-secondary"> (max.
+                1)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             @if (!(serieAno.valid && disciplina.valid)) {
             <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as competências!</span>
             } @else {
-            <p-listbox id="lbCompetencias" formControlName="competenciaGeral"
-                [options]="competenciasGerais" [checkbox]="true" [filter]="true" [showToggleAll]="false" [multiple]="true" [listStyle]="{'max-height': '320px'}"
-                emptyMessage="Selecione Série/Ano e Disciplina!" (onChange)="onChangeCompetenciaGeral()">
+            <p-listbox id="lbCompetencias" formControlName="competenciaGeral" [options]="competenciasGerais"
+                [checkbox]="true" [filter]="true" [showToggleAll]="false" [multiple]="true"
+                [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
+                (onChange)="onChangeCompetenciaGeral()">
                 <ng-template let-item pTemplate="item">
-                    <div>{{ item.numero + ' - ' + item.nome }}<br/>{{item.competencia_geral}}</div>
+                    <div>{{ item.numero + ' - ' + item.nome }}<br />{{item.competencia_geral}}</div>
                 </ng-template>
             </p-listbox>
-            @if (competenciaGeral != null && competenciaGeral.invalid && (competenciaGeral.dirty || competenciaGeral.touched)) { 
-            <small class="p-error">O campo é obrigatório</small> 
+            @if (competenciaGeral != null && competenciaGeral.invalid && (competenciaGeral.dirty ||
+            competenciaGeral.touched)) {
+            <small class="p-error">O campo é obrigatório</small>
             }
             }
         </div>
@@ -137,7 +182,8 @@
             }
             }
         </div>
-        @if (!this.serieAno.value?.includes('Ensino Técnico') && (this.disciplina.value?.includes('Língua Portuguesa') || this.disciplina.value?.includes('Matemática'))){
+        @if (!this.serieAno.value?.includes('Ensino Técnico') && (this.disciplina.value?.includes('Língua Portuguesa')
+        || this.disciplina.value?.includes('Matemática'))){
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Competências da Recomposição da Aprendizagem</span><span
                 class="text-color-secondary"> (max. 1)</span>
@@ -164,7 +210,8 @@
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             @if (!(serieAno.valid && disciplina.valid)) {
             <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as habilidades!</span>
-            } @else if(!(!serieAno.value?.includes('Ensino Médio') && !serieAno.value?.includes('Ensino Técnico') && disciplina.value?.includes('Artes'))) {
+            } @else if(!(!serieAno.value?.includes('Ensino Médio') && !serieAno.value?.includes('Ensino Técnico') &&
+            disciplina.value?.includes('Artes'))) {
             <p-listbox id="lbHabilidades" formControlName="habilidade" [options]="habilidades" [checkbox]="true"
                 [filter]="true" [showToggleAll]="false" optionLabel="Habilidade" [multiple]="true"
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
@@ -177,15 +224,15 @@
             <small class="p-error">O campo é obrigatório</small>
             }
             @if(serieAno.value?.includes('Ensino Técnico')){
-                <div class="w-full mt-2">
-                    <label class="font-semibold">Outras Habilidades</label>
-                    <textarea rows="5" cols="30" pInputTextarea formControlName="outrasHabilidades" class="w-full"
-                        placeholder="Digite aqui outras habilidades que não estejam na lista."></textarea>
-                    @if (outrasHabilidades.invalid && (outrasHabilidades.dirty || outrasHabilidades.touched)) {
-                    <small class="p-error">O campo é obrigatório</small>
-                    }
-                </div>
-             }
+            <div class="w-full mt-2">
+                <label class="font-semibold">Outras Habilidades</label>
+                <textarea rows="5" cols="30" pInputTextarea formControlName="outrasHabilidades" class="w-full"
+                    placeholder="Digite aqui outras habilidades que não estejam na lista."></textarea>
+                @if (outrasHabilidades.invalid && (outrasHabilidades.dirty || outrasHabilidades.touched)) {
+                <small class="p-error">O campo é obrigatório</small>
+                }
+            </div>
+            }
             } @else {
             <div class="m-1 mt-2"><span class="text-lg font-semibold">Artes Visuais</span></div>
             <p-listbox id="lbHabilidades" formControlName="habilidadeArtesVisuais" [options]="habilidadesArtesVisuais"
@@ -301,20 +348,21 @@
             <small class="p-error">O campo é obrigatório</small>
             }
         </div>
-        @if(!this.serieAno.value?.includes('Ensino Técnico') && (disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Matemática'))) {
-            <div class="col-12 p-2">
-                <span class="text-xl font-semibold">Objetos de Conhecimento da Recomposição</span>
-                <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
-                <div class="w-full">
-                    <textarea rows="5" cols="30" pInputTextarea formControlName="objetoConhecimentoRecomposicao"
-                        class="w-full"
-                        placeholder="Digite aqui os objetos de conhecimento da recomposição de aprendizagem"></textarea>
-                </div>
-                @if (objetoConhecimentoRecomposicao.invalid && (objetoConhecimentoRecomposicao.dirty ||
-                objetoConhecimentoRecomposicao.touched)) {
-                <small class="p-error">O campo é obrigatório</small>
-                }
+        @if(!this.serieAno.value?.includes('Ensino Técnico') && (disciplina.value?.includes('Língua Portuguesa') ||
+        disciplina.value?.includes('Matemática'))) {
+        <div class="col-12 p-2">
+            <span class="text-xl font-semibold">Objetos de Conhecimento da Recomposição</span>
+            <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
+            <div class="w-full">
+                <textarea rows="5" cols="30" pInputTextarea formControlName="objetoConhecimentoRecomposicao"
+                    class="w-full"
+                    placeholder="Digite aqui os objetos de conhecimento da recomposição de aprendizagem"></textarea>
             </div>
+            @if (objetoConhecimentoRecomposicao.invalid && (objetoConhecimentoRecomposicao.dirty ||
+            objetoConhecimentoRecomposicao.touched)) {
+            <small class="p-error">O campo é obrigatório</small>
+            }
+        </div>
         }
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Caminho Metodológico</span>
@@ -333,7 +381,8 @@
                 }
             </div>
         </div>
-        @if(!this.serieAno.value?.includes('Ensino Técnico') && (disciplina.value?.includes('Língua Portuguesa') || disciplina.value?.includes('Matemática'))) {
+        @if(!this.serieAno.value?.includes('Ensino Técnico') && (disciplina.value?.includes('Língua Portuguesa') ||
+        disciplina.value?.includes('Matemática'))) {
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Caminho Metodológico da Recomposição de Aprendizagem</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
@@ -382,7 +431,8 @@
                     [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
                     (onChange)="onChangeCriterio($event)">
                     <ng-template let-item pTemplate="item">
-                        <div>{{ (!item.codigo?.includes('-') ? (item.codigo ?? '') : '') + ' - ' + item.criterio }}</div>
+                        <div>{{ (!item.codigo?.includes('-') ? (item.codigo ?? '') : '') + ' - ' + item.criterio }}
+                        </div>
                     </ng-template>
                 </p-listbox>
                 @if (criteriosAvaliacao.invalid && (criteriosAvaliacao.dirty ||
@@ -390,16 +440,16 @@
                 <small class="p-error">O campo é obrigatório</small>
                 }
             </div>
-             @if(serieAno.value?.includes('Ensino Técnico')){
-                <div class="w-full mt-2">
-                    <label class="font-semibold">Outros Critérios</label>
-                    <textarea rows="5" cols="30" pInputTextarea formControlName="outrosCriterios" class="w-full"
-                        placeholder="Digite aqui outros critérios que não estejam na lista."></textarea>
-                    @if (outrosCriterios.invalid && (outrosCriterios.dirty || outrosCriterios.touched)) {
-                    <small class="p-error">O campo é obrigatório</small>
-                    }
-                </div>
-             }
+            @if(serieAno.value?.includes('Ensino Técnico')){
+            <div class="w-full mt-2">
+                <label class="font-semibold">Outros Critérios</label>
+                <textarea rows="5" cols="30" pInputTextarea formControlName="outrosCriterios" class="w-full"
+                    placeholder="Digite aqui outros critérios que não estejam na lista."></textarea>
+                @if (outrosCriterios.invalid && (outrosCriterios.dirty || outrosCriterios.touched)) {
+                <small class="p-error">O campo é obrigatório</small>
+                }
+            </div>
+            }
         </div>
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Critérios de Avaliação do Currículo Digital</span><span

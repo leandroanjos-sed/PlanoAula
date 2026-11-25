@@ -26,6 +26,7 @@ import autoTable from 'jspdf-autotable';
 import { CriterioUtil } from '../../util/criterio-util';
 import { minimoPreenchidos } from '../../util/functions';
 import { startWith } from 'rxjs';
+import { MultiSelectModule } from 'primeng/multiselect';
 
 @Component({
   selector: 'app-planejamento',
@@ -43,6 +44,7 @@ import { startWith } from 'rxjs';
     ToastModule,
     InputTextareaModule,
     CheckboxModule,
+    MultiSelectModule,
   ],
   templateUrl: './planejamento.component.html',
   styleUrl: './planejamento.component.scss',
@@ -218,6 +220,13 @@ export class PlanejamentoComponent {
     'Mesas de tênis ou xadrez',
     'Caixa de som',
   ];
+
+  areasCeja = [
+    'Linguagens e suas Tecnologias',
+    'Matemática e suas Tecnologias',
+    'Ciências da Natureza e suas Tecnologias',
+    'Ciências Humanas e Sociais Aplicadas'
+  ]
 
   ngOnInit() {
     this.quantidadeAulas.valueChanges
@@ -407,6 +416,9 @@ export class PlanejamentoComponent {
   get competenciaGeral() {
     return this.planejamentoForm.get('competenciaGeral');
   }
+  get areaCeja(){
+    return this.planejamentoForm.get('areaCeja');
+  }
 
   exibirOsCampos() {
     if (
@@ -438,12 +450,20 @@ export class PlanejamentoComponent {
       event.value?.includes('EEB Raul Pompéia') ||
       event.value?.includes('EEB Profª Olga Nunes de Abreu') || 
       event.value?.includes('EEB Maria Madalena de Moura Ferro') || 
-      event.value?.includes('EEB Santa Lúcia')
+      event.value?.includes('EEB Santa Lúcia') ||
+      event.value?.includes('CEJA')
     ) {
       this.seriesAnosSelecionaveis = [this.seriesAnos[0], this.seriesAnos[1]];
     } else {
       this.seriesAnosSelecionaveis = this.seriesAnos;
     }
+
+    if (event.value?.includes('CEJA')) {
+      this.planejamentoForm.addControl('areaCeja', new FormControl(undefined, Validators.required));
+    } else {
+      this.planejamentoForm.removeControl('areaCeja');
+    }
+    
   }
 
   onChangeSerieAnos(event: DropdownChangeEvent) {
@@ -1210,6 +1230,25 @@ export class PlanejamentoComponent {
       this.adaptacaoCurricular.enable();
     }
     this.adaptacaoCurricular.updateValueAndValidity();
+  }
+
+  onChangeAreaCeja(event: DropdownChangeEvent) {
+    switch (event.value) {
+      case 'Linguagens e suas Tecnologias':
+        this.disciplinas = ['Língua Portuguesa', 'Língua Inglesa', 'Arte', 'Educação Física'];
+        break;
+      case 'Matemática e suas Tecnologias':
+        this.disciplinas = ['Matemática'];
+        break;
+      case 'Ciências da Natureza e suas Tecnologias':
+        this.disciplinas = ['Biologia', 'Química', 'Física'];
+        break;
+      case 'Ciências Humanas e Socias Aplicadas':
+        this.disciplinas = ['Geografia', 'Histórica', 'Filosofia', 'Sociologia'];
+        break;
+      default:
+        break;
+    }
   }
 
   async gerarPdf() {
