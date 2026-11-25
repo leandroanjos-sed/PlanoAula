@@ -1277,6 +1277,10 @@ export class PlanejamentoComponent {
         c.markAsDirty();
         c.markAsTouched();
       });
+      Object.values(this.caminhoMetodologico.controls).forEach((c) => {
+        c.markAsDirty();
+        c.markAsTouched();
+      });
       if (this.planejamentoForm.hasError('referenciaObrigatoria')) {
         this.messageService.add({
           severity: 'warn',
