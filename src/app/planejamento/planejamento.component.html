@@ -22,25 +22,17 @@
                     <small class="p-error">O campo é obrigatório</small>
                     }
                 </div>
-                <div class="col-6 md:col-3 p-1">
-                    <label for="cDataInicio" class="font-semibold">Data inicial:*</label>
-                    <p-calendar appDateMask id="cDataInicio" formControlName="dataInicial" styleClass="w-full"
-                        placeholder="dd/mm/aaaa" [showIcon]="true" [showOnFocus]="false"
-                        [keepInvalid]="false"></p-calendar>
-                    @if (dataInicial.invalid && (dataInicial.dirty || dataInicial.touched)) {
+                <div class="col-6 p-1">
+                    <label for="cDataInicio" class="font-semibold">Data de vigência:*</label>
+                    <p-dropdown id="ddSerieAno" formControlName="data" [options]="datasSelecionaveis"
+                        placeholder="Selecione um período" styleClass="w-full"
+                        (onChange)="onChangeData($event)">
+                    </p-dropdown>
+                    @if (data.invalid && (data.dirty || data.touched)) {
                     <small class="p-error">O campo é obrigatório</small>
                     }
                 </div>
-                <div class="col-6 md:col-3 p-1">
-                    <label for="cDataFinal" class="font-semibold">Data final:*</label>
-                    <p-calendar appDateMask id="cDataFinal" formControlName="dataFinal" styleClass="w-full"
-                        placeholder="dd/mm/aaaa" [showIcon]="true" [showOnFocus]="false"
-                        [keepInvalid]="false"></p-calendar>
-                    @if (dataFinal.invalid && (dataFinal.dirty || dataFinal.touched)) {
-                    <small class="p-error">O campo é obrigatório</small>
-                    }
-                </div>
-                @if(escola.value != 'CEJA'){
+                @if (escola.value != 'CEJA') {
                 <div class="col-6 p-1">
                     <label for="ddSerieAno" class="font-semibold">Série/Ano:*</label>
                     <p-dropdown id="ddSerieAno" formControlName="serieAno" [options]="seriesAnosSelecionaveis"

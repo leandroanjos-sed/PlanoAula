@@ -36,7 +36,6 @@ import { MultiSelectModule } from 'primeng/multiselect';
     ReactiveFormsModule,
     DropdownModule,
     CalendarModule,
-    DateMaskDirective,
     InputNumberModule,
     InputTextModule,
     CommonModule,
@@ -66,6 +65,8 @@ export class PlanejamentoComponent {
   competenciasRecomposicao: any[] = [];
   criteriosDeAvaliacao: any[] = [];
   criteriosDeAvaliacaoCurriculoDigital: any[] = [];
+  seriesAnosSelecionaveis: any[] = [];
+  disciplinas: any[] = [];
   escolas = [
     {
       label: 'São Lourenço do Oeste',
@@ -156,10 +157,6 @@ export class PlanejamentoComponent {
     },
   ];
 
-  seriesAnosSelecionaveis: any[] = [];
-
-  disciplinas: any[] = [];
-
   instrumentos: any[] = [
     'Prova',
     'Análise de entrevista',
@@ -228,6 +225,21 @@ export class PlanejamentoComponent {
     'Ciências Humanas e Sociais Aplicadas'
   ]
 
+  datasSelecionaveis: any[] = [
+    '1º - De 15/02/2027 até 12/03/2027',
+    '2º - De 15/03/2027 até 09/04/2027',
+    '3º - De 12/04/2027 até 07/05/2027',
+    '4º - De 10/05/2027 até 04/06/2027',
+    '5º - De 07/06/2027 até 02/07/2027',
+    '6º - De 05/07/2027 até 21/07/2027',
+    '7º (RECESSO) - De 22/07/2027 até 01/08/2027',
+    '8º - De 02/08/2027 até 27/08/2027',
+    '9º - De 30/08/2027 até 24/09/2027',
+    '10º - De 27/09/2027 até 22/10/2027',
+    '11º - De 25/10/2027 até 22/11/2027',
+    '12º - De 23/11/2027 até 22/12/2027'
+  ];
+
   ngOnInit() {
     this.quantidadeAulas.valueChanges
       .pipe(
@@ -261,8 +273,7 @@ export class PlanejamentoComponent {
   planejamentoForm: FormGroup = new FormGroup(
     {
       escola: new FormControl(undefined, Validators.required),
-      dataInicial: new FormControl(undefined, Validators.required),
-      dataFinal: new FormControl(undefined, Validators.required),
+      data: new FormControl(undefined, Validators.required),
       serieAno: new FormControl(undefined, Validators.required),
       disciplina: new FormControl(undefined, Validators.required),
       professor: new FormControl(undefined, Validators.required),
@@ -327,11 +338,8 @@ export class PlanejamentoComponent {
   get escola() {
     return this.planejamentoForm.get('escola')!;
   }
-  get dataInicial() {
-    return this.planejamentoForm.get('dataInicial')!;
-  }
-  get dataFinal() {
-    return this.planejamentoForm.get('dataFinal')!;
+  get data() {
+    return this.planejamentoForm.get('data')!;
   }
   get serieAno() {
     return this.planejamentoForm.get('serieAno')!;
@@ -423,8 +431,7 @@ export class PlanejamentoComponent {
   exibirOsCampos() {
     if (
       this.escola.invalid ||
-      this.dataInicial.invalid ||
-      this.dataFinal.invalid ||
+      this.data.invalid ||
       this.serieAno.invalid ||
       this.disciplina.invalid ||
       this.professor.invalid ||
@@ -937,6 +944,8 @@ export class PlanejamentoComponent {
 
     this.competencia.setValue(undefined);
     this.competencia.updateValueAndValidity();
+    this.competenciaRecomposicao.setValue(undefined);
+    this.competenciaRecomposicao.updateValueAndValidity();
     this.habilidade.setValue(undefined);
     this.habilidade.updateValueAndValidity();
     this.habilidadeLinguaPortuguesa.setValue(undefined);
@@ -1251,6 +1260,17 @@ export class PlanejamentoComponent {
     }
   }
 
+  onChangeData(event: DropdownChangeEvent){
+    if(event.value == '7º (RECESSO) - De 22/07/2027 até 01/08/2027'){
+      this.data.setValue(undefined);
+      this.messageService.add({
+        severity: 'info',
+        detail: 'Para o recesso o plano deve ser preenchido diretamente no professor online!',
+        summary: 'RECESSO',
+      });
+    }
+  }
+
   async gerarPdf() {
     if (this.planejamentoForm.invalid) {
       Object.values(this.planejamentoForm.controls).forEach((c) => {
@@ -1423,9 +1443,7 @@ export class PlanejamentoComponent {
           'Número de Aulas',
           dados.quantidadeAulas,
           'Período',
-          (dados.dataInicial?.toLocaleDateString() ?? '') +
-            ' - ' +
-            (dados.dataFinal?.toLocaleDateString() ?? ''),
+          (dados.data ?? ''),
         ],
       ],
     });
