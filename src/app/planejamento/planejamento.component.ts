@@ -925,7 +925,11 @@ export class PlanejamentoComponent {
         Validators.required,
         Validators.minLength(1),
       ]);
-      this.caminhoMetodologico.addValidators([
+      this.caminhoMetodologicoRecomposicao.addValidators([
+        Validators.required,
+        Validators.minLength(1),
+      ]);
+      this.objetoConhecimentoRecomposicao.addValidators([
         Validators.required,
         Validators.minLength(1),
       ]);
@@ -934,13 +938,18 @@ export class PlanejamentoComponent {
         Validators.required,
         Validators.minLength(1),
       ]);
-      this.caminhoMetodologico.removeValidators([
+      this.caminhoMetodologicoRecomposicao.removeValidators([
+        Validators.required,
+        Validators.minLength(1),
+      ]);
+      this.objetoConhecimentoRecomposicao.removeValidators([
         Validators.required,
         Validators.minLength(1),
       ]);
     }
     this.caminhoMetodologicoRecomposicao.updateValueAndValidity();
     this.recomposicaoAprendizagem.updateValueAndValidity();
+    this.objetoConhecimentoRecomposicao.updateValueAndValidity();
 
     this.competencia.setValue(undefined);
     this.competencia.updateValueAndValidity();
@@ -1534,7 +1543,21 @@ export class PlanejamentoComponent {
 
       body.push(['Habilidades de Língua Portuguesa', texto ?? '']);
     }
-
+    if (
+      !isEnsinoTecnico &&
+      (this.disciplina.value?.includes('Língua Portuguesa') ||
+        this.disciplina.value?.includes('Matemática'))
+    ) {
+      body.push([
+        'Habilidades de Recomposição da Aprendizagem',
+        dados.recomposicaoAprendizagem
+          ?.map(
+            (t: any) =>
+              (!t.Codigo.includes('-') ? t.Codigo : '') + ' - ' + t.Habilidade,
+          )
+          ?.join('\n\n') ?? '',
+      ]);
+    }
     if (
       dados.habilidadeCurriculoDigital &&
       dados.habilidadeCurriculoDigital.length > 0
@@ -1569,21 +1592,7 @@ export class PlanejamentoComponent {
       'Recursos Metodológicos',
       juntarComE(dados.recurso?.map((t: any) => t)) ?? '',
     ]);
-    if (
-      !isEnsinoTecnico &&
-      (this.disciplina.value?.includes('Língua Portuguesa') ||
-        this.disciplina.value?.includes('Matemática'))
-    ) {
-      body.push([
-        'Recomposição da Aprendizagem (Língua Portuguesa e Matemática)',
-        dados.recomposicaoAprendizagem
-          ?.map(
-            (t: any) =>
-              (!t.Codigo.includes('-') ? t.Codigo : '') + ' - ' + t.Habilidade,
-          )
-          ?.join('\n\n') ?? '',
-      ]);
-    }
+    
     body.push([
       'Critérios de Avaliação',
       dados.criteriosAvaliacao?.map((t: any) => t.criterio)?.join('\n\n') ?? '',
