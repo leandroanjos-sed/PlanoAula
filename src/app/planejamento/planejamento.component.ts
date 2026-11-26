@@ -773,7 +773,8 @@ export class PlanejamentoComponent {
     } else {
       this.habilidadesCurriculoDigital =
         HabilidadeUtil.habilidadesCurriculoDigital.filter(
-          (t) => !t.Etapa.includes('Ensino Médio') && (event?.value[0] == t.Serie[0]),
+          (t) =>
+            !t.Etapa.includes('Ensino Médio') && event?.value[0] == t.Serie[0],
         );
     }
   }
@@ -913,17 +914,22 @@ export class PlanejamentoComponent {
           CompetenciaUtil.competenciasAnosFinais.filter(
             (t) => t.Disciplina == 'Língua Portuguesa',
           );
-        this.competenciasRecomposicao.push(...this.competencias.filter(
-          (t) => t.Area == 'Linguagens e suas Tecnologias',
-        ));
+        this.competenciasRecomposicao.push(
+          ...this.competencias.filter(
+            (t) => t.Area == 'Linguagens e suas Tecnologias',
+          ),
+        );
       }
       if (this.disciplina.value?.includes('Matemática')) {
-        this.competenciasRecomposicao = CompetenciaUtil.competenciasAnosFinais.filter(
+        this.competenciasRecomposicao =
+          CompetenciaUtil.competenciasAnosFinais.filter(
             (t) => t.Disciplina == 'Matemática',
           );
-        this.competenciasRecomposicao.push(this.competencias.filter(
-          (t) => t.Area == 'Matemática e suas Tecnologias',
-        ));
+        this.competenciasRecomposicao.push(
+          this.competencias.filter(
+            (t) => t.Area == 'Matemática e suas Tecnologias',
+          ),
+        );
       }
     }
 
@@ -1157,12 +1163,6 @@ export class PlanejamentoComponent {
           this.habilidade.value?.some((r: any) => r.codigo == t.habilidade),
       );
     }
-    this.criteriosDeAvaliacaoCurriculoDigital =
-      CriterioUtil.criteriosCurriculoDigital.filter((t) =>
-        this.habilidadeCurriculoDigital.value?.some(
-          (r: any) => r.Codigo == t.codigo,
-        ),
-      );
 
     if (
       this.serieAno.value?.includes('Ensino Médio') &&
@@ -1188,14 +1188,12 @@ export class PlanejamentoComponent {
       });
     }
 
-    if (!this.serieAno.value?.includes('Ensino Médio')) {
-      this.criteriosDeAvaliacaoCurriculoDigital =
-        CriterioUtil.criteriosCurriculoDigital.filter((t) =>
-          this.habilidadeCurriculoDigital.value?.some(
-            (r: any) => r.Codigo == t.codigo,
-          ),
-        );
-    }
+    this.criteriosDeAvaliacaoCurriculoDigital =
+      CriterioUtil.criteriosCurriculoDigital.filter((t) =>
+        this.habilidadeCurriculoDigital.value?.some(
+          (r: any) => r.Codigo == t.codigo,
+        ),
+      );
   }
 
   onChangeHabilidadeArte(event: ListboxChangeEvent) {
@@ -1525,7 +1523,7 @@ export class PlanejamentoComponent {
       ]);
     } else {
       body.push([
-        'Habilidade',
+        (isEnsinoMedio && dados?.disciplina?.includes('Língua Portuguesa')) ? 'Habilidade da Área de Linguagens' : 'Habilidade',
         dados.habilidade
           ?.map(
             (t: any) =>
@@ -1604,6 +1602,16 @@ export class PlanejamentoComponent {
       'Caminho Metodológico',
       this.formatarCaminho(dados.caminhoMetodologico) ?? '',
     ]);
+    if (
+      !isEnsinoTecnico &&
+      (this.disciplina.value?.includes('Língua Portuguesa') ||
+        this.disciplina.value?.includes('Matemática'))
+    ) {
+      body.push([
+        'Caminho Metodológico da Recomposição',
+        dados.caminhoMetodologicoRecomposicao ?? '',
+      ]);
+    }
     if (dados.outrosRecursos?.length > 0) {
       dados.recurso.push(dados.outrosRecursos);
     }
