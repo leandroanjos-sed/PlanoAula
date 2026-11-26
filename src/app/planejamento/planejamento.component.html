@@ -25,8 +25,7 @@
                 <div class="col-6 p-1">
                     <label for="cDataInicio" class="font-semibold">Data de vigência:*</label>
                     <p-dropdown id="ddSerieAno" formControlName="data" [options]="datasSelecionaveis"
-                        placeholder="Selecione um período" styleClass="w-full"
-                        (onChange)="onChangeData($event)">
+                        placeholder="Selecione um período" styleClass="w-full" (onChange)="onChangeData($event)">
                     </p-dropdown>
                     @if (data.invalid && (data.dirty || data.touched)) {
                     <small class="p-error">O campo é obrigatório</small>
@@ -85,7 +84,7 @@
                 <div class="col-3 p-1">
                     <label for="ddAreaCeja" class="font-semibold">Área:*</label>
                     <p-dropdown id="ddAreaCeja" formControlName="areaCeja" [options]="areasCeja"
-                        placeholder="Selecione uma area"  styleClass="w-full" (onChange)="onChangeAreaCeja($event)">
+                        placeholder="Selecione uma area" styleClass="w-full" (onChange)="onChangeAreaCeja($event)">
                     </p-dropdown>
                     @if (areaCeja != undefined && areaCeja.invalid && (areaCeja.dirty || areaCeja.touched)) {
                     <small class="p-error">O campo é obrigatório</small>
@@ -107,7 +106,7 @@
                     }
                 </div>
                 }
-               
+
                 <div class="col-8 p-1">
                     <label for="itProfessor" class="font-semibold">Professor:*</label>
                     <input id="itProfessor" formControlName="professor" pInputText maxlength="200" class="w-full"
@@ -198,7 +197,12 @@
         </div>
         }
         <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Habilidades</span><span class="text-color-secondary"> (max. 3)</span>
+            @if (this.serieAno.value?.includes('Ensino Médio') && this.disciplina.value?.includes('Língua Portuguesa')){
+                <span class="text-xl font-semibold">Habilidades de Linguagens</span>
+            } @else {
+                <span class="text-xl font-semibold">Habilidades</span>
+            }
+            <span class="text-color-secondary"> (max. 3)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             @if (!(serieAno.valid && disciplina.valid)) {
             <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as habilidades!</span>
