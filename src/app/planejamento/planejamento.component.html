@@ -131,6 +131,7 @@
         </div>
         }
         @if (exibirTodosOsCampos) {
+        @if (this.escola.value != 'CEJA'){
         @if (this.serieAno.value?.includes('Ensino Técnico')){
         <div class="col-12 p-2">
             <span class="text-xl font-semibold">Competências Gerais</span><span class="text-color-secondary"> (max.
@@ -196,11 +197,12 @@
             }
         </div>
         }
+        }
         <div class="col-12 p-2">
             @if (this.serieAno.value?.includes('Ensino Médio') && this.disciplina.value?.includes('Língua Portuguesa')){
-                <span class="text-xl font-semibold">Habilidades da Área de Linguagens</span>
+            <span class="text-xl font-semibold">Habilidades da Área de Linguagens</span>
             } @else {
-                <span class="text-xl font-semibold">Habilidades</span>
+            <span class="text-xl font-semibold">Habilidades</span>
             }
             <span class="text-color-secondary"> (max. 3)</span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>

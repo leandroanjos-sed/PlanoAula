@@ -281,10 +281,7 @@ export class PlanejamentoComponent {
         Validators.required,
         Validators.min(1),
       ]),
-      competencia: new FormControl(undefined, [
-        Validators.required,
-        Validators.minLength(1),
-      ]),
+      competencia: new FormControl(),
       competenciaRecomposicao: new FormControl(),
       habilidade: new FormControl(),
       habilidadeLinguaPortuguesa: new FormControl(),
@@ -466,13 +463,22 @@ export class PlanejamentoComponent {
     }
 
     if (event.value?.includes('CEJA')) {
+      this.competencia.removeValidators([
+        Validators.required,
+        Validators.minLength(1),
+      ])
       this.planejamentoForm.addControl(
         'areaCeja',
         new FormControl(undefined, Validators.required),
       );
     } else {
+      this.competencia.addValidators([
+        Validators.required,
+        Validators.minLength(1),
+      ]);
       this.planejamentoForm.removeControl('areaCeja');
     }
+    this.competencia.updateValueAndValidity();
   }
 
   onChangeSerieAnos(event: DropdownChangeEvent) {
