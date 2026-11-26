@@ -1018,7 +1018,16 @@ export class PlanejamentoComponent {
   }
 
   onChangeCompetencia(event: ListboxChangeEvent) {
-    if (event.value?.length > 1) {
+    if (this.serieAno.value?.includes('Ensino Técnico') && this.escola.value?.includes('CEDUP')) {
+      if (event.value?.length > 3){
+        event.value?.pop();
+        this.messageService.add({
+          severity: 'info',
+          detail: 'Máximo de três competência por plano de aula!',
+          summary: 'Aviso',
+        });
+      }
+    } else if (event.value?.length > 1) {
       event.value?.pop();
       this.messageService.add({
         severity: 'info',

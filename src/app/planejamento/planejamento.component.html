@@ -156,7 +156,9 @@
         </div>
         }
         <div class="col-12 p-2">
-            <span class="text-xl font-semibold">Competências</span><span class="text-color-secondary"> (max. 1)</span>
+            <span class="text-xl font-semibold">Competências</span><span class="text-color-secondary"> 
+                @if(escola.value?.includes('CEDUP') && serieAno.value?.includes('Ensino Técnico')) { (max. 3)} @else { (max. 1)} 
+            </span>
             <div class="bg-teal-500 max-w-full mt-1 mb-2" style="height: 2px;"></div>
             @if (!(serieAno.valid && disciplina.valid)) {
             <span class="font-semibold">Selecione Série/Ano e Disciplina para listar as competências!</span>
