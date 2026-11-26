@@ -187,7 +187,7 @@ export class PlanejamentoComponent {
     'SANTA CATARINA. Secretaria de Estado da Educação. Proposta Curricular de Santa Catarina: formação integral na educação básica/Estado de Santa Catarina, 2014, 192p.',
     'SANTA CATARINA. Governo do Estado. Secretaria de Estado da Educação. Itinerário formativo de aprofundamento das áreas do conhecimento - IFA - Florianópolis, 2026.',
     'SANTA CATARINA. Secretaria de Estado da Educação. Currículo de Educação Digital da Rede Estadual de Santa Catarina – 2026. Florianópolis: Secretaria de Estado da Educação, 2026. 339 p. Disponível em: PDF institucional.',
-    'SANTA CATARINA. A proposta catarinense para o ensino Técnico Agrícola no Brasil. Organizado por Conselho Estadual de Ensino Agrícola de Santa Catarina - CONEA - Blumenau, SC: IFC, 2018. 256 p. : il.'
+    'SANTA CATARINA. A proposta catarinense para o ensino Técnico Agrícola no Brasil. Organizado por Conselho Estadual de Ensino Agrícola de Santa Catarina - CONEA - Blumenau, SC: IFC, 2018. 256 p. : il.',
   ];
 
   recursos: any[] = [
@@ -222,8 +222,8 @@ export class PlanejamentoComponent {
     'Linguagens e suas Tecnologias',
     'Matemática e suas Tecnologias',
     'Ciências da Natureza e suas Tecnologias',
-    'Ciências Humanas e Sociais Aplicadas'
-  ]
+    'Ciências Humanas e Sociais Aplicadas',
+  ];
 
   datasSelecionaveis: any[] = [
     '1º - De 15/02/2027 até 12/03/2027',
@@ -237,7 +237,7 @@ export class PlanejamentoComponent {
     '9º - De 30/08/2027 até 24/09/2027',
     '10º - De 27/09/2027 até 22/10/2027',
     '11º - De 25/10/2027 até 22/11/2027',
-    '12º - De 23/11/2027 até 22/12/2027'
+    '12º - De 23/11/2027 até 22/12/2027',
   ];
 
   ngOnInit() {
@@ -424,7 +424,7 @@ export class PlanejamentoComponent {
   get competenciaGeral() {
     return this.planejamentoForm.get('competenciaGeral');
   }
-  get areaCeja(){
+  get areaCeja() {
     return this.planejamentoForm.get('areaCeja');
   }
 
@@ -455,8 +455,8 @@ export class PlanejamentoComponent {
     } else if (
       event.value?.includes('EEB São Bernardino') ||
       event.value?.includes('EEB Raul Pompéia') ||
-      event.value?.includes('EEB Profª Olga Nunes de Abreu') || 
-      event.value?.includes('EEB Maria Madalena de Moura Ferro') || 
+      event.value?.includes('EEB Profª Olga Nunes de Abreu') ||
+      event.value?.includes('EEB Maria Madalena de Moura Ferro') ||
       event.value?.includes('EEB Santa Lúcia') ||
       event.value?.includes('CEJA')
     ) {
@@ -466,11 +466,13 @@ export class PlanejamentoComponent {
     }
 
     if (event.value?.includes('CEJA')) {
-      this.planejamentoForm.addControl('areaCeja', new FormControl(undefined, Validators.required));
+      this.planejamentoForm.addControl(
+        'areaCeja',
+        new FormControl(undefined, Validators.required),
+      );
     } else {
       this.planejamentoForm.removeControl('areaCeja');
     }
-    
   }
 
   onChangeSerieAnos(event: DropdownChangeEvent) {
@@ -757,6 +759,23 @@ export class PlanejamentoComponent {
       this.planejamentoForm.removeControl('outrasHabilidades');
       this.planejamentoForm.removeControl('outrosCriterios');
     }
+
+    //Preencher opções Habilidades do currículo digital
+    if (
+      event?.value?.includes('Ensino Técnico') ||
+      event?.value?.includes('Ensino Médio')
+    ) {
+      this.habilidadesCurriculoDigital =
+        HabilidadeUtil.habilidadesCurriculoDigital.filter((t) =>
+          t.Etapa.includes('Ensino Médio'),
+        );
+      return;
+    } else {
+      this.habilidadesCurriculoDigital =
+        HabilidadeUtil.habilidadesCurriculoDigital.filter(
+          (t) => !t.Etapa.includes('Ensino Médio') && (event?.value[0] == t.Serie[0]),
+        );
+    }
   }
 
   onChangeDisciplina(event: DropdownChangeEvent) {
@@ -780,11 +799,6 @@ export class PlanejamentoComponent {
           this.disciplina.value?.includes(t.Disciplina) &&
           t.Codigo.slice(2, 4).includes(this.serieAno.value[0]),
       );
-
-      this.habilidadesCurriculoDigital =
-        HabilidadeUtil.habilidadesCurriculoDigital.filter(
-          (t) => !t.Etapa.includes('Ensino Médio'),
-        );
 
       if (this.disciplina.value?.includes('Arte')) {
         this.habilidadesArtesVisuais =
@@ -1002,14 +1016,6 @@ export class PlanejamentoComponent {
         detail: 'Máximo de uma competência por plano de aula!',
         summary: 'Aviso',
       });
-    }
-
-    if (this.serieAno.value?.includes('Ensino Técnico')) {
-      this.habilidadesCurriculoDigital =
-        HabilidadeUtil.habilidadesCurriculoDigital.filter(
-          (t) => !t.Etapa.includes('Ensino Médio'),
-        );
-      return;
     }
 
     let isEnsinoMedio = this.serieAno.value?.includes('Ensino Médio');
@@ -1253,7 +1259,12 @@ export class PlanejamentoComponent {
   onChangeAreaCeja(event: DropdownChangeEvent) {
     switch (event.value) {
       case 'Linguagens e suas Tecnologias':
-        this.disciplinas = ['Língua Portuguesa', 'Língua Inglesa', 'Arte', 'Educação Física'];
+        this.disciplinas = [
+          'Língua Portuguesa',
+          'Língua Inglesa',
+          'Arte',
+          'Educação Física',
+        ];
         break;
       case 'Matemática e suas Tecnologias':
         this.disciplinas = ['Matemática'];
@@ -1262,19 +1273,25 @@ export class PlanejamentoComponent {
         this.disciplinas = ['Biologia', 'Química', 'Física'];
         break;
       case 'Ciências Humanas e Socias Aplicadas':
-        this.disciplinas = ['Geografia', 'Histórica', 'Filosofia', 'Sociologia'];
+        this.disciplinas = [
+          'Geografia',
+          'Histórica',
+          'Filosofia',
+          'Sociologia',
+        ];
         break;
       default:
         break;
     }
   }
 
-  onChangeData(event: DropdownChangeEvent){
-    if(event.value == '7º (RECESSO) - De 22/07/2027 até 01/08/2027'){
+  onChangeData(event: DropdownChangeEvent) {
+    if (event.value == '7º (RECESSO) - De 22/07/2027 até 01/08/2027') {
       this.data.setValue(undefined);
       this.messageService.add({
         severity: 'info',
-        detail: 'Para o recesso o plano deve ser preenchido diretamente no professor online!',
+        detail:
+          'Para o recesso o plano deve ser preenchido diretamente no professor online!',
         summary: 'RECESSO',
       });
     }
@@ -1456,13 +1473,18 @@ export class PlanejamentoComponent {
           'Número de Aulas',
           dados.quantidadeAulas,
           'Período',
-          (dados.data ?? ''),
+          dados.data ?? '',
         ],
       ],
     });
 
     let body: any[] = [];
-    body.push(['Componente curricular', (dados.disciplina?.competenciasGerais ? dados.disciplina.disciplina : dados.disciplina ) ?? '']);
+    body.push([
+      'Componente curricular',
+      (dados.disciplina?.competenciasGerais
+        ? dados.disciplina.disciplina
+        : dados.disciplina) ?? '',
+    ]);
     body.push(['Professor', dados.professor ?? '']);
     body.push([
       'Competências       específicas da área',
@@ -1477,7 +1499,7 @@ export class PlanejamentoComponent {
         this.disciplina.value?.includes('Matemática'))
     ) {
       body.push([
-        'Competências       específicas da área da Recomposição',
+        'Competências       da Recomposição da Aprendizagem',
         dados.competencia
           ?.map((t: any) => t.Numero + ' - ' + t.Competencia)
           ?.join('\n\n') ?? '',
@@ -1589,10 +1611,10 @@ export class PlanejamentoComponent {
       dados.recurso.push(dados.outrosRecursos);
     }
     body.push([
-      'Recursos Metodológicos',
+      'Recursos Pedagógicos',
       juntarComE(dados.recurso?.map((t: any) => t)) ?? '',
     ]);
-    
+
     body.push([
       'Critérios de Avaliação',
       dados.criteriosAvaliacao?.map((t: any) => t.criterio)?.join('\n\n') ?? '',
