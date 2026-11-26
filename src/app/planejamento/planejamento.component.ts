@@ -909,24 +909,21 @@ export class PlanejamentoComponent {
       this.competencias = this.competencias;
 
       if (this.disciplina.value?.includes('Língua Portuguesa')) {
-        this.competenciasRecomposicao = this.competencias.filter(
-          (t) => t.Area == 'Linguagens e suas Tecnologias',
-        );
-        this.competenciasRecomposicao.push(
-          ...CompetenciaUtil.competenciasAnosFinais.filter(
+        this.competenciasRecomposicao =
+          CompetenciaUtil.competenciasAnosFinais.filter(
             (t) => t.Disciplina == 'Língua Portuguesa',
-          ),
-        );
+          );
+        this.competenciasRecomposicao.push(...this.competencias.filter(
+          (t) => t.Area == 'Linguagens e suas Tecnologias',
+        ));
       }
       if (this.disciplina.value?.includes('Matemática')) {
-        this.competenciasRecomposicao = this.competencias.filter(
-          (t) => t.Area == 'Matemática e suas Tecnologias',
-        );
-        this.competenciasRecomposicao.push(
-          ...CompetenciaUtil.competenciasAnosFinais.filter(
+        this.competenciasRecomposicao = CompetenciaUtil.competenciasAnosFinais.filter(
             (t) => t.Disciplina == 'Matemática',
-          ),
-        );
+          );
+        this.competenciasRecomposicao.push(this.competencias.filter(
+          (t) => t.Area == 'Matemática e suas Tecnologias',
+        ));
       }
     }
 

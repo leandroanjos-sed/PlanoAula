@@ -188,7 +188,7 @@
                 optionLabel="Competencia" [multiple]="true" [listStyle]="{'max-height': '320px'}"
                 emptyMessage="Selecione Série/Ano e Disciplina!" (onChange)="onChangeCompetencia($event)">
                 <ng-template let-item pTemplate="item">
-                    <div>{{ item.Numero + ' - ' + item.Competencia }}</div>
+                    <div>{{ item.Ensino + ' - ' + item.Numero + ' - ' + item.Competencia }}</div>
                 </ng-template>
             </p-listbox>
             @if (competencia.invalid && (competencia.dirty || competencia.touched)) {
