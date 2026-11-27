@@ -186,7 +186,6 @@ export class PlanejamentoComponent {
     'SANTA CATARINA. Secretaria de Estado da Educação. Proposta Curricular de Santa Catarina: formação integral na educação básica/Estado de Santa Catarina, 2014, 192p.',
     'SANTA CATARINA. Governo do Estado. Secretaria de Estado da Educação. Itinerário formativo de aprofundamento das áreas do conhecimento - IFA - Florianópolis, 2026.',
     'SANTA CATARINA. Secretaria de Estado da Educação. Currículo de Educação Digital da Rede Estadual de Santa Catarina – 2026. Florianópolis: Secretaria de Estado da Educação, 2026. 339 p. Disponível em: PDF institucional.',
-    'SANTA CATARINA. A proposta catarinense para o ensino Técnico Agrícola no Brasil. Organizado por Conselho Estadual de Ensino Agrícola de Santa Catarina - CONEA - Blumenau, SC: IFC, 2018. 256 p. : il.',
   ];
 
   recursos: any[] = [
@@ -215,6 +214,10 @@ export class PlanejamentoComponent {
     'Auditório',
     'Mesas de tênis ou xadrez',
     'Caixa de som',
+    'Animais para demonstração',
+    'Colmeias (abelhas com e sem ferrão)',
+    'Implementos e máquinas agrícolas',
+    'Instrumentos para coleta de materiais para análise (química, física, bromatológica)',
   ];
 
   areasCeja = [
@@ -772,21 +775,70 @@ export class PlanejamentoComponent {
     }
 
     //Preencher opções Habilidades do currículo digital
+    //Como começou a ser implmentado agora apenas o sexto e sétimo ano estão no tempo correto.
     if (
-      event?.value?.includes('Ensino Técnico') ||
-      event?.value?.includes('Ensino Médio')
+      event?.value?.includes('6º Ano')
     ) {
       this.habilidadesCurriculoDigital =
         HabilidadeUtil.habilidadesCurriculoDigital.filter((t) =>
-          t.Etapa.includes('Ensino Médio'),
+          t.Serie == '6º Ano'
         );
       return;
     } else {
       this.habilidadesCurriculoDigital =
         HabilidadeUtil.habilidadesCurriculoDigital.filter(
-          (t) =>
-            !t.Etapa.includes('Ensino Médio') && event?.value[0] == t.Serie[0],
+          (t) => t.Serie == '7º Ano'
         );
+    }
+
+    if(event?.value?.includes('Ensino Técnico')){
+      if(event?.value?.includes('1º Ano')) {
+        this.referencias.push('CASTRO, F. S.; VASCONCELOS, P. R. Zootecnia e produção de ruminantes e não ruminantes. Porto Alegre: SAGAH, 2019.');
+        this.referencias.push('CONEA. A proposta catarinense para o ensino técnico agrícola no Brasil. Conselho Estadual de Ensino Agrícola de Santa Catarina (CONEA). ');
+        this.referencias.push('CONSELHO ESTADUAL DE ENSINO AGRÍCOLA DE SANTA CATARINA (CONEA) (Org.). A proposta catarinense para o ensino Técnico Agrícola no Brasil. Blumenau, SC: IFC, 2018. 256 p. ISBN 978-85-5644-018-1.');
+        this.referencias.push('EMPRESA DE PESQUISA AGROPECUÁRIA E EXTENSÃO RURAL DE SANTA CATARINA (EPAGRI). Fruticultura: relatórios e indicadores regionais da fruticultura catarinense. Florianópolis: Epagri/Cepa, 2026. Disponível em: Portal Epagri/Cepa - Fruticultura.');
+        this.referencias.push('FACHINELLO, José Carlos; NACHTIGAL, Jair Costa; KERSTEN, Elio. Fruticultura: fundamentos e práticas. Pelotas: Editora UFPel, 2008. Disponível em: Repositório UFPel - Livro Fruticultura Geral.');
+        this.referencias.push('FAILS, A. D.; MAGEE, C. Frandson: anatomia e fisiologia dos animais de produção. 8. ed. Rio de Janeiro: Guanabara Koogan, 2019.');
+        this.referencias.push('FERREIRA, Marcos David (Ed.). Colheita e beneficiamento de frutas e hortaliças. São Carlos: Embrapa Instrumentação Agropecuária, 2008. Disponível em: Repositório Alice Embrapa - Colheita e Beneficiamento.');
+        this.referencias.push('KICHEL, Armindo Neivo et al. Diagnóstico para o planejamento da propriedade. Campo Grande: Embrapa Gado de Corte, 2011.(Documentos, 183). Disponível em: Infoteca-e Embrapa – Documentos 183. Acesso em: 24 nov. 2026.');
+        this.referencias.push('Manual de horticultura orgânica. Souza, Jacimar Luis. 2ª edição. Aprenda fácil Editora.  Viçosa MG 834 p.  2006.');
+        this.referencias.push('MEDEIROS, Flávio Benilton da Silva. Economia e administração rural. Londrina: Editora e Distribuidora Educacional S.A., 2019. Disponível em: Repositório KLS - Economia e Administração Rural. Acesso em: 24 nov. 2026.');
+        this.referencias.push('Produção de mudas de hortaliças. Borne, Henrique Boni. Editora Agropecuária. 139 p. 1999.  Brasília, 2018.');
+        this.referencias.push('SERVIÇO NACIONAL DE APRENDIZAGEM RURAL (SENAR). Gestão rural: planejamento, organização, direção e controle de propriedades rurais. Curitiba: FAEP/SENAR-PR, 2023. Disponível em: Sistema FAEP - Cartilha Gestão Rural. Acesso em: 24 nov. 2026.');
+        this.referencias.push('Sistema de plantio direto de hortaliças. Organizadores;Jamil Abdalla Fayad, Valdemar Ari, Jucinei José Comin, Álvaro Luiz Mafra, Darlan Rodrigo Marqhesi. 1 ediçãoSão Paulo-SP. Expressão popular 2029 432 p.');
+        this.referencias = this.referencias;
+      }
+      if(event?.value?.includes('2º Ano')) {
+        this.referencias.push('BERNARDO, Salassier; MANTOVANI, Everardo Chartuni; SILVA, Demetrius David da; SOARES, Antônio Alves. Manual de irrigação. 9. ed. Viçosa: Editora UFV, 2019. Disponível em: Editora UFV - Manual de Irrigação.');
+        this.referencias.push('COELHO, Eugênio Ferreira; COELHO FILHO, Maurício Antônio; OLIVEIRA, Sérgio Luiz de. Métodos de irrigação e quimigação. Cruz das Almas: Embrapa Mandioca e Fruticultura, 2007. (Circular Técnica, 86). Disponível em: Infoteca-e Embrapa - Circular Técnica 86.');
+        this.referencias.push('CONSELHO ESTADUAL DE ENSINO AGRÍCOLA DE SANTA CATARINA (CONEA) (Org.). A proposta catarinense para o ensino Técnico Agrícola no Brasil. Blumenau, SC: IFC, 2018. 256 p. ISBN 978-85-5644-018-1.');
+        this.referencias.push('FERREIRA, Valber Mendes. Irrigação e drenagem. Teresina: Instituto Federal do Piauí (IFPI) / Rede e-Tec Brasil, 2011. Disponível em: Biblioteca AGPTEA - Irrigação e Drenagem.');
+        this.referencias.push('Manual de Entomologia Agrícola. Gallo, Domingos. Editora Agronômica Ceres, 1988. 649 p.');
+        this.referencias.push('Manual de horticultura orgânica. Souza, Jacimar Luis. 2ª edição. Aprenda fácil Editora.  Viçosa MG 834 p.  2006.');
+        this.referencias.push('Sistema de plantio direto de hortaliças. Organizadores;Jamil Abdalla Fayad, Valdemar Ari, Jucinei José Comin, Álvaro Luiz Mafra, Darlan Rodrigo Marqhesi. 1 ediçãoSão Paulo-SP  Expressão popular 2029 432 p.');
+        this.referencias = this.referencias;
+      }
+      if(event?.value?.includes('3º Ano')) {
+        this.referencias.push('ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). ABNT NBR 13133: execução de levantamento topográfico — procedimento. 2. ed. Rio de Janeiro: ABNT, 2021. Disponível em: Catálogo ABNT – NBR 13133.');
+        this.referencias.push('BORGES, Gladstone Carrijo; NASCIMENTO, Márcio de Souza. Apostila de desenho técnico. Curitiba: Universidade Federal do Paraná (UFPR), 2014. Disponível em: Repositório UFPR - Apostila de Desenho Técnico.');
+        this.referencias.push('Callado Antônio André Cunha; Agronegócio, 3 edição São Paulo – SP Editora Atlas S.A. 2011 203 p.');
+        this.referencias.push('Compêndio de defensivos Agrícolas Andrei Edmondo; 8 edição São Paulo-SP 2009 Organizações Andrei editor Ltda. 1378 p.');
+        this.referencias.push('CONSELHO ESTADUAL DE ENSINO AGRÍCOLA DE SANTA CATARINA (CONEA) (Org.). A proposta catarinense para o ensino Técnico Agrícola no Brasil. Blumenau, SC: IFC, 2018. 256 p. ISBN 978-85-5644-018-1.');
+        this.referencias.push('Economia Agrícola; Principios Basicos e Aplicações Judas Tadeu Grassi Mendes Curitiba  scientia et labor 1989 ;399p');
+        this.referencias.push('MACHADO JÚNIOR, José. Topografia e agricultura de precisão. [S.l.]: Biblioteca AGPTEA, [202-]. Disponível em: Biblioteca AGPTEA - Topografia e Agricultura de Precisão.');
+        this.referencias.push('Manual de Fitopatologia. Filho, Armando Bergamim. Editora Agronômica Ceres. 1995. 919 P.  Manual de Entomologia Agrícola. Gallo, Domingos. Editora Agronômica Ceres, 1988. 649 p.');
+        this.referencias.push('O novo Rural Brasileiro; Novas atividades V.6 José Graziano silva, Brasília DF 2004, editor Embrapa 308 p.');
+        this.referencias.push('Oliveira Djalma  PInho Rebouças  de, Manual de gestão das cooperativas Sçao Paulo SP, ed. Atlas 2011 5 edição 326 p.');
+        this.referencias.push('Véras Neto, Francisco quintilha, Cooperativismo; nova abordagem sócio-jurídica 1 ediççao 2001  Jiruá editota , Curitiba PR 384 p.');
+        this.referencias = this.referencias;
+      }
+      if(event?.value?.includes('4º Ano')){
+        this.referencias.push('CONSELHO ESTADUAL DE ENSINO AGRÍCOLA DE SANTA CATARINA (CONEA) (Org.). A proposta catarinense para o ensino Técnico Agrícola no Brasil. Blumenau, SC: IFC, 2018. 256 p. ISBN 978-85-5644-018-1.');
+      }
+    } else {
+      if ( this.referencias.length > 5){
+        this.referencias = this.referencias.slice(0, 5);
+      }
     }
   }
 
@@ -1205,7 +1257,7 @@ export class PlanejamentoComponent {
     } else if (this.serieAno.value?.includes('Ensino Técnico')) {
       this.criteriosDeAvaliacao = CriterioUtil.criteriosTecnicoAgricola.filter(
         (t) =>
-          this.habilidade.value?.some((r: any) => r.codigo == t.habilidade),
+          this.habilidade.value?.some((r: any) => r.id == t.habilidade),
       );
     }
 
