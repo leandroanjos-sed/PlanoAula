@@ -217,7 +217,7 @@
                 [listStyle]="{'max-height': '320px'}" emptyMessage="Selecione Série/Ano e Disciplina!"
                 (onChange)="onChangeHabilidade($event)">
                 <ng-template let-item pTemplate="item">
-                    <div>{{ (!item.Codigo?.includes('-') ? (item.Codigo ?? '') : '') + ' - ' + item.Habilidade }}</div>
+                    <div>{{ (!item.Codigo?.includes('-') ? (item.Codigo ? item.Codigo + ' - ' :'') : '')  + item.Habilidade }}</div>
                 </ng-template>
             </p-listbox>
             @if (habilidade.invalid && (habilidade.dirty || habilidade.touched)) {

@@ -466,7 +466,7 @@ export class PlanejamentoComponent {
       this.competencia.removeValidators([
         Validators.required,
         Validators.minLength(1),
-      ])
+      ]);
       this.planejamentoForm.addControl(
         'areaCeja',
         new FormControl(undefined, Validators.required),
@@ -575,7 +575,7 @@ export class PlanejamentoComponent {
             label: 'Administração e Economia Rural',
             value: {
               disciplina: 'Administração e Economia Rural',
-              competenciasGerais: [20],
+              competenciasGerais: [20, 21],
             },
           },
           {
@@ -584,7 +584,7 @@ export class PlanejamentoComponent {
           },
           {
             label: 'Criações',
-            value: { disciplina: 'Criações', competenciasGerais: [11] },
+            value: { disciplina: 'Criações', competenciasGerais: [11, 12] },
           },
           {
             label: 'Culturas Anuais',
@@ -609,12 +609,12 @@ export class PlanejamentoComponent {
             label: 'Silvicultura e Paisagismo',
             value: {
               disciplina: 'Silvicultura e Paisagismo',
-              competenciasGerais: [5, 6, 7, 21],
+              competenciasGerais: [5, 6, 7],
             },
           },
           {
             label: 'Zootecnia',
-            value: { disciplina: 'Zootecnia', competenciasGerais: [9, 10] },
+            value: { disciplina: 'Zootecnia', competenciasGerais: [10] },
           },
         ];
       } else if (event?.value?.startsWith('2')) {
@@ -623,7 +623,7 @@ export class PlanejamentoComponent {
             label: 'Administração e Economia Rural',
             value: {
               disciplina: 'Administração e Economia Rural',
-              competenciasGerais: [20],
+              competenciasGerais: [19, 20, 21],
             },
           },
           {
@@ -632,7 +632,7 @@ export class PlanejamentoComponent {
           },
           {
             label: 'Criações',
-            value: { disciplina: 'Criações', competenciasGerais: [12] },
+            value: { disciplina: 'Criações', competenciasGerais: [11, 12] },
           },
           {
             label: 'Culturas Anuais',
@@ -665,11 +665,11 @@ export class PlanejamentoComponent {
           },
           {
             label: 'Olericultura',
-            value: { disciplina: 'Olericultura', competenciasGerais: [3, 21] },
+            value: { disciplina: 'Olericultura', competenciasGerais: [3] },
           },
           {
             label: 'Zootecnia',
-            value: { disciplina: 'Zootecnia', competenciasGerais: [10] },
+            value: { disciplina: 'Zootecnia', competenciasGerais: [9, 10] },
           },
         ];
       } else if (event?.value?.startsWith('3')) {
@@ -678,14 +678,14 @@ export class PlanejamentoComponent {
             label: 'Administração e Economia Rural',
             value: {
               disciplina: 'Administração e Economia Rural',
-              competenciasGerais: [20, 21],
+              competenciasGerais: [19, 20, 21],
             },
           },
           {
             label: 'Construção e Instalação',
             value: {
               disciplina: 'Construção e Instalação',
-              competenciasGerais: [16, 21],
+              competenciasGerais: [16],
             },
           },
           {
@@ -700,17 +700,23 @@ export class PlanejamentoComponent {
             label: 'Defesa Sanitária Vegetal',
             value: {
               disciplina: 'Defesa Sanitária Vegetal',
-              competenciasGerais: [10, 21],
+              competenciasGerais: [8],
             },
           },
           {
             label: 'Deontologia Rural',
             value: {
               disciplina: 'Deontologia Rural',
-              competenciasGerais: [19, 22],
+              competenciasGerais: [22],
             },
           },
-          { label: 'Desenho e Topografia', value: 'Desenho e Topografia' },
+          {
+            label: 'Desenho e Topografia',
+            value: {
+              disciplina: 'Desenho e Topografia',
+              competenciasGerais: [17],
+            },
+          },
           {
             label: 'Laboratório de Práticas Agropecuárias',
             value: {
@@ -792,6 +798,7 @@ export class PlanejamentoComponent {
     let isEnsinoFundamental =
       this.serieAno.value?.includes('Ensino Fundamental');
     let isEnsinoMedio = this.serieAno.value?.includes('Ensino Médio');
+    let isEnsinoTecnico = this.serieAno.value?.includes('Ensino Técnico');
 
     if (isEnsinoFundamental) {
       this.competencias = CompetenciaUtil.competenciasAnosFinais;
@@ -932,7 +939,7 @@ export class PlanejamentoComponent {
             (t) => t.Disciplina == 'Matemática',
           );
         this.competenciasRecomposicao.push(
-          this.competencias.filter(
+          ...this.competencias.filter(
             (t) => t.Area == 'Matemática e suas Tecnologias',
           ),
         );
@@ -996,7 +1003,7 @@ export class PlanejamentoComponent {
     this.criteriosAvaliacao.updateValueAndValidity();
 
     //Ajustes CEDUP
-    if (this.serieAno.value?.includes('Ensino Técnico')) {
+    if (isEnsinoTecnico) {
       this.competenciasGerais =
         CompetenciaUtil.competenciasGeraisTecnicoAgricola.filter((t) =>
           event.value?.competenciasGerais?.includes(t.numero),
@@ -1012,14 +1019,40 @@ export class PlanejamentoComponent {
       );
       this.competenciaGeral?.updateValueAndValidity();
       this.onChangeCompetenciaGeral();
+
+      this.habilidades = HabilidadeUtil.habilidadesTecnicoAgricola.filter(
+        (t) => 
+          this.serieAno.value?.includes(t.ano) &&
+          this.disciplina.value?.disciplina?.toUpperCase().includes(t.disciplina),
+      );
+
+      //Disciplinas da grade antiga
+      if (this.disciplina.value == 'Cultura') {
+        this.habilidades = HabilidadeUtil.habilidadesTecnicoAgricola.filter(
+          (t) =>
+            this.serieAno.value?.includes(t.ano) &&
+            this.disciplina.value?.disciplina?.toUpperCase().includes('Culturas Anuais'),
+        );
+      }
+      if (this.disciplina.value == 'Administração e Extensão Rural') {
+        this.habilidades = HabilidadeUtil.habilidadesTecnicoAgricola.filter(
+          (t) =>
+            this.serieAno.value?.includes(t.ano) &&
+            this.disciplina.value?.disciplina?.toUpperCase().includes('Administração e Economia Rural'),
+        );
+      }
     } else {
       this.planejamentoForm.removeControl('competenciaGeral');
+      this.habilidades = [];
     }
   }
 
   onChangeCompetencia(event: ListboxChangeEvent) {
-    if (this.serieAno.value?.includes('Ensino Técnico') && this.escola.value?.includes('CEDUP')) {
-      if (event.value?.length > 3){
+    if (
+      this.serieAno.value?.includes('Ensino Técnico') &&
+      this.escola.value?.includes('CEDUP')
+    ) {
+      if (event.value?.length > 3) {
         event.value?.pop();
         this.messageService.add({
           severity: 'info',
@@ -1074,7 +1107,7 @@ export class PlanejamentoComponent {
     }
     this.habilidade.updateValueAndValidity();
 
-    if (this.disciplina.value?.includes('Língua Portuguesa')) {
+    if (this.disciplina.value || this.disciplina.value?.includes('Língua Portuguesa')) {
       this.habilidadesRecomposicaoAprendizagem =
         HabilidadeUtil.habilidadesAnosIniciais.filter((t) =>
           t.Disciplina.includes('Língua Portuguesa'),
@@ -1111,7 +1144,7 @@ export class PlanejamentoComponent {
       }
     }
 
-    if (this.disciplina.value?.includes('Matemática')) {
+    if (this.disciplina.value || this.disciplina.value?.includes('Matemática')) {
       this.habilidadesRecomposicaoAprendizagem =
         HabilidadeUtil.habilidadesAnosIniciais.filter((t) =>
           t.Disciplina.includes('Matemática'),
@@ -1144,13 +1177,12 @@ export class PlanejamentoComponent {
         summary: 'Aviso',
       });
     }
-    this.competencias =
-      CompetenciaUtil.competenciaEspecificasTecnicoAgricola.filter(
-        (t) => t.Numero == this.competenciaGeral?.value[0]?.numero,
-      );
-    this.habilidades = HabilidadeUtil.habilidadesTecnicoAgricola.filter(
-      (t) => t.competencia == this.competenciaGeral?.value[0]?.numero,
-    );
+    if(this.competenciaGeral?.value != undefined) {
+      this.competencias =
+        CompetenciaUtil.competenciaEspecificasTecnicoAgricola.filter(
+          (t) => t.Numero == this.competenciaGeral?.value[0]?.numero,
+        );
+    }
   }
 
   onChangeHabilidade(event: ListboxChangeEvent) {
@@ -1538,7 +1570,9 @@ export class PlanejamentoComponent {
       ]);
     } else {
       body.push([
-        (isEnsinoMedio && dados?.disciplina?.includes('Língua Portuguesa')) ? 'Habilidade da Área de Linguagens' : 'Habilidade',
+        isEnsinoMedio && dados?.disciplina?.includes('Língua Portuguesa')
+          ? 'Habilidade da Área de Linguagens'
+          : 'Habilidade',
         dados.habilidade
           ?.map(
             (t: any) =>

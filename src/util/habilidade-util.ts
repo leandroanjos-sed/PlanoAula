@@ -7836,2103 +7836,3557 @@ export class HabilidadeUtil {
 
   public static habilidadesTecnicoAgricola = [
     {
-      codigo: -1,
-      competencia: 1,
-      Habilidade: 'Diferenciar os diversos tipos de agricultura',
-    },
-    {
-      codigo: -2,
-      competencia: 1,
-      Habilidade:
-        'Determinar e identificar as diferentes classes e perfis do solo',
-    },
-    {
-      codigo: -3,
-      competencia: 1,
-      Habilidade: 'Saber identificar as diferentes constituições do solo',
-    },
-    {
-      codigo: -4,
-      competencia: 1,
-      Habilidade: 'Classificar os solos de acordo com sua aptidão e uso',
-    },
-    {
-      codigo: -5,
-      competencia: 1,
-      Habilidade:
-        'Identificar os aparelhos climatológicos e seus usos na agricultura',
-    },
-    {
-      codigo: -6,
-      competencia: 1,
-      Habilidade: 'Compreender o ciclo hidrológico',
-    },
-    {
-      codigo: -7,
-      competencia: 1,
-      Habilidade: 'Entender a influência do clima na interação solo-planta',
-    },
-    {
-      codigo: -8,
-      competencia: 1,
-      Habilidade:
-        'Determinar e inter-relacionar as características físicas, químicas e biológicas do solo',
-    },
-    {
-      codigo: -9,
-      competencia: 1,
-      Habilidade: 'Identificar as fontes de matéria orgânica',
-    },
-    {
-      codigo: -10,
-      competencia: 1,
-      Habilidade: 'Identificar os tipos de erosão e seus efeitos',
-    },
-    {
-      codigo: -11,
-      competencia: 1,
-      Habilidade: 'Propor métodos e técnicas de conservação dos solos',
-    },
-    {
-      codigo: -12,
-      competencia: 1,
-      Habilidade: 'Identificar as áreas para coleta de amostras de solo',
-    },
-    {
-      codigo: -13,
-      competencia: 1,
-      Habilidade: 'Coletar amostras de solo',
-    },
-    {
-      codigo: -14,
-      competencia: 1,
-      Habilidade:
-        'Identificar os níveis de fertilidade do solo e as exigências das culturas',
-    },
-    {
-      codigo: -15,
-      competencia: 1,
-      Habilidade: 'Diferenciar e utilizar os tipos e formas de adubação',
-    },
-    {
-      codigo: -16,
-      competencia: 1,
-      Habilidade:
-        'Classificar os elementos em macronutrientes e micronutrientes',
-    },
-    {
-      codigo: -17,
-      competencia: 1,
-      Habilidade:
-        'Estabelecer a relação entre pH do solo e a disponibilidade de nutrientes para a planta',
-    },
-    {
-      codigo: -18,
-      competencia: 1,
-      Habilidade:
-        'Determinar e organizar programas de rotação, sucessão e consorciação de culturas',
-    },
-    {
-      codigo: -19,
-      competencia: 1,
-      Habilidade: 'Interpretar laudos de análise de solo',
-    },
-    {
-      codigo: -20,
-      competencia: 1,
-      Habilidade: 'Calcular a recomendação de correção e adubação',
-    },
-    {
-      codigo: -21,
-      competencia: 2,
+      id: 1,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
         'Utilizar dados meteorológicos como parâmetro para elaboração de planos de cultivo',
     },
     {
-      codigo: -22,
-      competencia: 2,
+      id: 2,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
         'Fazer cronogramas de cultivos baseados no zoneamento agrícola',
     },
     {
-      codigo: -23,
-      competencia: 2,
+      id: 3,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
         'Identificar e relacionar o estádio fenológico das plantas com as técnicas de manejo',
     },
     {
-      codigo: -24,
-      competencia: 2,
+      id: 4,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade: 'Determinar a distribuição espacial e a população de plantas',
     },
     {
-      codigo: -25,
-      competencia: 2,
+      id: 5,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
         'Utilizar os métodos de rotação, sucessão e consorciação de culturas',
     },
     {
-      codigo: -26,
-      competencia: 2,
+      id: 6,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
         'Relacionar os estádios de desenvolvimento das plantas com o manejo de adubação',
     },
     {
-      codigo: -27,
-      competencia: 2,
+      id: 7,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
-        'Relacionar a ocorrência de doenças, pragas e plantas invasoras com o estádio fenológico das plantas, associados aos fatores ambientais',
+        'Relacionar a ocorrência de doenças, pragas e plantas daninhas com o estádio fenológico das plantas, associados aos fatores ambientais',
     },
     {
-      codigo: -28,
-      competencia: 2,
+      id: 8,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade: 'Identificar sintomas de deficiência nutricional',
     },
     {
-      codigo: -29,
-      competencia: 2,
+      id: 9,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade: 'Calcular e aplicar a adubação necessária para cada cultura',
     },
     {
-      codigo: -30,
-      competencia: 2,
+      id: 10,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade: 'Utilizar práticas de cobertura do solo',
     },
     {
-      codigo: -31,
-      competencia: 2,
+      id: 11,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade: 'Identificar o ponto de colheita das diversas culturas',
     },
     {
-      codigo: -32,
-      competencia: 2,
+      id: 12,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade: 'Recomendar o escalonamento de semeadura e colheita',
     },
     {
-      codigo: -33,
-      competencia: 2,
+      id: 13,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade: 'Identificar os fatores que afetam o processo de colheita',
     },
     {
-      codigo: -34,
-      competencia: 2,
+      id: 14,
+      ano: '1º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
-        'Recomendar técnicas de secagem, armazenamento e comercialização dos produtos',
+        'Recomendar técnicas de secagem, armazenamento e comercialização dos produtos.',
     },
     {
-      codigo: -35,
-      competencia: 3,
-      Habilidade: 'Identificar a origem e a evolução das espécies olerícolas',
-    },
-    {
-      codigo: -36,
-      competencia: 3,
-      Habilidade: 'Entender os efeitos dos fatores climáticos nas plantas',
-    },
-    {
-      codigo: -37,
-      competencia: 3,
-      Habilidade: 'Coletar, registrar e utilizar dados meteorológicos',
-    },
-    {
-      codigo: -38,
-      competencia: 3,
-      Habilidade: 'Elaborar e executar cronograma de cultivo e manejo cultural',
-    },
-    {
-      codigo: -39,
-      competencia: 3,
-      Habilidade:
-        'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento da planta',
-    },
-    {
-      codigo: -40,
-      competencia: 3,
-      Habilidade: 'Identificar as principais funções reprodutivas das plantas',
-    },
-    {
-      codigo: -41,
-      competencia: 3,
-      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
-    },
-    {
-      codigo: -42,
-      competencia: 3,
-      Habilidade: 'Instalar, monitorar e manejar ambientes protegidos',
-    },
-    {
-      codigo: -43,
-      competencia: 3,
-      Habilidade: 'Manejar sistemas de produção hidropônicos',
-    },
-    {
-      codigo: -44,
-      competencia: 3,
-      Habilidade: 'Produzir mudas olerícolas',
-    },
-    {
-      codigo: -45,
-      competencia: 3,
-      Habilidade:
-        'Identificar porcentagem de germinação e determinar quantidade de semente, espaçamento e profundidade de plantio',
-    },
-    {
-      codigo: -46,
-      competencia: 3,
-      Habilidade: 'Realizar tratos culturais nas plantas',
-    },
-    {
-      codigo: -47,
-      competencia: 3,
-      Habilidade:
-        'Fazer o reconhecimento de plantas invasoras, pragas e doenças',
-    },
-    {
-      codigo: -48,
-      competencia: 3,
-      Habilidade:
-        'Utilizar informações sobre os fatores climáticos no manejo de pragas, doenças e plantas invasoras',
-    },
-    {
-      codigo: -49,
-      competencia: 3,
-      Habilidade:
-        'Utilizar os métodos integrados de prevenção e controle de pragas, doenças e plantas invasoras',
-    },
-    {
-      codigo: -50,
-      competencia: 3,
-      Habilidade: 'Identificar o ponto de colheita',
-    },
-    {
-      codigo: -51,
-      competencia: 3,
-      Habilidade: 'Orientar e acompanhar a colheita',
-    },
-    {
-      codigo: -52,
-      competencia: 3,
-      Habilidade: 'Fazer seleção, classificação e padronização da produção',
-    },
-    {
-      codigo: -53,
-      competencia: 3,
-      Habilidade: 'Aplicar as técnicas de amadurecimento',
-    },
-    {
-      codigo: -54,
-      competencia: 3,
-      Habilidade:
-        'Aplicar as técnicas de embalagem e rotulagem para os diversos produtos',
-    },
-    {
-      codigo: -55,
-      competencia: 3,
-      Habilidade: 'Definir os canais de comercialização',
-    },
-    {
-      codigo: -56,
-      competencia: 4,
-      Habilidade: 'Identificar a origem e a evolução das espécies frutíferas',
-    },
-    {
-      codigo: -57,
-      competencia: 4,
-      Habilidade: 'Identificar os efeitos dos fatores climáticos nas plantas',
-    },
-    {
-      codigo: -58,
-      competencia: 4,
-      Habilidade: 'Executar cronograma de cultivo e manejo cultural',
-    },
-    {
-      codigo: -59,
-      competencia: 4,
-      Habilidade: 'Implantar culturas intercalares',
-    },
-    {
-      codigo: -60,
-      competencia: 4,
-      Habilidade:
-        'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento da planta',
-    },
-    {
-      codigo: -61,
-      competencia: 4,
-      Habilidade:
-        'Identificar e monitorar as principais funções reprodutivas das plantas',
-    },
-    {
-      codigo: -62,
-      competencia: 4,
-      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
-    },
-    {
-      codigo: -63,
-      competencia: 4,
-      Habilidade: 'Utilizar técnicas de quebra de dormência',
-    },
-    {
-      codigo: -64,
-      competencia: 4,
-      Habilidade: 'Identificar e realizar tratos culturais',
-    },
-    {
-      codigo: -65,
-      competencia: 4,
-      Habilidade: 'Utilizar técnicas de condução de plantas frutíferas',
-    },
-    {
-      codigo: -66,
-      competencia: 4,
-      Habilidade:
-        'Utilizar os diferentes tipos de podas nas plantas frutíferas',
-    },
-    {
-      codigo: -67,
-      competencia: 4,
-      Habilidade:
-        'Fazer o reconhecimento de plantas invasoras, pragas e doenças',
-    },
-    {
-      codigo: -68,
-      competencia: 4,
-      Habilidade:
-        'Utilizar informações sobre os fatores climáticos no manejo de pragas, doenças e plantas invasoras',
-    },
-    {
-      codigo: -69,
-      competencia: 4,
-      Habilidade:
-        'Utilizar os métodos integrados de prevenção e controle de pragas, doenças e plantas invasoras',
-    },
-    {
-      codigo: -70,
-      competencia: 4,
-      Habilidade:
-        'Identificar o ponto de colheita por meio de diferentes métodos',
-    },
-    {
-      codigo: -71,
-      competencia: 4,
-      Habilidade: 'Fazer a seleção e padronização da produção',
-    },
-    {
-      codigo: -72,
-      competencia: 4,
-      Habilidade: 'Aplicar as técnicas de amadurecimento',
-    },
-    {
-      codigo: -73,
-      competencia: 4,
-      Habilidade:
-        'Utilizar as técnicas de classificação, embalagem e rotulagem para os diversos produtos',
-    },
-    {
-      codigo: -74,
-      competencia: 4,
-      Habilidade:
-        'Orientar e acompanhar a colheita, o armazenamento e o beneficiamento',
-    },
-    {
-      codigo: -75,
-      competencia: 4,
-      Habilidade: 'Cumprir a legislação vigente',
-    },
-    {
-      codigo: -76,
-      competencia: 5,
-      Habilidade:
-        'Identificar o objetivo e a importância do projeto paisagístico',
-    },
-    {
-      codigo: -77,
-      competencia: 5,
-      Habilidade: 'Dimensionar os espaços a serem ocupados no jardim',
-    },
-    {
-      codigo: -78,
-      competencia: 5,
-      Habilidade: 'Distinguir os tipos e estilos de jardins',
-    },
-    {
-      codigo: -79,
-      competencia: 5,
-      Habilidade: 'Identificar as características da vegetação',
-    },
-    {
-      codigo: -80,
-      competencia: 5,
-      Habilidade:
-        'Interpretar o calendário de plantio e florescimento das espécies',
-    },
-    {
-      codigo: -81,
-      competencia: 5,
-      Habilidade:
-        'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento das espécies ornamentais',
-    },
-    {
-      codigo: -82,
-      competencia: 5,
-      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
-    },
-    {
-      codigo: -83,
-      competencia: 5,
-      Habilidade: 'Identificar pragas, doenças e plantas invasoras',
-    },
-    {
-      codigo: -84,
-      competencia: 5,
-      Habilidade:
-        'Utilizar métodos integrados de prevenção e controle de plantas invasoras, pragas e doenças',
-    },
-    {
-      codigo: -85,
-      competencia: 5,
-      Habilidade:
-        'Identificar e utilizar as técnicas de repicagem e transplante',
-    },
-    {
-      codigo: -86,
-      competencia: 5,
-      Habilidade: 'Planejar, implantar e monitorar projetos paisagísticos',
-    },
-    {
-      codigo: -87,
-      competencia: 5,
-      Habilidade: 'Executar cronograma de cultivo e manejo cultural',
-    },
-    {
-      codigo: -88,
-      competencia: 5,
-      Habilidade: 'Realizar tratos culturais para a manutenção das espécies',
-    },
-    {
-      codigo: -89,
-      competencia: 5,
-      Habilidade: 'Cumprir a legislação vigente',
-    },
-    {
-      codigo: -90,
-      competencia: 6,
-      Habilidade: 'Interpretar o histórico e a divisão da silvicultura',
-    },
-    {
-      codigo: -91,
-      competencia: 6,
-      Habilidade:
-        'Reconhecer a finalidade da silvicultura e sua importância econômica',
-    },
-    {
-      codigo: -92,
-      competencia: 6,
-      Habilidade: 'Distinguir os tipos de florestas e suas funções',
-    },
-    {
-      codigo: -93,
-      competencia: 6,
-      Habilidade:
-        'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento das espécies',
-    },
-    {
-      codigo: -94,
-      competencia: 6,
-      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
-    },
-    {
-      codigo: -95,
-      competencia: 6,
-      Habilidade: 'Coletar sementes, mudas e estruturas propagativas',
-    },
-    {
-      codigo: -96,
-      competencia: 6,
-      Habilidade: 'Utilizar técnicas de quebra de dormência',
-    },
-    {
-      codigo: -97,
-      competencia: 6,
-      Habilidade:
-        'Identificar porcentagem de germinação e determinar a necessidade de semente e profundidade de plantio',
-    },
-    {
-      codigo: -98,
-      competencia: 6,
-      Habilidade: 'Realizar repicagem e transplante',
-    },
-    {
-      codigo: -99,
-      competencia: 6,
-      Habilidade:
-        'Utilizar métodos integrados de prevenção e controle de pragas, doenças e plantas invasoras',
-    },
-    {
-      codigo: -100,
-      competencia: 6,
-      Habilidade:
-        'Identificar os sistemas de produção e suas técnicas de manejo',
-    },
-    {
-      codigo: -101,
-      competencia: 6,
-      Habilidade: 'Avaliar as áreas para a implantação de florestas',
-    },
-    {
-      codigo: -102,
-      competencia: 6,
-      Habilidade: 'Planejar, implantar e monitorar projetos florestais',
-    },
-    {
-      codigo: -103,
-      competencia: 6,
-      Habilidade:
-        'Executar cronograma de implantação, cultivo e manejo cultural',
-    },
-    {
-      codigo: -104,
-      competencia: 6,
-      Habilidade: 'Planejar e dimensionar o desbaste e a colheita florestal',
-    },
-    {
-      codigo: -105,
-      competencia: 6,
-      Habilidade: 'Cumprir a legislação vigente',
-    },
-    {
-      codigo: -106,
-      competencia: 7,
+      id: 15,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade: 'Identificar os tipos de viveiros',
     },
     {
-      codigo: -107,
-      competencia: 7,
+      id: 16,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade: 'Manejar os diferentes sistemas de produção de mudas',
     },
     {
-      codigo: -108,
-      competencia: 7,
+      id: 17,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade:
-        'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento das mudas',
+        'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento das mudas.',
     },
     {
-      codigo: -109,
-      competencia: 7,
+      id: 18,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade: 'Planejar e implantar viveiros de acordo com cada espécie',
     },
     {
-      codigo: -110,
-      competencia: 7,
+      id: 19,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
     },
     {
-      codigo: -111,
-      competencia: 7,
+      id: 20,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade: 'Produzir mudas',
     },
     {
-      codigo: -112,
-      competencia: 7,
+      id: 21,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade: 'Utilizar técnicas de quebra de dormência',
     },
     {
-      codigo: -113,
-      competencia: 7,
+      id: 22,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade:
         'Calcular porcentagem de germinação, necessidade de semente e profundidade de plantio',
     },
     {
-      codigo: -114,
-      competencia: 7,
+      id: 23,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade:
         'Utilizar métodos integrados de prevenção e de controle de pragas e doenças',
     },
     {
-      codigo: -115,
-      competencia: 7,
+      id: 24,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade: 'Identificar o ponto de transplante',
     },
     {
-      codigo: -116,
-      competencia: 7,
+      id: 25,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade: 'Fazer a seleção, padronização e comercialização das mudas',
     },
     {
-      codigo: -117,
-      competencia: 7,
+      id: 26,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade: 'Adotar as normas de certificação de mudas',
     },
     {
-      codigo: -118,
-      competencia: 7,
+      id: 27,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
       Habilidade:
         'Cumprir a legislação vigente para implantação e operação de viveiros',
     },
     {
-      codigo: -119,
-      competencia: 7,
-      Habilidade: 'Definir os canais de comercialização',
+      id: 28,
+      ano: '1º Ano',
+      disciplina: 'SILVICULTURA E PAISAGISMO',
+      Habilidade: 'Definir os canais de comercialização.',
     },
     {
-      codigo: -120,
-      competencia: 8,
-      Habilidade:
-        'Prestar assistência técnica na compra, venda e utilização de produtos e equipamentos especializados',
+      id: 29,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Identificar a origem e a evolução das espécies olerícolas',
     },
     {
-      codigo: -121,
-      competencia: 8,
-      Habilidade:
-        'Coletar e acondicionar amostra de material vegetal para avaliação técnica',
+      id: 30,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Entender os efeitos dos fatores climáticos nas plantas',
     },
     {
-      codigo: -122,
-      competencia: 8,
-      Habilidade: 'Diagnosticar pragas e doenças',
-    },
-    {
-      codigo: -123,
-      competencia: 8,
-      Habilidade: 'Identificar plantas invasoras',
-    },
-    {
-      codigo: -124,
-      competencia: 8,
-      Habilidade:
-        'Conhecer, classificar e utilizar produtos agrotóxicos e afins',
-    },
-    {
-      codigo: -125,
-      competencia: 8,
-      Habilidade:
-        'Conhecer e elaborar a receita específica para cada cultura e problema de acordo com legislação vigente',
-    },
-    {
-      codigo: -126,
-      competencia: 8,
-      Habilidade:
-        'Interpretar a simbologia pertinente de bulas, rótulos, embalagens, armazenagem e transporte dos agrotóxicos e afins',
-    },
-    {
-      codigo: -127,
-      competencia: 8,
-      Habilidade: 'Utilizar a tecnologia de aplicação dos agrotóxicos e afins',
-    },
-    {
-      codigo: -128,
-      competencia: 8,
-      Habilidade:
-        'Responsabilizar-se pela elaboração da Anotação de Responsabilidade Técnica (ART) específica',
-    },
-    {
-      codigo: -129,
-      competencia: 8,
-      Habilidade:
-        'Realizar a assistência técnica e o acompanhamento na aplicação de agrotóxicos e afins',
-    },
-    {
-      codigo: -130,
-      competencia: 8,
-      Habilidade:
-        'Conhecer e utilizar o manejo integrado de pragas, doenças e plantas invasoras',
-    },
-    {
-      codigo: -131,
-      competencia: 8,
-      Habilidade: 'Cumprir a legislação vigente',
-    },
-    {
-      codigo: -132,
-      competencia: 9,
+      id: 31,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade: 'Coletar, registrar e utilizar dados meteorológicos',
     },
     {
-      codigo: -133,
-      competencia: 9,
-      Habilidade: 'Descrever os efeitos agroclimáticos nas forrageiras',
+      id: 32,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Elaborar e executar cronograma de cultivo e manejo cultural',
     },
     {
-      codigo: -134,
-      competencia: 9,
-      Habilidade: 'Executar cronogramas de cultivo',
-    },
-    {
-      codigo: -135,
-      competencia: 9,
-      Habilidade: 'Realizar o manejo das pastagens',
-    },
-    {
-      codigo: -136,
-      competencia: 9,
+      id: 33,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade:
-        'Utilizar práticas de otimização dos fatores climáticos relacionados ao crescimento e ao desenvolvimento em cultivo único ou em consorciação',
+        'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento da planta',
     },
     {
-      codigo: -137,
-      competencia: 9,
-      Habilidade:
-        'Identificar e monitorar as principais funções reprodutivas das plantas forrageiras',
+      id: 34,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Identificar as principais funções reprodutivas das plantas',
     },
     {
-      codigo: -138,
-      competencia: 9,
-      Habilidade:
-        'Discriminar a morfologia e fisiologia das plantas forrageiras',
-    },
-    {
-      codigo: -139,
-      competencia: 9,
-      Habilidade: 'Utilizar a tecnologia de sementes',
-    },
-    {
-      codigo: -140,
-      competencia: 9,
-      Habilidade:
-        'Relacionar as etapas do processo de absorção e translocação de nutrientes',
-    },
-    {
-      codigo: -141,
-      competencia: 9,
-      Habilidade:
-        'Determinar a porcentagem de germinação, quantidade de sementes ou mudas, espaçamento e profundidade de plantio',
-    },
-    {
-      codigo: -142,
-      competencia: 9,
+      id: 35,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
     },
     {
-      codigo: -143,
-      competencia: 9,
+      id: 36,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Instalar, monitorar e manejar ambientes protegidos',
+    },
+    {
+      id: 37,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Manejar sistemas de produção hidropônicos',
+    },
+    {
+      id: 38,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Produzir mudas olerícolas',
+    },
+    {
+      id: 39,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade:
-        'Realizar a identificação de plantas invasoras, pragas e doenças',
+        'Identificar porcentagem de germinação e determinar quantidade de semente, espaçamento e profundidade de plantio',
     },
     {
-      codigo: -144,
-      competencia: 9,
+      id: 40,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Realizar tratos culturais nas plantas',
+    },
+    {
+      id: 41,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade:
-        'Coletar e encaminhar amostras de pragas, plantas doentes e plantas invasoras',
+        'Fazer o reconhecimento de plantas daninhas, pragas e doenças',
     },
     {
-      codigo: -145,
-      competencia: 9,
+      id: 42,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade:
-        'Usar métodos práticos e de laboratório para identificação e diferenciação de pragas e doenças',
+        'Utilizar informações sobre os fatores climáticos no manejo de pragas, doenças e plantas daninhas',
     },
     {
-      codigo: -146,
-      competencia: 9,
+      id: 43,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade:
-        'Utilizar informações sobre os fatores agroclimáticos no manejo de pragas, doenças, plantas invasoras e tóxicas',
+        'Utilizar os métodos integrados de prevenção e controle de pragas, doenças e plantas daninhas',
     },
     {
-      codigo: -147,
-      competencia: 9,
+      id: 44,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Identificar o ponto de colheita',
+    },
+    {
+      id: 45,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Orientar e acompanhar a colheita',
+    },
+    {
+      id: 46,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Fazer seleção, classificação e padronização da produção',
+    },
+    {
+      id: 47,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Aplicar as técnicas de amadurecimento',
+    },
+    {
+      id: 48,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade:
-        'Utilizar os métodos integrados de prevenção e controle de pragas, doenças, plantas invasoras e tóxicas',
+        'Aplicar as técnicas de embalagem e rotulagem para os diversos produtos',
     },
     {
-      codigo: -148,
-      competencia: 9,
+      id: 49,
+      ano: '1º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Definir os canais de comercialização.',
+    },
+    {
+      id: 50,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Diferenciar os diversos tipos de agricultura',
+    },
+    {
+      id: 51,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
       Habilidade:
-        'Determinar o ponto de corte, rebrote, processamento, transporte e estocagem da forrageira',
+        'Determinar e identificar as diferentes classes e perfis do solo',
     },
     {
-      codigo: -149,
-      competencia: 9,
+      id: 52,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Saber identificar as diferentes constituições do solo',
+    },
+    {
+      id: 53,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Classificar os solos de acordo com sua aptidão e uso',
+    },
+    {
+      id: 54,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
       Habilidade:
-        'Aplicar os processos de fermentação e transformação da massa, avaliando a qualidade das forrageiras armazenadas',
+        'Identificar os aparelhos climatológicos e seus usos na agricultura',
     },
     {
-      codigo: -150,
-      competencia: 9,
+      id: 55,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Compreender o ciclo hidrológico',
+    },
+    {
+      id: 56,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Entender a influência do clima na interação solo-planta',
+    },
+    {
+      id: 57,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
       Habilidade:
-        'Aplicar as técnicas de conservação das forrageiras, fazendo a manutenção dos armazéns e dos tipos de silos',
+        'Determinar e inter-relacionar as características físicas, químicas e biológicas do solo',
     },
     {
-      codigo: -151,
-      competencia: 9,
+      id: 58,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Identificar as fontes de matéria orgânica',
+    },
+    {
+      id: 59,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Identificar os tipos de erosão e seus efeitos',
+    },
+    {
+      id: 60,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Propor métodos e técnicas de conservação dos solos',
+    },
+    {
+      id: 61,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Identificar as áreas para coleta de amostras de solo',
+    },
+    {
+      id: 62,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Coletar amostras de solo',
+    },
+    {
+      id: 63,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
       Habilidade:
-        'Dimensionar equipamentos e métodos no processo de conservação das forrageiras, minimizando as perdas',
+        'Classificar os elementos em macronutrientes e micronutrientes',
     },
     {
-      codigo: -152,
-      competencia: 9,
-      Habilidade: 'Quantificar as forragens a serem armazenadas',
-    },
-    {
-      codigo: -153,
-      competencia: 9,
+      id: 64,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
       Habilidade:
-        'Avaliar e interpretar a composição bromatológica das forrageiras',
+        'Estabelecer a relação entre pH do solo e a disponibilidade de nutrientes para a planta',
     },
     {
-      codigo: -154,
-      competencia: 10,
+      id: 65,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
       Habilidade:
-        'Reconhecer e classificar as espécies conforme suas funções e agrupamentos',
+        'Determinar e organizar programas de rotação, sucessão e consorciação de culturas',
     },
     {
-      codigo: -155,
-      competencia: 10,
-      Habilidade: 'Selecionar animais para melhoramento genético',
+      id: 66,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Interpretar laudos de análise de solo',
     },
     {
-      codigo: -156,
-      competencia: 10,
-      Habilidade: 'Acompanhar cruzamentos nas diversas espécies',
+      id: 67,
+      ano: '1º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Calcular a recomendação de correção e adubação.',
     },
     {
-      codigo: -157,
-      competencia: 10,
-      Habilidade: 'Avaliar resultados obtidos no melhoramento genético',
-    },
-    {
-      codigo: -158,
-      competencia: 10,
-      Habilidade: 'Aplicar processos produtivos e técnicos nos criatórios',
-    },
-    {
-      codigo: -159,
-      competencia: 10,
-      Habilidade:
-        'Aplicar os padrões de ambiência e bem-estar animal de acordo com cada espécie',
-    },
-    {
-      codigo: -160,
-      competencia: 10,
-      Habilidade:
-        'Entender e utilizar as características fisiológicas e morfológicas dos animais',
-    },
-    {
-      codigo: -161,
-      competencia: 10,
-      Habilidade:
-        'Determinar as exigências nutricionais e adequar o manejo alimentar de acordo com cada espécie',
-    },
-    {
-      codigo: -162,
-      competencia: 10,
-      Habilidade:
-        'Aplicar os métodos de defesa sanitária animal de acordo com a legislação vigente',
-    },
-    {
-      codigo: -163,
-      competencia: 11,
+      id: 68,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade:
         'Manejar os sistemas de produção animal em todas suas fases e habitat',
     },
     {
-      codigo: -164,
-      competencia: 11,
+      id: 69,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade: 'Avaliar índices zootécnicos',
     },
     {
-      codigo: -165,
-      competencia: 11,
+      id: 70,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade: 'Aplicar métodos de melhoramento genético',
     },
     {
-      codigo: -166,
-      competencia: 11,
+      id: 71,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade: 'Selecionar machos e fêmeas para a reprodução',
     },
     {
-      codigo: -167,
-      competencia: 11,
+      id: 72,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade:
         'Manusear materiais e equipamentos utilizados nos sistemas de produção',
     },
     {
-      codigo: -168,
-      competencia: 11,
+      id: 73,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade: 'Avaliar a composição das rações e as formas de arraçoamento',
     },
     {
-      codigo: -169,
-      competencia: 11,
+      id: 74,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade: 'Diagnosticar as deficiências nutricionais',
     },
     {
-      codigo: -170,
-      competencia: 11,
+      id: 75,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade:
         'Executar e acompanhar métodos de profilaxia e tratamento de doenças',
     },
     {
-      codigo: -171,
-      competencia: 11,
+      id: 76,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade:
         'Aplicar normas profiláticas, higiênicas e sanitárias de produção',
     },
     {
-      codigo: -172,
-      competencia: 11,
+      id: 77,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade: 'Fazer coleta de material para análise laboratorial',
     },
     {
-      codigo: -173,
-      competencia: 11,
+      id: 78,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade:
         'Diferenciar os sintomas das principais doenças patológicas, parasitárias, tóxicas e desordens metabólicas',
     },
     {
-      codigo: -174,
-      competencia: 11,
+      id: 79,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade:
         'Utilizar vias e métodos de aplicação de vacinas e medicamentos',
     },
     {
-      codigo: -175,
-      competencia: 11,
+      id: 80,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade: 'Destinar adequadamente os resíduos do processo de criação',
     },
     {
-      codigo: -176,
-      competencia: 12,
+      id: 81,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade:
-        'Identificar e definir as características das principais espécies e raças e suas aptidões',
+        'Identificar características das principais espécies e raças e suas aptidões',
     },
     {
-      codigo: -177,
-      competencia: 12,
+      id: 82,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade: 'Manejar diferentes sistemas de criação',
     },
     {
-      codigo: -178,
-      competencia: 12,
-      Habilidade: 'Preparar animais para exposição',
-    },
-    {
-      codigo: -179,
-      competencia: 12,
-      Habilidade: 'Operar e higienizar os sistemas de ordenha',
-    },
-    {
-      codigo: -180,
-      competencia: 12,
-      Habilidade: 'Selecionar e manejar machos e fêmeas para a reprodução',
-    },
-    {
-      codigo: -181,
-      competencia: 12,
-      Habilidade:
-        'Identificar e observar as manifestações fisiológicas da fêmea no cio',
-    },
-    {
-      codigo: -182,
-      competencia: 12,
-      Habilidade:
-        'Manusear materiais e equipamentos utilizados no sistema de reprodução',
-    },
-    {
-      codigo: -183,
-      competencia: 12,
-      Habilidade: 'Executar atividades de reprodução natural e artificial',
-    },
-    {
-      codigo: -184,
-      competencia: 12,
-      Habilidade: 'Aplicar métodos de melhoramento genético',
-    },
-    {
-      codigo: -185,
-      competencia: 12,
-      Habilidade: 'Avaliar a performance animal',
-    },
-    {
-      codigo: -186,
-      competencia: 12,
-      Habilidade: 'Classificar os concentrados e volumosos',
-    },
-    {
-      codigo: -187,
-      competencia: 12,
-      Habilidade: 'Especificar funções nutricionais dos alimentos',
-    },
-    {
-      codigo: -188,
-      competencia: 12,
-      Habilidade:
-        'Utilizar tabelas de composições químicas e valores nutricionais dos alimentos nas diferentes fases de criação',
-    },
-    {
-      codigo: -189,
-      competencia: 12,
-      Habilidade: 'Formular, preparar e fazer o arraçoamento',
-    },
-    {
-      codigo: -190,
-      competencia: 12,
-      Habilidade: 'Utilizar métodos de conservação de alimentos',
-    },
-    {
-      codigo: -191,
-      competencia: 12,
-      Habilidade:
-        'Especificar as funções dos constituintes do sistema digestório',
-    },
-    {
-      codigo: -192,
-      competencia: 12,
-      Habilidade: 'Diagnosticar as deficiências nutricionais',
-    },
-    {
-      codigo: -193,
-      competencia: 12,
-      Habilidade: 'Executar tratamentos profiláticos e controle sanitário',
-    },
-    {
-      codigo: -194,
-      competencia: 12,
-      Habilidade: 'Fazer coleta de material para análise laboratorial',
-    },
-    {
-      codigo: -195,
-      competencia: 12,
-      Habilidade:
-        'Utilizar vias e métodos de aplicação de vacinas e medicamentos',
-    },
-    {
-      codigo: -196,
-      competencia: 12,
-      Habilidade:
-        'Aplicar normas profiláticas, higiênicas e sanitárias de produção',
-    },
-    {
-      codigo: -197,
-      competencia: 12,
-      Habilidade:
-        'Identificar e diferenciar os sintomas das principais doenças',
-    },
-    {
-      codigo: -198,
-      competencia: 12,
+      id: 83,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade: 'Destinar adequadamente os resíduos do processo de criação',
     },
     {
-      codigo: -199,
-      competencia: 12,
+      id: 84,
+      ano: '1º Ano',
+      disciplina: 'CRIAÇÕES',
       Habilidade:
         'Realizar a desinfecção, higiene e limpeza das instalações e equipamentos',
     },
     {
-      codigo: -200,
-      competencia: 12,
-      Habilidade: 'Cumprir as legislações vigentes',
-    },
-    {
-      codigo: -201,
-      competencia: 13,
-      Habilidade:
-        'Identificar e definir as características das principais espécies, raças e suas aptidões',
-    },
-    {
-      codigo: -202,
-      competencia: 13,
-      Habilidade: 'Manejar diferentes sistemas de criação',
-    },
-    {
-      codigo: -203,
-      competencia: 13,
-      Habilidade: 'Preparar animais para exposição',
-    },
-    {
-      codigo: -204,
-      competencia: 13,
-      Habilidade: 'Operar e higienizar os sistemas de ordenha',
-    },
-    {
-      codigo: -205,
-      competencia: 13,
-      Habilidade: 'Selecionar e manejar machos e fêmeas para a reprodução',
-    },
-    {
-      codigo: -206,
-      competencia: 13,
-      Habilidade:
-        'Identificar e observar as manifestações fisiológicas da fêmea no ciclo estral',
-    },
-    {
-      codigo: -207,
-      competencia: 13,
-      Habilidade:
-        'Manusear materiais e equipamentos utilizados no sistema de reprodução',
-    },
-    {
-      codigo: -208,
-      competencia: 13,
-      Habilidade: 'Executar atividades de reprodução natural e artificial',
-    },
-    {
-      codigo: -209,
-      competencia: 13,
-      Habilidade: 'Aplicar métodos de melhoramento genético',
-    },
-    {
-      codigo: -210,
-      competencia: 13,
-      Habilidade: 'Avaliar a performance animal',
-    },
-    {
-      codigo: -211,
-      competencia: 13,
-      Habilidade:
-        'Fazer o reconhecimento de aspectos anatômicos, fisiológicos e reprodutivos',
-    },
-    {
-      codigo: -212,
-      competencia: 13,
-      Habilidade:
-        'Utilizar dados de composições químicas e valores nutricionais dos alimentos',
-    },
-    {
-      codigo: -213,
-      competencia: 13,
-      Habilidade:
-        'Utilizar dados de exigências nutricionais para as diferentes fases de criação',
-    },
-    {
-      codigo: -214,
-      competencia: 13,
-      Habilidade: 'Formular, preparar e fazer o arraçoamento',
-    },
-    {
-      codigo: -215,
-      competencia: 13,
-      Habilidade: 'Utilizar métodos de conservação de alimentos',
-    },
-    {
-      codigo: -216,
-      competencia: 13,
-      Habilidade: 'Entender a fisiologia do sistema digestivo',
-    },
-    {
-      codigo: -217,
-      competencia: 13,
-      Habilidade: 'Diagnosticar as deficiências nutricionais',
-    },
-    {
-      codigo: -218,
-      competencia: 13,
-      Habilidade: 'Executar tratamentos profiláticos e controle sanitário',
-    },
-    {
-      codigo: -219,
-      competencia: 13,
-      Habilidade: 'Coletar material para análise laboratorial',
-    },
-    {
-      codigo: -220,
-      competencia: 13,
-      Habilidade:
-        'Identificar e diferenciar os sintomas das principais doenças e parasitas',
-    },
-    {
-      codigo: -221,
-      competencia: 13,
-      Habilidade:
-        'Utilizar vias e métodos de aplicação de vacinas e medicamentos',
-    },
-    {
-      codigo: -222,
-      competencia: 13,
-      Habilidade: 'Destinar adequadamente os resíduos do processo de criação',
-    },
-    {
-      codigo: -223,
-      competencia: 13,
-      Habilidade:
-        'Aplicar as normas ambientais e sanitárias conforme legislação vigente',
-    },
-    {
-      codigo: -224,
-      competencia: 13,
-      Habilidade:
-        'Realizar a desinfecção, higiene e limpeza das instalações e equipamentos',
-    },
-    {
-      codigo: -225,
-      competencia: 14,
-      Habilidade:
-        'Classificar as máquinas, equipamentos e ferramentas agrícolas de acordo com sua utilização',
-    },
-    {
-      codigo: -226,
-      competencia: 14,
-      Habilidade:
-        'Aplicar conceitos de grandezas físicas relevantes na mecanização agrícola',
-    },
-    {
-      codigo: -227,
-      competencia: 14,
-      Habilidade:
-        'Aplicar as unidades de medidas empregadas na mecanização agrícola',
-    },
-    {
-      codigo: -228,
-      competencia: 14,
-      Habilidade:
-        'Fazer e acompanhar a manutenção do sistema de arrefecimento, elétrico, transmissão, hidráulico, lubrificação, alimentação de ar e combustível',
-    },
-    {
-      codigo: -229,
-      competencia: 14,
-      Habilidade:
-        'Realizar a manutenção de implementos e ferramentas agrícolas',
-    },
-    {
-      codigo: -230,
-      competencia: 14,
-      Habilidade:
-        'Operar motores, tratores, implementos e ferramentas agrícolas',
-    },
-    {
-      codigo: -231,
-      competencia: 14,
-      Habilidade: 'Acoplar e regular implementos agrícolas',
-    },
-    {
-      codigo: -232,
-      competencia: 14,
-      Habilidade: 'Adequar a relação trator-implemento agrícola',
-    },
-    {
-      codigo: -233,
-      competencia: 14,
-      Habilidade:
-        'Dimensionar o conjunto operacional de acordo com a necessidade',
-    },
-    {
-      codigo: -234,
-      competencia: 14,
-      Habilidade:
-        'Aplicar e orientar as normas de segurança no trabalho com máquinas, implementos e ferramentas agrícolas',
-    },
-    {
-      codigo: -235,
-      competencia: 14,
-      Habilidade: 'Aplicar a legislação vigente',
-    },
-    {
-      codigo: -236,
-      competencia: 15,
-      Habilidade: 'Identificar a importância da irrigação na produção vegetal',
-    },
-    {
-      codigo: -237,
-      competencia: 15,
-      Habilidade: 'Relacionar e selecionar as fontes de água para irrigação',
-    },
-    {
-      codigo: -238,
-      competencia: 15,
-      Habilidade:
-        'Entender a relação solo-água-planta-atmosfera e os sistemas de irrigação',
-    },
-    {
-      codigo: -239,
-      competencia: 15,
-      Habilidade: 'Identificar as necessidades hídricas de cada cultura',
-    },
-    {
-      codigo: -240,
-      competencia: 15,
-      Habilidade: 'Aplicar fertilizantes e defensivos via irrigação',
-    },
-    {
-      codigo: -241,
-      competencia: 15,
-      Habilidade: 'Desenvolver projetos de irrigação',
-    },
-    {
-      codigo: -242,
-      competencia: 15,
-      Habilidade: 'Identificar a necessidade de irrigação',
-    },
-    {
-      codigo: -243,
-      competencia: 15,
-      Habilidade: 'Coletar dados meteorológicos',
-    },
-    {
-      codigo: -244,
-      competencia: 15,
-      Habilidade:
-        'Utilizar dados meteorológicos para cálculos de lâmina de água',
-    },
-    {
-      codigo: -245,
-      competencia: 15,
-      Habilidade:
-        'Escolher o sistema mais adequado de irrigação de acordo com a cultura',
-    },
-    {
-      codigo: -246,
-      competencia: 15,
-      Habilidade: 'Manejar sistemas de irrigação',
-    },
-    {
-      codigo: -247,
-      competencia: 15,
-      Habilidade: 'Determinar a necessidade de drenagem do solo',
-    },
-    {
-      codigo: -248,
-      competencia: 15,
-      Habilidade: 'Escolher o sistema ou tipo de drenagem mais adequado',
-    },
-    {
-      codigo: -249,
-      competencia: 15,
-      Habilidade: 'Desenvolver projetos de drenagem',
-    },
-    {
-      codigo: -250,
-      competencia: 15,
-      Habilidade: 'Aplicar a legislação vigente',
-    },
-    {
-      codigo: -251,
-      competencia: 16,
-      Habilidade:
-        'Identificar as necessidades de infraestrutura nas propriedades rurais',
-    },
-    {
-      codigo: -252,
-      competencia: 16,
-      Habilidade:
-        'Diferenciar e utilizar os principais materiais empregados em construções e instalações de benfeitorias rurais',
-    },
-    {
-      codigo: -253,
-      competencia: 16,
-      Habilidade:
-        'Diferenciar os tipos de concretos e argamassas e os traços utilizados',
-    },
-    {
-      codigo: -254,
-      competencia: 16,
-      Habilidade:
-        'Quantificar os tipos de materiais empregados em projetos de construções e instalações de benfeitorias rurais',
-    },
-    {
-      codigo: -255,
-      competencia: 16,
-      Habilidade: 'Dimensionar os diferentes tipos e estruturas de coberturas',
-    },
-    {
-      codigo: -256,
-      competencia: 16,
+      id: 85,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Identificar as necessidades de infraestrutura para cada atividade agropecuária',
+        'Competência 20 - Entender a evolução da administração e da economia rural',
     },
     {
-      codigo: -257,
-      competencia: 16,
+      id: 86,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Utilizar os parâmetros e índices técnicos para dimensionar as construções e instalações de benfeitorias rurais',
-    },
-    {
-      codigo: -258,
-      competencia: 16,
-      Habilidade:
-        'Elaborar, implantar e monitorar projetos de construções e instalações de benfeitorias rurais',
-    },
-    {
-      codigo: -259,
-      competencia: 16,
-      Habilidade: 'Montar cronograma de execução das obras',
-    },
-    {
-      codigo: -260,
-      competencia: 16,
-      Habilidade:
-        'Realizar a avaliação e acompanhamento durante a implantação dos projetos de construções e instalações de benfeitorias rurais',
-    },
-    {
-      codigo: -261,
-      competencia: 16,
-      Habilidade:
-        'Identificar os diversos tipos de ambientes protegidos com os sistemas de isolamento',
-    },
-    {
-      codigo: -262,
-      competencia: 16,
-      Habilidade: 'Identificar os diferentes tipos de esquadrias',
-    },
-    {
-      codigo: -263,
-      competencia: 16,
-      Habilidade: 'Utilizar as diferentes fontes alternativas de energia',
+        'Competência 20 - Compreender a estrutura, organização e funcionamento do agronegócio',
     },
     {
-      codigo: -264,
-      competencia: 16,
+      id: 87,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Aplicar as Normas Brasileiras Revisadas (NBR), da Associação Brasileira de Normas Técnicas (ABNT), relacionadas ao desenho técnico',
+        'Competência 20 - Identificar e desenvolver a cultura empreendedora',
     },
     {
-      codigo: -265,
-      competencia: 16,
-      Habilidade: 'Identificar e utilizar os instrumentos de desenho técnico',
+      id: 88,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Identificar as funções administrativas',
     },
     {
-      codigo: -266,
-      competencia: 16,
-      Habilidade: 'Aplicar escalas',
-    },
-    {
-      codigo: -267,
-      competencia: 16,
-      Habilidade:
-        'Elaborar e executar projetos arquitetônicos de construções e benfeitorias rurais em planta baixa, corte transversal e longitudinal, fachada, cobertura, localização e situação',
-    },
-    {
-      codigo: -268,
-      competencia: 16,
+      id: 89,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Elaborar desenho de detalhes de construções e benfeitorias rurais',
-    },
-    {
-      codigo: -269,
-      competencia: 16,
-      Habilidade: 'Cumprir a legislação vigente',
+        'Competência 20 - Utilizar instrumentos para coleta e organização de dados',
     },
     {
-      codigo: -270,
-      competencia: 17,
-      Habilidade: 'Conceituar a Topografia e relacioná-la com outras ciências',
-    },
-    {
-      codigo: -271,
-      competencia: 17,
-      Habilidade: 'Operar equipamentos topográficos',
-    },
-    {
-      codigo: -272,
-      competencia: 17,
+      id: 90,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Planejar e executar os levantamentos altimétricos, planimétricos e planialtimétricos',
-    },
-    {
-      codigo: -273,
-      competencia: 17,
-      Habilidade: 'Demarcar curvas de nível e desnível',
-    },
-    {
-      codigo: -274,
-      competencia: 17,
-      Habilidade: 'Distinguir e converter unidades de medidas',
+        'Competência 20 - Gerenciar receitas, despesas e investimentos',
     },
     {
-      codigo: -275,
-      competencia: 17,
-      Habilidade: 'Utilizar as simbologias apropriadas para topografia',
+      id: 91,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Inventariar patrimônios rurais',
     },
     {
-      codigo: -276,
-      competencia: 17,
-      Habilidade: 'Utilizar as escalas de acordo com a legislação vigente',
+      id: 92,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Classificar o imóvel agrário',
     },
     {
-      codigo: -277,
-      competencia: 17,
+      id: 93,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Efetuar alinhamento, balizamento e transposição de obstáculos',
+        'Competência 20 - Cumprir as obrigações tributárias utilizando o calendário fiscal',
     },
     {
-      codigo: -278,
-      competencia: 17,
+      id: 94,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Fazer anotações em caderneta de campo determinando as coordenadas',
+        'Competência 20 - Utilizar a informática no processo de produção e controle',
     },
     {
-      codigo: -279,
-      competencia: 17,
-      Habilidade: 'Executar práticas para a determinação de rumos e azimutes',
-    },
-    {
-      codigo: -280,
-      competencia: 17,
-      Habilidade: 'Fazer medições e cálculo de área',
-    },
-    {
-      codigo: -281,
-      competencia: 17,
-      Habilidade: 'Realizar transferência de referências de nível',
-    },
-    {
-      codigo: -282,
-      competencia: 17,
-      Habilidade: 'Fazer medida direta e indireta de distâncias e ângulos',
-    },
-    {
-      codigo: -283,
-      competencia: 17,
+      id: 95,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Realizar o desmembramento, parcelamento e incorporação de imóveis rurais',
+        'Competência 20 - Coletar e compilar os resultados de análise dos fatores econômicos e produtivos',
     },
     {
-      codigo: -284,
-      competencia: 17,
-      Habilidade:
-        'Aplicar as Normas Brasileiras Revisadas (NBR), da Associação Brasileira de Normas Técnicas (ABNT), relacionadas ao desenho técnico',
-    },
-    {
-      codigo: -285,
-      competencia: 17,
-      Habilidade: 'Identificar e utilizar os instrumentos de desenho técnico',
-    },
-    {
-      codigo: -286,
-      competencia: 17,
-      Habilidade: 'Aplicar escalas',
+      id: 96,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Acompanhar as tendências de mercado',
     },
     {
-      codigo: -287,
-      competencia: 17,
+      id: 97,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Representar graficamente as áreas, curvas de nível, perfis longitudinais e transversais obtidos de levantamentos planimétricos e altimétricos',
-    },
-    {
-      codigo: -288,
-      competencia: 17,
-      Habilidade: 'Utilizar os programas de desenho técnico',
+        'Competência 20 - Identificar canais de comercialização e tipos de mercado no agronegócio',
     },
     {
-      codigo: -289,
-      competencia: 17,
-      Habilidade: 'Aplicar a legislação vigente',
+      id: 98,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Calcular os custos de produção',
     },
     {
-      codigo: -290,
-      competencia: 18,
-      Habilidade:
-        'Aplicar as legislações vigentes na produção de alimentos de origem animal e vegetal',
+      id: 99,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Elaborar plano de negócio',
     },
     {
-      codigo: -291,
-      competencia: 18,
+      id: 100,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Indicar e utilizar o processo mais apropriado para higiene, limpeza e sanitização na agroindústria',
+        'Competência 20 - Implantar, verificar e acompanhar os processos de produção e os programas de qualidade dos produtos agropecuários e agroindustriais',
     },
     {
-      codigo: -292,
-      competencia: 18,
-      Habilidade:
-        'Manipular os alimentos de forma segura com bons hábitos de higiene e cuidados com a saúde',
+      id: 101,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Utilizar instrumentos de marketing',
     },
     {
-      codigo: -293,
-      competencia: 18,
+      id: 102,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Utilizar os métodos de controle de qualidade na produção agroindustrial',
-    },
-    {
-      codigo: -294,
-      competencia: 18,
-      Habilidade: 'Verificar a origem e a procedência da matéria-prima',
+        'Competência 20 - Contabilizar as etapas do processo de produção',
     },
     {
-      codigo: -295,
-      competencia: 18,
+      id: 103,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Identificar as propriedades, características e condições da matéria-prima para a agroindústria',
+        'Competência 20 - Registrar a produtividade da mão de obra por atividade e dimensionar as despesas com pessoal',
     },
     {
-      codigo: -296,
-      competencia: 18,
-      Habilidade: 'Preparar a matéria-prima para a agroindústria',
-    },
-    {
-      codigo: -297,
-      competencia: 18,
+      id: 104,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Utilizar métodos de conservação e armazenamento da matéria-prima e dos produtos industrializados',
+        'Competência 20 - Registrar e efetuar os custos com manutenção e conservação de máquinas, equipamentos, implementos e ferramentas',
     },
     {
-      codigo: -298,
-      competencia: 18,
+      id: 105,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Identificar as causas das alterações físicas, químicas e microbiológicas da matéria-prima e dos produtos industrializados',
-    },
-    {
-      codigo: -299,
-      competencia: 18,
-      Habilidade: 'Identificar as impurezas e contaminações da matéria-prima',
+        'Competência 20 - Verificar e cumprir a legislação trabalhista e as normas de saúde e segurança no trabalho.',
     },
     {
-      codigo: -300,
-      competencia: 18,
-      Habilidade: 'Utilizar subprodutos agroindustriais',
-    },
-    {
-      codigo: -301,
-      competencia: 18,
+      id: 106,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Utilizar os procedimentos de manutenção e operação de equipamentos',
+        'Competência 21 - Coletar, compilar e aplicar dados estatísticos de pesquisa de mercado',
     },
     {
-      codigo: -302,
-      competencia: 18,
+      id: 107,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Detectar e corrigir falhas no processo produtivo agroindustrial',
-    },
-    {
-      codigo: -303,
-      competencia: 18,
-      Habilidade: 'Utilizar a água como agente de limpeza e higienização',
+        'Competência 21 - Elaborar instrumentos para coleta de dados de produção, produtividade, de recursos humanos, de prestação de serviços e de infraestrutura disponíveis na região',
     },
     {
-      codigo: -304,
-      competencia: 18,
+      id: 108,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Compreender o processo que envolve o tratamento de efluentes e dos resíduos agroindustriais',
-    },
-    {
-      codigo: -305,
-      competencia: 18,
-      Habilidade: 'Cumprir a legislação vigente',
-    },
-    {
-      codigo: -306,
-      competencia: 18,
-      Habilidade: 'Identificar locais e definir canais de comercialização',
+        'Competência 21 - Relacionar as agências de créditos, fornecimento de insumos, armazenagem e difusão de tecnologia presentes na região',
     },
     {
-      codigo: -307,
-      competencia: 18,
-      Habilidade: 'Agregar valor no processo de produção',
+      id: 109,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 21 - Adequar os projetos à legislação vigente',
     },
     {
-      codigo: -308,
-      competencia: 18,
+      id: 110,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Utilizar meios apropriados para embalagem, armazenamento e transporte dos produtos industrializados',
+        'Competência 21 - Fazer o levantamento dos recursos disponíveis',
     },
     {
-      codigo: -309,
-      competencia: 19,
+      id: 111,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Saber a história e evolução do sistema associativista, cooperativista e sindical',
+        'Competência 21 - Verificar a aptidão, aspiração e nível tecnológico do produtor',
     },
     {
-      codigo: -310,
-      competencia: 19,
-      Habilidade: 'Definir os tipos de associações e suas características',
-    },
-    {
-      codigo: -311,
-      competencia: 19,
-      Habilidade: 'Definir os ramos cooperativistas',
-    },
-    {
-      codigo: -312,
-      competencia: 19,
+      id: 112,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Compreender os mecanismos de gestão e de atuação das associações',
+        'Competência 21 - Inventariar benfeitorias, instalações, máquinas, implementos, equipamentos e materiais',
     },
     {
-      codigo: -313,
-      competencia: 19,
+      id: 113,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Compreender os mecanismos de gestão e de atuação das cooperativas',
-    },
-    {
-      codigo: -314,
-      competencia: 19,
-      Habilidade: 'Compreender os mecanismos de gestão e de atuação sindical',
+        'Competência 21 - Dimensionar e avaliar benfeitorias e instalações rurais',
     },
     {
-      codigo: -315,
-      competencia: 19,
+      id: 114,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Encaminhar os procedimentos de constituição e de registro de associações, cooperativas e sindicatos',
-    },
-    {
-      codigo: -316,
-      competencia: 19,
-      Habilidade: 'Aplicar a legislação vigente',
-    },
-    {
-      codigo: -317,
-      competencia: 19,
-      Habilidade: 'Compreender a história e a evolução da extensão rural',
-    },
-    {
-      codigo: -318,
-      competencia: 19,
-      Habilidade: 'Reconhecer os modelos da extensão rural',
+        'Competência 21 - Elaborar e encaminhar projetos de viabilidade, custeio e investimento',
     },
     {
-      codigo: -319,
-      competencia: 19,
+      id: 115,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Identificar a realidade social, cultural e política no meio rural',
+        'Competência 21 - Elaborar e encaminhar perícias, laudos, pareceres e relatórios',
     },
     {
-      codigo: -320,
-      competencia: 19,
+      id: 116,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Definir as necessidades regionais de assistência e extensão rural',
-    },
-    {
-      codigo: -321,
-      competencia: 19,
-      Habilidade: 'Coletar e compilar dados regionais',
+        'Competência 21 - Elaborar e encaminhar processos de licenciamento ambiental',
     },
     {
-      codigo: -322,
-      competencia: 19,
+      id: 117,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Definir e aplicar metodologias de extensão rural e assistência técnica',
-    },
-    {
-      codigo: -323,
-      competencia: 20,
-      Habilidade: 'Entender a evolução da administração e da economia rural',
+        'Competência 21 - Adequar e monitorar as atividades de acordo com a legislação ambiental vigente',
     },
     {
-      codigo: -324,
-      competencia: 20,
+      id: 118,
+      ano: '1º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
       Habilidade:
-        'Compreender a estrutura, organização e funcionamento do agronegócio',
-    },
-    {
-      codigo: -325,
-      competencia: 20,
-      Habilidade: 'Identificar e desenvolver a cultura empreendedora',
-    },
-    {
-      codigo: -326,
-      competencia: 20,
-      Habilidade: 'Identificar as funções administrativas',
-    },
-    {
-      codigo: -327,
-      competencia: 20,
-      Habilidade: 'Utilizar instrumentos para coleta e organização de dados',
+        'Competência 21 - Coletar dados para a elaboração e execução de projetos ambientais.',
     },
     {
-      codigo: -328,
-      competencia: 20,
-      Habilidade: 'Gerenciar receitas, despesas e investimentos',
+      id: 119,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Identificar a origem e a evolução das espécies frutíferas',
     },
     {
-      codigo: -329,
-      competencia: 20,
-      Habilidade: 'Inventariar patrimônios rurais',
+      id: 120,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Identificar os efeitos dos fatores climáticos nas plantas',
     },
     {
-      codigo: -330,
-      competencia: 20,
-      Habilidade: 'Classificar o imóvel agrário',
+      id: 121,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Executar cronograma de cultivo e manejo cultural',
     },
     {
-      codigo: -331,
-      competencia: 20,
+      id: 122,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
       Habilidade:
-        'Cumprir as obrigações tributárias utilizando o calendário fiscal',
+        'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento da planta',
     },
     {
-      codigo: -332,
-      competencia: 20,
-      Habilidade: 'Utilizar a informática no processo de produção e controle',
+      id: 123,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Implantar culturas intercalares',
     },
     {
-      codigo: -333,
-      competencia: 20,
+      id: 124,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
       Habilidade:
-        'Coletar e compilar os resultados de análise dos fatores econômicos e produtivos',
-    },
-    {
-      codigo: -334,
-      competencia: 20,
-      Habilidade: 'Acompanhar as tendências de mercado',
-    },
-    {
-      codigo: -335,
-      competencia: 20,
-      Habilidade:
-        'Identificar canais de comercialização e tipos de mercado no agronegócio',
-    },
-    {
-      codigo: -336,
-      competencia: 20,
-      Habilidade: 'Calcular os custos de produção',
-    },
-    {
-      codigo: -337,
-      competencia: 20,
-      Habilidade: 'Elaborar plano de negócios',
+        'Identificar e monitorar as principais funções reprodutivas das plantas',
     },
     {
-      codigo: -338,
-      competencia: 20,
-      Habilidade:
-        'Implantar, verificar e acompanhar os processos de produção e os programas de qualidade dos produtos agropecuários e agroindustriais',
+      id: 125,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
     },
     {
-      codigo: -339,
-      competencia: 20,
-      Habilidade: 'Utilizar instrumentos de marketing',
+      id: 126,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Utilizar técnicas de quebra de dormência',
     },
     {
-      codigo: -340,
-      competencia: 20,
-      Habilidade: 'Contabilizar as etapas do processo de produção',
+      id: 127,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Identificar e realizar tratos culturais',
     },
     {
-      codigo: -341,
-      competencia: 20,
-      Habilidade:
-        'Registrar a produtividade da mão de obra por atividade e dimensionar as despesas com pessoal',
+      id: 128,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Utilizar técnicas de condução de plantas frutíferas',
     },
     {
-      codigo: -342,
-      competencia: 20,
+      id: 129,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
       Habilidade:
-        'Registrar e efetuar os custos com manutenção e conservação de máquinas, equipamentos, implementos e ferramentas',
+        'Utilizar os diferentes tipos de podas nas plantas frutíferas',
     },
     {
-      codigo: -343,
-      competencia: 20,
+      id: 130,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
       Habilidade:
-        'Verificar e cumprir a legislação trabalhista e as normas de saúde e segurança no trabalho',
+        'Fazer o reconhecimento de plantas daninhas, pragas e doenças',
     },
     {
-      codigo: -344,
-      competencia: 21,
+      id: 131,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
       Habilidade:
-        'Coletar, compilar e aplicar dados estatísticos de pesquisa de mercado',
+        'Utilizar informações sobre os fatores climáticos no manejo de pragas, doenças e plantas daninhas',
     },
     {
-      codigo: -345,
-      competencia: 21,
+      id: 132,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
       Habilidade:
-        'Elaborar instrumentos para coleta de dados de produção, produtividade, de recursos humanos, de prestação de serviços e de infraestrutura disponíveis na região',
+        'Utilizar os métodos integrados de prevenção e controle de pragas, doenças e plantas daninhas',
     },
     {
-      codigo: -346,
-      competencia: 21,
+      id: 133,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
       Habilidade:
-        'Relacionar as agências de créditos, fornecimento de insumos, armazenagem e difusão de tecnologia presentes na região',
+        'Identificar o ponto de colheita por meio de diferentes métodos',
     },
     {
-      codigo: -347,
-      competencia: 21,
-      Habilidade: 'Adequar os projetos à legislação vigente',
+      id: 134,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Fazer a seleção e padronização da produção',
     },
     {
-      codigo: -348,
-      competencia: 21,
-      Habilidade: 'Fazer o levantamento dos recursos disponíveis',
+      id: 135,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Aplicar as técnicas de amadurecimento',
     },
     {
-      codigo: -349,
-      competencia: 21,
+      id: 136,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
       Habilidade:
-        'Verificar a aptidão, aspiração e nível tecnológico do produtor',
+        'Utilizar as técnicas de classificação, embalagem e rotulagem para os diversos produtos',
     },
     {
-      codigo: -350,
-      competencia: 21,
+      id: 137,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
       Habilidade:
-        'Inventariar benfeitorias, instalações, máquinas, implementos, equipamentos e materiais',
-    },
-    {
-      codigo: -351,
-      competencia: 21,
-      Habilidade: 'Dimensionar e avaliar benfeitorias e instalações rurais',
+        'Orientar e acompanhar a colheita, o armazenamento e o beneficiamento',
     },
     {
-      codigo: -352,
-      competencia: 21,
-      Habilidade:
-        'Elaborar e encaminhar projetos de viabilidade, custeio e investimento',
+      id: 138,
+      ano: '1º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Cumprir a legislação vigente.',
     },
     {
-      codigo: -353,
-      competencia: 21,
+      id: 139,
+      ano: '1º Ano',
+      disciplina: 'ZOOTECNIA',
       Habilidade:
-        'Elaborar e encaminhar perícias, laudos, pareceres e relatórios',
-    },
-    {
-      codigo: -354,
-      competencia: 21,
-      Habilidade: 'Elaborar e encaminhar processos de licenciamento ambiental',
+        'Reconhecer e classificar as espécies conforme suas funções e agrupamentos',
     },
     {
-      codigo: -355,
-      competencia: 21,
-      Habilidade:
-        'Adequar e monitorar as atividades de acordo com a legislação ambiental vigente',
+      id: 140,
+      ano: '1º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Selecionar animais para melhoramento genético',
     },
     {
-      codigo: -356,
-      competencia: 21,
-      Habilidade:
-        'Coletar dados para a elaboração e execução de projetos ambientais',
+      id: 141,
+      ano: '1º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Acompanhar cruzamentos nas diversas espécies',
     },
     {
-      codigo: -357,
-      competencia: 22,
-      Habilidade:
-        'Reconhecer os principais eventos e entidades que marcaram o movimento dos Técnicos Agrícolas',
+      id: 142,
+      ano: '1º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Avaliar resultados obtidos no melhoramento genético',
     },
     {
-      codigo: -358,
-      competencia: 22,
-      Habilidade:
-        'Utilizar a legislação que dispõe sobre o exercício e atribuições da profissão de Técnico Agrícola',
+      id: 143,
+      ano: '1º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Aplicar processos produtivos e técnicos nos criatórios',
     },
     {
-      codigo: -359,
-      competencia: 22,
+      id: 144,
+      ano: '1º Ano',
+      disciplina: 'ZOOTECNIA',
       Habilidade:
-        'Conduzir a execução técnica dos trabalhos com ética e responsabilidade',
+        'Aplicar os padrões de ambiência e bem-estar animal de acordo com cada espécie',
     },
     {
-      codigo: -360,
-      competencia: 22,
+      id: 145,
+      ano: '1º Ano',
+      disciplina: 'ZOOTECNIA',
       Habilidade:
-        'Responsabilizar-se pelo registro de projetos compatíveis com a respectiva formação profissional através da ART',
+        'Entender e utilizar as características fisiológicas e morfológicas dos animais',
     },
     {
-      codigo: -361,
-      competencia: 22,
+      id: 146,
+      ano: '1º Ano',
+      disciplina: 'ZOOTECNIA',
       Habilidade:
-        'Conhecer o organograma de composição e serviços oferecidos pelo Conselho Federal e Regional de fiscalização profissional',
-    },
-    {
-      codigo: -362,
-      competencia: 22,
-      Habilidade: 'Obter o registro profissional',
-    },
-    {
-      codigo: -363,
-      competencia: 22,
-      Habilidade: 'Seguir os direitos e obrigações do profissional credenciado',
+        'Determinar as exigências nutricionais e adequar o manejo alimentar de acordo com cada espécie',
     },
     {
-      codigo: -364,
-      competencia: 22,
+      id: 147,
+      ano: '1º Ano',
+      disciplina: 'ZOOTECNIA',
       Habilidade:
-        'Participar das organizações da categoria profissional em nível estadual e federal',
+        'Aplicar os métodos de defesa sanitária animal de acordo com a legislação vigente.',
     },
     {
-      codigo: -365,
-      competencia: 23,
+      id: 148,
+      ano: '1º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
       Habilidade:
         'Entender as exigências na realização das práticas agropecuárias desenvolvidas no mercado de trabalho pelos profissionais Técnicos em Agropecuária',
     },
     {
-      codigo: -366,
-      competencia: 23,
+      id: 149,
+      ano: '1º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
       Habilidade:
         'Identificar na prática as áreas em que profissionalmente pode atuar, de acordo com suas atribuições profissionais legais',
     },
     {
-      codigo: -367,
-      competencia: 23,
+      id: 150,
+      ano: '1º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
       Habilidade:
         'Entender o funcionamento das atividades relacionadas ao Curso Técnico em Agropecuária',
     },
     {
-      codigo: -368,
-      competencia: 23,
+      id: 151,
+      ano: '1º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
       Habilidade:
         'Desenvolver na prática a responsabilidade técnica nas diversas áreas de atuação',
     },
     {
-      codigo: -369,
-      competencia: 23,
+      id: 152,
+      ano: '1º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
       Habilidade:
         'Realizar de maneira técnica as principais práticas de manejo, das diferentes áreas, nos diferentes laboratórios de aprendizagem e produção',
     },
     {
-      codigo: -370,
-      competencia: 23,
+      id: 153,
+      ano: '1º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
       Habilidade:
         'Desenvolver atributos pessoais para o exercício da profissão',
     },
     {
-      codigo: -371,
-      competencia: 24,
+      id: 154,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
-        'Entender o funcionamento do programa de estágio realizado para a conclusão do Curso Técnico',
+        'Utilizar dados meteorológicos como parâmetro para elaboração de planos de cultivo',
     },
     {
-      codigo: -372,
-      competencia: 24,
+      id: 155,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
-        'Aplicar os procedimentos legais na realização do estágio, de acordo com a legislação vigente',
+        'Fazer cronogramas de cultivos baseados no zoneamento agrícola',
     },
     {
-      codigo: -373,
-      competencia: 24,
+      id: 156,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
-        'Identificar e diferenciar a função dos coordenadores, dos professores orientadores e coorientadores, e dos supervisores de estágio',
+        'Identificar e relacionar o estádio fenológico das plantas com as técnicas de manejo',
     },
     {
-      codigo: -374,
-      competencia: 24,
-      Habilidade: 'Identificar as áreas possíveis para a realização do estágio',
+      id: 157,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Determinar a distribuição espacial e a população de plantas',
     },
     {
-      codigo: -375,
-      competencia: 24,
+      id: 158,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
-        'Definir o local onde será realizado o estágio, de acordo com a área que pretende aprofundar os conhecimentos técnicos',
+        'Utilizar os métodos de rotação, sucessão e consorciação de culturas',
     },
     {
-      codigo: -376,
-      competencia: 24,
+      id: 159,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
-        'Realizar junto à Instituição de Ensino e à parte concedente, a elaboração do termo de compromisso e do convênio de estágio',
+        'Relacionar os estádios de desenvolvimento das plantas com o manejo de adubação',
     },
     {
-      codigo: -377,
-      competencia: 24,
+      id: 160,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
-        'Elaborar junto ao supervisor de estágio o Plano de Atividade de Estágio (PAE), de acordo com a legislação vigente',
+        'Relacionar a ocorrência de doenças, pragas e plantas daninhas com o estádio fenológico das plantas, associados aos fatores ambientais',
     },
     {
-      codigo: -378,
-      competencia: 24,
+      id: 161,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Identificar sintomas de deficiência nutricional',
+    },
+    {
+      id: 162,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Calcular e aplicar a adubação necessária para cada cultura',
+    },
+    {
+      id: 163,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Utilizar práticas de cobertura do solo',
+    },
+    {
+      id: 164,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Identificar o ponto de colheita das diversas culturas',
+    },
+    {
+      id: 165,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Recomendar o escalonamento de semeadura e colheita',
+    },
+    {
+      id: 166,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Identificar os fatores que afetam o processo de colheita',
+    },
+    {
+      id: 167,
+      ano: '2º Ano',
+      disciplina: 'CULTURAS ANUAIS',
       Habilidade:
-        'Assumir a responsabilidade técnica da área a ser trabalhada durante a realização do estágio, de acordo com o termo de compromisso assumido',
+        'Recomendar técnicas de secagem, armazenamento e comercialização dos produtos.',
     },
     {
-      codigo: -379,
-      competencia: 24,
+      id: 168,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Identificar a origem e a evolução das espécies olerícolas',
+    },
+    {
+      id: 169,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Entender os efeitos dos fatores climáticos nas plantas',
+    },
+    {
+      id: 170,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Coletar, registrar e utilizar dados meteorológicos',
+    },
+    {
+      id: 171,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Elaborar e executar cronograma de cultivo e manejo cultural',
+    },
+    {
+      id: 172,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade:
-        'Realizar as práticas de manejo e operação de todas as atividades necessárias, durante a realização do estágio, em consonância com o PAE',
+        'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento da planta',
     },
     {
-      codigo: -380,
-      competencia: 24,
+      id: 173,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Identificar as principais funções reprodutivas das plantas',
+    },
+    {
+      id: 174,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
+    },
+    {
+      id: 175,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Instalar, monitorar e manejar ambientes protegidos',
+    },
+    {
+      id: 176,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Manejar sistemas de produção hidropônicos',
+    },
+    {
+      id: 177,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Produzir mudas olerícolas',
+    },
+    {
+      id: 178,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade:
-        'Desenvolver a comunicação com os coordenadores, orientadores e supervisores de estágio',
+        'Identificar porcentagem de germinação e determinar quantidade de semente, espaçamento e profundidade de plantio',
     },
     {
-      codigo: -381,
-      competencia: 24,
+      id: 179,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Realizar tratos culturais nas plantas',
+    },
+    {
+      id: 180,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade:
-        'Elaborar o relatório de estágio de acordo com a orientação e com a metodologia disponibilizada pelo coordenador de estágio',
+        'Fazer o reconhecimento de plantas daninhas, pragas e doenças',
     },
     {
-      codigo: -382,
-      competencia: 24,
+      id: 181,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
       Habilidade:
-        'Elaborar a apresentação do relatório de acordo com os critérios de orientação e metodologia do programa de estágio',
+        'Utilizar informações sobre os fatores climáticos no manejo de pragas, doenças e plantas daninhas',
     },
     {
-      codigo: -383,
-      competencia: 24,
-      Habilidade: 'Apresentar o trabalho final à banca examinadora',
+      id: 182,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade:
+        'Utilizar os métodos integrados de prevenção e controle de pragas, doenças e plantas daninhas',
+    },
+    {
+      id: 183,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Identificar o ponto de colheita',
+    },
+    {
+      id: 184,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Orientar e acompanhar a colheita',
+    },
+    {
+      id: 185,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Fazer seleção, classificação e padronização da produção',
+    },
+    {
+      id: 186,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Aplicar as técnicas de amadurecimento',
+    },
+    {
+      id: 187,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade:
+        'Aplicar as técnicas de embalagem e rotulagem para os diversos produtos',
+    },
+    {
+      id: 188,
+      ano: '2º Ano',
+      disciplina: 'OLERICULTURA',
+      Habilidade: 'Definir os canais de comercialização.',
+    },
+    {
+      id: 189,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Diferenciar os diversos tipos de agricultura',
+    },
+    {
+      id: 190,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade:
+        'Determinar e identificar as diferentes classes e perfis do solo',
+    },
+    {
+      id: 191,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Saber identificar as diferentes constituições do solo',
+    },
+    {
+      id: 192,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Classificar os solos de acordo com sua aptidão e uso',
+    },
+    {
+      id: 193,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade:
+        'Identificar os aparelhos climatológicos e seus usos na agricultura',
+    },
+    {
+      id: 194,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Compreender o ciclo hidrológico',
+    },
+    {
+      id: 195,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Entender a influência do clima na interação solo-planta',
+    },
+    {
+      id: 196,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade:
+        'Determinar e inter-relacionar as características físicas, químicas e biológicas do solo',
+    },
+    {
+      id: 197,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Identificar as fontes de matéria orgânica',
+    },
+    {
+      id: 198,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Identificar os tipos de erosão e seus efeitos',
+    },
+    {
+      id: 199,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Propor métodos e técnicas de conservação dos solos',
+    },
+    {
+      id: 200,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Identificar as áreas para coleta de amostras de solo',
+    },
+    {
+      id: 201,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Coletar amostras de solo',
+    },
+    {
+      id: 202,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade:
+        'Classificar os elementos em macronutrientes e micronutrientes',
+    },
+    {
+      id: 203,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade:
+        'Estabelecer a relação entre pH do solo e a disponibilidade de nutrientes para a planta',
+    },
+    {
+      id: 204,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade:
+        'Determinar e organizar programas de rotação, sucessão e consorciação de culturas',
+    },
+    {
+      id: 205,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Interpretar laudos de análise de solo',
+    },
+    {
+      id: 206,
+      ano: '2º Ano',
+      disciplina: 'AGRICULTURA',
+      Habilidade: 'Calcular a recomendação de correção e adubação.',
+    },
+    {
+      id: 207,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Identificar a importância da irrigação na produção vegetal',
+    },
+    {
+      id: 208,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Relacionar e selecionar as fontes de água para irrigação',
+    },
+    {
+      id: 209,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade:
+        'Entender a relação solo-água-planta-atmosfera e os sistemas de irrigação',
+    },
+    {
+      id: 210,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Identificar as necessidades hídricas de cada cultura',
+    },
+    {
+      id: 211,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Aplicar fertilizantes e defensivos via irrigação',
+    },
+    {
+      id: 212,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Desenvolver projetos de irrigação',
+    },
+    {
+      id: 213,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Identificar a necessidade de irrigação',
+    },
+    {
+      id: 214,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Coletar dados meteorológicos',
+    },
+    {
+      id: 215,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade:
+        'Utilizar dados meteorológicos para cálculos de lâmina de água',
+    },
+    {
+      id: 216,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade:
+        'Escolher o sistema mais adequado de irrigação de acordo com a cultura',
+    },
+    {
+      id: 217,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Manejar sistemas de irrigação',
+    },
+    {
+      id: 218,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Determinar a necessidade de drenagem do solo',
+    },
+    {
+      id: 219,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Escolher o sistema ou tipo de drenagem mais adequado',
+    },
+    {
+      id: 220,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Desenvolver projetos de drenagem',
+    },
+    {
+      id: 221,
+      ano: '2º Ano',
+      disciplina: 'IRRIGAÇÃO E DRENAGEM',
+      Habilidade: 'Aplicar a legislação vigente',
+    },
+    {
+      id: 222,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Identificar características das principais espécies e raças e suas aptidões',
+    },
+    {
+      id: 223,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Manejar diferentes sistemas de criação',
+    },
+    {
+      id: 224,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Preparar animais para exposição',
+    },
+    {
+      id: 225,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Operar e higienizar os sistemas de ordenha',
+    },
+    {
+      id: 226,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Selecionar e manejar machos e fêmeas para a reprodução',
+    },
+    {
+      id: 227,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Identificar e observar as manifestações fisiológicas da fêmea no cio',
+    },
+    {
+      id: 228,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Manusear materiais e equipamentos utilizados no sistema de reprodução',
+    },
+    {
+      id: 229,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Executar atividades de reprodução natural e artificial',
+    },
+    {
+      id: 230,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Aplicar métodos de melhoramento genético',
+    },
+    {
+      id: 231,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Avaliar a performance animal',
+    },
+    {
+      id: 232,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Classificar os concentrados e volumosos',
+    },
+    {
+      id: 233,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Especificar funções nutricionais dos alimentos',
+    },
+    {
+      id: 234,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Utilizar tabelas de composições químicas e valores nutricionais dos alimentos nas diferentes fases de criação',
+    },
+    {
+      id: 235,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Formular, preparar e fazer o arraçoamento',
+    },
+    {
+      id: 236,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Utilizar métodos de conservação de alimentos',
+    },
+    {
+      id: 237,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Especificar as funções dos constituintes do sistema digestório',
+    },
+    {
+      id: 238,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Diagnosticar as deficiências nutricionais',
+    },
+    {
+      id: 239,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Executar tratamentos profiláticos e controle sanitário',
+    },
+    {
+      id: 240,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Fazer coleta de material para análise laboratorial',
+    },
+    {
+      id: 241,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Utilizar vias e métodos de aplicação de vacinas e medicamentos',
+    },
+    {
+      id: 242,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Aplicar normas profiláticas, higiênicas e sanitárias de produção',
+    },
+    {
+      id: 243,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Identificar e diferenciar os sintomas das principais doenças',
+    },
+    {
+      id: 244,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Destinar adequadamente os resíduos do processo de criação',
+    },
+    {
+      id: 245,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Realizar a desinfecção, higiene e limpeza das instalações e equipamentos',
+    },
+    {
+      id: 246,
+      ano: '2º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Cumprir as legislações vigentes.',
+    },
+    {
+      id: 247,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Saber a história e evolução do sistema associativista, cooperativista e sindical',
+    },
+    {
+      id: 248,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Definir os tipos de associações e suas características',
+    },
+    {
+      id: 249,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 19 - Definir os ramos cooperativistas',
+    },
+    {
+      id: 250,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Compreender os mecanismos de gestão e de atuação das associações',
+    },
+    {
+      id: 251,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Compreender os mecanismos de gestão e de atuação das cooperativas',
+    },
+    {
+      id: 252,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Compreender os mecanismos de gestão e de atuação sindical',
+    },
+    {
+      id: 253,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Encaminhar os procedimentos de constituição e de registro de associações, cooperativas e sindicatos',
+    },
+    {
+      id: 254,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 19 - Aplicar a legislação vigente',
+    },
+    {
+      id: 255,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Compreender a história e a evolução da extensão rural',
+    },
+    {
+      id: 256,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 19 - Reconhecer os modelos da extensão rural',
+    },
+    {
+      id: 257,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Identificar a realidade social, cultural e política no meio rural',
+    },
+    {
+      id: 258,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Definir as necessidades regionais de assistência e extensão rural',
+    },
+    {
+      id: 259,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 19 - Coletar e compilar dados regionais',
+    },
+    {
+      id: 260,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Definir e aplicar metodologias de extensão rural e assistência técnica.',
+    },
+    {
+      id: 261,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Entender a evolução da administração e da economia rural',
+    },
+    {
+      id: 262,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Compreender a estrutura, organização e funcionamento do agronegócio',
+    },
+    {
+      id: 263,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Identificar e desenvolver a cultura empreendedora',
+    },
+    {
+      id: 264,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Identificar as funções administrativas',
+    },
+    {
+      id: 265,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Utilizar instrumentos para coleta e organização de dados',
+    },
+    {
+      id: 266,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Gerenciar receitas, despesas e investimentos',
+    },
+    {
+      id: 267,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Inventariar patrimônios rurais',
+    },
+    {
+      id: 268,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Classificar o imóvel agrário',
+    },
+    {
+      id: 269,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Cumprir as obrigações tributárias utilizando o calendário fiscal',
+    },
+    {
+      id: 270,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Utilizar a informática no processo de produção e controle',
+    },
+    {
+      id: 271,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Coletar e compilar os resultados de análise dos fatores econômicos e produtivos',
+    },
+    {
+      id: 272,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Acompanhar as tendências de mercado',
+    },
+    {
+      id: 273,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Identificar canais de comercialização e tipos de mercado no agronegócio',
+    },
+    {
+      id: 274,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Calcular os custos de produção',
+    },
+    {
+      id: 275,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Elaborar plano de negócio',
+    },
+    {
+      id: 276,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Implantar, verificar e acompanhar os processos de produção e os programas de qualidade dos produtos agropecuários e agroindustriais',
+    },
+    {
+      id: 277,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Utilizar instrumentos de marketing',
+    },
+    {
+      id: 278,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Contabilizar as etapas do processo de produção',
+    },
+    {
+      id: 279,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Registrar a produtividade da mão de obra por atividade e dimensionar as despesas com pessoal',
+    },
+    {
+      id: 280,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Registrar e efetuar os custos com manutenção e conservação de máquinas, equipamentos, implementos e ferramentas',
+    },
+    {
+      id: 281,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Verificar e cumprir a legislação trabalhista e as normas de saúde e segurança no trabalho.',
+    },
+    {
+      id: 282,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Coletar, compilar e aplicar dados estatísticos de pesquisa de mercado',
+    },
+    {
+      id: 283,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Elaborar instrumentos para coleta de dados de produção, produtividade, de recursos humanos, de prestação de serviços e de infraestrutura disponíveis na região',
+    },
+    {
+      id: 284,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Relacionar as agências de créditos, fornecimento de insumos, armazenagem e difusão de tecnologia presentes na região',
+    },
+    {
+      id: 285,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 21 - Adequar os projetos à legislação vigente',
+    },
+    {
+      id: 286,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Fazer o levantamento dos recursos disponíveis',
+    },
+    {
+      id: 287,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Verificar a aptidão, aspiração e nível tecnológico do produtor',
+    },
+    {
+      id: 288,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Inventariar benfeitorias, instalações, máquinas, implementos, equipamentos e materiais',
+    },
+    {
+      id: 289,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Dimensionar e avaliar benfeitorias e instalações rurais',
+    },
+    {
+      id: 290,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Elaborar e encaminhar projetos de viabilidade, custeio e investimento',
+    },
+    {
+      id: 291,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Elaborar e encaminhar perícias, laudos, pareceres e relatórios',
+    },
+    {
+      id: 292,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Elaborar e encaminhar processos de licenciamento ambiental',
+    },
+    {
+      id: 293,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Adequar e monitorar as atividades de acordo com a legislação ambiental vigente',
+    },
+    {
+      id: 294,
+      ano: '2º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Coletar dados para a elaboração e execução de projetos ambientais.',
+    },
+    {
+      id: 295,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Identificar a origem e a evolução das espécies frutíferas',
+    },
+    {
+      id: 296,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Identificar os efeitos dos fatores climáticos nas plantas',
+    },
+    {
+      id: 297,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Executar cronograma de cultivo e manejo cultural',
+    },
+    {
+      id: 298,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Implantar culturas intercalares',
+    },
+    {
+      id: 299,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade:
+        'Utilizar práticas de otimização e controle dos fatores climáticos relacionados ao crescimento e desenvolvimento da planta',
+    },
+    {
+      id: 300,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade:
+        'Identificar e monitorar as principais funções reprodutivas das plantas',
+    },
+    {
+      id: 301,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Utilizar métodos de propagação sexuada e assexuada',
+    },
+    {
+      id: 302,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Utilizar técnicas de quebra de dormência',
+    },
+    {
+      id: 303,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Identificar e realizar tratos culturais',
+    },
+    {
+      id: 304,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Utilizar técnicas de condução de plantas frutíferas',
+    },
+    {
+      id: 305,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade:
+        'Utilizar os diferentes tipos de podas nas plantas frutíferas',
+    },
+    {
+      id: 306,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade:
+        'Fazer o reconhecimento de plantas daninhas, pragas e doenças',
+    },
+    {
+      id: 307,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade:
+        'Utilizar informações sobre os fatores climáticos no manejo de pragas, doenças e plantas daninhas',
+    },
+    {
+      id: 308,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade:
+        'Utilizar os métodos integrados de prevenção e controle de pragas, doenças e plantas daninhas',
+    },
+    {
+      id: 309,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade:
+        'Identificar o ponto de colheita por meio de diferentes métodos',
+    },
+    {
+      id: 310,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Fazer a seleção e padronização da produção',
+    },
+    {
+      id: 311,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Aplicar as técnicas de amadurecimento',
+    },
+    {
+      id: 312,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade:
+        'Utilizar as técnicas de classificação, embalagem e rotulagem para os diversos produtos',
+    },
+    {
+      id: 313,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade:
+        'Orientar e acompanhar a colheita, o armazenamento e o beneficiamento',
+    },
+    {
+      id: 314,
+      ano: '2º Ano',
+      disciplina: 'FRUTICULTURA',
+      Habilidade: 'Cumprir a legislação vigente.',
+    },
+    {
+      id: 315,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Coletar, registrar e utilizar dados meteorológicos',
+    },
+    {
+      id: 316,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Descrever os efeitos agroclimáticos nas forrageiras',
+    },
+    {
+      id: 317,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Competência 09 - Executar cronogramas de cultivo',
+    },
+    {
+      id: 318,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Competência 09 - Realizar o manejo das pastagens',
+    },
+    {
+      id: 319,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Utilizar práticas de otimização dos fatores climáticos relacionados ao crescimento e ao desenvolvimento em cultivo único ou em consorciação',
+    },
+    {
+      id: 320,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Identificar e monitorar as principais funções reprodutivas das plantas forrageiras',
+    },
+    {
+      id: 321,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Discriminar a morfologia e fisiologia das plantas forrageiras',
+    },
+    {
+      id: 322,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Competência 09 - Utilizar a tecnologia de sementes',
+    },
+    {
+      id: 323,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Relacionar as etapas do processo de absorção e translocação de nutrientes',
+    },
+    {
+      id: 324,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Determinar a porcentagem de germinação, quantidade de sementes ou mudas, espaçamento e profundidade de plantio',
+    },
+    {
+      id: 325,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Utilizar métodos de propagação sexuada e assexuada',
+    },
+    {
+      id: 326,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Realizar a identificação de plantas daninhas, pragas e doenças',
+    },
+    {
+      id: 327,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Coletar e encaminhar amostras de pragas, plantas doentes e plantas daninhas',
+    },
+    {
+      id: 328,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Usar métodos práticos e de laboratório para identificação e diferenciação de pragas e doenças',
+    },
+    {
+      id: 329,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Utilizar informações sobre os fatores agroclimáticos no manejo de pragas, doenças, plantas daninhas e tóxicas',
+    },
+    {
+      id: 330,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Utilizar os métodos integrados de prevenção e controle de pragas, doenças, plantas daninhas e tóxicas',
+    },
+    {
+      id: 331,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Determinar o ponto de corte, rebrota, processamento, transporte e estocagem da forrageira',
+    },
+    {
+      id: 332,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Aplicar os processos de fermentação e transformação da massa, avaliando a qualidade das forrageiras armazenadas',
+    },
+    {
+      id: 333,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Aplicar as técnicas de conservação das forrageiras, fazendo a manutenção dos armazéns e dos tipos de silos',
+    },
+    {
+      id: 334,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Dimensionar equipamentos e métodos no processo de conservação das forrageiras, minimizando as perdas',
+    },
+    {
+      id: 335,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Quantificar as forragens a serem armazenadas',
+    },
+    {
+      id: 336,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 09 - Avaliar e interpretar a composição bromatológica das forrageiras.',
+    },
+    {
+      id: 337,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 10 - Reconhecer e classificar as espécies conforme suas funções e agrupamentos',
+    },
+    {
+      id: 338,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 10 - Selecionar animais para melhoramento genético',
+    },
+    {
+      id: 339,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 10 - Acompanhar cruzamentos nas diversas espécies',
+    },
+    {
+      id: 340,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 10 - Avaliar resultados obtidos no melhoramento genético',
+    },
+    {
+      id: 341,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 10 - Aplicar processos produtivos e técnicos nos criatórios',
+    },
+    {
+      id: 342,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 10 - Aplicar os padrões de ambiência e bem-estar animal de acordo com cada espécie',
+    },
+    {
+      id: 343,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 10 - Entender e utilizar as características fisiológicas e morfológicas dos animais',
+    },
+    {
+      id: 344,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 10 - Determinar as exigências nutricionais e adequar o manejo alimentar de acordo com cada espécie',
+    },
+    {
+      id: 345,
+      ano: '2º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Competência 10 - Aplicar os métodos de defesa sanitária animal de acordo com a legislação vigente.',
+    },
+    {
+      id: 346,
+      ano: '2º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Entender as exigências na realização das práticas agropecuárias desenvolvidas no mercado de trabalho pelos profissionais Técnicos em Agropecuária',
+    },
+    {
+      id: 347,
+      ano: '2º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Identificar na prática as áreas em que profissionalmente pode atuar, de acordo com suas atribuições profissionais legais',
+    },
+    {
+      id: 348,
+      ano: '2º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Entender o funcionamento das atividades relacionadas ao Curso Técnico em Agropecuária',
+    },
+    {
+      id: 349,
+      ano: '2º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Desenvolver na prática a responsabilidade técnica nas diversas áreas de atuação',
+    },
+    {
+      id: 350,
+      ano: '2º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Realizar de maneira técnica as principais práticas de manejo, das diferentes áreas, nos diferentes laboratórios de aprendizagem e produção',
+    },
+    {
+      id: 351,
+      ano: '2º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Desenvolver atributos pessoais para o exercício da profissão',
+    },
+    {
+      id: 352,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Aplicar as legislações vigentes na produção de alimentos de origem animal e vegetal',
+    },
+    {
+      id: 353,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Indicar e utilizar o processo mais apropriado para higiene, limpeza e sanitização na agroindústria',
+    },
+    {
+      id: 354,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Manipular os alimentos de forma segura com bons hábitos de higiene e cuidados com a saúde',
+    },
+    {
+      id: 355,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Utilizar os métodos de controle de qualidade na produção agroindustrial',
+    },
+    {
+      id: 356,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade: 'Verificar a origem e a procedência da matéria-prima',
+    },
+    {
+      id: 357,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Identificar as propriedades, características e condições da matéria-prima para a agroindústria',
+    },
+    {
+      id: 358,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade: 'Preparar a matéria-prima para a agroindústria',
+    },
+    {
+      id: 359,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Utilizar métodos de conservação e armazenamento da matéria-prima e dos produtos industrializados',
+    },
+    {
+      id: 360,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Identificar as causas das alterações físicas, químicas e microbiológicas da matéria-prima e dos produtos industrializados',
+    },
+    {
+      id: 361,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade: 'Identificar as impurezas e contaminações da matéria-prima',
+    },
+    {
+      id: 362,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade: 'Utilizar subprodutos agroindustriais',
+    },
+    {
+      id: 363,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Utilizar os procedimentos de manutenção e operação de equipamentos',
+    },
+    {
+      id: 364,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Detectar e corrigir falhas no processo produtivo agroindustrial',
+    },
+    {
+      id: 365,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade: 'Utilizar a água como agente de limpeza e higienização',
+    },
+    {
+      id: 366,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Compreender o processo que envolve o tratamento de efluentes e dos resíduos agroindustriais',
+    },
+    {
+      id: 367,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade: 'Cumprir a legislação vigente',
+    },
+    {
+      id: 368,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade: 'Identificar locais e definir canais de comercialização',
+    },
+    {
+      id: 369,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade: 'Agregar valor no processo de produção',
+    },
+    {
+      id: 370,
+      ano: '2º Ano',
+      disciplina: 'INDÚSTRIAS RURAIS',
+      Habilidade:
+        'Utilizar meios apropriados para embalagem, armazenamento e transporte dos produtos industrializados.',
+    },
+    {
+      id: 371,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade:
+        'Utilizar dados meteorológicos como parâmetro para elaboração de planos de cultivo',
+    },
+    {
+      id: 372,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade:
+        'Fazer cronogramas de cultivos baseados no zoneamento agrícola',
+    },
+    {
+      id: 373,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade:
+        'Identificar e relacionar o estádio fenológico das plantas com as técnicas de manejo',
+    },
+    {
+      id: 374,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Determinar a distribuição espacial e a população de plantas',
+    },
+    {
+      id: 375,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade:
+        'Utilizar os métodos de rotação, sucessão e consorciação de culturas',
+    },
+    {
+      id: 376,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade:
+        'Relacionar os estádios de desenvolvimento das plantas com o manejo de adubação',
+    },
+    {
+      id: 377,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade:
+        'Relacionar a ocorrência de doenças, pragas e plantas daninhas com o estádio fenológico das plantas, associados aos fatores ambientais',
+    },
+    {
+      id: 378,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Identificar sintomas de deficiência nutricional',
+    },
+    {
+      id: 379,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Calcular e aplicar a adubação necessária para cada cultura',
+    },
+    {
+      id: 380,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Utilizar práticas de cobertura do solo',
+    },
+    {
+      id: 381,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Identificar o ponto de colheita das diversas culturas',
+    },
+    {
+      id: 382,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Recomendar o escalonamento de semeadura e colheita',
+    },
+    {
+      id: 383,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade: 'Identificar os fatores que afetam o processo de colheita',
+    },
+    {
+      id: 384,
+      ano: '3º Ano',
+      disciplina: 'CULTURAS ANUAIS',
+      Habilidade:
+        'Recomendar técnicas de secagem, armazenamento e comercialização dos produtos',
+    },
+    {
+      id: 385,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade:
+        'Classificar as máquinas, equipamentos e ferramentas agrícolas de acordo com sua utilização',
+    },
+    {
+      id: 386,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade:
+        'Aplicar conceitos de grandezas físicas relevantes na mecanização agrícola',
+    },
+    {
+      id: 387,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade:
+        'Aplicar as unidades de medidas empregadas na mecanização agrícola',
+    },
+    {
+      id: 388,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade:
+        'Fazer e acompanhar a manutenção dos sistemas de arrefecimento, elétrico, transmissão, hidráulico, lubrificação, alimentação de ar e combustível',
+    },
+    {
+      id: 389,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade:
+        'Realizar a manutenção de implementos e ferramentas agrícolas',
+    },
+    {
+      id: 390,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade:
+        'Operar motores, tratores, implementos e ferramentas agrícolas',
+    },
+    {
+      id: 391,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade: 'Acoplar e regular implementos agrícolas',
+    },
+    {
+      id: 392,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade: 'Adequar a relação trator-implemento agrícola',
+    },
+    {
+      id: 393,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade:
+        'Dimensionar o conjunto operacional de acordo com a necessidade',
+    },
+    {
+      id: 394,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade:
+        'Aplicar e orientar as normas de segurança no trabalho com máquinas, implementos e ferramentas agrícolas',
+    },
+    {
+      id: 395,
+      ano: '3º Ano',
+      disciplina: 'MECANIZAÇÃO AGRÍCOLA',
+      Habilidade: 'Aplicar a legislação vigente.',
+    },
+    {
+      id: 396,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Identificar características das principais espécies e raças e suas aptidões',
+    },
+    {
+      id: 397,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Manejar diferentes sistemas de criação',
+    },
+    {
+      id: 398,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Preparar animais para exposição',
+    },
+    {
+      id: 399,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Operar e higienizar os sistemas de ordenha',
+    },
+    {
+      id: 400,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Selecionar e manejar machos e fêmeas para a reprodução',
+    },
+    {
+      id: 401,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Identificar e observar as manifestações fisiológicas da fêmea no cio',
+    },
+    {
+      id: 402,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Manusear materiais e equipamentos utilizados no sistema de reprodução',
+    },
+    {
+      id: 403,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Executar atividades de reprodução natural e artificial',
+    },
+    {
+      id: 404,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Aplicar métodos de melhoramento genético',
+    },
+    {
+      id: 405,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Avaliar a performance animal',
+    },
+    {
+      id: 406,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Classificar os concentrados e volumosos',
+    },
+    {
+      id: 407,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Especificar funções nutricionais dos alimentos',
+    },
+    {
+      id: 408,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Utilizar tabelas de composições químicas e valores nutricionais dos alimentos nas diferentes fases de criação',
+    },
+    {
+      id: 409,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Formular, preparar e fazer o arraçoamento',
+    },
+    {
+      id: 410,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Utilizar métodos de conservação de alimentos',
+    },
+    {
+      id: 411,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Especificar as funções dos constituintes do sistema digestório',
+    },
+    {
+      id: 412,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Diagnosticar as deficiências nutricionais',
+    },
+    {
+      id: 413,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Executar tratamentos profiláticos e controle sanitário',
+    },
+    {
+      id: 414,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Fazer coleta de material para análise laboratorial',
+    },
+    {
+      id: 415,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Utilizar vias e métodos de aplicação de vacinas e medicamentos',
+    },
+    {
+      id: 416,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Aplicar normas profiláticas, higiênicas e sanitárias de produção',
+    },
+    {
+      id: 417,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Identificar e diferenciar os sintomas das principais doenças',
+    },
+    {
+      id: 418,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Destinar adequadamente os resíduos do processo de criação',
+    },
+    {
+      id: 419,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade:
+        'Realizar a desinfecção, higiene e limpeza das instalações e equipamentos',
+    },
+    {
+      id: 420,
+      ano: '3º Ano',
+      disciplina: 'CRIAÇÕES',
+      Habilidade: 'Cumprir as legislações vigentes.',
+    },
+    {
+      id: 421,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Saber a história e evolução do sistema associativista, cooperativista e sindical',
+    },
+    {
+      id: 422,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Definir os tipos de associações e suas características',
+    },
+    {
+      id: 423,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 19 - Definir os ramos cooperativistas',
+    },
+    {
+      id: 424,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Compreender os mecanismos de gestão e de atuação das associações',
+    },
+    {
+      id: 425,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Compreender os mecanismos de gestão e de atuação das cooperativas',
+    },
+    {
+      id: 426,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Compreender os mecanismos de gestão e de atuação sindical',
+    },
+    {
+      id: 427,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Encaminhar os procedimentos de constituição e de registro de associações, cooperativas e sindicatos',
+    },
+    {
+      id: 428,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 19 - Aplicar a legislação vigente',
+    },
+    {
+      id: 429,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Compreender a história e a evolução da extensão rural',
+    },
+    {
+      id: 430,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 19 - Reconhecer os modelos da extensão rural',
+    },
+    {
+      id: 431,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Identificar a realidade social, cultural e política no meio rural',
+    },
+    {
+      id: 432,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Definir as necessidades regionais de assistência e extensão rural',
+    },
+    {
+      id: 433,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 19 - Coletar e compilar dados regionais',
+    },
+    {
+      id: 434,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 19 - Definir e aplicar metodologias de extensão rural e assistência técnica',
+    },
+    {
+      id: 435,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Entender a evolução da administração e da economia rural',
+    },
+    {
+      id: 436,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Compreender a estrutura, organização e funcionamento do agronegócio',
+    },
+    {
+      id: 437,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Identificar e desenvolver a cultura empreendedora',
+    },
+    {
+      id: 438,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Identificar as funções administrativas',
+    },
+    {
+      id: 439,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Utilizar instrumentos para coleta e organização de dados',
+    },
+    {
+      id: 440,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Gerenciar receitas, despesas e investimentos',
+    },
+    {
+      id: 441,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Inventariar patrimônios rurais',
+    },
+    {
+      id: 442,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Classificar o imóvel agrário',
+    },
+    {
+      id: 443,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Cumprir as obrigações tributárias utilizando o calendário fiscal',
+    },
+    {
+      id: 444,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Utilizar a informática no processo de produção e controle',
+    },
+    {
+      id: 445,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Coletar e compilar os resultados de análise dos fatores econômicos e produtivos',
+    },
+    {
+      id: 446,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Acompanhar as tendências de mercado',
+    },
+    {
+      id: 447,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Identificar canais de comercialização e tipos de mercado no agronegócio',
+    },
+    {
+      id: 448,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Calcular os custos de produção',
+    },
+    {
+      id: 449,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Elaborar plano de negócio',
+    },
+    {
+      id: 450,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Implantar, verificar e acompanhar os processos de produção e os programas de qualidade dos produtos agropecuários e agroindustriais',
+    },
+    {
+      id: 451,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 20 - Utilizar instrumentos de marketing',
+    },
+    {
+      id: 452,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Contabilizar as etapas do processo de produção',
+    },
+    {
+      id: 453,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Registrar a produtividade da mão de obra por atividade e dimensionar as despesas com pessoal',
+    },
+    {
+      id: 454,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Registrar e efetuar os custos com manutenção e conservação de máquinas, equipamentos, implementos e ferramentas',
+    },
+    {
+      id: 455,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 20 - Verificar e cumprir a legislação trabalhista e as normas de saúde e segurança no trabalho',
+    },
+    {
+      id: 456,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Coletar, compilar e aplicar dados estatísticos de pesquisa de mercado',
+    },
+    {
+      id: 457,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Elaborar instrumentos para coleta de dados de produção, produtividade, de recursos humanos, de prestação de serviços e de infraestrutura disponíveis na região',
+    },
+    {
+      id: 458,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Relacionar as agências de créditos, fornecimento de insumos, armazenagem e difusão de tecnologia presentes na região',
+    },
+    {
+      id: 459,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade: 'Competência 21 - Adequar os projetos à legislação vigente',
+    },
+    {
+      id: 460,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Fazer o levantamento dos recursos disponíveis',
+    },
+    {
+      id: 461,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Verificar a aptidão, aspiração e nível tecnológico do produtor',
+    },
+    {
+      id: 462,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Inventariar benfeitorias, instalações, máquinas, implementos, equipamentos e materiais',
+    },
+    {
+      id: 463,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Dimensionar e avaliar benfeitorias e instalações rurais',
+    },
+    {
+      id: 464,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Elaborar e encaminhar projetos de viabilidade, custeio e investimento',
+    },
+    {
+      id: 465,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Elaborar e encaminhar perícias, laudos, pareceres e relatórios',
+    },
+    {
+      id: 466,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Elaborar e encaminhar processos de licenciamento ambiental',
+    },
+    {
+      id: 467,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Adequar e monitorar as atividades de acordo com a legislação ambiental vigente',
+    },
+    {
+      id: 468,
+      ano: '3º Ano',
+      disciplina: 'ADMINISTRAÇÃO E ECONOMIA RURAL',
+      Habilidade:
+        'Competência 21 - Coletar dados para a elaboração e execução de projetos ambientais.',
+    },
+    {
+      id: 469,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Conceituar a Topografia e relacioná-la com outras ciências',
+    },
+    {
+      id: 470,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Operar equipamentos topográficos',
+    },
+    {
+      id: 471,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade:
+        'Planejar e executar os levantamentos altimétricos, planimétricos e planialtimétricos',
+    },
+    {
+      id: 472,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Demarcar curvas de nível e desnível',
+    },
+    {
+      id: 473,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Distinguir e converter unidades de medidas',
+    },
+    {
+      id: 474,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Utilizar as simbologias apropriadas para topografia',
+    },
+    {
+      id: 475,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Utilizar as escalas de acordo com a legislação vigente',
+    },
+    {
+      id: 476,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade:
+        'Efetuar alinhamento, balizamento e transposição de obstáculos',
+    },
+    {
+      id: 477,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade:
+        'Fazer anotações em caderneta de campo determinando as coordenadas',
+    },
+    {
+      id: 478,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Executar práticas para a determinação de rumos e azimutes',
+    },
+    {
+      id: 479,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Fazer medições e cálculo de área',
+    },
+    {
+      id: 480,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Realizar transferência de referências de nível',
+    },
+    {
+      id: 481,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Fazer medida direta e indireta de distâncias e ângulos',
+    },
+    {
+      id: 482,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade:
+        'Realizar o desmembramento, parcelamento e incorporação de imóveis rurais',
+    },
+    {
+      id: 483,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade:
+        'Aplicar as Normas Brasileiras Revisadas (NBR), da Associação Brasileira de Normas Técnicas (ABNT), relacionadas ao desenho técnico',
+    },
+    {
+      id: 484,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Identificar e utilizar os instrumentos de desenho técnico',
+    },
+    {
+      id: 485,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Aplicar escalas',
+    },
+    {
+      id: 486,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade:
+        'Representar graficamente as áreas, curvas de nível, perfis longitudinais e transversais obtidos de levantamentos planimétricos e altimétricos',
+    },
+    {
+      id: 487,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Utilizar os programas de desenho técnico',
+    },
+    {
+      id: 488,
+      ano: '3º Ano',
+      disciplina: 'DESENHO E TOPOGRAFIA',
+      Habilidade: 'Aplicar a legislação vigente.',
+    },
+    {
+      id: 489,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Identificar as necessidades de infraestrutura nas propriedades rurais',
+    },
+    {
+      id: 490,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Diferenciar e utilizar os principais materiais empregados em construções e instalações de benfeitorias rurais',
+    },
+    {
+      id: 491,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Diferenciar os tipos de concretos e argamassas e os traços utilizados',
+    },
+    {
+      id: 492,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Quantificar os tipos de materiais empregados em projetos de construções e instalações de benfeitorias rurais',
+    },
+    {
+      id: 493,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade: 'Dimensionar os diferentes tipos e estruturas de coberturas',
+    },
+    {
+      id: 494,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Identificar as necessidades de infraestrutura para cada atividade agropecuária',
+    },
+    {
+      id: 495,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Utilizar os parâmetros e índices técnicos para dimensionar as construções e instalações de benfeitorias rurais',
+    },
+    {
+      id: 496,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Elaborar, implantar e monitorar projetos de construções e instalações de benfeitorias rurais',
+    },
+    {
+      id: 497,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade: 'Montar cronograma de execução das obras',
+    },
+    {
+      id: 498,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Realizar a avaliação e acompanhamento durante a implantação dos projetos de construções e instalações de benfeitorias rurais',
+    },
+    {
+      id: 499,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Identificar os diversos tipos de ambientes protegidos com os sistemas de isolamento',
+    },
+    {
+      id: 500,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade: 'Identificar os diferentes tipos de esquadrias',
+    },
+    {
+      id: 501,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade: 'Utilizar as diferentes fontes alternativas de energia',
+    },
+    {
+      id: 502,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Aplicar as Normas Brasileiras Revisadas (NBR), da Associação Brasileira de Normas Técnicas (ABNT), relacionadas ao desenho técnico',
+    },
+    {
+      id: 503,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade: 'Identificar e utilizar os instrumentos de desenho técnico',
+    },
+    {
+      id: 504,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade: 'Aplicar escalas',
+    },
+    {
+      id: 505,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Elaborar e executar projetos arquitetônicos de construções e benfeitorias rurais em planta baixa, corte transversal e longitudinal, fachada, cobertura, localização e situação',
+    },
+    {
+      id: 506,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade:
+        'Elaborar desenho de detalhes de construções e benfeitorias rurais',
+    },
+    {
+      id: 507,
+      ano: '3º Ano',
+      disciplina: 'CONSTRUÇÃO E INSTALAÇÃO',
+      Habilidade: 'Cumprir a legislação vigente.',
+    },
+    {
+      id: 508,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade:
+        'Prestar assistência técnica na compra, venda e utilização de produtos e equipamentos especializados',
+    },
+    {
+      id: 509,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade:
+        'Coletar e acondicionar amostra de material vegetal para avaliação técnica',
+    },
+    {
+      id: 510,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade: 'Diagnosticar pragas e doenças',
+    },
+    {
+      id: 511,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade: 'Identificar plantas daninhas',
+    },
+    {
+      id: 512,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade:
+        'Conhecer, classificar e utilizar produtos agrotóxicos e afins',
+    },
+    {
+      id: 513,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade:
+        'Conhecer e elaborar a receita específica para cada cultura e problema de acordo com legislação vigente',
+    },
+    {
+      id: 514,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade:
+        'Interpretar a simbologia pertinente de bulas, rótulos, embalagens, armazenagem e transporte dos agrotóxicos e afins',
+    },
+    {
+      id: 515,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade: 'Utilizar a tecnologia de aplicação dos agrotóxicos e afins',
+    },
+    {
+      id: 516,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade:
+        'Responsabilizar-se pela elaboração da Anotação de Responsabilidade Técnica (ART) específica',
+    },
+    {
+      id: 517,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade:
+        'Realizar a assistência técnica e o acompanhamento na aplicação de agrotóxicos e afins',
+    },
+    {
+      id: 518,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade:
+        'Conhecer e utilizar o manejo integrado de pragas, doenças e plantas daninhas',
+    },
+    {
+      id: 519,
+      ano: '3º Ano',
+      disciplina: 'DEFESA SANITÁRIA VEGETAL',
+      Habilidade: 'Cumprir a legislação vigente.',
+    },
+    {
+      id: 520,
+      ano: '3º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Reconhecer e classificar as espécies conforme suas funções e agrupamentos',
+    },
+    {
+      id: 521,
+      ano: '3º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Selecionar animais para melhoramento genético',
+    },
+    {
+      id: 522,
+      ano: '3º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Acompanhar cruzamentos nas diversas espécies',
+    },
+    {
+      id: 523,
+      ano: '3º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Avaliar resultados obtidos no melhoramento genético',
+    },
+    {
+      id: 524,
+      ano: '3º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade: 'Aplicar processos produtivos e técnicos nos criatórios',
+    },
+    {
+      id: 525,
+      ano: '3º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Aplicar os padrões de ambiência e bem-estar animal de acordo com cada espécie',
+    },
+    {
+      id: 526,
+      ano: '3º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Entender e utilizar as características fisiológicas e morfológicas dos animais',
+    },
+    {
+      id: 527,
+      ano: '3º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Determinar as exigências nutricionais e adequar o manejo alimentar de acordo com cada espécie',
+    },
+    {
+      id: 528,
+      ano: '3º Ano',
+      disciplina: 'ZOOTECNIA',
+      Habilidade:
+        'Aplicar os métodos de defesa sanitária animal de acordo com a legislação vigente.',
+    },
+    {
+      id: 529,
+      ano: '3º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Entender as exigências na realização das práticas agropecuárias desenvolvidas no mercado de trabalho pelos profissionais Técnicos em Agropecuária',
+    },
+    {
+      id: 530,
+      ano: '3º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Identificar na prática as áreas em que profissionalmente pode atuar, de acordo com suas atribuições profissionais legais',
+    },
+    {
+      id: 531,
+      ano: '3º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Entender o funcionamento das atividades relacionadas ao Curso Técnico em Agropecuária',
+    },
+    {
+      id: 532,
+      ano: '3º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Desenvolver na prática a responsabilidade técnica nas diversas áreas de atuação',
+    },
+    {
+      id: 533,
+      ano: '3º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Realizar de maneira técnica as principais práticas de manejo, das diferentes áreas, nos diferentes laboratórios de aprendizagem e produção',
+    },
+    {
+      id: 534,
+      ano: '3º Ano',
+      disciplina: 'LABORATÓRIO DE PRÁTICAS AGROPECUÁRIAS',
+      Habilidade:
+        'Desenvolver atributos pessoais para o exercício da profissão',
+    },
+    {
+      id: 535,
+      ano: '3º Ano',
+      disciplina: 'DEONTOLOGIA RURAL',
+      Habilidade:
+        'Reconhecer os principais eventos e entidades que marcaram o movimento dos Técnicos Agrícolas',
+    },
+    {
+      id: 536,
+      ano: '3º Ano',
+      disciplina: 'DEONTOLOGIA RURAL',
+      Habilidade:
+        'Utilizar a legislação que dispõe sobre o exercício e atribuições da profissão de Técnico Agrícola',
+    },
+    {
+      id: 537,
+      ano: '3º Ano',
+      disciplina: 'DEONTOLOGIA RURAL',
+      Habilidade:
+        'Conduzir a execução técnica dos trabalhos com ética e responsabilidade',
+    },
+    {
+      id: 538,
+      ano: '3º Ano',
+      disciplina: 'DEONTOLOGIA RURAL',
+      Habilidade:
+        'Responsabilizar-se pelo registro de projetos compatíveis com a respectiva formação profissional através da ART',
+    },
+    {
+      id: 539,
+      ano: '3º Ano',
+      disciplina: 'DEONTOLOGIA RURAL',
+      Habilidade:
+        'Conhecer o organograma de composição e serviços oferecidos pelo Conselho Federal e Regional de fiscalização profissional',
+    },
+    {
+      id: 540,
+      ano: '3º Ano',
+      disciplina: 'DEONTOLOGIA RURAL',
+      Habilidade: 'Obter o registro profissional',
+    },
+    {
+      id: 541,
+      ano: '3º Ano',
+      disciplina: 'DEONTOLOGIA RURAL',
+      Habilidade: 'Seguir os direitos e obrigações do profissional credenciado',
+    },
+    {
+      id: 542,
+      ano: '3º Ano',
+      disciplina: 'DEONTOLOGIA RURAL',
+      Habilidade:
+        'Participar das organizações da categoria profissional em nível estadual e federal',
     },
   ];
 }
