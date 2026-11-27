@@ -2,7 +2,6 @@ import { Component, DestroyRef, inject } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { DropdownChangeEvent, DropdownModule } from 'primeng/dropdown';
 import { CalendarModule } from 'primeng/calendar';
-import { DateMaskDirective } from '../../util/date-mask.directive';
 import { InputNumberModule } from 'primeng/inputnumber';
 import { CheckboxChangeEvent, CheckboxModule } from 'primeng/checkbox';
 import {
@@ -1043,7 +1042,6 @@ export class PlanejamentoComponent {
       }
     } else {
       this.planejamentoForm.removeControl('competenciaGeral');
-      this.habilidades = [];
     }
   }
 
@@ -1483,17 +1481,17 @@ export class PlanejamentoComponent {
     doc.setFontSize(14);
 
     if (isEnsinoMedio) {
-      doc.text('PLANO DE AULA - ENSINO MÉDIO', 70, 45);
+      doc.text('PLANO DE AULA - ENSINO MÉDIO', 70, 50);
     } else if (isEnsinoFundamental) {
-      doc.text('PLANO DE AULA', 89, 45);
-      doc.text('NO ENSINO FUNDAMENTAL', 75, 51);
+      doc.text('PLANO DE AULA', 89, 50);
+      doc.text('NO ENSINO FUNDAMENTAL', 75, 56);
     } else if (isEnsinoTecnico) {
-      doc.text('PLANO DE AULA - ENSINO TÉCNICO', 70, 45);
+      doc.text('PLANO DE AULA - ENSINO TÉCNICO', 70, 50);
     }
 
     autoTable(doc, {
       theme: 'grid',
-      startY: 55,
+      startY: 60,
       styles: {
         fontSize: 10,
         cellPadding: 2,
