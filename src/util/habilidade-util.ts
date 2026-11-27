@@ -11388,5 +11388,96 @@ export class HabilidadeUtil {
       Habilidade:
         'Participar das organizações da categoria profissional em nível estadual e federal',
     },
+    {
+      id: 543,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Entender o funcionamento do programa de estágio realizado para a conclusão do Curso Técnico',
+    },
+    {
+      id: 544,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Aplicar os procedimentos legais na realização do estágio, de acordo com a legislação vigente',
+    },
+    {
+      id: 545,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Identificar e diferenciar a função dos coordenadores, dos professores orientadores e coorientadores, e dos supervisores de estágio',
+    },
+    {
+      id: 546,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Identificar as áreas possíveis para a realização do estágio',
+    },
+    {
+      id: 547,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Definir o local onde será realizado o estágio, de acordo com a área que pretende aprofundar os conhecimentos técnicos',
+    },
+    {
+      id: 548,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Realizar junto à Instituição de Ensino e à parte concedente, a elaboração do termo de compromisso e do convênio de estágio',
+    },
+    {
+      id: 549,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Elaborar junto ao supervisor de estágio o Plano de Atividade de Estágio (PAE), de acordo com a legislação vigente',
+    },
+    {
+      id: 550,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Assumir a responsabilidade técnica da área a ser trabalhada durante a realização do estágio, de acordo com o termo de compromisso assumido',
+    },
+    {
+      id: 551,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Realizar as práticas de manejo e operação de todas as atividades necessárias, durante a realização do estágio, em consonância com o PAE',
+    },
+    {
+      id: 552,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Desenvolver a comunicação com os coordenadores, orientadores e supervisores de estágio',
+    },
+    {
+      id: 553,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Elaborar o relatório de estágio de acordo com a orientação e com a metodologia disponibilizada pelo coordenador de estágio',
+    },
+    {
+      id: 554,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Elaborar a apresentação do relatório de acordo com os critérios de orientação e metodologia do programa de estágio',
+    },
+    {
+      id: 555,
+      ano: '4º Ano',
+      disciplina: 'ESTÁGIO CURRICULAR OBRIGATÓRIO',
+      Habilidade:
+        'Apresentar o trabalho final à banca examinadora',
+    },
   ];
 }

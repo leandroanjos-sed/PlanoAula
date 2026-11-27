@@ -16449,90 +16449,90 @@ export class CriterioUtil {
     },
     {
       id: -469,
-      habilidade: 371,
+      habilidade: 543,
       competencia: 24,
       criterio:
         'Compreende o funcionamento do programa de estágio realizado para a conclusão do Curso Técnico?',
     },
     {
       id: -470,
-      habilidade: 372,
+      habilidade: 544,
       competencia: 24,
       criterio:
         'Aplica os procedimentos legais na realização do estágio de acordo com a legislação vigente?',
     },
     {
       id: -471,
-      habilidade: 373,
+      habilidade: 545,
       competencia: 24,
       criterio:
         'Identifica e diferencia as funções dos coordenadores, dos professores orientadores e coorientadores e dos supervisores de estágio?',
     },
     {
       id: -472,
-      habilidade: 374,
+      habilidade: 546,
       competencia: 24,
       criterio: 'Identifica as áreas possíveis para a realização do estágio?',
     },
     {
       id: -473,
-      habilidade: 375,
+      habilidade: 547,
       competencia: 24,
       criterio:
         'Define o local de realização do estágio de acordo com a área de aprofundamento técnico pretendida?',
     },
     {
       id: -474,
-      habilidade: 376,
+      habilidade: 548,
       competencia: 24,
       criterio:
         'Elabora, junto à Instituição de Ensino e à parte concedente, o termo de compromisso e o convênio de estágio?',
     },
     {
       id: -475,
-      habilidade: 377,
+      habilidade: 549,
       competencia: 24,
       criterio:
         'Elabora, junto ao supervisor de estágio, o Plano de Atividade de Estágio (PAE) conforme a legislação vigente?',
     },
     {
       id: -476,
-      habilidade: 378,
+      habilidade: 550,
       competencia: 24,
       criterio:
         'Assume a responsabilidade técnica da área trabalhada durante o estágio conforme o termo de compromisso?',
     },
     {
       id: -477,
-      habilidade: 379,
+      habilidade: 551,
       competencia: 24,
       criterio:
         'Realiza as práticas de manejo e operação das atividades necessárias durante o estágio em consonância com o PAE?',
     },
     {
       id: -478,
-      habilidade: 380,
+      habilidade: 552,
       competencia: 24,
       criterio:
         'Desenvolve a comunicação com os coordenadores, orientadores e supervisores de estágio?',
     },
     {
       id: -479,
-      habilidade: 381,
+      habilidade: 553,
       competencia: 24,
       criterio:
         'Elabora o relatório de estágio de acordo com as orientações e a metodologia disponibilizadas pelo coordenador?',
     },
     {
       id: -480,
-      habilidade: 382,
+      habilidade: 554,
       competencia: 24,
       criterio:
         'Elabora a apresentação do relatório conforme os critérios de orientação e metodologia do programa de estágio?',
     },
     {
       id: -481,
-      habilidade: 383,
+      habilidade: 555,
       competencia: 24,
       criterio: 'Apresenta adequadamente o trabalho final à banca examinadora?',
     },

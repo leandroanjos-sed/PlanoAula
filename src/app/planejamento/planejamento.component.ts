@@ -759,7 +759,10 @@ export class PlanejamentoComponent {
         ];
       } else if (event?.value?.startsWith('4')) {
         this.disciplinas = [
-          { label: 'Estágio Supervisionado', value: 'Estágio Supervisionado' },
+          { label: 'Estágio Curricular Obrigatório', value: {
+              disciplina: 'Estágio Curricular Obrigatório',
+              competenciasGerais: [24],
+            }, },
         ];
       }
     } else {
